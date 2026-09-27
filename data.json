@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 440,
+    "credits_remaining": 438,
     "data": {
         "date": "2026-09-27",
         "language": "en",
@@ -19951,43 +19951,6 @@
                 }
             },
             {
-                "id": "eettnunnhw0ws3xqlbimoatxw",
-                "league": {
-                    "id": "eu2g5j36zzxiazpd729osx0wm",
-                    "name": "Chilean Cup",
-                    "country": "Chile"
-                },
-                "week": "8th Finals",
-                "kickoff": "17:45",
-                "status": {
-                    "status": "finished",
-                    "display": "FT",
-                    "is_live": false,
-                    "state": "postGame"
-                },
-                "home": {
-                    "id": "9dqkgu00tn42928lrrxlis95a",
-                    "name": "Everton",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9dqkgu00tn42928lrrxlis95a.png",
-                    "score": "0"
-                },
-                "away": {
-                    "id": "cdj7tqbsake4a0ks5pwm23t23",
-                    "name": "U. de Chile",
-                    "logo": "https:\/\/live-football-api.com\/teams\/cdj7tqbsake4a0ks5pwm23t23.png",
-                    "score": "1"
-                },
-                "halftime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "6z750s9x45mmvwcwjk5qqagwk",
                 "league": {
                     "id": "9aqyw0raer3fkb9z4e73kdnll",
@@ -22180,10 +22143,10 @@
                 "week": "31",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +7'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "9xktf8lmetaxahzxgafy9yyqk",
@@ -22217,10 +22180,10 @@
                 "week": "Regular Season",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +8'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "cci6r1n6tuhoxd5rghdy0usyc",
@@ -22291,10 +22254,10 @@
                 "week": "Finals",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +6'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8geluh2a41iimh9v4fw49yu50",
@@ -22314,8 +22277,8 @@
                 },
                 "tv_broadcast": false,
                 "penalty": {
-                    "home": null,
-                    "away": null
+                    "home": 4,
+                    "away": 1
                 }
             },
             {
@@ -22476,10 +22439,10 @@
                 "week": "Semi-finals",
                 "kickoff": "20:15",
                 "status": {
-                    "status": "live",
-                    "display": "89'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "epxzffx8xjaqx36qdjqm2n5zh",
@@ -22513,10 +22476,10 @@
                 "week": "Friendlies 1",
                 "kickoff": "20:30",
                 "status": {
-                    "status": "live",
-                    "display": "72'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "eqi93j51n7mhyon0hzb4kxsdg",
@@ -22550,10 +22513,10 @@
                 "week": "8th Finals",
                 "kickoff": "20:30",
                 "status": {
-                    "status": "live",
-                    "display": "70'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "cdj7tqbsake4a0ks5pwm23t23",
@@ -22587,10 +22550,10 @@
                 "week": "5",
                 "kickoff": "20:30",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "e2ivlsbo0fvgbnpvtvad2f6s4",
@@ -22699,7 +22662,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22713,7 +22676,7 @@
                     "id": "9d9s47ohwsolvt3hknjrqcgv5",
                     "name": "Alianza Valledupar",
                     "logo": "https:\/\/live-football-api.com\/teams\/9d9s47ohwsolvt3hknjrqcgv5.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -22736,7 +22699,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "68'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22773,7 +22736,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22847,7 +22810,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "75'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22855,7 +22818,7 @@
                     "id": "7zvpa5mvf6mgae5fpqtq573g7",
                     "name": "Mixco",
                     "logo": "https:\/\/live-football-api.com\/teams\/7zvpa5mvf6mgae5fpqtq573g7.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "vb4zqon7l05foj8xxnpygn5m",
@@ -22884,7 +22847,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "45 +3'",
+                    "display": "72'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22921,7 +22884,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "62'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -22985,6 +22948,43 @@
                 }
             },
             {
+                "id": "a4vomf9pkyhqcnghts46au1p0",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "live",
+                    "display": "66'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "b0d9g8ypi2igkres4r0s4s4df",
+                    "name": "Zapla",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b0d9g8ypi2igkres4r0s4s4df.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "4wh7kfdh04x1wxkbduynvogt4",
+                    "name": "Defensores FP",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4wh7kfdh04x1wxkbduynvogt4.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "3h0graeyo4eg20zihhkex979w",
                 "league": {
                     "id": "dd8emmbdxtr6s2f9q1lhu62jc",
@@ -23032,7 +23032,7 @@
                 "kickoff": "21:15",
                 "status": {
                     "status": "live",
-                    "display": "45 +3'",
+                    "display": "60'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23106,7 +23106,7 @@
                 "kickoff": "21:30",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23114,17 +23114,17 @@
                     "id": "1vvaya787s5wg5geudzacya7m",
                     "name": "Fortaleza",
                     "logo": "https:\/\/live-football-api.com\/teams\/1vvaya787s5wg5geudzacya7m.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "9snrf8lxwl8ih0ko7xaz88xrd",
                     "name": "Athletic",
                     "logo": "https:\/\/live-football-api.com\/teams\/9snrf8lxwl8ih0ko7xaz88xrd.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -23180,7 +23180,7 @@
                 "kickoff": "21:30",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23328,7 +23328,7 @@
                 "kickoff": "21:30",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23342,7 +23342,7 @@
                     "id": "e1oxnyq926eqlaxm4ghnehv44",
                     "name": "Cambé",
                     "logo": "https:\/\/live-football-api.com\/teams\/e1oxnyq926eqlaxm4ghnehv44.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -23513,7 +23513,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23527,11 +23527,11 @@
                     "id": "dpeayb3psrpqkal533af10844",
                     "name": "Cundinamarca",
                     "logo": "https:\/\/live-football-api.com\/teams\/dpeayb3psrpqkal533af10844.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -23586,26 +23586,26 @@
                 "week": "Championship - Quarter-finals",
                 "kickoff": "22:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "32'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "522mp6j6hmoo671etzul59l6n",
                     "name": "Sol de América",
                     "logo": "https:\/\/live-football-api.com\/teams\/522mp6j6hmoo671etzul59l6n.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "djlgq8gwc3vmfi6lyllvggk5y",
                     "name": "Cipolletti",
                     "logo": "https:\/\/live-football-api.com\/teams\/djlgq8gwc3vmfi6lyllvggk5y.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -23688,43 +23688,6 @@
                 }
             },
             {
-                "id": "7y1ee2tn1assj4ji2y8dtcxlg",
-                "league": {
-                    "id": "3ky4uefktqxlr9ybxuk6q2kgk",
-                    "name": "Paraense A3",
-                    "country": "Brazil"
-                },
-                "week": "Quarter-finals",
-                "kickoff": "22:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "dqtdp14msvem09msbhfukqe50",
-                    "name": "Tesla",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dqtdp14msvem09msbhfukqe50.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "25t0xr0bild2eezejemok2adi",
-                    "name": "Pedreira",
-                    "logo": "https:\/\/live-football-api.com\/teams\/25t0xr0bild2eezejemok2adi.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "4ikac3xx074juziuuck36dt04",
                 "league": {
                     "id": "2wfvjdhzl6v3s1pf2s96qvdjx",
@@ -23772,7 +23735,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -23780,7 +23743,7 @@
                     "id": "6lrtx6i2hsf52v8fh1j43f6cp",
                     "name": "Cibao",
                     "logo": "https:\/\/live-football-api.com\/teams\/6lrtx6i2hsf52v8fh1j43f6cp.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "safesj3eqp21491lgto0t51r",
@@ -23789,7 +23752,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -23882,26 +23845,26 @@
                 "week": "Championship - Quarter-finals",
                 "kickoff": "22:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "13x6pponjb28rc5ydtk8k0yxh",
                     "name": "Atenas",
                     "logo": "https:\/\/live-football-api.com\/teams\/13x6pponjb28rc5ydtk8k0yxh.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "7rglhu14a03hhyen1gf4k0yn9",
                     "name": "SM Formosa",
                     "logo": "https:\/\/live-football-api.com\/teams\/7rglhu14a03hhyen1gf4k0yn9.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -25058,5 +25021,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-27 22:03:48"
+    "timestamp": "2026-09-27 22:36:49"
 }
