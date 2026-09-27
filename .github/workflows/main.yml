@@ -2,6 +2,15 @@ name: Update GolHoyLive Football Data
 
 on:
   workflow_dispatch:
+    inputs:
+      league_id:
+        description: "League ID - leave empty for normal update"
+        required: false
+        type: string
+      season:
+        description: "Season - leave empty for current season"
+        required: false
+        type: string
 
   schedule:
     - cron: "*/30 * * * *"
@@ -14,8 +23,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # ==========================================
+      # TODAY'S MATCHES
+      # ==========================================
 
       - name: Get today's football matches
         env:
@@ -37,6 +51,10 @@ jobs:
 
           test -s data.json
 
+      # ==========================================
+      # ALL COMPETITIONS
+      # ==========================================
+
       - name: Get all competitions
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
@@ -54,6 +72,54 @@ jobs:
 
           test -s leagues.json
 
+      # ==========================================
+      # SELECTED COMPETITION FULL FIXTURES
+      # ==========================================
+
+      - name: Get selected competition fixtures
+        if: ${{ github.event.inputs.league_id != '' }}
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+          LEAGUE_ID: ${{ github.event.inputs.league_id }}
+          SEASON: ${{ github.event.inputs.season }}
+        run: |
+          set -e
+
+          mkdir -p fixtures
+
+          if [ -n "$SEASON" ]; then
+
+            curl --fail \
+              --silent \
+              --show-error \
+              --get \
+              "https://live-football-api.com/api/v1/league_fixtures" \
+              --data-urlencode "api_key=$LFA_API_KEY" \
+              --data-urlencode "league_id=$LEAGUE_ID" \
+              --data-urlencode "season=$SEASON" \
+              --data-urlencode "lang=en" \
+              -o "fixtures/${LEAGUE_ID}.json"
+
+          else
+
+            curl --fail \
+              --silent \
+              --show-error \
+              --get \
+              "https://live-football-api.com/api/v1/league_fixtures" \
+              --data-urlencode "api_key=$LFA_API_KEY" \
+              --data-urlencode "league_id=$LEAGUE_ID" \
+              --data-urlencode "lang=en" \
+              -o "fixtures/${LEAGUE_ID}.json"
+
+          fi
+
+          test -s "fixtures/${LEAGUE_ID}.json"
+
+      # ==========================================
+      # SAVE EVERYTHING
+      # ==========================================
+
       - name: Save football data
         run: |
           set -e
@@ -61,12 +127,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data.json leagues.json
+          git add data.json
+          git add leagues.json
+          git add fixtures/
 
           if git diff --cached --quiet; then
             echo "No changes in football data."
             exit 0
           fi
 
-          git commit -m "Update football data and competitions"
+          git commit -m "Update GolHoyLive football data"
           git push
