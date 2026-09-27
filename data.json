@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 479,
+    "credits_remaining": 478,
     "data": {
         "date": "2026-09-27",
         "language": "en",
@@ -7566,7 +7566,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "71'",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7603,7 +7603,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "74'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7640,7 +7640,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "60'",
+                    "display": "62'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7677,7 +7677,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "77'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7714,7 +7714,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7751,7 +7751,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "74'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7788,7 +7788,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7825,7 +7825,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "70'",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7862,7 +7862,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "68'",
+                    "display": "71'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7899,7 +7899,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7936,7 +7936,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "73'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7973,7 +7973,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "73'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8010,7 +8010,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "74'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8018,7 +8018,7 @@
                     "id": "91fx0tu8yck36doxeh8zh1cfg",
                     "name": "Lørenskog",
                     "logo": "https:\/\/live-football-api.com\/teams\/91fx0tu8yck36doxeh8zh1cfg.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "a6bdh54fni5lk19vjqz4tdzr4",
@@ -8047,7 +8047,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8084,7 +8084,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "77'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8269,7 +8269,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "51'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8306,7 +8306,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "82'",
+                    "display": "84'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8343,7 +8343,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8380,7 +8380,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "71'",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8417,7 +8417,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "78'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8454,7 +8454,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "79'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8491,7 +8491,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8528,7 +8528,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8565,7 +8565,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "78'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8602,7 +8602,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8639,7 +8639,7 @@
                 "kickoff": "12:10",
                 "status": {
                     "status": "live",
-                    "display": "69'",
+                    "display": "71'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8824,7 +8824,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8861,7 +8861,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -8898,7 +8898,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9009,7 +9009,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9120,7 +9120,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9157,7 +9157,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "49'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9305,7 +9305,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9342,7 +9342,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9350,7 +9350,7 @@
                     "id": "botr6dn4tjiyg45cbjecp6nmc",
                     "name": "MB Abu Snan",
                     "logo": "https:\/\/live-football-api.com\/teams\/botr6dn4tjiyg45cbjecp6nmc.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "dpucam9d4ljius1zfjamomrro",
@@ -9379,7 +9379,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9453,7 +9453,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9490,7 +9490,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9527,7 +9527,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9564,7 +9564,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9601,7 +9601,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9638,7 +9638,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9675,7 +9675,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9689,11 +9689,11 @@
                     "id": "a7jkz1m32wntcvegrwjbr85t5",
                     "name": "Ankaragucu",
                     "logo": "https:\/\/live-football-api.com\/teams\/a7jkz1m32wntcvegrwjbr85t5.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -9712,7 +9712,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9749,7 +9749,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9786,7 +9786,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9823,7 +9823,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9860,7 +9860,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9897,7 +9897,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9934,7 +9934,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -9942,7 +9942,7 @@
                     "id": "av9piaoghfkyto9zsh0qdqxny",
                     "name": "Uşakspor A.Ş.",
                     "logo": "https:\/\/live-football-api.com\/teams\/av9piaoghfkyto9zsh0qdqxny.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "2d3txsgjyxitxylfcrvxv8rxm",
@@ -9951,7 +9951,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -9971,7 +9971,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10008,7 +10008,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10045,7 +10045,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10082,7 +10082,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10119,7 +10119,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10156,7 +10156,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10193,7 +10193,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10267,7 +10267,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10304,7 +10304,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10341,7 +10341,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10378,7 +10378,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10415,7 +10415,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10452,7 +10452,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10489,7 +10489,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10526,7 +10526,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10563,7 +10563,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10600,7 +10600,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10637,7 +10637,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10674,7 +10674,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10711,7 +10711,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10748,7 +10748,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10785,7 +10785,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10822,7 +10822,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10859,7 +10859,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10896,7 +10896,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10933,7 +10933,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10970,7 +10970,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -10978,7 +10978,7 @@
                     "id": "c8eri2ql3t8ild3rnyjmbs5o5",
                     "name": "Keynsham",
                     "logo": "https:\/\/live-football-api.com\/teams\/c8eri2ql3t8ild3rnyjmbs5o5.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "13ae8yl3u56yftibgl4t6wvym",
@@ -10987,7 +10987,7 @@
                     "score": "1"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 1
                 },
                 "tv_broadcast": false,
@@ -11007,7 +11007,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11044,7 +11044,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11081,7 +11081,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11118,7 +11118,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11155,7 +11155,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11163,7 +11163,7 @@
                     "id": "30rqc9uppijzn0ga0d3idq54q",
                     "name": "Fulham",
                     "logo": "https:\/\/live-football-api.com\/teams\/30rqc9uppijzn0ga0d3idq54q.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "3xsu7igmbjhtklchxrh8hqw44",
@@ -11172,7 +11172,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 3,
+                    "home": 4,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -11192,7 +11192,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11229,7 +11229,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11266,7 +11266,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11303,7 +11303,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11340,7 +11340,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11377,7 +11377,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11414,7 +11414,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11451,7 +11451,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11488,7 +11488,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11525,7 +11525,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11562,7 +11562,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11599,7 +11599,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11636,7 +11636,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11673,7 +11673,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11710,7 +11710,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11747,7 +11747,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11784,7 +11784,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11821,7 +11821,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11858,7 +11858,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11895,7 +11895,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11932,7 +11932,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -11969,7 +11969,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12006,7 +12006,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12043,7 +12043,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12051,7 +12051,7 @@
                     "id": "36wntidqd67fdbiwxpfxt5wr8",
                     "name": "Chisola",
                     "logo": "https:\/\/live-football-api.com\/teams\/36wntidqd67fdbiwxpfxt5wr8.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "9rypjs6lhfmwts8qrrbenm7zd",
@@ -12060,7 +12060,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -12080,7 +12080,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12117,7 +12117,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "27'",
+                    "display": "30'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12154,7 +12154,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12191,7 +12191,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "28'",
+                    "display": "30'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12228,7 +12228,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12265,7 +12265,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12302,7 +12302,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12339,7 +12339,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12376,7 +12376,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12413,7 +12413,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "29'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12450,7 +12450,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12487,7 +12487,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "25'",
+                    "display": "27'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12524,7 +12524,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12561,7 +12561,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12598,7 +12598,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12635,7 +12635,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12672,7 +12672,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12709,7 +12709,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12746,7 +12746,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12783,7 +12783,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12820,7 +12820,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12857,7 +12857,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12894,7 +12894,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "29'",
+                    "display": "31'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12931,7 +12931,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "28'",
+                    "display": "30'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -12968,7 +12968,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "28'",
+                    "display": "30'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13005,7 +13005,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13042,7 +13042,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13079,7 +13079,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "29'",
+                    "display": "31'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13116,7 +13116,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13153,7 +13153,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13190,7 +13190,7 @@
                 "kickoff": "13:10",
                 "status": {
                     "status": "live",
-                    "display": "26'",
+                    "display": "28'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13227,7 +13227,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13264,7 +13264,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13301,7 +13301,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "1'",
+                    "display": "4'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13338,7 +13338,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "6'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13375,7 +13375,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13412,7 +13412,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "6'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13449,7 +13449,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "6'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13486,7 +13486,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13513,43 +13513,6 @@
                 }
             },
             {
-                "id": "32wlt1ivj7wq0ts4lnlxuc844",
-                "league": {
-                    "id": "eu6p2aeg01japjsy3vxl2czro",
-                    "name": "Eccellenza",
-                    "country": "Italy"
-                },
-                "week": "3",
-                "kickoff": "13:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "1xv0zfwnz2c6cxc3vjvykf2fo",
-                    "name": "Alcamo",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1xv0zfwnz2c6cxc3vjvykf2fo.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "85dqwvl0l9pjouto3ml2kqtxw",
-                    "name": "Lascari",
-                    "logo": "https:\/\/live-football-api.com\/teams\/85dqwvl0l9pjouto3ml2kqtxw.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "6ti98tci8d7a2lb2aqc97tzx0",
                 "league": {
                     "id": "eu6p2aeg01japjsy3vxl2czro",
@@ -13560,7 +13523,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "4'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13587,80 +13550,6 @@
                 }
             },
             {
-                "id": "346h39z8dbr1zlrgckh3o2dqs",
-                "league": {
-                    "id": "eu6p2aeg01japjsy3vxl2czro",
-                    "name": "Eccellenza",
-                    "country": "Italy"
-                },
-                "week": "3",
-                "kickoff": "13:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "2cgog8cs1bwzkzu5xzdkgaaz8",
-                    "name": "Partinicaudace",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2cgog8cs1bwzkzu5xzdkgaaz8.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "chvqlih2sc64sov6weqchwopg",
-                    "name": "Vigor Borgetto",
-                    "logo": "https:\/\/live-football-api.com\/teams\/chvqlih2sc64sov6weqchwopg.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "30fyb7x31kzswn4lnuhbnc7x0",
-                "league": {
-                    "id": "8of9hnr59r8t7cgxt416gc92h",
-                    "name": "SWPL 2",
-                    "country": "Scotland"
-                },
-                "week": "6",
-                "kickoff": "13:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "7nt7uzhx2yugbxg3yemlgtx43",
-                    "name": "Hamilton",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7nt7uzhx2yugbxg3yemlgtx43.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "3v9s30ohd20a8yfgtqkbm2cp4",
-                    "name": "Kilmarnock",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3v9s30ohd20a8yfgtqkbm2cp4.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "hjuhhkmujx63w5mrtsfb35lg",
                 "league": {
                     "id": "cc9zntdbef14p20gt4ekvnjvs",
@@ -13670,26 +13559,26 @@
                 "week": "Center",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "27ba8kkvzpkwty8i1qisrqwa1",
                     "name": "Medzibrod",
                     "logo": "https:\/\/live-football-api.com\/teams\/27ba8kkvzpkwty8i1qisrqwa1.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "f4tiq9130wxnzp76f9vuj0j2a",
                     "name": "Rimavská",
                     "logo": "https:\/\/live-football-api.com\/teams\/f4tiq9130wxnzp76f9vuj0j2a.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -13708,7 +13597,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "1'",
+                    "display": "3'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -13745,7 +13634,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -26242,5 +26131,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-27 13:35:19"
+    "timestamp": "2026-09-27 13:37:00"
 }
