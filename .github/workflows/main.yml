@@ -7,6 +7,7 @@ on:
         description: "League ID - leave empty for normal update"
         required: false
         type: string
+
       season:
         description: "Season - leave empty for current season"
         required: false
@@ -24,8 +25,21 @@ jobs:
 
     steps:
 
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # ==========================================
+      # CREATE FIXTURES FOLDER
+      # ==========================================
+
+      - name: Prepare folders
+        run: |
+          set -e
+          mkdir -p fixtures
 
       # ==========================================
       # TODAY'S MATCHES
@@ -39,6 +53,8 @@ jobs:
 
           DATE=$(TZ=Africa/Casablanca date +%F)
 
+          echo "Getting football matches for $DATE"
+
           curl --fail \
             --silent \
             --show-error \
@@ -51,6 +67,8 @@ jobs:
 
           test -s data.json
 
+          echo "Today's football data downloaded successfully."
+
       # ==========================================
       # ALL COMPETITIONS
       # ==========================================
@@ -60,6 +78,8 @@ jobs:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
           set -e
+
+          echo "Getting all football competitions"
 
           curl --fail \
             --silent \
@@ -72,22 +92,26 @@ jobs:
 
           test -s leagues.json
 
+          echo "All competitions downloaded successfully."
+
       # ==========================================
       # SELECTED COMPETITION FULL FIXTURES
       # ==========================================
 
       - name: Get selected competition fixtures
-        if: ${{ github.event.inputs.league_id != '' }}
+        if: ${{ inputs.league_id != '' }}
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-          LEAGUE_ID: ${{ github.event.inputs.league_id }}
-          SEASON: ${{ github.event.inputs.season }}
+          LEAGUE_ID: ${{ inputs.league_id }}
+          SEASON: ${{ inputs.season }}
         run: |
           set -e
 
-          mkdir -p fixtures
+          echo "Getting fixtures for league: $LEAGUE_ID"
 
           if [ -n "$SEASON" ]; then
+
+            echo "Using season: $SEASON"
 
             curl --fail \
               --silent \
@@ -101,6 +125,8 @@ jobs:
               -o "fixtures/${LEAGUE_ID}.json"
 
           else
+
+            echo "Using current season"
 
             curl --fail \
               --silent \
@@ -116,8 +142,10 @@ jobs:
 
           test -s "fixtures/${LEAGUE_ID}.json"
 
+          echo "Competition fixtures downloaded successfully."
+
       # ==========================================
-      # SAVE EVERYTHING
+      # SAVE DATA
       # ==========================================
 
       - name: Save football data
@@ -129,7 +157,7 @@ jobs:
 
           git add data.json
           git add leagues.json
-          git add fixtures/
+          git add fixtures
 
           if git diff --cached --quiet; then
             echo "No changes in football data."
@@ -137,4 +165,7 @@ jobs:
           fi
 
           git commit -m "Update GolHoyLive football data"
+
           git push
+
+          echo "Football data saved successfully."
