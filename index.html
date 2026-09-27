@@ -9,7 +9,6 @@
 <meta name="description" content="GolHoyLive: resultados de fútbol en directo, partidos, competiciones, clasificaciones, equipos y últimas noticias.">
 
 <style>
-
 *{
     box-sizing:border-box;
     margin:0;
@@ -32,6 +31,7 @@
 
 html{
     scroll-behavior:smooth;
+    overflow-x:hidden;
 }
 
 body{
@@ -39,15 +39,11 @@ body{
     background:var(--bg);
     color:var(--white);
     overflow-x:hidden;
+    width:100%;
+    max-width:100%;
 }
 
-body.no-scroll{
-    overflow:hidden;
-}
-
-button,
-input,
-select{
+button,input,select{
     font-family:inherit;
 }
 
@@ -60,20 +56,11 @@ a{
     text-decoration:none;
 }
 
-
-/* =========================
-   CONTAINER
-========================= */
-
 .container{
     width:min(1400px,94%);
+    max-width:100%;
     margin:auto;
 }
-
-
-/* =========================
-   HEADER
-========================= */
 
 header{
     position:sticky;
@@ -82,6 +69,8 @@ header{
     background:rgba(6,16,12,.97);
     backdrop-filter:blur(12px);
     border-bottom:1px solid var(--border);
+    width:100%;
+    max-width:100%;
 }
 
 .header-main{
@@ -89,6 +78,7 @@ header{
     display:flex;
     align-items:center;
     gap:18px;
+    min-width:0;
 }
 
 .logo{
@@ -98,11 +88,13 @@ header{
     font-size:27px;
     font-weight:900;
     white-space:nowrap;
+    min-width:0;
 }
 
 .logo-ball{
     width:46px;
     height:46px;
+    flex:0 0 46px;
     border-radius:50%;
     background:linear-gradient(145deg,#22ef7d,#08783d);
     display:flex;
@@ -112,17 +104,23 @@ header{
     box-shadow:0 0 25px rgba(32,232,121,.25);
 }
 
+.logo-text{
+    min-width:0;
+}
+
 .logo-text span{
     color:var(--green);
 }
 
 .search{
-    flex:1;
+    flex:1 1 auto;
+    min-width:0;
     position:relative;
 }
 
 .search input{
     width:100%;
+    max-width:100%;
     height:44px;
     border:1px solid var(--border);
     background:var(--card);
@@ -144,9 +142,14 @@ header{
     color:var(--muted);
 }
 
+.language{
+    flex:0 0 auto;
+}
+
 .language select{
     height:44px;
     min-width:130px;
+    max-width:150px;
     background:var(--card);
     border:1px solid var(--border);
     color:white;
@@ -159,6 +162,7 @@ header{
     display:none;
     width:44px;
     height:44px;
+    flex:0 0 44px;
     border:1px solid var(--border);
     background:var(--card);
     color:white;
@@ -166,19 +170,17 @@ header{
     font-size:20px;
 }
 
-
-/* =========================
-   NAVIGATION
-========================= */
-
 nav{
     border-top:1px solid rgba(255,255,255,.02);
+    width:100%;
+    max-width:100%;
 }
 
 .nav{
     display:flex;
     overflow-x:auto;
     scrollbar-width:none;
+    min-width:0;
 }
 
 .nav::-webkit-scrollbar{
@@ -200,13 +202,10 @@ nav{
     color:var(--green);
 }
 
-
-/* =========================
-   HERO
-========================= */
-
 .hero{
     margin-top:24px;
+    width:100%;
+    max-width:100%;
     border:1px solid var(--border);
     border-radius:20px;
     overflow:hidden;
@@ -221,10 +220,12 @@ nav{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    min-width:0;
 }
 
 .hero-label{
     width:max-content;
+    max-width:100%;
     border:1px solid rgba(32,232,121,.4);
     background:rgba(32,232,121,.10);
     color:var(--green);
@@ -237,21 +238,18 @@ nav{
 
 .hero h1{
     max-width:800px;
+    overflow-wrap:anywhere;
     font-size:clamp(30px,5vw,56px);
     line-height:1.08;
 }
 
 .hero p{
     max-width:700px;
+    overflow-wrap:anywhere;
     color:var(--muted);
     font-size:17px;
     margin-top:15px;
 }
-
-
-/* =========================
-   DAY TABS
-========================= */
 
 .day-tabs{
     display:flex;
@@ -259,6 +257,7 @@ nav{
     margin:22px 0;
     overflow-x:auto;
     scrollbar-width:none;
+    min-width:0;
 }
 
 .day-tabs::-webkit-scrollbar{
@@ -266,6 +265,7 @@ nav{
 }
 
 .day-tab{
+    flex:0 0 auto;
     border:1px solid var(--border);
     background:var(--card);
     color:var(--muted);
@@ -281,15 +281,26 @@ nav{
     font-weight:bold;
 }
 
-
-/* =========================
-   MAIN LAYOUT
-========================= */
-
 .layout{
     display:grid;
     grid-template-columns:minmax(0,1fr) 320px;
     gap:20px;
+    min-width:0;
+}
+
+.layout > *,
+.section,
+.matches,
+.match,
+.team-list,
+.team-row,
+.news-grid,
+.news-card,
+.news-body,
+.sidebar,
+.sidebar-card{
+    min-width:0;
+    max-width:100%;
 }
 
 .section{
@@ -302,26 +313,25 @@ nav{
     justify-content:space-between;
     gap:10px;
     margin-bottom:13px;
+    min-width:0;
 }
 
 .section-title h2{
     font-size:21px;
+    overflow-wrap:anywhere;
 }
 
 .section-title a{
     color:var(--green);
     font-size:13px;
+    white-space:nowrap;
 }
-
-
-/* =========================
-   MATCHES
-========================= */
 
 .matches{
     display:flex;
     flex-direction:column;
     gap:10px;
+    width:100%;
 }
 
 .match{
@@ -329,10 +339,12 @@ nav{
     grid-template-columns:115px minmax(0,1fr) 70px;
     gap:14px;
     align-items:center;
+    width:100%;
     padding:15px;
     border:1px solid var(--border);
     border-radius:14px;
     background:var(--card);
+    overflow:hidden;
 }
 
 .match:hover{
@@ -343,6 +355,7 @@ nav{
     color:var(--muted);
     font-size:11px;
     margin-bottom:5px;
+    overflow-wrap:anywhere;
 }
 
 .status{
@@ -373,12 +386,15 @@ nav{
 
 .team-name{
     font-size:14px;
+    min-width:0;
     overflow-wrap:anywhere;
+    word-break:break-word;
 }
 
 .score{
     font-weight:bold;
     min-width:20px;
+    flex:0 0 auto;
     text-align:center;
 }
 
@@ -389,12 +405,8 @@ nav{
     border-radius:8px;
     padding:8px 7px;
     font-size:10px;
+    max-width:100%;
 }
-
-
-/* =========================
-   NEWS
-========================= */
 
 .news-grid{
     display:grid;
@@ -403,7 +415,6 @@ nav{
 }
 
 .news-card{
-    min-width:0;
     border:1px solid var(--border);
     background:var(--card);
     border-radius:16px;
@@ -431,7 +442,6 @@ nav{
 
 .news-body{
     padding:15px;
-    min-width:0;
 }
 
 .news-category{
@@ -446,7 +456,7 @@ nav{
     font-weight:bold;
     line-height:1.4;
     overflow-wrap:anywhere;
-    word-break:normal;
+    word-break:break-word;
 }
 
 .news-meta{
@@ -454,11 +464,6 @@ nav{
     font-size:11px;
     margin-top:10px;
 }
-
-
-/* =========================
-   SIDEBAR
-========================= */
 
 .sidebar-card{
     background:var(--card);
@@ -487,11 +492,13 @@ nav{
     border:1px solid var(--border);
     background:#0f2119;
     border-radius:11px;
+    min-width:0;
 }
 
 .comp-icon{
     width:38px;
     height:38px;
+    flex:0 0 38px;
     border-radius:10px;
     background:#122b20;
     display:flex;
@@ -507,6 +514,7 @@ nav{
 .comp-info strong{
     display:block;
     font-size:13px;
+    overflow-wrap:anywhere;
 }
 
 .comp-info small{
@@ -525,13 +533,9 @@ nav{
     border-radius:12px;
 }
 
-
-/* =========================
-   STANDINGS
-========================= */
-
 .table-wrap{
     width:100%;
+    max-width:100%;
     overflow-x:auto;
     border:1px solid var(--border);
     background:var(--card);
@@ -544,8 +548,7 @@ table{
     min-width:520px;
 }
 
-th,
-td{
+th,td{
     padding:12px;
     border-bottom:1px solid var(--border);
     font-size:12px;
@@ -556,11 +559,6 @@ th{
     color:var(--muted);
     font-weight:normal;
 }
-
-
-/* =========================
-   ARTICLE VIEW
-========================= */
 
 .article-view{
     display:none;
@@ -574,6 +572,7 @@ th{
 .article-container{
     max-width:900px;
     margin:auto;
+    min-width:0;
 }
 
 .article-back{
@@ -608,6 +607,7 @@ th{
 
 .article-content{
     padding:30px;
+    min-width:0;
 }
 
 .article-category{
@@ -633,16 +633,12 @@ th{
     color:#d4ddd8;
     font-size:16px;
     line-height:1.8;
+    overflow-wrap:anywhere;
 }
 
 .article-text p{
     margin-bottom:17px;
 }
-
-
-/* =========================
-   FOOTER
-========================= */
 
 footer{
     border-top:1px solid var(--border);
@@ -669,11 +665,6 @@ footer h3{
     font-size:13px;
 }
 
-
-/* =========================
-   RTL
-========================= */
-
 html[dir="rtl"] .search-icon{
     left:auto;
     right:15px;
@@ -689,11 +680,6 @@ html[dir="rtl"] td{
     text-align:right;
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
 @media(max-width:900px){
 
     .header-main{
@@ -702,8 +688,7 @@ html[dir="rtl"] td{
     }
 
     .logo{
-        flex:1;
-        font-size:24px;
+        flex:1 1 auto;
     }
 
     .menu-button{
@@ -717,18 +702,17 @@ html[dir="rtl"] td{
     .search{
         order:4;
         flex-basis:100%;
+        width:100%;
     }
 
     .layout{
         grid-template-columns:1fr;
+        width:100%;
     }
 
     .sidebar{
         display:block;
-    }
-
-    .sidebar-card{
-        margin-bottom:14px;
+        width:100%;
     }
 
     .footer-grid{
@@ -736,11 +720,11 @@ html[dir="rtl"] td{
     }
 }
 
-
 @media(max-width:600px){
 
     .container{
         width:92%;
+        max-width:92%;
     }
 
     .header-main{
@@ -750,6 +734,7 @@ html[dir="rtl"] td{
     .logo-ball{
         width:42px;
         height:42px;
+        flex-basis:42px;
         font-size:21px;
     }
 
@@ -777,8 +762,8 @@ html[dir="rtl"] td{
     }
 
     .match{
-        grid-template-columns:80px minmax(0,1fr) 58px;
-        gap:9px;
+        grid-template-columns:72px minmax(0,1fr) 52px;
+        gap:8px;
         padding:12px;
     }
 
@@ -788,7 +773,7 @@ html[dir="rtl"] td{
 
     .details-button{
         font-size:9px;
-        padding:7px 5px;
+        padding:7px 4px;
     }
 
     .news-grid{
@@ -813,60 +798,62 @@ html[dir="rtl"] td{
     }
 }
 
-
 @media(max-width:400px){
 
+    .container{
+        width:94%;
+        max-width:94%;
+    }
+
     .logo{
-        font-size:19px;
+        font-size:18px;
     }
 
     .logo-ball{
         width:38px;
         height:38px;
+        flex-basis:38px;
         font-size:18px;
     }
 
     .language select{
-        min-width:95px;
+        min-width:92px;
+        max-width:105px;
         font-size:11px;
     }
 
     .match{
-        grid-template-columns:70px minmax(0,1fr) 52px;
+        grid-template-columns:65px minmax(0,1fr) 48px;
+        gap:7px;
     }
 
     .team-name{
         font-size:12px;
     }
 
+    .league,
+    .status{
+        font-size:10px;
+    }
 }
-
 </style>
 </head>
 
-
 <body>
-
 
 <header>
 
 <div class="container header-main">
 
 <a href="#" class="logo">
-
-<div class="logo-ball">
-⚽
-</div>
+<div class="logo-ball">⚽</div>
 
 <div class="logo-text">
 Gol<span>Hoy</span>Live
 </div>
-
 </a>
 
-
 <div class="search">
-
 <span class="search-icon">🔎</span>
 
 <input
@@ -874,85 +861,42 @@ id="searchInput"
 type="search"
 placeholder="Buscar equipos, competiciones, jugadores..."
 >
-
 </div>
 
-
 <div class="language">
-
 <select id="languageSelect">
-
 <option value="es">🇪🇸 Español</option>
 <option value="ar">🇲🇦 العربية</option>
 <option value="fr">🇫🇷 Français</option>
 <option value="en">🇬🇧 English</option>
 <option value="pt">🇧🇷 Português</option>
-
 </select>
-
 </div>
 
-
-<button class="menu-button">
-☰
-</button>
+<button class="menu-button">☰</button>
 
 </div>
-
 
 <nav>
-
 <div class="container nav">
 
-<button class="active" data-section="home">
-Home
-</button>
-
-<button data-section="live">
-🔴 Live
-</button>
-
-<button data-section="results">
-Results
-</button>
-
-<button data-section="competitions">
-Competitions
-</button>
-
-<button data-section="teams">
-Teams
-</button>
-
-<button data-section="matches">
-Matches
-</button>
-
-<button data-section="standings">
-Standings
-</button>
-
-<button data-section="news">
-📰 News
-</button>
+<button class="active" data-section="home">Home</button>
+<button data-section="live">🔴 Live</button>
+<button data-section="results">Results</button>
+<button data-section="competitions">Competitions</button>
+<button data-section="teams">Teams</button>
+<button data-section="matches">Matches</button>
+<button data-section="standings">Standings</button>
+<button data-section="news">📰 News</button>
 
 </div>
-
 </nav>
 
 </header>
 
-
-
 <main class="container" id="mainContent">
 
-
-<!-- =========================
-     HOME
-========================= -->
-
 <div id="homePage">
-
 
 <section class="hero">
 
@@ -971,163 +915,86 @@ Sigue partidos, resultados, competiciones, equipos y las últimas noticias de f�
 </p>
 
 </div>
-
 </section>
-
-
 
 <div class="day-tabs">
 
-<button class="day-tab active">
-Today
-</button>
-
-<button class="day-tab">
-Tomorrow
-</button>
-
-<button class="day-tab">
-Yesterday
-</button>
+<button class="day-tab active">Today</button>
+<button class="day-tab">Tomorrow</button>
+<button class="day-tab">Yesterday</button>
 
 </div>
 
-
-
 <div class="layout">
 
-
 <div>
-
-
-<!-- LIVE -->
 
 <section class="section" id="liveSection">
 
 <div class="section-title">
 
-<h2>
-🔴 Live Matches
-</h2>
+<h2>🔴 Live Matches</h2>
 
-<a href="#">
-View all →
-</a>
+<a href="#">View all →</a>
 
 </div>
-
 
 <div class="matches">
 
-
 <div class="match">
 
 <div>
-
-<div class="league">
-🇪🇸 La Liga
+<div class="league">🇪🇸 La Liga</div>
+<div class="status live">● LIVE 67'</div>
 </div>
-
-<div class="status live">
-● LIVE 67'
-</div>
-
-</div>
-
 
 <div class="team-list">
 
 <div class="team-row">
-
-<span class="team-name">
-Barcelona
-</span>
-
-<span class="score">
-2
-</span>
-
+<span class="team-name">Barcelona</span>
+<span class="score">2</span>
 </div>
-
 
 <div class="team-row">
-
-<span class="team-name">
-Sevilla
-</span>
-
-<span class="score">
-1
-</span>
-
+<span class="team-name">Sevilla</span>
+<span class="score">1</span>
 </div>
 
 </div>
-
 
 <div>
-
 <button class="details-button" onclick="openMatch()">
 Details
 </button>
-
 </div>
 
 </div>
-
-
 
 <div class="match">
 
 <div>
-
-<div class="league">
-🇬🇧 Premier League
+<div class="league">🇬🇧 Premier League</div>
+<div class="status live">● LIVE 54'</div>
 </div>
-
-<div class="status live">
-● LIVE 54'
-</div>
-
-</div>
-
 
 <div class="team-list">
 
 <div class="team-row">
-
-<span class="team-name">
-Arsenal
-</span>
-
-<span class="score">
-1
-</span>
-
+<span class="team-name">Arsenal</span>
+<span class="score">1</span>
 </div>
-
 
 <div class="team-row">
-
-<span class="team-name">
-Chelsea
-</span>
-
-<span class="score">
-1
-</span>
-
+<span class="team-name">Chelsea</span>
+<span class="score">1</span>
 </div>
 
 </div>
-
 
 <div>
-
 <button class="details-button" onclick="openMatch()">
 Details
 </button>
-
 </div>
 
 </div>
@@ -1135,129 +1002,73 @@ Details
 </div>
 
 </section>
-
-
-
-<!-- UPCOMING -->
 
 <section class="section">
 
 <div class="section-title">
 
-<h2>
-📅 Upcoming Matches
-</h2>
+<h2>📅 Upcoming Matches</h2>
 
-<a href="#">
-View all →
-</a>
+<a href="#">View all →</a>
 
 </div>
-
 
 <div class="matches">
 
-
 <div class="match">
 
 <div>
-
-<div class="league">
-🇮🇹 Serie A
+<div class="league">🇮🇹 Serie A</div>
+<div class="status soon">20:45</div>
 </div>
-
-<div class="status soon">
-20:45
-</div>
-
-</div>
-
 
 <div class="team-list">
 
 <div class="team-row">
-
-<span class="team-name">
-Inter
-</span>
-
+<span class="team-name">Inter</span>
 <span>—</span>
-
 </div>
-
 
 <div class="team-row">
-
-<span class="team-name">
-AC Milan
-</span>
-
+<span class="team-name">AC Milan</span>
 <span>—</span>
-
 </div>
 
 </div>
-
 
 <div>
-
 <button class="details-button" onclick="openMatch()">
 Preview
 </button>
-
 </div>
 
 </div>
-
-
 
 <div class="match">
 
 <div>
-
-<div class="league">
-🇩🇪 Bundesliga
+<div class="league">🇩🇪 Bundesliga</div>
+<div class="status soon">21:00</div>
 </div>
-
-<div class="status soon">
-21:00
-</div>
-
-</div>
-
 
 <div class="team-list">
 
 <div class="team-row">
-
-<span class="team-name">
-Bayern Munich
-</span>
-
+<span class="team-name">Bayern Munich</span>
 <span>—</span>
-
 </div>
-
 
 <div class="team-row">
-
-<span class="team-name">
-Dortmund
-</span>
-
+<span class="team-name">Dortmund</span>
 <span>—</span>
-
 </div>
 
 </div>
-
 
 <div>
-
 <button class="details-button" onclick="openMatch()">
 Preview
 </button>
-
 </div>
 
 </div>
@@ -1266,17 +1077,11 @@ Preview
 
 </section>
 
-
-
-<!-- NEWS -->
-
 <section class="section" id="newsSection">
 
 <div class="section-title">
 
-<h2>
-📰 Latest Football News
-</h2>
+<h2>📰 Latest Football News</h2>
 
 <a href="#" onclick="showAllNews(event)">
 All news →
@@ -1284,9 +1089,7 @@ All news →
 
 </div>
 
-
 <div class="news-grid">
-
 
 <article
 class="news-card"
@@ -1297,15 +1100,11 @@ onclick="openArticle(
 )"
 >
 
-<div class="news-image">
-⚽
-</div>
+<div class="news-image">⚽</div>
 
 <div class="news-body">
 
-<div class="news-category">
-MATCH NEWS
-</div>
+<div class="news-category">MATCH NEWS</div>
 
 <div class="news-title">
 Everything you need to know before today’s biggest football matches
@@ -1319,8 +1118,6 @@ GolHoyLive • Today
 
 </article>
 
-
-
 <article
 class="news-card"
 onclick="openArticle(
@@ -1330,15 +1127,11 @@ onclick="openArticle(
 )"
 >
 
-<div class="news-image">
-🏆
-</div>
+<div class="news-image">🏆</div>
 
 <div class="news-body">
 
-<div class="news-category">
-COMPETITIONS
-</div>
+<div class="news-category">COMPETITIONS</div>
 
 <div class="news-title">
 Latest updates from the world’s biggest football competitions
@@ -1352,8 +1145,6 @@ GolHoyLive • Today
 
 </article>
 
-
-
 <article
 class="news-card"
 onclick="openArticle(
@@ -1363,15 +1154,11 @@ onclick="openArticle(
 )"
 >
 
-<div class="news-image">
-🔄
-</div>
+<div class="news-image">🔄</div>
 
 <div class="news-body">
 
-<div class="news-category">
-TRANSFERS
-</div>
+<div class="news-category">TRANSFERS</div>
 
 <div class="news-title">
 Transfer market: latest confirmed moves and transfer news
@@ -1385,8 +1172,6 @@ GolHoyLive • Today
 
 </article>
 
-
-
 <article
 class="news-card"
 onclick="openArticle(
@@ -1396,15 +1181,11 @@ onclick="openArticle(
 )"
 >
 
-<div class="news-image">
-👕
-</div>
+<div class="news-image">👕</div>
 
 <div class="news-body">
 
-<div class="news-category">
-TEAMS
-</div>
+<div class="news-category">TEAMS</div>
 
 <div class="news-title">
 Latest team news, squad updates and important match information
@@ -1422,205 +1203,72 @@ GolHoyLive • Today
 
 </section>
 
-
-
-<!-- STANDINGS -->
-
 <section class="section">
 
 <div class="section-title">
 
-<h2>
-🏆 League Standings
-</h2>
+<h2>🏆 League Standings</h2>
 
-<a href="#">
-View all →
-</a>
+<a href="#">View all →</a>
 
 </div>
-
 
 <div class="table-wrap">
 
 <table>
 
 <thead>
-
 <tr>
-
-<th>
-#
-</th>
-
-<th>
-Team
-</th>
-
-<th>
-MP
-</th>
-
-<th>
-W
-</th>
-
-<th>
-D
-</th>
-
-<th>
-L
-</th>
-
-<th>
-PTS
-</th>
-
+<th>#</th>
+<th>Team</th>
+<th>MP</th>
+<th>W</th>
+<th>D</th>
+<th>L</th>
+<th>PTS</th>
 </tr>
-
 </thead>
-
 
 <tbody>
 
 <tr>
-
-<td>
-1
-</td>
-
-<td>
-Barcelona
-</td>
-
-<td>
-6
-</td>
-
-<td>
-5
-</td>
-
-<td>
-1
-</td>
-
-<td>
-0
-</td>
-
-<td>
-<strong>
-16
-</strong>
-</td>
-
+<td>1</td>
+<td>Barcelona</td>
+<td>6</td>
+<td>5</td>
+<td>1</td>
+<td>0</td>
+<td><strong>16</strong></td>
 </tr>
 
-
 <tr>
-
-<td>
-2
-</td>
-
-<td>
-Real Madrid
-</td>
-
-<td>
-6
-</td>
-
-<td>
-5
-</td>
-
-<td>
-0
-</td>
-
-<td>
-1
-</td>
-
-<td>
-<strong>
-15
-</strong>
-</td>
-
+<td>2</td>
+<td>Real Madrid</td>
+<td>6</td>
+<td>5</td>
+<td>0</td>
+<td>1</td>
+<td><strong>15</strong></td>
 </tr>
 
-
 <tr>
-
-<td>
-3
-</td>
-
-<td>
-Atlético Madrid
-</td>
-
-<td>
-6
-</td>
-
-<td>
-4
-</td>
-
-<td>
-1
-</td>
-
-<td>
-1
-</td>
-
-<td>
-<strong>
-13
-</strong>
-</td>
-
+<td>3</td>
+<td>Atlético Madrid</td>
+<td>6</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td><strong>13</strong></td>
 </tr>
 
-
 <tr>
-
-<td>
-4
-</td>
-
-<td>
-Athletic Club
-</td>
-
-<td>
-6
-</td>
-
-<td>
-3
-</td>
-
-<td>
-2
-</td>
-
-<td>
-1
-</td>
-
-<td>
-<strong>
-11
-</strong>
-</td>
-
+<td>4</td>
+<td>Athletic Club</td>
+<td>6</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td><strong>11</strong></td>
 </tr>
 
 </tbody>
@@ -1631,163 +1279,73 @@ Athletic Club
 
 </section>
 
-
 </div>
-
-
-
-<!-- SIDEBAR -->
 
 <aside class="sidebar">
 
-
 <div class="sidebar-card">
 
-<h3>
-🏆 Top Competitions
-</h3>
-
+<h3>🏆 Top Competitions</h3>
 
 <div class="competitions">
 
+<div class="competition">
+<div class="comp-icon">🇬🇧</div>
+<div class="comp-info">
+<strong>Premier League</strong>
+<small>England</small>
+</div>
+</div>
 
 <div class="competition">
-
-<div class="comp-icon">
-🇬🇧
-</div>
-
+<div class="comp-icon">🇪🇸</div>
 <div class="comp-info">
-
-<strong>
-Premier League
-</strong>
-
-<small>
-England
-</small>
-
+<strong>La Liga</strong>
+<small>Spain</small>
 </div>
-
 </div>
-
-
 
 <div class="competition">
-
-<div class="comp-icon">
-🇪🇸
-</div>
-
+<div class="comp-icon">🇮🇹</div>
 <div class="comp-info">
-
-<strong>
-La Liga
-</strong>
-
-<small>
-Spain
-</small>
-
+<strong>Serie A</strong>
+<small>Italy</small>
 </div>
-
 </div>
-
-
 
 <div class="competition">
-
-<div class="comp-icon">
-🇮🇹
-</div>
-
+<div class="comp-icon">🇩🇪</div>
 <div class="comp-info">
-
-<strong>
-Serie A
-</strong>
-
-<small>
-Italy
-</small>
-
+<strong>Bundesliga</strong>
+<small>Germany</small>
 </div>
-
 </div>
-
-
 
 <div class="competition">
-
-<div class="comp-icon">
-🇩🇪
-</div>
-
+<div class="comp-icon">🇫🇷</div>
 <div class="comp-info">
-
-<strong>
-Bundesliga
-</strong>
-
-<small>
-Germany
-</small>
-
+<strong>Ligue 1</strong>
+<small>France</small>
+</div>
 </div>
 
 </div>
-
-
-
-<div class="competition">
-
-<div class="comp-icon">
-🇫🇷
 </div>
-
-<div class="comp-info">
-
-<strong>
-Ligue 1
-</strong>
-
-<small>
-France
-</small>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
 
 <div class="sidebar-card">
 
-<h3>
-📢 Advertisement
-</h3>
+<h3>📢 Advertisement</h3>
 
 <div class="ad">
-
 AdSense<br>
 Advertisement
-
 </div>
 
 </div>
-
-
 
 <div class="sidebar-card">
 
-<h3>
-🔥 Popular News
-</h3>
-
+<h3>🔥 Popular News</h3>
 
 <div class="news-body">
 
@@ -1801,9 +1359,7 @@ GolHoyLive
 
 </div>
 
-
 <hr style="border:0;border-top:1px solid var(--border);margin:12px 0;">
-
 
 <div class="news-body">
 
@@ -1819,25 +1375,15 @@ GolHoyLive
 
 </div>
 
-
 </aside>
 
 </div>
 
 </div>
 
-
-<!-- =========================
-     ARTICLE PAGE
-========================= -->
-
-<section
-class="article-view"
-id="articleView"
->
+<section class="article-view" id="articleView">
 
 <div class="article-container">
-
 
 <button
 class="article-back"
@@ -1846,44 +1392,27 @@ onclick="closeArticle()"
 ← Back to GolHoyLive
 </button>
 
-
 <article class="article">
 
-
-<div
-class="article-image"
-id="articleImage"
->
+<div class="article-image" id="articleImage">
 ⚽
 </div>
 
-
 <div class="article-content">
 
-<div
-class="article-category"
-id="articleCategory"
->
+<div class="article-category" id="articleCategory">
 MATCH NEWS
 </div>
 
-
-<h1
-id="articleTitle"
->
+<h1 id="articleTitle">
 Article title
 </h1>
-
 
 <div class="article-date">
 GolHoyLive • Today
 </div>
 
-
-<div
-class="article-text"
-id="articleText"
->
+<div class="article-text" id="articleText">
 
 <p>
 This is the GolHoyLive football news page.
@@ -1891,10 +1420,6 @@ This is the GolHoyLive football news page.
 
 <p>
 The article system is ready to receive real football news from a licensed news source or API.
-</p>
-
-<p>
-When the real news system is connected, this page will automatically display the article title, category, publication date, image and full article content.
 </p>
 
 </div>
@@ -1907,25 +1432,15 @@ When the real news system is connected, this page will automatically display the
 
 </section>
 
-
 </main>
-
-
-
-<!-- =========================
-     FOOTER
-========================= -->
 
 <footer>
 
 <div class="container footer-grid">
 
-
 <div>
 
-<h3>
-⚽ GolHoyLive
-</h3>
+<h3>⚽ GolHoyLive</h3>
 
 <p>
 Live football scores, results, competitions, teams, standings and football news.
@@ -1933,90 +1448,374 @@ Live football scores, results, competitions, teams, standings and football news.
 
 </div>
 
-
 <div>
 
-<h3>
-Football
-</h3>
+<h3>Football</h3>
 
 <div class="footer-links">
 
-<a href="#">
-Live Scores
-</a>
-
-<a href="#">
-Results
-</a>
-
-<a href="#">
-Competitions
-</a>
-
-<a href="#">
-Standings
-</a>
+<a href="#">Live Scores</a>
+<a href="#">Results</a>
+<a href="#">Competitions</a>
+<a href="#">Standings</a>
 
 </div>
 
 </div>
-
 
 <div>
 
-<h3>
-News
-</h3>
+<h3>News</h3>
 
 <div class="footer-links">
 
-<a href="#">
-Latest News
-</a>
-
-<a href="#">
-Transfers
-</a>
-
-<a href="#">
-Teams
-</a>
-
-<a href="#">
-Match News
-</a>
+<a href="#">Latest News</a>
+<a href="#">Transfers</a>
+<a href="#">Teams</a>
+<a href="#">Match News</a>
 
 </div>
 
 </div>
 
-
 </div>
-
 
 <div
 class="container"
 style="text-align:center;margin-top:25px;font-size:12px;"
 >
-
 © 2026 GolHoyLive. All rights reserved.
-
 </div>
 
 </footer>
 
-
-
 <script>
-
-
-/* =========================
-   LANGUAGE SYSTEM
-========================= */
 
 const translations={
 
 ar:{
 title:"نتائج كرة القدم المباشرة وآخر الأخبار",
-text:"تابع المباريات والنتائج والبطولات والفرق وآخر أخبار كرة القدم في مكان واحد
+text:"تابع المباريات والنتائج والبطولات والفرق وآخر أخبار كرة القدم في مكان واحد.",
+search:"ابحث عن الفرق والبطولات واللاعبين..."
+},
+
+es:{
+title:"Resultados de fútbol en directo y últimas noticias",
+text:"Sigue partidos, resultados, competiciones, equipos y las últimas noticias de fútbol.",
+search:"Buscar equipos, competiciones, jugadores..."
+},
+
+en:{
+title:"Live Football Scores & Latest News",
+text:"Follow football matches, results, competitions, teams and the latest football news.",
+search:"Search teams, competitions, players..."
+},
+
+fr:{
+title:"Scores de football en direct et dernières nouvelles",
+text:"Suivez les matchs, résultats, compétitions, équipes et dernières nouvelles du football.",
+search:"Rechercher équipes, compétitions, joueurs..."
+},
+
+pt:{
+title:"Resultados de futebol ao vivo e últimas notícias",
+text:"Acompanhe jogos, resultados, competições, equipes e as últimas notícias do futebol.",
+search:"Pesquisar equipes, competições, jogadores..."
+}
+
+};
+
+function setLanguage(lang){
+
+if(!translations[lang]){
+return;
+}
+
+localStorage.setItem(
+"golhoylive-language",
+lang
+);
+
+document.documentElement.lang=lang;
+
+document.documentElement.dir=
+lang==="ar" ? "rtl" : "ltr";
+
+document.getElementById("heroTitle").textContent=
+translations[lang].title;
+
+document.getElementById("heroText").textContent=
+translations[lang].text;
+
+document.getElementById("searchInput").placeholder=
+translations[lang].search;
+
+document.getElementById("languageSelect").value=lang;
+
+}
+
+function detectLanguage(){
+
+const saved=
+localStorage.getItem("golhoylive-language");
+
+if(saved){
+return saved;
+}
+
+const languages=
+navigator.languages ||
+[navigator.language];
+
+for(const item of languages){
+
+const lang=item.toLowerCase();
+
+if(lang.startsWith("ar")){
+return "ar";
+}
+
+if(lang.startsWith("es")){
+return "es";
+}
+
+if(lang.startsWith("fr")){
+return "fr";
+}
+
+if(lang.startsWith("pt")){
+return "pt";
+}
+
+if(lang.startsWith("en")){
+return "en";
+}
+
+}
+
+return "en";
+
+}
+
+document
+.getElementById("languageSelect")
+.addEventListener(
+"change",
+function(){
+
+setLanguage(this.value);
+
+}
+);
+
+setLanguage(
+detectLanguage()
+);
+
+document
+.querySelectorAll(".nav button")
+.forEach(button=>{
+
+button.addEventListener(
+"click",
+function(){
+
+document
+.querySelectorAll(".nav button")
+.forEach(item=>{
+item.classList.remove("active");
+});
+
+this.classList.add("active");
+
+const section=this.dataset.section;
+
+if(section==="news"){
+
+document
+.getElementById("newsSection")
+.scrollIntoView({
+behavior:"smooth"
+});
+
+}
+
+else if(section==="live"){
+
+document
+.getElementById("liveSection")
+.scrollIntoView({
+behavior:"smooth"
+});
+
+}
+
+else{
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+}
+
+}
+);
+
+});
+
+document
+.querySelectorAll(".day-tab")
+.forEach(tab=>{
+
+tab.addEventListener(
+"click",
+function(){
+
+document
+.querySelectorAll(".day-tab")
+.forEach(item=>{
+item.classList.remove("active");
+});
+
+this.classList.add("active");
+
+}
+);
+
+});
+
+document
+.getElementById("searchInput")
+.addEventListener(
+"input",
+function(){
+
+const query=
+this.value
+.toLowerCase()
+.trim();
+
+document
+.querySelectorAll(
+".match,.news-card,.competition"
+)
+.forEach(item=>{
+
+const text=
+item.textContent
+.toLowerCase();
+
+if(
+!query ||
+text.includes(query)
+){
+
+item.style.display="";
+
+}else{
+
+item.style.display="none";
+
+}
+
+});
+
+}
+);
+
+function openArticle(
+image,
+category,
+title
+){
+
+document
+.getElementById("homePage")
+.style.display="none";
+
+document
+.getElementById("articleView")
+.classList.add("show");
+
+document
+.getElementById("articleImage")
+.textContent=image;
+
+document
+.getElementById("articleCategory")
+.textContent=category;
+
+document
+.getElementById("articleTitle")
+.textContent=title;
+
+document
+.getElementById("articleText")
+.innerHTML=`
+
+<p>${title}</p>
+
+<p>
+GolHoyLive will publish football information, match updates, competition news and team developments in this article section.
+</p>
+
+<p>
+This section is prepared to receive real football news automatically from a licensed news source or API.
+</p>
+
+<p>
+Once the news system is connected, the article will contain the real publication date, source, image and complete article information.
+</p>
+
+`;
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+}
+
+function closeArticle(){
+
+document
+.getElementById("articleView")
+.classList.remove("show");
+
+document
+.getElementById("homePage")
+.style.display="block";
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+}
+
+function showAllNews(event){
+
+event.preventDefault();
+
+document
+.getElementById("newsSection")
+.scrollIntoView({
+behavior:"smooth"
+});
+
+}
+
+function openMatch(){
+
+alert(
+"GolHoyLive Match Center\n\n"+
+"Live events, goals, cards, lineups, statistics and match details will be connected to the football API."
+);
+
+}
+
+</script>
+
+</body>
+</html>
