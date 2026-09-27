@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 493,
+    "credits_remaining": 492,
     "data": {
         "date": "2026-09-27",
         "language": "en",
@@ -1830,16 +1830,16 @@
                 "week": "4",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "24ky2zix6308k1cv5q5ay609",
                     "name": "Deren",
                     "logo": "https:\/\/live-football-api.com\/teams\/24ky2zix6308k1cv5q5ay609.png",
-                    "score": "3"
+                    "score": "5"
                 },
                 "away": {
                     "id": "ajil831s0hsi8obeql5ubmkus",
@@ -1867,16 +1867,16 @@
                 "week": "16",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "83'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "7ud1gg2jvsvzgd34ryzakp562",
                     "name": "Blancdieu",
                     "logo": "https:\/\/live-football-api.com\/teams\/7ud1gg2jvsvzgd34ryzakp562.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "bbnbl5lzzpn5bmmsklwcdiwkq",
@@ -1904,10 +1904,10 @@
                 "week": "16",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8tbapx1vrt0bnymff2arw0bh0",
@@ -1919,7 +1919,7 @@
                     "id": "5c2j74dhhy7qx0ifaxz14l1ey",
                     "name": "Cobaltore",
                     "logo": "https:\/\/live-football-api.com\/teams\/5c2j74dhhy7qx0ifaxz14l1ey.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 1,
@@ -1941,10 +1941,10 @@
                 "week": "18",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "60t5ma05sefaxbaoh85h4xses",
@@ -1978,10 +1978,10 @@
                 "week": "18",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "7kdavqphbsehc5lwjsp5qar6c",
@@ -2015,10 +2015,10 @@
                 "week": "18",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "84'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "3gcigrpbsdlyrzxnypc3xiec4",
@@ -2052,16 +2052,16 @@
                 "week": "18",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "ehpzomzexu8c9rj5ayn7e4zdg",
                     "name": "Shibuya",
                     "logo": "https:\/\/live-football-api.com\/teams\/ehpzomzexu8c9rj5ayn7e4zdg.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "6cqvm5w04c2ujoc7r5pf5zis",
@@ -2089,10 +2089,10 @@
                 "week": "18",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "b0y70mlbb45c993ksuacxv6z8",
@@ -2126,10 +2126,10 @@
                 "week": "4",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8rpmk1xxhwtvgi27arho0lwl5",
@@ -2164,7 +2164,7 @@
                 "kickoff": "05:30",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "71'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2201,7 +2201,7 @@
                 "kickoff": "05:30",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "72'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2209,7 +2209,7 @@
                     "id": "965xlo3lxidvked88e9ejlrf3",
                     "name": "Yuen Long",
                     "logo": "https:\/\/live-football-api.com\/teams\/965xlo3lxidvked88e9ejlrf3.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "7n0jtqki2k1os28ciey2afcxe",
@@ -2238,7 +2238,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2275,7 +2275,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2289,85 +2289,11 @@
                     "id": "9i0l6gb66v5vk806wjeytrb6h",
                     "name": "Iga",
                     "logo": "https:\/\/live-football-api.com\/teams\/9i0l6gb66v5vk806wjeytrb6h.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
-                    "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c47clcyqzh6o1cb7bor1ehr84",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 3",
-                "kickoff": "07:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "07:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "17f7lkh9kkiuzrw5xyz3ai95h",
-                    "name": "Fiji",
-                    "logo": "https:\/\/live-football-api.com\/teams\/17f7lkh9kkiuzrw5xyz3ai95h.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "dxkrra8pxq7wy09y0hxfpeead",
-                    "name": "Papua New Guinea",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dxkrra8pxq7wy09y0hxfpeead.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "ezkf1o3faioq6g1t9mdubk4d0",
-                "league": {
-                    "id": "32vph7vcjqgo1ksj1548di90n",
-                    "name": "HKFA 1st Division",
-                    "country": "Hong Kong"
-                },
-                "week": "4",
-                "kickoff": "07:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "07:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "euyjpy16no58rspn81ss6eh2o",
-                    "name": "Lucky Mile",
-                    "logo": "https:\/\/live-football-api.com\/teams\/euyjpy16no58rspn81ss6eh2o.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "7dudvg58sh36c68qeydv4i3je",
-                    "name": "Hoi King",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7dudvg58sh36c68qeydv4i3je.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2422,21 +2348,58 @@
                 "week": "Regular Season",
                 "kickoff": "07:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "07:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "6ici7ixod9u4zx2n9yv19mul2",
                     "name": "Kaya",
                     "logo": "https:\/\/live-football-api.com\/teams\/6ici7ixod9u4zx2n9yv19mul2.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "24qri5wnze9ui7tn176vv4ad7",
                     "name": "Army",
                     "logo": "https:\/\/live-football-api.com\/teams\/24qri5wnze9ui7tn176vv4ad7.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "ezkf1o3faioq6g1t9mdubk4d0",
+                "league": {
+                    "id": "32vph7vcjqgo1ksj1548di90n",
+                    "name": "HKFA 1st Division",
+                    "country": "Hong Kong"
+                },
+                "week": "4",
+                "kickoff": "07:10",
+                "status": {
+                    "status": "scheduled",
+                    "display": "07:10",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "euyjpy16no58rspn81ss6eh2o",
+                    "name": "Lucky Mile",
+                    "logo": "https:\/\/live-football-api.com\/teams\/euyjpy16no58rspn81ss6eh2o.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "7dudvg58sh36c68qeydv4i3je",
+                    "name": "Hoi King",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7dudvg58sh36c68qeydv4i3je.png",
                     "score": null
                 },
                 "halftime": {
@@ -27537,5 +27500,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-27 06:40:49"
+    "timestamp": "2026-09-27 07:04:17"
 }
