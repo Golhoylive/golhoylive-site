@@ -2077,7 +2077,158 @@ document.getElementById(
 changeLanguage(
   currentLang
 );
+// ===== LOAD REAL FOOTBALL DATA =====
 
+async function loadLiveData(){
+
+  try{
+
+    const response = await fetch(
+      "data.json?ts=" + Date.now(),
+      {
+        cache: "no-store"
+      }
+    );
+
+    if(!response.ok){
+      throw new Error("data.json unavailable");
+    }
+
+    const payload = await response.json();
+
+    if(
+      !payload.success ||
+      !payload.data ||
+      !Array.isArray(payload.data.matches)
+    ){
+      throw new Error("Invalid football data");
+    }
+
+    DATA.matches = payload.data.matches.map(function(m){
+
+      const rawStatus =
+        m.status && m.status.status
+          ? String(m.status.status).toLowerCase()
+          : "";
+
+      const isLive =
+        Boolean(m.status && m.status.is_live) ||
+        rawStatus === "live";
+
+      let status = "SOON";
+
+      if(isLive){
+
+        status = "LIVE";
+
+      }else if(
+        rawStatus === "finished" ||
+        rawStatus === "ft" ||
+        rawStatus === "postgame"
+      ){
+
+        status = "FINISHED";
+
+      }
+
+      return {
+
+        id: m.id,
+
+        league:
+          m.league && m.league.name
+            ? m.league.name
+            : "Football",
+
+        time:
+          m.kickoff ||
+          (
+            m.status &&
+            m.status.display
+          ) ||
+          "",
+
+        status: status,
+
+        minute:
+          isLive
+            ? (
+                m.status &&
+                m.status.display
+                  ? m.status.display
+                  : "LIVE"
+              )
+            : "",
+
+        home:
+          m.home && m.home.name
+            ? m.home.name
+            : "Home",
+
+        away:
+          m.away && m.away.name
+            ? m.away.name
+            : "Away",
+
+        hs:
+          m.home && m.home.score != null
+            ? m.home.score
+            : null,
+
+        as:
+          m.away && m.away.score != null
+            ? m.away.score
+            : null,
+
+        homeLogo:
+          m.home ? m.home.logo : "",
+
+        awayLogo:
+          m.away ? m.away.logo : ""
+
+      };
+
+    });
+
+    DATA.matches.sort(function(a,b){
+
+      const order = {
+        LIVE: 0,
+        SOON: 1,
+        FINISHED: 2
+      };
+
+      return (
+        (order[a.status] ?? 9) -
+        (order[b.status] ?? 9)
+      );
+
+    });
+
+    renderAll();
+
+    console.log(
+      "Real football data loaded:",
+      DATA.matches.length
+    );
+
+  }catch(error){
+
+    console.error(
+      "GolHoyLive data error:",
+      error
+    );
+
+  }
+
+}
+
+loadLiveData();
+
+setInterval(
+  loadLiveData,
+  5 * 60 * 1000
+);
 </script>
 
 </body>
