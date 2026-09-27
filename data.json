@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 492,
+    "credits_remaining": 491,
     "data": {
         "date": "2026-09-27",
         "language": "en",
@@ -2163,16 +2163,16 @@
                 "week": "4",
                 "kickoff": "05:30",
                 "status": {
-                    "status": "live",
-                    "display": "71'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "1ie4q4erf46vej81aath9tdec",
                     "name": "WSE",
                     "logo": "https:\/\/live-football-api.com\/teams\/1ie4q4erf46vej81aath9tdec.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "dhbx54djjaxk6rvaoc2ph92dq",
@@ -2200,22 +2200,22 @@
                 "week": "4",
                 "kickoff": "05:30",
                 "status": {
-                    "status": "live",
-                    "display": "72'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "965xlo3lxidvked88e9ejlrf3",
                     "name": "Yuen Long",
                     "logo": "https:\/\/live-football-api.com\/teams\/965xlo3lxidvked88e9ejlrf3.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "7n0jtqki2k1os28ciey2afcxe",
                     "name": "Tung Sing",
                     "logo": "https:\/\/live-football-api.com\/teams\/7n0jtqki2k1os28ciey2afcxe.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -2238,7 +2238,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "75'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2246,7 +2246,7 @@
                     "id": "2nuslq8bi7f9jd2gvfc0k220z",
                     "name": "Verspah",
                     "logo": "https:\/\/live-football-api.com\/teams\/2nuslq8bi7f9jd2gvfc0k220z.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "64n0dfvlpuklldpsnd4m1f3qq",
@@ -2275,7 +2275,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2289,7 +2289,7 @@
                     "id": "9i0l6gb66v5vk806wjeytrb6h",
                     "name": "Iga",
                     "logo": "https:\/\/live-football-api.com\/teams\/9i0l6gb66v5vk806wjeytrb6h.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 1,
@@ -2311,26 +2311,26 @@
                 "week": "4",
                 "kickoff": "07:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "07:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "32'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "54cy7oiysue5fyh7c93j3tvys",
                     "name": "Omiya Ardija",
                     "logo": "https:\/\/live-football-api.com\/teams\/54cy7oiysue5fyh7c93j3tvys.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "b69ohsiy5o9sxect31jt08ec6",
                     "name": "JEF Utd",
                     "logo": "https:\/\/live-football-api.com\/teams\/b69ohsiy5o9sxect31jt08ec6.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2349,7 +2349,7 @@
                 "kickoff": "07:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2357,7 +2357,7 @@
                     "id": "6ici7ixod9u4zx2n9yv19mul2",
                     "name": "Kaya",
                     "logo": "https:\/\/live-football-api.com\/teams\/6ici7ixod9u4zx2n9yv19mul2.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "24qri5wnze9ui7tn176vv4ad7",
@@ -2366,7 +2366,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2385,26 +2385,26 @@
                 "week": "4",
                 "kickoff": "07:10",
                 "status": {
-                    "status": "scheduled",
-                    "display": "07:10",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "27'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "euyjpy16no58rspn81ss6eh2o",
                     "name": "Lucky Mile",
                     "logo": "https:\/\/live-football-api.com\/teams\/euyjpy16no58rspn81ss6eh2o.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "7dudvg58sh36c68qeydv4i3je",
                     "name": "Hoi King",
                     "logo": "https:\/\/live-football-api.com\/teams\/7dudvg58sh36c68qeydv4i3je.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -10503,6 +10503,43 @@
                     "id": "7tgoxy8gogqiqtp2ra9vcvqo",
                     "name": "Râmnicu Vâlcea",
                     "logo": "https:\/\/live-football-api.com\/teams\/7tgoxy8gogqiqtp2ra9vcvqo.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "bfbarjxzrvfbyqdm4ycxqqqdw",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "13:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "13:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "15xmagscegf6zxibryschiz6s",
+                    "name": "Radnik",
+                    "logo": "https:\/\/live-football-api.com\/teams\/15xmagscegf6zxibryschiz6s.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "39r69xdnw8usnndtetv3un9z3",
+                    "name": "Zrinjski",
+                    "logo": "https:\/\/live-football-api.com\/teams\/39r69xdnw8usnndtetv3un9z3.png",
                     "score": null
                 },
                 "halftime": {
@@ -19877,6 +19914,43 @@
                 }
             },
             {
+                "id": "665dzo1havzzc7muwaaonxfys",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "16:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "16:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "399xya5sk812vkpg0no4dq552",
+                    "name": "Borac BB",
+                    "logo": "https:\/\/live-football-api.com\/teams\/399xya5sk812vkpg0no4dq552.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "5dogxolrtabaz69epd35liubg",
+                    "name": "Vojvodina",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5dogxolrtabaz69epd35liubg.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "8zgbe09v21t76uhn3jowc3h90",
                 "league": {
                     "id": "1eruend45vd20g9hbrpiggs5u",
@@ -27500,5 +27574,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-27 07:04:17"
+    "timestamp": "2026-09-27 07:35:50"
 }
