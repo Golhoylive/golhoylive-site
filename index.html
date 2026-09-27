@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GolHoyLive - Live Football Scores</title>
+  <meta name="description" content="GolHoyLive - Live football scores, matches, competitions, standings and football news.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #06111c;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    body.rtl {
+      direction: rtl;
+    }
+
+    /* HEADER */
+
+    header {
+      background: linear-gradient(135deg, #061522, #0b1d2c);
+      border-bottom: 1px solid #193246;
+      padding: 14px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 230px;
+    }
+
+    .ball {
+      font-size: 42px;
+    }
+
+    .logo-text {
+      font-size: 29px;
+      font-weight: 800;
+    }
+
+    .logo-text span {
+      color: #21e77b;
+    }
+
+    .live-badge {
+      background: #ff3030;
+      padding: 5px 9px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .search {
+      flex: 1;
+      position: relative;
+    }
+
+    .search input {
+      width: 100%;
+      background: #102536;
+      border: 1px solid #294258;
+      border-radius: 25px;
+      padding: 13px 20px;
+      color: white;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .languages {
+      display: flex;
+      gap: 4px;
+      background: #0c1c2b;
+      padding: 4px;
+      border-radius: 10px;
+    }
+
+    .lang-btn {
+      background: transparent;
+      color: #fff;
+      border: 0;
+      padding: 9px 11px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .lang-btn.active {
+      background: #20e879;
+      color: #04120b;
+    }
+
+    /* NAV */
+
+    nav {
+      background: #091a29;
+      border-bottom: 1px solid #193246;
+    }
+
+    .nav-container {
+      max-width: 1400px;
+      margin: auto;
+      display: flex;
+      overflow-x: auto;
+    }
+
+    .nav-item {
+      padding: 17px 22px;
+      color: #cbd7e1;
+      text-decoration: none;
+      white-space: nowrap;
+      border-right: 1px solid #172d40;
+      cursor: pointer;
+    }
+
+    .nav-item:hover,
+    .nav-item.active {
+      background: #20e879;
+      color: #04120b;
+    }
+
+    /* MAIN */
+
+    main {
+      max-width: 1400px;
+      margin: 25px auto;
+      padding: 0 18px;
+    }
+
+    .hero {
+      min-height: 220px;
+      border-radius: 16px;
+      border: 1px solid #244257;
+      background:
+        radial-gradient(circle at 80% 30%, rgba(33,231,123,.20), transparent 30%),
+        linear-gradient(135deg, #0a2134, #07121e);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "⚽";
+      position: absolute;
+      font-size: 170px;
+      right: 30px;
+      opacity: .10;
+    }
+
+    .hero h1 {
+      font-size: clamp(40px, 7vw, 80px);
+      margin-bottom: 10px;
+    }
+
+    .hero h1 span {
+      color: #20e879;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #d5e0e8;
+    }
+
+    .hero-small {
+      margin-top: 10px;
+      color: #20e879;
+      font-weight: bold;
+    }
+
+    /* LAYOUT */
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 350px;
+      gap: 22px;
+      margin-top: 20px;
+    }
+
+    .content,
+    .sidebar {
+      min-width: 0;
+    }
+
+    /* TABS */
+
+    .tabs {
+      display: flex;
+      background: #0b1c2b;
+      border: 1px solid #20394c;
+      border-radius: 13px;
+      overflow: hidden;
+      margin-bottom: 18px;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 15px;
+      text-align: center;
+      cursor: pointer;
+      color: #bfcbd5;
+      font-weight: bold;
+    }
+
+    .tab.active {
+      background: #20e879;
+      color: #04120b;
+    }
+
+    /* CARDS */
+
+    .card {
+      background: linear-gradient(145deg, #0b1b2a, #091622);
+      border: 1px solid #20394c;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .card-title {
+      padding: 17px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #20394c;
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .live-title {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .red-dot {
+      width: 12px;
+      height: 12px;
+      background: #ff3030;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .live-label {
+      background: #ff3030;
+      padding: 7px 12px;
+      border-radius: 9px;
+      font-size: 12px;
+    }
+
+    /* MATCH */
+
+    .match {
+      display: grid;
+      grid-template-columns: 70px 1fr 90px 1fr 120px 30px;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 18px;
+      border-bottom: 1px solid #172c3e;
+      min-height: 70px;
+    }
+
+    .match:last-child {
+      border-bottom: 0;
+    }
+
+    .minute {
+      background: #103b30;
+      color: #20e879;
+      padding: 8px;
+      border-radius: 9px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    .team {
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .score {
+      background: #14283a;
+      border: 1px solid #29445a;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .competition {
+      color: #b9c6d0;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .arrow {
+      color: #8293a1;
+      font-size: 24px;
+    }
+
+    /* UPCOMING */
+
+    .upcoming {
+      display: grid;
+      grid-template-columns: 90px 1fr 100px 1fr 120px;
+      align-items: center;
+      padding: 15px 18px;
+      border-bottom: 1px solid #172c3e;
+      gap: 10px;
+    }
+
+    .time {
+      color: #20e879;
+      font-weight: bold;
+    }
+
+    /* SIDEBAR */
+
+    .league {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid #172c3e;
+      color: #e7edf2;
+    }
+
+    .flag {
+      font-size: 22px;
+    }
+
+    .league-name {
+      flex: 1;
+    }
+
+    .league-arrow {
+      color: #718594;
+    }
+
+    /* ADS */
+
+    .ad {
+      min-height: 250px;
+      background: #f4f4f4;
+      color: #777;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      font-size: 18px;
+    }
+
+    /* NEWS */
+
+    .news {
+      display: flex;
+      gap: 12px;
+      padding: 13px;
+      border-bottom: 1px solid #172c3e;
+    }
+
+    .news-icon {
+      width: 75px;
+      height: 65px;
+      background: linear-gradient(135deg, #123b5a, #0c263b);
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      flex-shrink: 0;
+    }
+
+    .news-content {
+      flex: 1;
+    }
+
+    .news-title {
+      font-weight: bold;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .news-time {
+      color: #758694;
+      font-size: 12px;
+      margin-top: 7px;
+    }
+
+    /* FOOTER */
+
+    footer {
+      margin-top: 40px;
+      background: #07131f;
+      border-top: 1px solid #1b3041;
+      padding: 35px 20px;
+      text-align: center;
+      color: #8fa0ad;
+    }
+
+    footer strong {
+      color: #20e879;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 900px) {
+      .header-container {
+        flex-wrap: wrap;
+      }
+
+      .logo {
+        min-width: auto;
+        flex: 1;
+      }
+
+      .search {
+        order: 3;
+        flex-basis: 100%;
+      }
+
+      .languages {
+        overflow-x: auto;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        display: block;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .header-container {
+        padding: 0;
+      }
+
+      .logo-text {
+        font-size: 22px;
+      }
+
+      .ball {
+        font-size: 30px;
+      }
+
+      .lang-btn {
+        padding: 7px;
+        font-size: 11px;
+      }
+
+      .hero {
+        min-height: 180px;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .match {
+        grid-template-columns: 55px 1fr 65px 1fr 25px;
+      }
+
+      .competition {
+        display: none;
+      }
+
+      .upcoming {
+        grid-template-columns: 65px 1fr 70px 1fr;
+      }
+
+      .upcoming .competition {
+        display: none;
+      }
+
+      main {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-container">
+
+    <div class="logo">
+      <div class="ball">⚽</div>
+
+      <div>
+        <div class="logo-text">
+          GolHoy<span>Live</span>
+        </div>
+
+        <div style="font-size:11px;color:#8ea0ad;">
+          Football • Live • Scores • News
+        </div>
+      </div>
+
+      <div class="live-badge">LIVE</div>
+    </div>
+
+    <div class="search">
+      <input id="search"
+             type="text"
+             placeholder="Search for a team or competition...">
+    </div>
+
+    <div class="languages">
+      <button class="lang-btn" data-lang="ar">العربية</button>
+      <button class="lang-btn" data-lang="es">Español</button>
+      <button class="lang-btn" data-lang="fr">Français</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="pt">Português</button>
+    </div>
+
+  </div>
+</header>
+
+
+<nav>
+  <div class="nav-container">
+
+    <div class="nav-item active" data-key="home">🏠 Home</div>
+    <div class="nav-item" data-key="live">🔴 Live</div>
+    <div class="nav-item" data-key="results">⚽ Results</div>
+    <div class="nav-item" data-key="competitions">🏆 Competitions</div>
+    <div class="nav-item" data-key="teams">👥 Teams</div>
+    <div class="nav-item" data-key="matches">📅 Matches</div>
+    <div class="nav-item" data-key="standings">📊 Standings</div>
+    <div class="nav-item" data-key="news">📰 News</div>
+    <div class="nav-item" data-key="more">••• More</div>
+
+  </div>
+</nav>
+
+
+<main>
+
+  <section class="hero">
+
+    <div>
+      <h1>GolHoy<span>Live</span></h1>
+
+      <p id="heroText">
+        Live football matches from around the world
+      </p>
+
+      <div class="hero-small" id="heroSmall">
+        Results • Statistics • News • Standings
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="layout">
+
+    <section class="content">
+
+      <div class="tabs">
+        <div class="tab active" id="tabLive">🔴 Live</div>
+        <div class="tab" id="tabToday">📅 Today</div>
+        <div class="tab" id="tabTomorrow">📅 Tomorrow</div>
+        <div class="tab" id="tabYesterday">📅 Yesterday</div>
+      </div>
+
+
+      <!-- LIVE MATCHES -->
+
+      <div class="card">
+
+        <div class="card-title">
+
+          <div class="live-title">
+            <span class="red-dot"></span>
+            <span id="liveTitle">Live Matches</span>
+          </div>
+
+          <span class="live-label">LIVE</span>
+
+        </div>
+
+
+        <div class="match">
+
+          <div class="minute">67'</div>
+
+          <div class="team">Real Madrid</div>
+
+          <div class="score">2 - 1</div>
+
+          <div class="team">Barcelona</div>
+
+          <div class="competition">🇪🇸 La Liga</div>
+
+          <div class="arrow">›</div>
+
+        </div>
+
+
+        <div class="match">
+
+          <div class="minute">45+2'</div>
+
+          <div class="team">Manchester City</div>
+
+          <div class="score">1 - 1</div>
+
+          <div class="team">Liverpool</div>
+
+          <div class="competition">🏴 Premier League</div>
+
+          <div class="arrow">›</div>
+
+        </div>
+
+
+        <div class="match">
+
+          <div class="minute">38'</div>
+
+          <div class="team">PSG</div>
+
+          <div class="score">0 - 0</div>
+
+          <div class="team">Marseille</div>
+
+          <div class="competition">🇫🇷 Ligue 1</div>
+
+          <div class="arrow">›</div>
+
+        </div>
+
+
+        <div class="match">
+
+          <div class="minute">72'</div>
+
+          <div class="team">Bayern Munich</div>
+
+          <div class="score">3 - 2</div>
+
+          <div class="team">Dortmund</div>
+
+          <div class="competition">🇩🇪 Bundesliga</div>
+
+          <div class="arrow">›</div>
+
+        </div>
+
+
+        <div class="match">
+
+          <div class="minute">15'</div>
+
+          <div class="team">Inter Milan</div>
+
+          <div class="score">0 - 1</div>
+
+          <div class="team">AC Milan</div>
+
+          <div class="competition">🇮🇹 Serie A</div>
+
+          <div class="arrow">›</div>
+
+        </div>
+
+      </div>
+
+
+      <!-- UPCOMING -->
+
+      <div class="card">
+
+        <div class="card-title">
+          <span id="upcomingTitle">Upcoming Matches</span>
+          <span style="font-size:13px;color:#20e879;">View all →</span>
+        </div>
+
+
+        <div class="upcoming">
+
+          <div class="time">21:00</div>
+          <div>Atlético Madrid</div>
+          <div>⚔️</div>
+          <div>Sevilla</div>
+          <div class="competition">🇪🇸 La Liga</div>
+
+        </div>
+
+
+        <div class="upcoming">
+
+          <div class="time">20:45</div>
+          <div>Arsenal</div>
+          <div>⚔️</div>
+          <div>Chelsea</div>
+          <div class="competition">🏴 Premier League</div>
+
+        </div>
+
+
+        <div class="upcoming">
+
+          <div class="time">21:00</div>
+          <div>Juventus</div>
+          <div>⚔️</div>
+          <div>Napoli</div>
+          <div class="competition">🇮🇹 Serie A</div>
+
+        </div>
+
+
+        <div class="upcoming">
+
+          <div class="time">21:00</div>
+          <div>Al Hilal</div>
+          <div>⚔️</div>
+          <div>Al Nassr</div>
+          <div class="competition">🇸🇦 Saudi Pro League</div>
+
+        </div>
+
+
+        <div class="upcoming">
+
+          <div class="time">19:00</div>
+          <div>Wydad AC</div>
+          <div>⚔️</div>
+          <div>Raja CA</div>
+          <div class="competition">🇲🇦 Botola Pro</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+
+      <!-- COMPETITIONS -->
+
+      <div class="card">
+
+        <div class="card-title">
+          🏆 <span id="competitionTitle">Top Competitions</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🇪🇸</span>
+          <span class="league-name">La Liga</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🏴</span>
+          <span class="league-name">Premier League</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🇫🇷</span>
+          <span class="league-name">Ligue 1</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🇩🇪</span>
+          <span class="league-name">Bundesliga</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🇮🇹</span>
+          <span class="league-name">Serie A</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🌍</span>
+          <span class="league-name">Champions League</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+        <div class="league">
+          <span class="flag">🇲🇦</span>
+          <span class="league-name">Botola Pro</span>
+          <span class="league-arrow">›</span>
+        </div>
+
+      </div>
+
+
+      <!-- ADS -->
+
+      <div class="ad">
+        <div>
+          <strong>Google AdSense</strong>
+          <br><br>
+          Advertisement
+          <br>
+          336 × 280
+        </div>
+      </div>
+
+
+      <!-- NEWS -->
+
+      <div class="card">
+
+        <div class="card-title">
+          📰 <span id="newsTitle">Latest News</span>
+        </div>
+
+
+        <div class="news">
+
+          <div class="news-icon">⚽</div>
+
+          <div class="news-content">
+
+            <div class="news-title">
+              Latest football news and updates
+            </div>
+
+            <div class="news-time">
+              2 hours ago
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="news">
+
+          <div class="news-icon">🏆</div>
+
+          <div class="news-content">
+
+            <div class="news-title">
+              Football competitions around the world
+            </div>
+
+            <div class="news-time">
+              4 hours ago
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="news">
+
+          <div class="news-icon">📊</div>
+
+          <div class="news-content">
+
+            <div class="news-title">
+              Results, standings and statistics
+            </div>
+
+            <div class="news-time">
+              5 hours ago
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </aside>
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <strong>GolHoyLive</strong>
+
+  <br><br>
+
+  <span id="footerText">
+    Global football scores, matches, competitions and news.
+  </span>
+
+  <br><br>
+
+  © 2026 GolHoyLive
+
+</footer>
+
+
+<script>
+
+  /*
+   * GolHoyLive language system
+   *
+   * First version:
+   * We detect the visitor's browser language/region.
+   * Later, when the backend is connected, we can detect
+   * the visitor's country more accurately.
+   */
+
+  const translations = {
+
+    ar: {
+      direction: "rtl",
+      search: "ابحث عن فريق أو بطولة...",
+      home: "🏠 الرئيسية",
+      live: "🔴 مباشر",
+      results: "⚽ النتائج",
+      competitions: "🏆 البطولات",
+      teams: "👥 الفرق",
+      matches: "📅 المباريات",
+      standings: "📊 الترتيب",
+      news: "📰 الأخبار",
+      more: "••• المزيد",
+      hero: "مباريات كرة القدم مباشرة من جميع أنحاء العالم",
+      heroSmall: "نتائج • إحصائيات • أخبار • ترتيب",
+      liveTitle: "المباريات المباشرة",
+      upcoming: "المباريات القادمة",
+      competitionsTitle: "أهم البطولات",
+      latestNews: "آخر الأخبار",
+      footer: "نتائج ومباريات وبطولات وأخبار كرة القدم حول العالم."
+    },
+
+    es: {
+      direction: "ltr",
+      search: "Busca un equipo o competición...",
+      home: "🏠 Inicio",
+      live: "🔴 En directo",
+      results: "⚽ Resultados",
+      competitions: "🏆 Competiciones",
+      teams: "👥 Equipos",
+      matches: "📅 Partidos",
+      standings: "📊 Clasificación",
+      news: "📰 Noticias",
+      more: "••• Más",
+      hero: "Partidos de fútbol en directo de todo el mundo",
+      heroSmall: "Resultados • Estadísticas • Noticias • Clasificaciones",
+      liveTitle: "Partidos en directo",
+      upcoming: "Próximos partidos",
+      competitionsTitle: "Principales competiciones",
+      latestNews: "Últimas noticias",
+      footer: "Resultados, partidos, competiciones y noticias de fútbol mundial."
+    },
+
+    fr: {
+      direction: "ltr",
+      search: "Rechercher une équipe ou une compétition...",
+      home: "🏠 Accueil",
+      live: "🔴 En direct",
+      results: "⚽ Résultats",
+      competitions: "🏆 Compétitions",
+      teams: "👥 Équipes",
+      matches: "📅 Matchs",
+      standings: "📊 Classement",
+      news: "📰 Actualités",
+      more: "••• Plus",
+      hero: "Matchs de football en direct du monde entier",
+      heroSmall: "Résultats • Statistiques • Actualités • Classements",
+      liveTitle: "Matchs en direct",
+      upcoming: "Prochains matchs",
+      competitionsTitle: "Principales compétitions",
+      latestNews: "Dernières actualités",
+      footer: "Résultats, matchs, compétitions et actualités du football mondial."
+    },
+
+    en: {
+      direction: "ltr",
+      search: "Search for a team or competition...",
+      home: "🏠 Home",
+      live: "🔴 Live",
+      results: "⚽ Results",
+      competitions: "🏆 Competitions",
+      teams: "👥 Teams",
+      matches: "📅 Matches",
+      standings: "📊 Standings",
+      news: "📰 News",
+      more: "••• More",
+      hero: "Live football matches from around the world",
+      heroSmall: "Results • Statistics • News • Standings",
+      liveTitle: "Live Matches",
+      upcoming: "Upcoming Matches",
+      competitionsTitle: "Top Competitions",
+      latestNews: "Latest News",
+      footer: "Global football scores, matches, competitions and news."
+    },
+
+    pt: {
+      direction: "ltr",
+      search: "Pesquisar uma equipa ou competição...",
+      home: "🏠 Início",
+      live: "🔴 Ao vivo",
+      results: "⚽ Resultados",
+      competitions: "🏆 Competições",
+      teams: "👥 Equipas",
+      matches: "📅 Jogos",
+      standings: "📊 Classificação",
+      news: "📰 Notícias",
+      more: "••• Mais",
+      hero: "Jogos de futebol ao vivo de todo o mundo",
+      heroSmall: "Resultados • Estatísticas • Notícias • Classificação",
+      liveTitle: "Jogos ao vivo",
+      upcoming: "Próximos jogos",
+      competitionsTitle: "Principais competições",
+      latestNews: "Últimas notícias",
+      footer: "Resultados, jogos, competições e notícias de futebol mundial."
+    }
+
+  };
+
+
+  function detectLanguage() {
+
+    const saved = localStorage.getItem("golhoylive-language");
+
+    if (saved && translations[saved]) {
+      return saved;
+    }
+
+    const languages = navigator.languages || [navigator.language];
+
+    for (const language of languages) {
+
+      const lang = language.toLowerCase();
+
+      if (lang.startsWith("ar")) return "ar";
+      if (lang.startsWith("pt")) return "pt";
+      if (lang.startsWith("es")) return "es";
+      if (lang.startsWith("fr")) return "fr";
+      if (lang.startsWith("en")) return "en";
+
+    }
+
+    return "en";
+  }
+
+
+  function changeLanguage(lang) {
+
+    const t = translations[lang];
+
+    if (!t) return;
+
+    document.documentElement.lang = lang;
+    document.documentElement.dir = t.direction;
+
+    document.body.classList.toggle("rtl", t.direction === "rtl");
+
+    document.getElementById("search").placeholder = t.search;
+
+    const navItems = document.querySelectorAll(".nav-item");
+
+    navItems.forEach(item => {
+
+      const key = item.dataset.key;
+
+      if (t[key]) {
+        item.textContent = t[key];
+      }
+
+    });
+
+    document.getElementById("heroText").textContent = t.hero;
+    document.getElementById("heroSmall").textContent = t.heroSmall;
+    document.getElementById("liveTitle").textContent = t.liveTitle;
+    document.getElementById("upcomingTitle").textContent = t.upcoming;
+    document.getElementById("competitionTitle").textContent = t.competitionsTitle;
+    document.getElementById("newsTitle").textContent = t.latestNews;
+    document.getElementById("footerText").textContent = t.footer;
+
+    document.querySelectorAll(".lang-btn").forEach(button => {
+      button.classList.toggle(
+        "active",
+        button.dataset.lang === lang
+      );
+    });
+
+    localStorage.setItem(
+      "golhoylive-language",
+      lang
+    );
+  }
+
+
+  document.querySelectorAll(".lang-btn").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      changeLanguage(button.dataset.lang);
+
+    });
+
+  });
+
+
+  const detectedLanguage = detectLanguage();
+
+  changeLanguage(detectedLanguage);
+
+</script>
+
+</body>
+</html>
