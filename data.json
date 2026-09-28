@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 346,
+    "credits_remaining": 344,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -2681,10 +2681,10 @@
                 "week": "12",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "73'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "t71on2dbrfyknxq990h6l0dc",
@@ -2718,10 +2718,10 @@
                 "week": "26",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8v5tea76k9utwjqpq4u2uetey",
@@ -2755,10 +2755,10 @@
                 "week": "17",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "70'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "d66h38bfx3rqpdeq37hxwm1p0",
@@ -2793,7 +2793,7 @@
                 "kickoff": "20:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2801,13 +2801,13 @@
                     "id": "new6avhmf5e9437ojzcnq8t0",
                     "name": "Independiente",
                     "logo": "https:\/\/live-football-api.com\/teams\/new6avhmf5e9437ojzcnq8t0.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "2lwrtp1tqpv9e1mds2ulp39vv",
                     "name": "Orsomarso",
                     "logo": "https:\/\/live-football-api.com\/teams\/2lwrtp1tqpv9e1mds2ulp39vv.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -2830,7 +2830,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2978,7 +2978,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "28'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2986,7 +2986,7 @@
                     "id": "8kmba502sqda1quxarnnohx5g",
                     "name": "Inter Palmira",
                     "logo": "https:\/\/live-football-api.com\/teams\/8kmba502sqda1quxarnnohx5g.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "6rigic3bl36srv4lgojqo1kz8",
@@ -2995,7 +2995,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -3310,26 +3310,26 @@
                 "week": "Apertura",
                 "kickoff": "21:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "21:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "17'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dks0a8l22zatk9v0v9encwtn8",
                     "name": "Atlante",
                     "logo": "https:\/\/live-football-api.com\/teams\/dks0a8l22zatk9v0v9encwtn8.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "aav9njbcwyltszy8ia7dwqxyi",
                     "name": "Pumas",
                     "logo": "https:\/\/live-football-api.com\/teams\/aav9njbcwyltszy8ia7dwqxyi.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3347,26 +3347,26 @@
                 "week": "League A",
                 "kickoff": "22:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "165simty2guc4l2fb7zbrlg9m",
                     "name": "Suriname",
                     "logo": "https:\/\/live-football-api.com\/teams\/165simty2guc4l2fb7zbrlg9m.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "40tyvoz1vs7drd192u010oiqr",
                     "name": "Martinique",
                     "logo": "https:\/\/live-football-api.com\/teams\/40tyvoz1vs7drd192u010oiqr.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3458,26 +3458,26 @@
                 "week": "20",
                 "kickoff": "22:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "bq74omcibmi1qjznen2lui1q0",
                     "name": "Paysandú",
                     "logo": "https:\/\/live-football-api.com\/teams\/bq74omcibmi1qjznen2lui1q0.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "a7zmnd3kr3xlqmjva6r5wt9k8",
                     "name": "Tacuarembó",
                     "logo": "https:\/\/live-football-api.com\/teams\/a7zmnd3kr3xlqmjva6r5wt9k8.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4227,5 +4227,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 21:36:33"
+    "timestamp": "2026-09-28 22:04:00"
 }
