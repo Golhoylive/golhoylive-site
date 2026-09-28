@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 360,
+    "credits_remaining": 358,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -1941,10 +1941,10 @@
                 "week": "Group Stage",
                 "kickoff": "16:30",
                 "status": {
-                    "status": "live",
-                    "display": "75'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "86w4f7sl8i84b12nwfmbwzyy8",
@@ -1979,7 +1979,7 @@
                 "kickoff": "17:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "69'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2016,7 +2016,7 @@
                 "kickoff": "17:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2030,7 +2030,7 @@
                     "id": "6ge2ol0frf7toik5rwpela191",
                     "name": "Dravinja",
                     "logo": "https:\/\/live-football-api.com\/teams\/6ge2ol0frf7toik5rwpela191.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 2,
@@ -2053,7 +2053,7 @@
                 "kickoff": "17:15",
                 "status": {
                     "status": "live",
-                    "display": "45 +2'",
+                    "display": "61'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2090,7 +2090,7 @@
                 "kickoff": "17:15",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "66'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2098,7 +2098,7 @@
                     "id": "cwpjyxfnrkd8q4anxjbhqff5g",
                     "name": "Shahaniya",
                     "logo": "https:\/\/live-football-api.com\/teams\/cwpjyxfnrkd8q4anxjbhqff5g.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "ctuq9a387eg99hp686ml1oapc",
@@ -2127,7 +2127,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "40'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2141,11 +2141,11 @@
                     "id": "8vnhah5yzt3ubr9oms9zg9bnk",
                     "name": "Norwich U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/8vnhah5yzt3ubr9oms9zg9bnk.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2164,7 +2164,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "40'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2201,7 +2201,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "39'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2209,7 +2209,7 @@
                     "id": "p08xod9r3iiof8ov66dmucrf",
                     "name": "Loznica",
                     "logo": "https:\/\/live-football-api.com\/teams\/p08xod9r3iiof8ov66dmucrf.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "e8wfdw7ttr59p4afuqctv3nad",
@@ -2218,7 +2218,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2237,26 +2237,26 @@
                 "week": "7",
                 "kickoff": "18:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "10'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "3krm0f4yr1l80j1sd7823f9xn",
                     "name": "Leganés",
                     "logo": "https:\/\/live-football-api.com\/teams\/3krm0f4yr1l80j1sd7823f9xn.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "5ziakdomggtzs5xqnb50jpi5o",
                     "name": "Castellón",
                     "logo": "https:\/\/live-football-api.com\/teams\/5ziakdomggtzs5xqnb50jpi5o.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4190,5 +4190,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 18:04:58"
+    "timestamp": "2026-09-28 18:41:40"
 }
