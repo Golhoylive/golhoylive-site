@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 390,
+    "credits_remaining": 388,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -572,10 +572,10 @@
                 "week": "Friendlies 2",
                 "kickoff": "09:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "edh37yqpwpy8628yh53jwku9e",
@@ -587,7 +587,7 @@
                     "id": "74ynk4uncrxfgkb212b13i8cd",
                     "name": "Ireland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/74ynk4uncrxfgkb212b13i8cd.png",
-                    "score": "4"
+                    "score": "5"
                 },
                 "halftime": {
                     "home": 0,
@@ -610,7 +610,7 @@
                 "kickoff": "09:30",
                 "status": {
                     "status": "live",
-                    "display": "50'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -618,13 +618,13 @@
                     "id": "d04215agawywn6ytau41suzki",
                     "name": "Kazakhstan U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/d04215agawywn6ytau41suzki.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "dytxwkmkvhz1jx9siwxg7c1l7",
                     "name": "Switzerland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/dytxwkmkvhz1jx9siwxg7c1l7.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -647,7 +647,7 @@
                 "kickoff": "10:25",
                 "status": {
                     "status": "live",
-                    "display": "9'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -683,26 +683,26 @@
                 "week": "Friendlies 1",
                 "kickoff": "11:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "11:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "1yghbv1c71b37eenutbwnvvq",
                     "name": "Korea Rep",
                     "logo": "https:\/\/live-football-api.com\/teams\/1yghbv1c71b37eenutbwnvvq.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "9l06impjllgop0gte8fldb4zo",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/9l06impjllgop0gte8fldb4zo.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -994,6 +994,43 @@
                     "id": "907ysuvn04z6lvvdute24zdqf",
                     "name": "Turkiye U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/907ysuvn04z6lvvdute24zdqf.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "lfa17905919067525103443",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "13:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "13:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "bgmvqq84gnrtq23q5upys0l04",
+                    "name": "Croatia U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bgmvqq84gnrtq23q5upys0l04.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "55m6oyfspw0vraflgiksqbcda",
+                    "name": "France U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/55m6oyfspw0vraflgiksqbcda.png",
                     "score": null
                 },
                 "halftime": {
@@ -4375,5 +4412,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 10:38:21"
+    "timestamp": "2026-09-28 11:04:50"
 }
