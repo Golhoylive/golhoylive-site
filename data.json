@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 430,
+    "credits_remaining": 428,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -55,7 +55,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -129,7 +129,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -230,43 +230,6 @@
                 }
             },
             {
-                "id": "cqcrkvm4gfctz974lojy3p638",
-                "league": {
-                    "id": "7ut48s80k421xixh6ev5i6h62",
-                    "name": "Liga MX Femenil",
-                    "country": "Mexico"
-                },
-                "week": "Apertura",
-                "kickoff": "00:06",
-                "status": {
-                    "status": "live",
-                    "display": "36'",
-                    "is_live": true,
-                    "state": "inPlay"
-                },
-                "home": {
-                    "id": "6yfdc2frjgibkax4c2uf2hbhm",
-                    "name": "Tigres UANL",
-                    "logo": "https:\/\/live-football-api.com\/teams\/6yfdc2frjgibkax4c2uf2hbhm.png",
-                    "score": "0"
-                },
-                "away": {
-                    "id": "723iqtis2afkaq656r7odf7u2",
-                    "name": "Atlético San L",
-                    "logo": "https:\/\/live-football-api.com\/teams\/723iqtis2afkaq656r7odf7u2.png",
-                    "score": "1"
-                },
-                "halftime": {
-                    "home": 0,
-                    "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "o2wxrhghao1sujm595i0dlhw",
                 "league": {
                     "id": "byu00jvt1j6csyv4y1lkt2fm2",
@@ -274,10 +237,10 @@
                     "country": "Argentina"
                 },
                 "week": "31",
-                "kickoff": "00:15",
+                "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -291,6 +254,43 @@
                     "id": "39yl9nw2nhhulyjssa497c758",
                     "name": "SM Tucumán",
                     "logo": "https:\/\/live-football-api.com\/teams\/39yl9nw2nhhulyjssa497c758.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "cqcrkvm4gfctz974lojy3p638",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "00:06",
+                "status": {
+                    "status": "live",
+                    "display": "HT",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "6yfdc2frjgibkax4c2uf2hbhm",
+                    "name": "Tigres UANL",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6yfdc2frjgibkax4c2uf2hbhm.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "723iqtis2afkaq656r7odf7u2",
+                    "name": "Atlético San L",
+                    "logo": "https:\/\/live-football-api.com\/teams\/723iqtis2afkaq656r7odf7u2.png",
                     "score": "1"
                 },
                 "halftime": {
@@ -350,26 +350,26 @@
                 "week": "League A",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "8vxfv3p9ff60t5v4mm1t5si4s",
                     "name": "Trinidad",
                     "logo": "https:\/\/live-football-api.com\/teams\/8vxfv3p9ff60t5v4mm1t5si4s.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "2uq1ocokdg5b95fmc6m7sp6md",
                     "name": "Dominican Rep",
                     "logo": "https:\/\/live-football-api.com\/teams\/2uq1ocokdg5b95fmc6m7sp6md.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3829,7 +3829,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "64'",
+                    "display": "84'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3865,10 +3865,10 @@
                 "week": "8th Finals",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6n1i99d69ktxseecp7cpfu971",
@@ -3902,10 +3902,10 @@
                 "week": "League A",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "84'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "151psmk1h1c846f2lqmflkx75",
@@ -4013,10 +4013,10 @@
                 "week": "12",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8nbp5q5mccisg85kpm38lqdqx",
@@ -4028,7 +4028,7 @@
                     "id": "3dbs0v3itbuirgmtvhtdbfr0j",
                     "name": "FAS",
                     "logo": "https:\/\/live-football-api.com\/teams\/3dbs0v3itbuirgmtvhtdbfr0j.png",
-                    "score": "0"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 0,
@@ -4051,7 +4051,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "90 +7'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4087,10 +4087,10 @@
                 "week": "20",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "3tu3dq14e3ne57nfb9pn6ocvk",
@@ -4162,7 +4162,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "74'",
+                    "display": "90 +5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4273,7 +4273,7 @@
                 "kickoff": "23:05",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "90 +7'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4310,7 +4310,7 @@
                 "kickoff": "23:30",
                 "status": {
                     "status": "live",
-                    "display": "55'",
+                    "display": "75'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4347,7 +4347,7 @@
                 "kickoff": "23:30",
                 "status": {
                     "status": "live",
-                    "display": "57'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 00:44:20"
+    "timestamp": "2026-09-28 01:04:44"
 }
