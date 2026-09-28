@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 426,
+    "credits_remaining": 424,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -54,16 +54,16 @@
                 "week": "League A",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "79'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "3csexoalt9hfesmo2p4619ga4",
                     "name": "Curaçao",
                     "logo": "https:\/\/live-football-api.com\/teams\/3csexoalt9hfesmo2p4619ga4.png",
-                    "score": "5"
+                    "score": "6"
                 },
                 "away": {
                     "id": "8tdrk99ukper6iqqutevwqech",
@@ -128,10 +128,10 @@
                 "week": "League B",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "79'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "1vfo4jep2v606lou5a90mwwow",
@@ -240,7 +240,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "66'",
+                    "display": "90 +3'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -277,7 +277,7 @@
                 "kickoff": "00:06",
                 "status": {
                     "status": "live",
-                    "display": "67'",
+                    "display": "90 +4'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -314,7 +314,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -351,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -359,17 +359,17 @@
                     "id": "8vxfv3p9ff60t5v4mm1t5si4s",
                     "name": "Trinidad",
                     "logo": "https:\/\/live-football-api.com\/teams\/8vxfv3p9ff60t5v4mm1t5si4s.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "2uq1ocokdg5b95fmc6m7sp6md",
                     "name": "Dominican Rep",
                     "logo": "https:\/\/live-football-api.com\/teams\/2uq1ocokdg5b95fmc6m7sp6md.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -462,7 +462,7 @@
                 "kickoff": "01:10",
                 "status": {
                     "status": "live",
-                    "display": "25'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4309,10 +4309,10 @@
                 "week": "5",
                 "kickoff": "23:30",
                 "status": {
-                    "status": "live",
-                    "display": "90 +17'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "a2yy3p6tihu263x73yayp9r3e",
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 01:36:45"
+    "timestamp": "2026-09-28 02:04:05"
 }
