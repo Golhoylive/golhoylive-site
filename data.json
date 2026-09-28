@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 378,
+    "credits_remaining": 376,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -720,10 +720,10 @@
                 "week": "1st Round",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "beca9xd0o7ojmcupnmtdo2x9t",
@@ -757,10 +757,10 @@
                 "week": "Regular Season",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "agnnbgrdc5l2bljm8399lu6ms",
@@ -795,7 +795,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "70'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -832,7 +832,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -869,7 +869,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "50'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -906,7 +906,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "50'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -920,7 +920,7 @@
                     "id": "21z0usjfz2afquuoxqqdr2gz0",
                     "name": "Panthrakikos",
                     "logo": "https:\/\/live-football-api.com\/teams\/21z0usjfz2afquuoxqqdr2gz0.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -943,7 +943,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "49'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -951,17 +951,17 @@
                     "id": "19632ie12uehcbgmd21cudy7z",
                     "name": "Grafičar",
                     "logo": "https:\/\/live-football-api.com\/teams\/19632ie12uehcbgmd21cudy7z.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "47uf7nf60xhf6rsr7kh2dfn33",
                     "name": "Teleoptik",
                     "logo": "https:\/\/live-football-api.com\/teams\/47uf7nf60xhf6rsr7kh2dfn33.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 2,
-                    "away": 0
+                    "home": 3,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -980,7 +980,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1017,7 +1017,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "8'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1054,7 +1054,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "30'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1062,7 +1062,7 @@
                     "id": "dchlskf0q86cqjjhz9mq3j40k",
                     "name": "Ario",
                     "logo": "https:\/\/live-football-api.com\/teams\/dchlskf0q86cqjjhz9mq3j40k.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "9ehvbvqw5wqb0z7bvyhjc6b6c",
@@ -1071,7 +1071,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1090,63 +1090,26 @@
                 "week": "Friendlies 3",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "6'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "4gwmm3ovptdbaso8pglsptjjn",
                     "name": "Kyrgyzstan",
                     "logo": "https:\/\/live-football-api.com\/teams\/4gwmm3ovptdbaso8pglsptjjn.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "3odczxzq91h56pjk7k78ywxxk",
                     "name": "Maldives",
                     "logo": "https:\/\/live-football-api.com\/teams\/3odczxzq91h56pjk7k78ywxxk.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "cv3dwlzo5ctty5pde40940owk",
-                "league": {
-                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
-                    "name": "Club Friendly",
-                    "country": "World"
-                },
-                "week": "Regular Season",
-                "kickoff": "14:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "4px9dur1rd4l660rv3ro7m6l6",
-                    "name": "Maribor",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4px9dur1rd4l660rv3ro7m6l6.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "2lxdu85eno8hnzkzinx44wvjt",
-                    "name": "Gorica",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2lxdu85eno8hnzkzinx44wvjt.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1164,63 +1127,26 @@
                 "week": "Regular Season",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "fv1xvbq86y2nsjtm7u6crw2s",
                     "name": "Macedonia U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/fv1xvbq86y2nsjtm7u6crw2s.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "9n461dg77730yh83y60lwyc4z",
                     "name": "Russia",
                     "logo": "https:\/\/live-football-api.com\/teams\/9n461dg77730yh83y60lwyc4z.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "4y3fcbh6ppppmq4ldxmmbfn6c",
-                "league": {
-                    "id": "59zd8l65ndp4vvcafpav6fuab",
-                    "name": "Super League Women",
-                    "country": "Serbia"
-                },
-                "week": "6",
-                "kickoff": "14:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "aarjv8i8guhwmomqskq2g158l",
-                    "name": "Radnički 1923",
-                    "logo": "https:\/\/live-football-api.com\/teams\/aarjv8i8guhwmomqskq2g158l.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "3ee1mz3fwy16gx3pjswxwzu31",
-                    "name": "Crvena Zvezda",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3ee1mz3fwy16gx3pjswxwzu31.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1238,26 +1164,26 @@
                 "week": "6",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "6'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dhdcvt2kmnhmlsvywff22des4",
                     "name": "Mura",
                     "logo": "https:\/\/live-football-api.com\/teams\/dhdcvt2kmnhmlsvywff22des4.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "e5r4m3srz10xkb69usd1ikycp",
                     "name": "Olimpija",
                     "logo": "https:\/\/live-football-api.com\/teams\/e5r4m3srz10xkb69usd1ikycp.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4412,5 +4338,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 13:40:00"
+    "timestamp": "2026-09-28 14:06:58"
 }
