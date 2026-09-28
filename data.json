@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 394,
+    "credits_remaining": 392,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -573,7 +573,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -610,7 +610,7 @@
                 "kickoff": "09:30",
                 "status": {
                     "status": "live",
-                    "display": "7'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -624,11 +624,11 @@
                     "id": "dytxwkmkvhz1jx9siwxg7c1l7",
                     "name": "Switzerland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/dytxwkmkvhz1jx9siwxg7c1l7.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 09:39:28"
+    "timestamp": "2026-09-28 10:05:56"
 }
