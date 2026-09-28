@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 340,
+    "credits_remaining": 338,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -3311,7 +3311,7 @@
                 "kickoff": "21:45",
                 "status": {
                     "status": "live",
-                    "display": "56'",
+                    "display": "88'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3348,7 +3348,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3356,7 +3356,7 @@
                     "id": "165simty2guc4l2fb7zbrlg9m",
                     "name": "Suriname",
                     "logo": "https:\/\/live-football-api.com\/teams\/165simty2guc4l2fb7zbrlg9m.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "40tyvoz1vs7drd192u010oiqr",
@@ -3459,7 +3459,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3467,7 +3467,7 @@
                     "id": "bq74omcibmi1qjznen2lui1q0",
                     "name": "Paysandú",
                     "logo": "https:\/\/live-football-api.com\/teams\/bq74omcibmi1qjznen2lui1q0.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "a7zmnd3kr3xlqmjva6r5wt9k8",
@@ -3533,7 +3533,7 @@
                 "kickoff": "22:15",
                 "status": {
                     "status": "live",
-                    "display": "45 +3'",
+                    "display": "60'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3570,7 +3570,7 @@
                 "kickoff": "22:30",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3755,7 +3755,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3763,7 +3763,7 @@
                     "id": "ehyuxeire7ruxvc4nszvyiktx",
                     "name": "Wanderers",
                     "logo": "https:\/\/live-football-api.com\/teams\/ehyuxeire7ruxvc4nszvyiktx.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "55gk3y9pyjnpck475gqm285bk",
@@ -3772,7 +3772,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -3792,7 +3792,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3939,26 +3939,26 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "23:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "25'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "47oiq3narnesms86fg0npobo4",
                     "name": "Paraná FC",
                     "logo": "https:\/\/live-football-api.com\/teams\/47oiq3narnesms86fg0npobo4.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "b49ym6y1dhl9lk55dau6zwsbu",
                     "name": "Atl. Baradero",
                     "logo": "https:\/\/live-football-api.com\/teams\/b49ym6y1dhl9lk55dau6zwsbu.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4014,7 +4014,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4022,17 +4022,17 @@
                     "id": "62sx090hj2daol51qkro9bf8",
                     "name": "Somisa",
                     "logo": "https:\/\/live-football-api.com\/teams\/62sx090hj2daol51qkro9bf8.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "5kxuvzgcq86oot0wob9fxbdhw",
                     "name": "RC Pergamino",
                     "logo": "https:\/\/live-football-api.com\/teams\/5kxuvzgcq86oot0wob9fxbdhw.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4050,26 +4050,26 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "23:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "30'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "6pd54flxcgti0aqbzf0s04c2c",
                     "name": "Independencia",
                     "logo": "https:\/\/live-football-api.com\/teams\/6pd54flxcgti0aqbzf0s04c2c.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "7znr4pkrb02ugto2vkfjpnspg",
                     "name": "Tricolor",
                     "logo": "https:\/\/live-football-api.com\/teams\/7znr4pkrb02ugto2vkfjpnspg.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4088,7 +4088,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4102,11 +4102,11 @@
                     "id": "b4iesl9xvgjqfvdxkyj2o6c16",
                     "name": "América",
                     "logo": "https:\/\/live-football-api.com\/teams\/b4iesl9xvgjqfvdxkyj2o6c16.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4227,5 +4227,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 23:03:49"
+    "timestamp": "2026-09-28 23:36:32"
 }
