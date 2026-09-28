@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 406,
+    "credits_remaining": 404,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -1451,6 +1451,43 @@
                 }
             },
             {
+                "id": "96hdivr1jq41xmbrglntpf5ec",
+                "league": {
+                    "id": "6c8i3dxxtqhhxw6eacylplt73",
+                    "name": "QSL Cup",
+                    "country": "Qatar"
+                },
+                "week": null,
+                "kickoff": "15:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "15:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "av9qqoh6iuwon6ib6v0bmejlk",
+                    "name": "Kharitiyath",
+                    "logo": "https:\/\/live-football-api.com\/teams\/av9qqoh6iuwon6ib6v0bmejlk.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "c392huxdsfk82c1mvvt2mze6q",
+                    "name": "Al Wakrah",
+                    "logo": "https:\/\/live-football-api.com\/teams\/c392huxdsfk82c1mvvt2mze6q.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "8vq5nvvrrdxto4hqu36x1jhuc",
                 "league": {
                     "id": "ac42gi3penartj88fe9l6plpk",
@@ -2215,6 +2252,43 @@
                     "id": "bysx5682cx93z7yvefajzdban",
                     "name": "Al Rayyan",
                     "logo": "https:\/\/live-football-api.com\/teams\/bysx5682cx93z7yvefajzdban.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "96slgfqdfvz2n9hs2dskotb84",
+                "league": {
+                    "id": "6c8i3dxxtqhhxw6eacylplt73",
+                    "name": "QSL Cup",
+                    "country": "Qatar"
+                },
+                "week": null,
+                "kickoff": "17:15",
+                "status": {
+                    "status": "scheduled",
+                    "display": "17:15",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "cwpjyxfnrkd8q4anxjbhqff5g",
+                    "name": "Shahaniya",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cwpjyxfnrkd8q4anxjbhqff5g.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ctuq9a387eg99hp686ml1oapc",
+                    "name": "AL Duhail",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ctuq9a387eg99hp686ml1oapc.png",
                     "score": null
                 },
                 "halftime": {
@@ -4301,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 06:45:36"
+    "timestamp": "2026-09-28 07:06:55"
 }
