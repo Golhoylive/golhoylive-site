@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 416,
+    "credits_remaining": 414,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -536,7 +536,7 @@
                 "kickoff": "03:10",
                 "status": {
                     "status": "live",
-                    "display": "45 +9'",
+                    "display": "60'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -550,11 +550,11 @@
                     "id": "eu8c408f59yx7egaqossbv25e",
                     "name": "Club America",
                     "logo": "https:\/\/live-football-api.com\/teams\/eu8c408f59yx7egaqossbv25e.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 2,
-                    "away": 1
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 04:04:49"
+    "timestamp": "2026-09-28 04:39:57"
 }
