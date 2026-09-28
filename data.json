@@ -1,49 +1,12 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 402,
+    "credits_remaining": 400,
     "data": {
         "date": "2026-09-28",
         "language": "en",
         "timezone": "UTC",
         "matches": [
-            {
-                "id": "7u1dliww5u0d13vg9q2r932tw",
-                "league": {
-                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
-                    "name": "Club Friendly",
-                    "country": "World"
-                },
-                "week": "Regular Season",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "8jw3s68b9lil5xcgjvbcmrgc2",
-                    "name": "Jagiellonia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8jw3s68b9lil5xcgjvbcmrgc2.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "2u2qoroat2qxz5tupc3ide2ou",
-                    "name": "Sūduva",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2u2qoroat2qxz5tupc3ide2ou.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
             {
                 "id": "1wpjm25v2o37m8vl38fylqh3o",
                 "league": {
@@ -4412,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 07:38:59"
+    "timestamp": "2026-09-28 08:06:18"
 }
