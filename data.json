@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 358,
+    "credits_remaining": 356,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -1978,10 +1978,10 @@
                 "week": "21",
                 "kickoff": "17:00",
                 "status": {
-                    "status": "live",
-                    "display": "69'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "96xacv0bz1yccdtr5sdae3dxn",
@@ -1993,7 +1993,7 @@
                     "id": "5s4mws5crlcqzszxez5lmpyui",
                     "name": "Hinna",
                     "logo": "https:\/\/live-football-api.com\/teams\/5s4mws5crlcqzszxez5lmpyui.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "halftime": {
                     "home": 2,
@@ -2015,16 +2015,16 @@
                 "week": "8",
                 "kickoff": "17:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "5fwvqtgrlhxe4biydirn63d90",
                     "name": "Rudar",
                     "logo": "https:\/\/live-football-api.com\/teams\/5fwvqtgrlhxe4biydirn63d90.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "6ge2ol0frf7toik5rwpela191",
@@ -2053,7 +2053,7 @@
                 "kickoff": "17:15",
                 "status": {
                     "status": "live",
-                    "display": "61'",
+                    "display": "85'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2067,7 +2067,7 @@
                     "id": "bysx5682cx93z7yvefajzdban",
                     "name": "Al Rayyan",
                     "logo": "https:\/\/live-football-api.com\/teams\/bysx5682cx93z7yvefajzdban.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -2090,7 +2090,7 @@
                 "kickoff": "17:15",
                 "status": {
                     "status": "live",
-                    "display": "66'",
+                    "display": "90'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2104,7 +2104,7 @@
                     "id": "ctuq9a387eg99hp686ml1oapc",
                     "name": "AL Duhail",
                     "logo": "https:\/\/live-football-api.com\/teams\/ctuq9a387eg99hp686ml1oapc.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 0,
@@ -2127,7 +2127,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "40'",
+                    "display": "49'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2164,7 +2164,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "40'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2201,7 +2201,7 @@
                 "kickoff": "18:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2209,7 +2209,7 @@
                     "id": "p08xod9r3iiof8ov66dmucrf",
                     "name": "Loznica",
                     "logo": "https:\/\/live-football-api.com\/teams\/p08xod9r3iiof8ov66dmucrf.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "e8wfdw7ttr59p4afuqctv3nad",
@@ -2218,7 +2218,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2238,7 +2238,7 @@
                 "kickoff": "18:30",
                 "status": {
                     "status": "live",
-                    "display": "10'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2252,11 +2252,11 @@
                     "id": "5ziakdomggtzs5xqnb50jpi5o",
                     "name": "Castellón",
                     "logo": "https:\/\/live-football-api.com\/teams\/5ziakdomggtzs5xqnb50jpi5o.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2274,26 +2274,26 @@
                 "week": "2",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "13'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "pfvmhackqyhhk02majd2tb8l",
                     "name": "Belgium",
                     "logo": "https:\/\/live-football-api.com\/teams\/pfvmhackqyhhk02majd2tb8l.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "4pz87gsel7183b7kcadw1dwzv",
                     "name": "France",
                     "logo": "https:\/\/live-football-api.com\/teams\/4pz87gsel7183b7kcadw1dwzv.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2311,26 +2311,26 @@
                 "week": "2",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "18'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "9s2kpeunkes0g17l95r3t91j6",
                     "name": "Türkiye",
                     "logo": "https:\/\/live-football-api.com\/teams\/9s2kpeunkes0g17l95r3t91j6.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "eks08q2vbr45w563zrctsl5xo",
                     "name": "Italy",
                     "logo": "https:\/\/live-football-api.com\/teams\/eks08q2vbr45w563zrctsl5xo.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2348,26 +2348,26 @@
                 "week": "2",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "18'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "awn64nh0odux22yj90jcxwklg",
                     "name": "N. Ireland",
                     "logo": "https:\/\/live-football-api.com\/teams\/awn64nh0odux22yj90jcxwklg.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "ajqq56th1sg5f7kcx9yon9z6x",
                     "name": "Hungary",
                     "logo": "https:\/\/live-football-api.com\/teams\/ajqq56th1sg5f7kcx9yon9z6x.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2385,26 +2385,26 @@
                 "week": "2",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "19'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "1qiyr1mknujsl19tb9u2w9h3n",
                     "name": "Romania",
                     "logo": "https:\/\/live-football-api.com\/teams\/1qiyr1mknujsl19tb9u2w9h3n.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "o5iztj2zl6b0v6ed9q5m7p1k",
                     "name": "Bosnia",
                     "logo": "https:\/\/live-football-api.com\/teams\/o5iztj2zl6b0v6ed9q5m7p1k.png",
-                    "score": null
+                    "score": "2"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2422,26 +2422,26 @@
                 "week": "2",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "19'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "4w1ktgu1nbbgqfe3ssbb4fg5v",
                     "name": "Sweden",
                     "logo": "https:\/\/live-football-api.com\/teams\/4w1ktgu1nbbgqfe3ssbb4fg5v.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "ba25ib8pofxr85hkbs8lt7kw7",
                     "name": "Poland",
                     "logo": "https:\/\/live-football-api.com\/teams\/ba25ib8pofxr85hkbs8lt7kw7.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2459,26 +2459,26 @@
                 "week": "5",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "17'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "btvljckjjeed5ppiri2amgfvu",
                     "name": "Punjab Utd",
                     "logo": "https:\/\/live-football-api.com\/teams\/btvljckjjeed5ppiri2amgfvu.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "a738ngzw37oractzrf2j8zz6x",
                     "name": "Croydon Ath.",
                     "logo": "https:\/\/live-football-api.com\/teams\/a738ngzw37oractzrf2j8zz6x.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2496,26 +2496,26 @@
                 "week": "12",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "18'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "7z92ud9awkr44qvfemat23sy4",
                     "name": "Coleshill",
                     "logo": "https:\/\/live-football-api.com\/teams\/7z92ud9awkr44qvfemat23sy4.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "5nlxygj6phcjb2a1jhn4s8txm",
                     "name": "Belper",
                     "logo": "https:\/\/live-football-api.com\/teams\/5nlxygj6phcjb2a1jhn4s8txm.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2533,26 +2533,26 @@
                 "week": "12",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "19'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dkeyuef7yja5pp8rds3cemdq8",
                     "name": "St Ives",
                     "logo": "https:\/\/live-football-api.com\/teams\/dkeyuef7yja5pp8rds3cemdq8.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "azj9hlcibit8olwxmpr3xa6iz",
                     "name": "Nuneaton",
                     "logo": "https:\/\/live-football-api.com\/teams\/azj9hlcibit8olwxmpr3xa6iz.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2570,26 +2570,26 @@
                 "week": "8",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "scheduled",
-                    "display": "18:45",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "17'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "awm80yjbcj7zkwcdmxf7ba6u3",
                     "name": "Biggleswade",
                     "logo": "https:\/\/live-football-api.com\/teams\/awm80yjbcj7zkwcdmxf7ba6u3.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "267blrln26bu9p9lqvsvzscis",
                     "name": "Hertford",
                     "logo": "https:\/\/live-football-api.com\/teams\/267blrln26bu9p9lqvsvzscis.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2607,26 +2607,26 @@
                 "week": "2",
                 "kickoff": "19:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "19:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "ctp7ovvf34m7fzshua9ogbr6i",
                     "name": "Tunisia",
                     "logo": "https:\/\/live-football-api.com\/teams\/ctp7ovvf34m7fzshua9ogbr6i.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "7wkvdl4pc28z7pjutt7g20fy1",
                     "name": "Botswana",
                     "logo": "https:\/\/live-football-api.com\/teams\/7wkvdl4pc28z7pjutt7g20fy1.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2644,26 +2644,26 @@
                 "week": "League B",
                 "kickoff": "19:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "19:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "42pfckeuruxqitnr7kxd9436x",
                     "name": "Guadeloupe",
                     "logo": "https:\/\/live-football-api.com\/teams\/42pfckeuruxqitnr7kxd9436x.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "6raiahlhb99i9rzr6sj4nm7qh",
                     "name": "Barbados",
                     "logo": "https:\/\/live-football-api.com\/teams\/6raiahlhb99i9rzr6sj4nm7qh.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4190,5 +4190,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 18:41:40"
+    "timestamp": "2026-09-28 19:05:20"
 }
