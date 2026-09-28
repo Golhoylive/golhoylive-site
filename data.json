@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 396,
+    "credits_remaining": 394,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -573,7 +573,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -587,11 +587,11 @@
                     "id": "74ynk4uncrxfgkb212b13i8cd",
                     "name": "Ireland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/74ynk4uncrxfgkb212b13i8cd.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -609,26 +609,26 @@
                 "week": "Friendlies 2",
                 "kickoff": "09:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "09:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "7'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "d04215agawywn6ytau41suzki",
                     "name": "Kazakhstan U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/d04215agawywn6ytau41suzki.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "dytxwkmkvhz1jx9siwxg7c1l7",
                     "name": "Switzerland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/dytxwkmkvhz1jx9siwxg7c1l7.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 09:05:46"
+    "timestamp": "2026-09-28 09:39:28"
 }
