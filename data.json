@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 344,
+    "credits_remaining": 342,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -2792,22 +2792,22 @@
                 "week": "11",
                 "kickoff": "20:30",
                 "status": {
-                    "status": "live",
-                    "display": "73'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "new6avhmf5e9437ojzcnq8t0",
                     "name": "Independiente",
                     "logo": "https:\/\/live-football-api.com\/teams\/new6avhmf5e9437ojzcnq8t0.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "away": {
                     "id": "2lwrtp1tqpv9e1mds2ulp39vv",
                     "name": "Orsomarso",
                     "logo": "https:\/\/live-football-api.com\/teams\/2lwrtp1tqpv9e1mds2ulp39vv.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 1,
@@ -2830,7 +2830,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2838,7 +2838,7 @@
                     "id": "m49kr6rapkqh6zbqdm01w3sj",
                     "name": "Cuba",
                     "logo": "https:\/\/live-football-api.com\/teams\/m49kr6rapkqh6zbqdm01w3sj.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "8tjgp47v3kqgyyfo8tvo55av7",
@@ -2978,7 +2978,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "74'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3311,7 +3311,7 @@
                 "kickoff": "21:45",
                 "status": {
                     "status": "live",
-                    "display": "17'",
+                    "display": "45 +3'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3348,7 +3348,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3459,7 +3459,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -3467,17 +3467,17 @@
                     "id": "bq74omcibmi1qjznen2lui1q0",
                     "name": "Paysandú",
                     "logo": "https:\/\/live-football-api.com\/teams\/bq74omcibmi1qjznen2lui1q0.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "a7zmnd3kr3xlqmjva6r5wt9k8",
                     "name": "Tacuarembó",
                     "logo": "https:\/\/live-football-api.com\/teams\/a7zmnd3kr3xlqmjva6r5wt9k8.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3532,63 +3532,26 @@
                 "week": "12",
                 "kickoff": "22:15",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:15",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "19'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "984ibdjplnlwb36kt6wbgwe97",
                     "name": "Libertad",
                     "logo": "https:\/\/live-football-api.com\/teams\/984ibdjplnlwb36kt6wbgwe97.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "ajjzd6ex2rqp70mwh5by9wdfb",
                     "name": "Olimpia",
                     "logo": "https:\/\/live-football-api.com\/teams\/ajjzd6ex2rqp70mwh5by9wdfb.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "b3wt4dsgaceivch1q9y3qzaj8",
-                "league": {
-                    "id": "6qitd9h242qkvjenaytfdnsf2",
-                    "name": "Division Intermedia",
-                    "country": "Paraguay"
-                },
-                "week": "26",
-                "kickoff": "22:15",
-                "status": {
-                    "status": "scheduled",
-                    "display": "22:15",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "565kbfxjhrxrn30ihh3x9iwa1",
-                    "name": "Guaireña",
-                    "logo": "https:\/\/live-football-api.com\/teams\/565kbfxjhrxrn30ihh3x9iwa1.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "efr1t05qe0waca9nnctacl3no",
-                    "name": "Fernando Mora",
-                    "logo": "https:\/\/live-football-api.com\/teams\/efr1t05qe0waca9nnctacl3no.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3606,26 +3569,26 @@
                 "week": "30",
                 "kickoff": "22:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "d0tpuy1w8ckf8iiea01t1aob5",
                     "name": "América MG",
                     "logo": "https:\/\/live-football-api.com\/teams\/d0tpuy1w8ckf8iiea01t1aob5.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "7avb9meepw828qkp0tiugzd1b",
                     "name": "Juventude",
                     "logo": "https:\/\/live-football-api.com\/teams\/7avb9meepw828qkp0tiugzd1b.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4115,6 +4078,43 @@
                 }
             },
             {
+                "id": "cr40sk0w0cigxgxecwet6sv10",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "23:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "7jk6uz0an69dx9iw8vy67vjai",
+                    "name": "León",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7jk6uz0an69dx9iw8vy67vjai.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "b4iesl9xvgjqfvdxkyj2o6c16",
+                    "name": "América",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b4iesl9xvgjqfvdxkyj2o6c16.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "6ky80vuwl96c0rgco76a3slck",
                 "league": {
                     "id": "2ty8ihceabty8yddmu31iuuej",
@@ -4227,5 +4227,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 22:04:00"
+    "timestamp": "2026-09-28 22:35:46"
 }
