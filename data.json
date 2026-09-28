@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 424,
+    "credits_remaining": 422,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -239,10 +239,10 @@
                 "week": "31",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +3'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "cfoocd4w2b1dia1gmaelkt13o",
@@ -276,10 +276,10 @@
                 "week": "Apertura",
                 "kickoff": "00:06",
                 "status": {
-                    "status": "live",
-                    "display": "90 +4'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6yfdc2frjgibkax4c2uf2hbhm",
@@ -314,7 +314,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -351,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -365,7 +365,7 @@
                     "id": "2uq1ocokdg5b95fmc6m7sp6md",
                     "name": "Dominican Rep",
                     "logo": "https:\/\/live-football-api.com\/teams\/2uq1ocokdg5b95fmc6m7sp6md.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -462,7 +462,7 @@
                 "kickoff": "01:10",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "68'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -470,7 +470,7 @@
                     "id": "dmixnuqy63yn1wgkobi9ie5sc",
                     "name": "Cali",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmixnuqy63yn1wgkobi9ie5sc.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "64zckvniro8jjvyzul0dfjj0j",
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 02:04:05"
+    "timestamp": "2026-09-28 02:38:37"
 }
