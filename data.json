@@ -1,12 +1,49 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 404,
+    "credits_remaining": 402,
     "data": {
         "date": "2026-09-28",
         "language": "en",
         "timezone": "UTC",
         "matches": [
+            {
+                "id": "7u1dliww5u0d13vg9q2r932tw",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": "Regular Season",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "00:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "8jw3s68b9lil5xcgjvbcmrgc2",
+                    "name": "Jagiellonia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8jw3s68b9lil5xcgjvbcmrgc2.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "2u2qoroat2qxz5tupc3ide2ou",
+                    "name": "Sūduva",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2u2qoroat2qxz5tupc3ide2ou.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
             {
                 "id": "1wpjm25v2o37m8vl38fylqh3o",
                 "league": {
@@ -2644,10 +2681,10 @@
                 "week": "5",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
+                    "status": "scheduled",
+                    "display": "18:45",
                     "is_live": false,
-                    "state": "postponed"
+                    "state": "preGame"
                 },
                 "home": {
                     "id": "btvljckjjeed5ppiri2amgfvu",
@@ -2857,43 +2894,6 @@
                 }
             },
             {
-                "id": "5aa7ywrv7i3cozj5pps76vml0",
-                "league": {
-                    "id": "5y0z0l2epprzbscvzsgldw8vu",
-                    "name": "Division Profesional",
-                    "country": "Paraguay"
-                },
-                "week": "12",
-                "kickoff": "19:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "19:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "t71on2dbrfyknxq990h6l0dc",
-                    "name": "San Lorenzo",
-                    "logo": "https:\/\/live-football-api.com\/teams\/t71on2dbrfyknxq990h6l0dc.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "24h1lehk43heu9nkp3p7co76y",
-                    "name": "Dep.Recoleta",
-                    "logo": "https:\/\/live-football-api.com\/teams\/24h1lehk43heu9nkp3p7co76y.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "b3nd0lwu13e0c9jzwn3enk8b8",
                 "league": {
                     "id": "6qitd9h242qkvjenaytfdnsf2",
@@ -2918,6 +2918,43 @@
                     "id": "1j1cw62js98t7l56oj7h06lg4",
                     "name": "Paraguarí",
                     "logo": "https:\/\/live-football-api.com\/teams\/1j1cw62js98t7l56oj7h06lg4.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5aa7ywrv7i3cozj5pps76vml0",
+                "league": {
+                    "id": "5y0z0l2epprzbscvzsgldw8vu",
+                    "name": "Division Profesional",
+                    "country": "Paraguay"
+                },
+                "week": "12",
+                "kickoff": "20:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "20:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "t71on2dbrfyknxq990h6l0dc",
+                    "name": "San Lorenzo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/t71on2dbrfyknxq990h6l0dc.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "24h1lehk43heu9nkp3p7co76y",
+                    "name": "Dep.Recoleta",
+                    "logo": "https:\/\/live-football-api.com\/teams\/24h1lehk43heu9nkp3p7co76y.png",
                     "score": null
                 },
                 "halftime": {
@@ -3523,43 +3560,6 @@
                 }
             },
             {
-                "id": "5alzjynn9irsic5yo4l1fof84",
-                "league": {
-                    "id": "5y0z0l2epprzbscvzsgldw8vu",
-                    "name": "Division Profesional",
-                    "country": "Paraguay"
-                },
-                "week": "12",
-                "kickoff": "22:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "984ibdjplnlwb36kt6wbgwe97",
-                    "name": "Libertad",
-                    "logo": "https:\/\/live-football-api.com\/teams\/984ibdjplnlwb36kt6wbgwe97.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "ajjzd6ex2rqp70mwh5by9wdfb",
-                    "name": "Olimpia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/ajjzd6ex2rqp70mwh5by9wdfb.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "2nyqc8wfdb4lwj0st4jij9zbo",
                 "league": {
                     "id": "by5nibd18nkt40t0j8a0j5yzx",
@@ -3737,6 +3737,43 @@
                 "halftime": {
                     "home": 1,
                     "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5alzjynn9irsic5yo4l1fof84",
+                "league": {
+                    "id": "5y0z0l2epprzbscvzsgldw8vu",
+                    "name": "Division Profesional",
+                    "country": "Paraguay"
+                },
+                "week": "12",
+                "kickoff": "22:15",
+                "status": {
+                    "status": "scheduled",
+                    "display": "22:15",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "984ibdjplnlwb36kt6wbgwe97",
+                    "name": "Libertad",
+                    "logo": "https:\/\/live-football-api.com\/teams\/984ibdjplnlwb36kt6wbgwe97.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ajjzd6ex2rqp70mwh5by9wdfb",
+                    "name": "Olimpia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ajjzd6ex2rqp70mwh5by9wdfb.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4412,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 07:06:55"
+    "timestamp": "2026-09-28 07:38:59"
 }
