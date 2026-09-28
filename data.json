@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 392,
+    "credits_remaining": 390,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -573,7 +573,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -587,7 +587,7 @@
                     "id": "74ynk4uncrxfgkb212b13i8cd",
                     "name": "Ireland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/74ynk4uncrxfgkb212b13i8cd.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "halftime": {
                     "home": 0,
@@ -610,7 +610,7 @@
                 "kickoff": "09:30",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "50'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -646,26 +646,26 @@
                 "week": "Friendlies 1",
                 "kickoff": "10:25",
                 "status": {
-                    "status": "scheduled",
-                    "display": "10:25",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "9'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "6duaxcbrofil112qfq4v895go",
                     "name": "Japan",
                     "logo": "https:\/\/live-football-api.com\/teams\/6duaxcbrofil112qfq4v895go.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "2pguid8qwn158n8a58waenbbq",
                     "name": "Venezuela",
                     "logo": "https:\/\/live-football-api.com\/teams\/2pguid8qwn158n8a58waenbbq.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 10:05:56"
+    "timestamp": "2026-09-28 10:38:21"
 }
