@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 418,
+    "credits_remaining": 416,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -536,7 +536,7 @@
                 "kickoff": "03:10",
                 "status": {
                     "status": "live",
-                    "display": "29'",
+                    "display": "45 +9'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -544,17 +544,17 @@
                     "id": "b7hn6knkuxbpj1i8rmzapns7b",
                     "name": "Necaxa",
                     "logo": "https:\/\/live-football-api.com\/teams\/b7hn6knkuxbpj1i8rmzapns7b.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "eu8c408f59yx7egaqossbv25e",
                     "name": "Club America",
                     "logo": "https:\/\/live-football-api.com\/teams\/eu8c408f59yx7egaqossbv25e.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 2,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 03:39:45"
+    "timestamp": "2026-09-28 04:04:49"
 }
