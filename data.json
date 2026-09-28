@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 384,
+    "credits_remaining": 382,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -646,16 +646,16 @@
                 "week": "Friendlies 1",
                 "kickoff": "10:25",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6duaxcbrofil112qfq4v895go",
                     "name": "Japan",
                     "logo": "https:\/\/live-football-api.com\/teams\/6duaxcbrofil112qfq4v895go.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "2pguid8qwn158n8a58waenbbq",
@@ -684,7 +684,7 @@
                 "kickoff": "11:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -692,13 +692,13 @@
                     "id": "1yghbv1c71b37eenutbwnvvq",
                     "name": "Korea Rep",
                     "logo": "https:\/\/live-football-api.com\/teams\/1yghbv1c71b37eenutbwnvvq.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "9l06impjllgop0gte8fldb4zo",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/9l06impjllgop0gte8fldb4zo.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "halftime": {
                     "home": 0,
@@ -721,7 +721,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "42'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -758,7 +758,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "44'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -772,6 +772,43 @@
                     "id": "5xgzlpddn7q960cvdm04ps2s4",
                     "name": "Kenya Police",
                     "logo": "https:\/\/live-football-api.com\/teams\/5xgzlpddn7q960cvdm04ps2s4.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "3aomhvnx0b950q1bg281a87is",
+                "league": {
+                    "id": "6d53ah0e3f758zgt3wz4py4us",
+                    "name": "FIFA ASEAN Cup",
+                    "country": "Asia"
+                },
+                "week": "Premier Division",
+                "kickoff": "12:30",
+                "status": {
+                    "status": "live",
+                    "display": "11'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "8uf757jcrrtlck83hpk9rytaz",
+                    "name": "Malaysia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8uf757jcrrtlck83hpk9rytaz.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "3oht9gs0l91fikms2798i8c35",
+                    "name": "Indonesia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3oht9gs0l91fikms2798i8c35.png",
                     "score": "0"
                 },
                 "halftime": {
@@ -1253,6 +1290,80 @@
                     "id": "e5r4m3srz10xkb69usd1ikycp",
                     "name": "Olimpija",
                     "logo": "https:\/\/live-football-api.com\/teams\/e5r4m3srz10xkb69usd1ikycp.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "d5megyhsq8pbykr0hke4cqe50",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "14:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "14:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "1y5ooown9ujzmle1e5vijxgi1",
+                    "name": "Qatar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1y5ooown9ujzmle1e5vijxgi1.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "atpverdafszrg9lsn63yn8uop",
+                    "name": "Azerbaijan U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/atpverdafszrg9lsn63yn8uop.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5pvtmgg838tje2ztbfepnq80k",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "14:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "14:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "167d4rmqo4d3ayzxrptijc50x",
+                    "name": "UAE",
+                    "logo": "https:\/\/live-football-api.com\/teams\/167d4rmqo4d3ayzxrptijc50x.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ew52nzduws24vdubuwoxbt6l2",
+                    "name": "Slovenia U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ew52nzduws24vdubuwoxbt6l2.png",
                     "score": null
                 },
                 "halftime": {
@@ -4375,5 +4486,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 12:04:59"
+    "timestamp": "2026-09-28 12:44:29"
 }
