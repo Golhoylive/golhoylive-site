@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 412,
+    "credits_remaining": 410,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -535,10 +535,10 @@
                 "week": "10",
                 "kickoff": "03:10",
                 "status": {
-                    "status": "live",
-                    "display": "84'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "b7hn6knkuxbpj1i8rmzapns7b",
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 05:04:35"
+    "timestamp": "2026-09-28 05:38:22"
 }
