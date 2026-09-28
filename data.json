@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 364,
+    "credits_remaining": 362,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -1423,10 +1423,10 @@
                 "week": "2",
                 "kickoff": "15:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +7'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "3ud8malwsr3du6abuio56ks9g",
@@ -1498,7 +1498,7 @@
                 "kickoff": "15:30",
                 "status": {
                     "status": "live",
-                    "display": "67'",
+                    "display": "90 +8'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1506,7 +1506,7 @@
                     "id": "bsk4ffenpmqy0ia8u2a01kgvm",
                     "name": "Pars Jam",
                     "logo": "https:\/\/live-football-api.com\/teams\/bsk4ffenpmqy0ia8u2a01kgvm.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "7zwvzborw2mf2yh9339bs5djh",
@@ -1572,7 +1572,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "74'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1609,7 +1609,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1617,7 +1617,7 @@
                     "id": "1qknuit4o4zs1xzthrd1pd4ax",
                     "name": "Armenia",
                     "logo": "https:\/\/live-football-api.com\/teams\/1qknuit4o4zs1xzthrd1pd4ax.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "6agojcuvg4c9fkcm2gpfiiahd",
@@ -1646,7 +1646,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1683,7 +1683,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1720,7 +1720,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "68'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1757,7 +1757,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "75'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1771,7 +1771,7 @@
                     "id": "etmdes5ggjhtxte8v8ceiwbio",
                     "name": "Burkina Faso",
                     "logo": "https:\/\/live-football-api.com\/teams\/etmdes5ggjhtxte8v8ceiwbio.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -1794,7 +1794,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1802,7 +1802,7 @@
                     "id": "8j5t166ehedg5j7cule0gvctw",
                     "name": "Brazil U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/8j5t166ehedg5j7cule0gvctw.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "away": {
                     "id": "8kxaosk8rue53erf9wgxayd3p",
@@ -1831,7 +1831,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1868,7 +1868,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1905,7 +1905,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1913,7 +1913,7 @@
                     "id": "eztokymjlymyrnlnyqiu4hfro",
                     "name": "Proleter 023",
                     "logo": "https:\/\/live-football-api.com\/teams\/eztokymjlymyrnlnyqiu4hfro.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "daa2roah2k4uc41yqiwzb6f17",
@@ -1942,7 +1942,7 @@
                 "kickoff": "16:30",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1979,7 +1979,7 @@
                 "kickoff": "17:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2016,7 +2016,7 @@
                 "kickoff": "17:00",
                 "status": {
                     "status": "live",
-                    "display": "1'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2024,7 +2024,7 @@
                     "id": "5fwvqtgrlhxe4biydirn63d90",
                     "name": "Rudar",
                     "logo": "https:\/\/live-football-api.com\/teams\/5fwvqtgrlhxe4biydirn63d90.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "6ge2ol0frf7toik5rwpela191",
@@ -2033,7 +2033,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2052,26 +2052,26 @@
                 "week": "2",
                 "kickoff": "17:15",
                 "status": {
-                    "status": "scheduled",
-                    "display": "17:15",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "19'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "f02vvvnk96ayu9y7qubrjwqcv",
                     "name": "Sailiya",
                     "logo": "https:\/\/live-football-api.com\/teams\/f02vvvnk96ayu9y7qubrjwqcv.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "bysx5682cx93z7yvefajzdban",
                     "name": "Al Rayyan",
                     "logo": "https:\/\/live-football-api.com\/teams\/bysx5682cx93z7yvefajzdban.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2089,26 +2089,26 @@
                 "week": null,
                 "kickoff": "17:15",
                 "status": {
-                    "status": "scheduled",
-                    "display": "17:15",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "21'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "cwpjyxfnrkd8q4anxjbhqff5g",
                     "name": "Shahaniya",
                     "logo": "https:\/\/live-football-api.com\/teams\/cwpjyxfnrkd8q4anxjbhqff5g.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "ctuq9a387eg99hp686ml1oapc",
                     "name": "AL Duhail",
                     "logo": "https:\/\/live-football-api.com\/teams\/ctuq9a387eg99hp686ml1oapc.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4190,5 +4190,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 17:05:16"
+    "timestamp": "2026-09-28 17:37:28"
 }
