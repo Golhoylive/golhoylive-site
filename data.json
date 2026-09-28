@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 386,
+    "credits_remaining": 384,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "10:25",
                 "status": {
                     "status": "live",
-                    "display": "54'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -684,7 +684,7 @@
                 "kickoff": "11:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -698,48 +698,11 @@
                     "id": "9l06impjllgop0gte8fldb4zo",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/9l06impjllgop0gte8fldb4zo.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 2
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "bgzhiznmm1vcz87s4mqwws4k4",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 3",
-                "kickoff": "12:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "e7vve982llc39mjl6w4mg25oh",
-                    "name": "Tajikistan",
-                    "logo": "https:\/\/live-football-api.com\/teams\/e7vve982llc39mjl6w4mg25oh.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "9277i8bnnubzxh74pgxwkjkjv",
-                    "name": "Palestine",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9277i8bnnubzxh74pgxwkjkjv.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "away": 3
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -757,26 +720,26 @@
                 "week": "1st Round",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "beca9xd0o7ojmcupnmtdo2x9t",
                     "name": "Kenya U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/beca9xd0o7ojmcupnmtdo2x9t.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "3om06pt4yirb2dfjo24vnr664",
                     "name": "Tanzania",
                     "logo": "https:\/\/live-football-api.com\/teams\/3om06pt4yirb2dfjo24vnr664.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -794,26 +757,26 @@
                 "week": "Regular Season",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "agnnbgrdc5l2bljm8399lu6ms",
                     "name": "Zetech",
                     "logo": "https:\/\/live-football-api.com\/teams\/agnnbgrdc5l2bljm8399lu6ms.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "5xgzlpddn7q960cvdm04ps2s4",
                     "name": "Kenya Police",
                     "logo": "https:\/\/live-football-api.com\/teams\/5xgzlpddn7q960cvdm04ps2s4.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4412,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 11:40:09"
+    "timestamp": "2026-09-28 12:04:59"
 }
