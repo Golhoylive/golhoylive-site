@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 398,
+    "credits_remaining": 396,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -572,26 +572,26 @@
                 "week": "Friendlies 2",
                 "kickoff": "09:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "09:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "edh37yqpwpy8628yh53jwku9e",
                     "name": "Faroe Islands U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/edh37yqpwpy8628yh53jwku9e.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "74ynk4uncrxfgkb212b13i8cd",
                     "name": "Ireland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/74ynk4uncrxfgkb212b13i8cd.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 08:39:40"
+    "timestamp": "2026-09-28 09:05:46"
 }
