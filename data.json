@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 382,
+    "credits_remaining": 380,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -683,10 +683,10 @@
                 "week": "Friendlies 1",
                 "kickoff": "11:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "1yghbv1c71b37eenutbwnvvq",
@@ -721,7 +721,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -729,7 +729,7 @@
                     "id": "beca9xd0o7ojmcupnmtdo2x9t",
                     "name": "Kenya U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/beca9xd0o7ojmcupnmtdo2x9t.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "3om06pt4yirb2dfjo24vnr664",
@@ -738,7 +738,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -758,7 +758,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "44'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -795,7 +795,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "11'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -831,26 +831,26 @@
                 "week": "Quarter-finals",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "1'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "etarbtxnk2d2f1rv76hdqsu8k",
                     "name": "Belenense",
                     "logo": "https:\/\/live-football-api.com\/teams\/etarbtxnk2d2f1rv76hdqsu8k.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "wh6bj73izyfheq1vvnqg1ypb",
                     "name": "Gavião",
                     "logo": "https:\/\/live-football-api.com\/teams\/wh6bj73izyfheq1vvnqg1ypb.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -868,26 +868,26 @@
                 "week": "4",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "6k2e9m32yn23o0fn4kzg9jemf",
                     "name": "Kallithea",
                     "logo": "https:\/\/live-football-api.com\/teams\/6k2e9m32yn23o0fn4kzg9jemf.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "1uqm2hibczh12c67krf5o3x1w",
                     "name": "Asteras",
                     "logo": "https:\/\/live-football-api.com\/teams\/1uqm2hibczh12c67krf5o3x1w.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -905,26 +905,26 @@
                 "week": "4",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "79mxf6jbxfhfjo7jpex4b64hm",
                     "name": "Marko",
                     "logo": "https:\/\/live-football-api.com\/teams\/79mxf6jbxfhfjo7jpex4b64hm.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "21z0usjfz2afquuoxqqdr2gz0",
                     "name": "Panthrakikos",
                     "logo": "https:\/\/live-football-api.com\/teams\/21z0usjfz2afquuoxqqdr2gz0.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -942,26 +942,26 @@
                 "week": "11",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "19632ie12uehcbgmd21cudy7z",
                     "name": "Grafičar",
                     "logo": "https:\/\/live-football-api.com\/teams\/19632ie12uehcbgmd21cudy7z.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "47uf7nf60xhf6rsr7kh2dfn33",
                     "name": "Teleoptik",
                     "logo": "https:\/\/live-football-api.com\/teams\/47uf7nf60xhf6rsr7kh2dfn33.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4486,5 +4486,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 12:44:29"
+    "timestamp": "2026-09-28 13:05:39"
 }
