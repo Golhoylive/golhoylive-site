@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 388,
+    "credits_remaining": 386,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -609,10 +609,10 @@
                 "week": "Friendlies 2",
                 "kickoff": "09:30",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "d04215agawywn6ytau41suzki",
@@ -647,7 +647,7 @@
                 "kickoff": "10:25",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "54'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -655,13 +655,13 @@
                     "id": "6duaxcbrofil112qfq4v895go",
                     "name": "Japan",
                     "logo": "https:\/\/live-football-api.com\/teams\/6duaxcbrofil112qfq4v895go.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "2pguid8qwn158n8a58waenbbq",
                     "name": "Venezuela",
                     "logo": "https:\/\/live-football-api.com\/teams\/2pguid8qwn158n8a58waenbbq.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -684,7 +684,7 @@
                 "kickoff": "11:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -698,11 +698,11 @@
                     "id": "9l06impjllgop0gte8fldb4zo",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/9l06impjllgop0gte8fldb4zo.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2894,43 +2894,6 @@
                 }
             },
             {
-                "id": "b3nd0lwu13e0c9jzwn3enk8b8",
-                "league": {
-                    "id": "6qitd9h242qkvjenaytfdnsf2",
-                    "name": "Division Intermedia",
-                    "country": "Paraguay"
-                },
-                "week": "26",
-                "kickoff": "19:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "19:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "8v5tea76k9utwjqpq4u2uetey",
-                    "name": "Tembetary",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8v5tea76k9utwjqpq4u2uetey.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "1j1cw62js98t7l56oj7h06lg4",
-                    "name": "Paraguarí",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1j1cw62js98t7l56oj7h06lg4.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "5aa7ywrv7i3cozj5pps76vml0",
                 "league": {
                     "id": "5y0z0l2epprzbscvzsgldw8vu",
@@ -2955,6 +2918,43 @@
                     "id": "24h1lehk43heu9nkp3p7co76y",
                     "name": "Dep.Recoleta",
                     "logo": "https:\/\/live-football-api.com\/teams\/24h1lehk43heu9nkp3p7co76y.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b3nd0lwu13e0c9jzwn3enk8b8",
+                "league": {
+                    "id": "6qitd9h242qkvjenaytfdnsf2",
+                    "name": "Division Intermedia",
+                    "country": "Paraguay"
+                },
+                "week": "26",
+                "kickoff": "20:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "20:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "8v5tea76k9utwjqpq4u2uetey",
+                    "name": "Tembetary",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8v5tea76k9utwjqpq4u2uetey.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "1j1cw62js98t7l56oj7h06lg4",
+                    "name": "Paraguarí",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1j1cw62js98t7l56oj7h06lg4.png",
                     "score": null
                 },
                 "halftime": {
@@ -3597,43 +3597,6 @@
                 }
             },
             {
-                "id": "b3wt4dsgaceivch1q9y3qzaj8",
-                "league": {
-                    "id": "6qitd9h242qkvjenaytfdnsf2",
-                    "name": "Division Intermedia",
-                    "country": "Paraguay"
-                },
-                "week": "26",
-                "kickoff": "22:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "565kbfxjhrxrn30ihh3x9iwa1",
-                    "name": "Guaireña",
-                    "logo": "https:\/\/live-football-api.com\/teams\/565kbfxjhrxrn30ihh3x9iwa1.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "efr1t05qe0waca9nnctacl3no",
-                    "name": "Fernando Mora",
-                    "logo": "https:\/\/live-football-api.com\/teams\/efr1t05qe0waca9nnctacl3no.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "7019dsp3zm4w02uvpt4nnnzf8",
                 "league": {
                     "id": "a08z7wsz0uqx90wsj33g65fcd",
@@ -3769,6 +3732,43 @@
                     "id": "ajjzd6ex2rqp70mwh5by9wdfb",
                     "name": "Olimpia",
                     "logo": "https:\/\/live-football-api.com\/teams\/ajjzd6ex2rqp70mwh5by9wdfb.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b3wt4dsgaceivch1q9y3qzaj8",
+                "league": {
+                    "id": "6qitd9h242qkvjenaytfdnsf2",
+                    "name": "Division Intermedia",
+                    "country": "Paraguay"
+                },
+                "week": "26",
+                "kickoff": "22:15",
+                "status": {
+                    "status": "scheduled",
+                    "display": "22:15",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "565kbfxjhrxrn30ihh3x9iwa1",
+                    "name": "Guaireña",
+                    "logo": "https:\/\/live-football-api.com\/teams\/565kbfxjhrxrn30ihh3x9iwa1.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "efr1t05qe0waca9nnctacl3no",
+                    "name": "Fernando Mora",
+                    "logo": "https:\/\/live-football-api.com\/teams\/efr1t05qe0waca9nnctacl3no.png",
                     "score": null
                 },
                 "halftime": {
@@ -4412,5 +4412,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 11:04:50"
+    "timestamp": "2026-09-28 11:40:09"
 }
