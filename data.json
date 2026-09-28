@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 428,
+    "credits_remaining": 426,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -55,7 +55,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -69,7 +69,7 @@
                     "id": "8tdrk99ukper6iqqutevwqech",
                     "name": "Nicaragua",
                     "logo": "https:\/\/live-football-api.com\/teams\/8tdrk99ukper6iqqutevwqech.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 5,
@@ -129,7 +129,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -240,7 +240,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "66'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -248,7 +248,7 @@
                     "id": "cfoocd4w2b1dia1gmaelkt13o",
                     "name": "Gimn Jujuy",
                     "logo": "https:\/\/live-football-api.com\/teams\/cfoocd4w2b1dia1gmaelkt13o.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "39yl9nw2nhhulyjssa497c758",
@@ -277,7 +277,7 @@
                 "kickoff": "00:06",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "67'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -285,7 +285,7 @@
                     "id": "6yfdc2frjgibkax4c2uf2hbhm",
                     "name": "Tigres UANL",
                     "logo": "https:\/\/live-football-api.com\/teams\/6yfdc2frjgibkax4c2uf2hbhm.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "723iqtis2afkaq656r7odf7u2",
@@ -313,26 +313,26 @@
                 "week": "10",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "30'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "2ei66pjfsrr6uxqp1bywq31lo",
                     "name": "León",
                     "logo": "https:\/\/live-football-api.com\/teams\/2ei66pjfsrr6uxqp1bywq31lo.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "ecphe4bqgmin2tzsohf50egvd",
                     "name": "Juárez",
                     "logo": "https:\/\/live-football-api.com\/teams\/ecphe4bqgmin2tzsohf50egvd.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -351,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -461,26 +461,26 @@
                 "week": "3",
                 "kickoff": "01:10",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:10",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "25'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dmixnuqy63yn1wgkobi9ie5sc",
                     "name": "Cali",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmixnuqy63yn1wgkobi9ie5sc.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "64zckvniro8jjvyzul0dfjj0j",
                     "name": "Águilas D",
                     "logo": "https:\/\/live-football-api.com\/teams\/64zckvniro8jjvyzul0dfjj0j.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -3828,16 +3828,16 @@
                 "week": "Regular Season",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "84'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "chjb0xe5vlaaguop3q2nbalni",
                     "name": "Columbus",
                     "logo": "https:\/\/live-football-api.com\/teams\/chjb0xe5vlaaguop3q2nbalni.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "7a7uyvix8axi28h7d3bwl4tbe",
@@ -4050,10 +4050,10 @@
                 "week": "Regular Season",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +7'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6ihu2mwc488rjv6ca1mg20wes",
@@ -4161,10 +4161,10 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +5'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "5o90v5td9pb2ywf2dr524w906",
@@ -4272,16 +4272,16 @@
                 "week": "12",
                 "kickoff": "23:05",
                 "status": {
-                    "status": "live",
-                    "display": "90 +7'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "263edk7xyjafv0cfktqymjcmn",
                     "name": "Fortaleza",
                     "logo": "https:\/\/live-football-api.com\/teams\/263edk7xyjafv0cfktqymjcmn.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "epcjkyn8gazuywbotxwikc5kn",
@@ -4310,7 +4310,7 @@
                 "kickoff": "23:30",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "90 +17'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4318,7 +4318,7 @@
                     "id": "a2yy3p6tihu263x73yayp9r3e",
                     "name": "Real Tomayapo",
                     "logo": "https:\/\/live-football-api.com\/teams\/a2yy3p6tihu263x73yayp9r3e.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "36mrl64r74lum5sv99kog874k",
@@ -4346,10 +4346,10 @@
                 "week": "4",
                 "kickoff": "23:30",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "csfume9pcbvcsfyk4r31573f8",
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 01:04:44"
+    "timestamp": "2026-09-28 01:36:45"
 }
