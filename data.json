@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 376,
+    "credits_remaining": 374,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -794,10 +794,10 @@
                 "week": "Premier Division",
                 "kickoff": "12:30",
                 "status": {
-                    "status": "live",
-                    "display": "70'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8uf757jcrrtlck83hpk9rytaz",
@@ -832,7 +832,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "75'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -869,7 +869,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "50'",
+                    "display": "82'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -877,7 +877,7 @@
                     "id": "6k2e9m32yn23o0fn4kzg9jemf",
                     "name": "Kallithea",
                     "logo": "https:\/\/live-football-api.com\/teams\/6k2e9m32yn23o0fn4kzg9jemf.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "1uqm2hibczh12c67krf5o3x1w",
@@ -906,7 +906,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "50'",
+                    "display": "83'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -943,7 +943,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "82'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -951,7 +951,7 @@
                     "id": "19632ie12uehcbgmd21cudy7z",
                     "name": "Grafičar",
                     "logo": "https:\/\/live-football-api.com\/teams\/19632ie12uehcbgmd21cudy7z.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "47uf7nf60xhf6rsr7kh2dfn33",
@@ -980,7 +980,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "50'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1013,11 +1013,11 @@
                     "name": "U19 National Team Friendlies",
                     "country": "World"
                 },
-                "week": null,
+                "week": "Friendlies 1",
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "51'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1031,11 +1031,11 @@
                     "id": "55m6oyfspw0vraflgiksqbcda",
                     "name": "France U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/55m6oyfspw0vraflgiksqbcda.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1054,7 +1054,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1091,7 +1091,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "6'",
+                    "display": "39'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1099,7 +1099,7 @@
                     "id": "4gwmm3ovptdbaso8pglsptjjn",
                     "name": "Kyrgyzstan",
                     "logo": "https:\/\/live-football-api.com\/teams\/4gwmm3ovptdbaso8pglsptjjn.png",
-                    "score": "0"
+                    "score": "4"
                 },
                 "away": {
                     "id": "3odczxzq91h56pjk7k78ywxxk",
@@ -1108,7 +1108,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 4,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1128,7 +1128,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1142,11 +1142,11 @@
                     "id": "9n461dg77730yh83y60lwyc4z",
                     "name": "Russia",
                     "logo": "https:\/\/live-football-api.com\/teams\/9n461dg77730yh83y60lwyc4z.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1165,7 +1165,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "6'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1173,91 +1173,17 @@
                     "id": "dhdcvt2kmnhmlsvywff22des4",
                     "name": "Mura",
                     "logo": "https:\/\/live-football-api.com\/teams\/dhdcvt2kmnhmlsvywff22des4.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "e5r4m3srz10xkb69usd1ikycp",
                     "name": "Olimpija",
                     "logo": "https:\/\/live-football-api.com\/teams\/e5r4m3srz10xkb69usd1ikycp.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "d5megyhsq8pbykr0hke4cqe50",
-                "league": {
-                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
-                    "name": "U19 National Team Friendlies",
-                    "country": "World"
-                },
-                "week": null,
-                "kickoff": "14:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "14:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "1y5ooown9ujzmle1e5vijxgi1",
-                    "name": "Qatar",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1y5ooown9ujzmle1e5vijxgi1.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "atpverdafszrg9lsn63yn8uop",
-                    "name": "Azerbaijan U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/atpverdafszrg9lsn63yn8uop.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "5pvtmgg838tje2ztbfepnq80k",
-                "league": {
-                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
-                    "name": "U19 National Team Friendlies",
-                    "country": "World"
-                },
-                "week": null,
-                "kickoff": "14:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "14:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "167d4rmqo4d3ayzxrptijc50x",
-                    "name": "UAE",
-                    "logo": "https:\/\/live-football-api.com\/teams\/167d4rmqo4d3ayzxrptijc50x.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "ew52nzduws24vdubuwoxbt6l2",
-                    "name": "Slovenia U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/ew52nzduws24vdubuwoxbt6l2.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4338,5 +4264,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 14:06:58"
+    "timestamp": "2026-09-28 14:40:11"
 }
