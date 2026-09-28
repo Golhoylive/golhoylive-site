@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 368,
+    "credits_remaining": 366,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -1202,7 +1202,7 @@
                 "kickoff": "14:40",
                 "status": {
                     "status": "live",
-                    "display": "63'",
+                    "display": "90 +4'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1238,22 +1238,22 @@
                 "week": "2nd Preliminary Round",
                 "kickoff": "14:40",
                 "status": {
-                    "status": "live",
-                    "display": "66'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "a2nlrhh208zh7nr19qqaq89w4",
                     "name": "Ittifaq",
                     "logo": "https:\/\/live-football-api.com\/teams\/a2nlrhh208zh7nr19qqaq89w4.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "7av2o3yj2qyozgrxcl8kr8bol",
                     "name": "Orooba",
                     "logo": "https:\/\/live-football-api.com\/teams\/7av2o3yj2qyozgrxcl8kr8bol.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -1276,7 +1276,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "55'",
+                    "display": "87'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1313,7 +1313,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1327,7 +1327,7 @@
                     "id": "6qomvxa8g7jetm36ccuz7e05d",
                     "name": "Poland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/6qomvxa8g7jetm36ccuz7e05d.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -1350,7 +1350,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1358,7 +1358,7 @@
                     "id": "av9qqoh6iuwon6ib6v0bmejlk",
                     "name": "Kharitiyath",
                     "logo": "https:\/\/live-football-api.com\/teams\/av9qqoh6iuwon6ib6v0bmejlk.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "c392huxdsfk82c1mvvt2mze6q",
@@ -1387,7 +1387,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1424,7 +1424,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "69'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1461,7 +1461,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1469,13 +1469,13 @@
                     "id": "bn3d25k60npudyhn9ppimvgbu",
                     "name": "Leixões U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/bn3d25k60npudyhn9ppimvgbu.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "dh2306e3d9usrz6634l7nzu38",
                     "name": "Vizela U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/dh2306e3d9usrz6634l7nzu38.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -1498,7 +1498,7 @@
                 "kickoff": "15:30",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1506,7 +1506,7 @@
                     "id": "bsk4ffenpmqy0ia8u2a01kgvm",
                     "name": "Pars Jam",
                     "logo": "https:\/\/live-football-api.com\/teams\/bsk4ffenpmqy0ia8u2a01kgvm.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "7zwvzborw2mf2yh9339bs5djh",
@@ -1515,7 +1515,7 @@
                     "score": "1"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 1
                 },
                 "tv_broadcast": false,
@@ -1572,7 +1572,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1609,7 +1609,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1617,17 +1617,17 @@
                     "id": "1qknuit4o4zs1xzthrd1pd4ax",
                     "name": "Armenia",
                     "logo": "https:\/\/live-football-api.com\/teams\/1qknuit4o4zs1xzthrd1pd4ax.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "6agojcuvg4c9fkcm2gpfiiahd",
                     "name": "Montenegro",
                     "logo": "https:\/\/live-football-api.com\/teams\/6agojcuvg4c9fkcm2gpfiiahd.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1646,7 +1646,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1683,7 +1683,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1719,26 +1719,26 @@
                 "week": "2",
                 "kickoff": "16:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "16:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "31'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "clai5b8pxjwlxl6prcg403owt",
                     "name": "Zimbabwe",
                     "logo": "https:\/\/live-football-api.com\/teams\/clai5b8pxjwlxl6prcg403owt.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "dd4ko7d3muqheb54u1s9k39p3",
                     "name": "Congo DR",
                     "logo": "https:\/\/live-football-api.com\/teams\/dd4ko7d3muqheb54u1s9k39p3.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1757,7 +1757,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1794,7 +1794,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1802,17 +1802,17 @@
                     "id": "8j5t166ehedg5j7cule0gvctw",
                     "name": "Brazil U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/8j5t166ehedg5j7cule0gvctw.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "8kxaosk8rue53erf9wgxayd3p",
                     "name": "Denmark U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/8kxaosk8rue53erf9wgxayd3p.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1831,7 +1831,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1839,7 +1839,7 @@
                     "id": "bijdhho4g1gk6nnn01wyrgazf",
                     "name": "Rælingen",
                     "logo": "https:\/\/live-football-api.com\/teams\/bijdhho4g1gk6nnn01wyrgazf.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "dqjclx4mejansg7nm08jvrne0",
@@ -1848,7 +1848,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1868,7 +1868,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1905,7 +1905,7 @@
                 "kickoff": "16:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1913,7 +1913,7 @@
                     "id": "eztokymjlymyrnlnyqiu4hfro",
                     "name": "Proleter 023",
                     "logo": "https:\/\/live-football-api.com\/teams\/eztokymjlymyrnlnyqiu4hfro.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "daa2roah2k4uc41yqiwzb6f17",
@@ -1922,7 +1922,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1941,26 +1941,26 @@
                 "week": "Group Stage",
                 "kickoff": "16:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "16:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "86w4f7sl8i84b12nwfmbwzyy8",
                     "name": "Denmark U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/86w4f7sl8i84b12nwfmbwzyy8.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "bcmdsjf6g7m7f8gei63dqiep3",
                     "name": "Belarus U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/bcmdsjf6g7m7f8gei63dqiep3.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4190,5 +4190,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 16:05:55"
+    "timestamp": "2026-09-28 16:38:35"
 }
