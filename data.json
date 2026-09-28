@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 420,
+    "credits_remaining": 418,
     "data": {
         "date": "2026-09-28",
         "language": "en",
@@ -313,10 +313,10 @@
                 "week": "10",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +9'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "2ei66pjfsrr6uxqp1bywq31lo",
@@ -461,10 +461,10 @@
                 "week": "3",
                 "kickoff": "01:10",
                 "status": {
-                    "status": "live",
-                    "display": "90 +4'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "dmixnuqy63yn1wgkobi9ie5sc",
@@ -535,26 +535,26 @@
                 "week": "10",
                 "kickoff": "03:10",
                 "status": {
-                    "status": "scheduled",
-                    "display": "03:10",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "29'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "b7hn6knkuxbpj1i8rmzapns7b",
                     "name": "Necaxa",
                     "logo": "https:\/\/live-football-api.com\/teams\/b7hn6knkuxbpj1i8rmzapns7b.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "eu8c408f59yx7egaqossbv25e",
                     "name": "Club America",
                     "logo": "https:\/\/live-football-api.com\/teams\/eu8c408f59yx7egaqossbv25e.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4375,5 +4375,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-28 03:04:41"
+    "timestamp": "2026-09-28 03:39:45"
 }
