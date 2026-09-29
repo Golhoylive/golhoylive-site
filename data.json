@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 314,
+    "credits_remaining": 312,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -572,22 +572,22 @@
                 "week": "Friendlies 2",
                 "kickoff": "04:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "1jq0sqj2d8d9bkmrzu0cmw3z7",
                     "name": "PNG",
                     "logo": "https:\/\/live-football-api.com\/teams\/1jq0sqj2d8d9bkmrzu0cmw3z7.png",
-                    "score": "4"
+                    "score": "5"
                 },
                 "away": {
                     "id": "81nvpafz5jaoigxh9acohgrcz",
                     "name": "Solomon Island",
                     "logo": "https:\/\/live-football-api.com\/teams\/81nvpafz5jaoigxh9acohgrcz.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 2,
@@ -609,26 +609,26 @@
                 "week": "Semi-finals",
                 "kickoff": "06:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "06:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "9re1ya6eccwux01glw16zek5j",
                     "name": "Korea DPR",
                     "logo": "https:\/\/live-football-api.com\/teams\/9re1ya6eccwux01glw16zek5j.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "ezuzxwe5qkik8ysahgtqsdl4m",
                     "name": "China PR",
                     "logo": "https:\/\/live-football-api.com\/teams\/ezuzxwe5qkik8ysahgtqsdl4m.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7446,5 +7446,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 05:38:22"
+    "timestamp": "2026-09-29 06:06:09"
 }
