@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 328,
+    "credits_remaining": 326,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -351,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -425,7 +425,7 @@
                 "kickoff": "02:00",
                 "status": {
                     "status": "live",
-                    "display": "2'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -433,7 +433,7 @@
                     "id": "a4wu0pabb2b7r8ik6gs0w1o28",
                     "name": "Guatemala",
                     "logo": "https:\/\/live-football-api.com\/teams\/a4wu0pabb2b7r8ik6gs0w1o28.png",
-                    "score": "0"
+                    "score": "3"
                 },
                 "away": {
                     "id": "avc9qnhswi33ld54pvpp4fmkg",
@@ -442,7 +442,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 3,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -7409,5 +7409,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 02:03:47"
+    "timestamp": "2026-09-29 02:36:42"
 }
