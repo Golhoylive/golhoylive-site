@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 286,
+    "credits_remaining": 284,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -1497,10 +1497,10 @@
                 "week": "12",
                 "kickoff": "11:00",
                 "status": {
-                    "status": "live",
-                    "display": "85'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "b11j675z7qjd7fyk90x3uw74k",
@@ -1534,10 +1534,10 @@
                 "week": "1",
                 "kickoff": "11:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "2z4c0ff064iq7xvjyy95rkems",
@@ -1549,7 +1549,7 @@
                     "id": "dooyqk64mz3ghfxctp3g0crh0",
                     "name": "Felgueiras",
                     "logo": "https:\/\/live-football-api.com\/teams\/dooyqk64mz3ghfxctp3g0crh0.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -1572,7 +1572,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "40'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1609,7 +1609,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "41'",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1646,7 +1646,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1683,7 +1683,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "12'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1720,7 +1720,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "14'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1731,9 +1731,9 @@
                     "score": "1"
                 },
                 "away": {
-                    "id": "7qs5sxpwfnfpdhh6s07gpuahh",
-                    "name": "Philippines",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7qs5sxpwfnfpdhh6s07gpuahh.png",
+                    "id": "a9rijkw11dvpb2ysf1pe3zcqo",
+                    "name": "Vietnam",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a9rijkw11dvpb2ysf1pe3zcqo.png",
                     "score": "0"
                 },
                 "halftime": {
@@ -1756,26 +1756,26 @@
                 "week": "2",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "bplzaz2tyrguww4bwxq357twf",
                     "name": "Lesotho",
                     "logo": "https:\/\/live-football-api.com\/teams\/bplzaz2tyrguww4bwxq357twf.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "avggs3u2b5cu8i1dnzknhth52",
                     "name": "Morocco",
                     "logo": "https:\/\/live-football-api.com\/teams\/avggs3u2b5cu8i1dnzknhth52.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1793,26 +1793,26 @@
                 "week": "2",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "bkk3x0hjwmq0sc0a7hylr5stb",
                     "name": "South Sudan",
                     "logo": "https:\/\/live-football-api.com\/teams\/bkk3x0hjwmq0sc0a7hylr5stb.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "3669sbeijslw88073qlw1cbcp",
                     "name": "Egypt",
                     "logo": "https:\/\/live-football-api.com\/teams\/3669sbeijslw88073qlw1cbcp.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1830,26 +1830,26 @@
                 "week": "2",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "5xzr5deqydtmt56xdfnjo686f",
                     "name": "Burundi",
                     "logo": "https:\/\/live-football-api.com\/teams\/5xzr5deqydtmt56xdfnjo686f.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "cbx8lz7loz866tsoawwrpxyl9",
                     "name": "Algeria",
                     "logo": "https:\/\/live-football-api.com\/teams\/cbx8lz7loz866tsoawwrpxyl9.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1867,26 +1867,26 @@
                 "week": "2",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "4w3emiaky5kkpqo7g4x0mgjhy",
                     "name": "Ethiopia",
                     "logo": "https:\/\/live-football-api.com\/teams\/4w3emiaky5kkpqo7g4x0mgjhy.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "2wk1549tkz80oet8226euj7jp",
                     "name": "Senegal",
                     "logo": "https:\/\/live-football-api.com\/teams\/2wk1549tkz80oet8226euj7jp.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1904,63 +1904,26 @@
                 "week": "2",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "6'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dmpb5utmcl8kzsrpxvom36sov",
                     "name": "Mozambique",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmpb5utmcl8kzsrpxvom36sov.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "86muus29rglv74lr0yn1zp4ni",
                     "name": "Sudan",
                     "logo": "https:\/\/live-football-api.com\/teams\/86muus29rglv74lr0yn1zp4ni.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "941jn3nz3knmac5ghgxpu15w4",
-                "league": {
-                    "id": "19y52cjt9hnne14tc70uqk6p5",
-                    "name": "U18 National Team",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "13:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "a2xgcf493se0y122i788yaprs",
-                    "name": "Hungary U18",
-                    "logo": "https:\/\/live-football-api.com\/teams\/a2xgcf493se0y122i788yaprs.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "65bloh1cso78j2o6bw4vnqyvo",
-                    "name": "Qatar",
-                    "logo": "https:\/\/live-football-api.com\/teams\/65bloh1cso78j2o6bw4vnqyvo.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7705,5 +7668,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 12:44:49"
+    "timestamp": "2026-09-29 13:07:38"
 }
