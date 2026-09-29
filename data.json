@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 330,
+    "credits_remaining": 328,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -91,10 +91,10 @@
                 "week": "League A",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "8yhjl13p7luh3v905btbvz42t",
@@ -128,10 +128,10 @@
                 "week": "League B",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "3lk3jbw7cuvuny690bz0obsp6",
@@ -165,16 +165,16 @@
                 "week": "League B",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6jwullawcerruu29afyok2wgl",
                     "name": "St. Kitts",
                     "logo": "https:\/\/live-football-api.com\/teams\/6jwullawcerruu29afyok2wgl.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "88jwqq14es3obmtaxvj042tnv",
@@ -351,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -359,7 +359,7 @@
                     "id": "bsuay4uc439ywyw9gltxipzp1",
                     "name": "Cariari Pococí",
                     "logo": "https:\/\/live-football-api.com\/teams\/bsuay4uc439ywyw9gltxipzp1.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "5af26xb34z3a1o49zsrcekon9",
@@ -368,7 +368,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -424,26 +424,26 @@
                 "week": "League A",
                 "kickoff": "02:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "02:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "a4wu0pabb2b7r8ik6gs0w1o28",
                     "name": "Guatemala",
                     "logo": "https:\/\/live-football-api.com\/teams\/a4wu0pabb2b7r8ik6gs0w1o28.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "avc9qnhswi33ld54pvpp4fmkg",
                     "name": "El Salvador",
                     "logo": "https:\/\/live-football-api.com\/teams\/avc9qnhswi33ld54pvpp4fmkg.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7409,5 +7409,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 01:36:19"
+    "timestamp": "2026-09-29 02:03:47"
 }
