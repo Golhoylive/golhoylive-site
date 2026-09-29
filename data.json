@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 298,
+    "credits_remaining": 296,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -684,7 +684,7 @@
                 "kickoff": "09:35",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "28'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -692,7 +692,7 @@
                     "id": "cjswvnp4xja7dif9gz2op9r4d",
                     "name": "England U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/cjswvnp4xja7dif9gz2op9r4d.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "5hpwmngudtgits98k5ce2ckjh",
@@ -701,7 +701,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1349,26 +1349,26 @@
                 "week": "Regular Season",
                 "kickoff": "10:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "10:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "9dnph0msa5xipz3vz8tgoeq0x",
                     "name": "Portugal U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/9dnph0msa5xipz3vz8tgoeq0x.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "b9hsrut8ndscelugx60yigof9",
                     "name": "Switzerland U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/b9hsrut8ndscelugx60yigof9.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7705,5 +7705,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 09:39:50"
+    "timestamp": "2026-09-29 10:05:02"
 }
