@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 250,
+    "credits_remaining": 248,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -6233,10 +6233,10 @@
                 "week": "League C",
                 "kickoff": "20:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "75wey07xf5dwm5t76drg6k4k9",
@@ -6271,7 +6271,7 @@
                 "kickoff": "20:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "71'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6285,7 +6285,7 @@
                     "id": "5vtngmqlfpmuntxl9fw683ttc",
                     "name": "Santa Fe",
                     "logo": "https:\/\/live-football-api.com\/teams\/5vtngmqlfpmuntxl9fw683ttc.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -6308,7 +6308,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "37'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6381,26 +6381,26 @@
                 "week": "League B",
                 "kickoff": "21:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "21:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "HT",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "14gc6u4pxcafhhm8pf64hvy3p",
                     "name": "French Guiana",
                     "logo": "https:\/\/live-football-api.com\/teams\/14gc6u4pxcafhhm8pf64hvy3p.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "boop9zthpgh9jhs01ywkvcy8q",
                     "name": "Sint Maarten",
                     "logo": "https:\/\/live-football-api.com\/teams\/boop9zthpgh9jhs01ywkvcy8q.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6456,7 +6456,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6640,26 +6640,26 @@
                 "week": "6",
                 "kickoff": "22:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "22:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "cb4x5832dxmhckrl8ssztjl66",
                     "name": "Real Potosí",
                     "logo": "https:\/\/live-football-api.com\/teams\/cb4x5832dxmhckrl8ssztjl66.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "e9d9hqcad8iq0ujm2g86sscug",
                     "name": "ABB",
                     "logo": "https:\/\/live-football-api.com\/teams\/e9d9hqcad8iq0ujm2g86sscug.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7150,5 +7150,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 21:37:33"
+    "timestamp": "2026-09-29 22:04:10"
 }
