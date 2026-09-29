@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 324,
+    "credits_remaining": 322,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -425,7 +425,7 @@
                 "kickoff": "02:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -433,7 +433,7 @@
                     "id": "a4wu0pabb2b7r8ik6gs0w1o28",
                     "name": "Guatemala",
                     "logo": "https:\/\/live-football-api.com\/teams\/a4wu0pabb2b7r8ik6gs0w1o28.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "avc9qnhswi33ld54pvpp4fmkg",
@@ -7409,5 +7409,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 03:04:21"
+    "timestamp": "2026-09-29 03:39:30"
 }
