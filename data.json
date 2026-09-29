@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 318,
+    "credits_remaining": 316,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -573,7 +573,7 @@
                 "kickoff": "04:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -581,7 +581,7 @@
                     "id": "1jq0sqj2d8d9bkmrzu0cmw3z7",
                     "name": "PNG",
                     "logo": "https:\/\/live-football-api.com\/teams\/1jq0sqj2d8d9bkmrzu0cmw3z7.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "81nvpafz5jaoigxh9acohgrcz",
@@ -590,7 +590,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2049,7 +2049,7 @@
                     "name": "QSL Cup",
                     "country": "Qatar"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -2715,7 +2715,7 @@
                     "name": "QSL Cup",
                     "country": "Qatar"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "17:15",
                 "status": {
                     "status": "scheduled",
@@ -2752,7 +2752,7 @@
                     "name": "QSL Cup",
                     "country": "Qatar"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "17:15",
                 "status": {
                     "status": "scheduled",
@@ -7446,5 +7446,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 04:38:46"
+    "timestamp": "2026-09-29 05:04:26"
 }
