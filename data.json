@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 312,
+    "credits_remaining": 310,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -32,43 +32,6 @@
                     "id": "4etj58jfe5zmfspk9pl7jfzr3",
                     "name": "Chile",
                     "logo": "https:\/\/live-football-api.com\/teams\/4etj58jfe5zmfspk9pl7jfzr3.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "1yzr8xbvs72c8fma9p15w5t04",
-                "league": {
-                    "id": "dvtl8sf1262pd2aqgu641qa7u",
-                    "name": "Friendly International Women",
-                    "country": "World"
-                },
-                "week": "Friendlies 2",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "aqv7lbe4ywmcd4w3x2dwuvr73",
-                    "name": "Botswana",
-                    "logo": "https:\/\/live-football-api.com\/teams\/aqv7lbe4ywmcd4w3x2dwuvr73.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "9ohnphzd1yht2f32gs75zw752",
-                    "name": "Namibia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9ohnphzd1yht2f32gs75zw752.png",
                     "score": null
                 },
                 "halftime": {
@@ -185,80 +148,6 @@
                 "halftime": {
                     "home": 2,
                     "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8lv0rprvc0wi42imk0tl3sys4",
-                "league": {
-                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
-                    "name": "U19 National Team Friendlies",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "cancelled",
-                    "display": "Cancelled",
-                    "is_live": false,
-                    "state": "cancelled"
-                },
-                "home": {
-                    "id": "1qwqzznqywjlojoioupfrj7e7",
-                    "name": "Netherlands U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1qwqzznqywjlojoioupfrj7e7.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "2ed196gtax477tyh751b8ou29",
-                    "name": "Austria U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2ed196gtax477tyh751b8ou29.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c1gg54va5glp3yl33qvwepbtg",
-                "league": {
-                    "id": "19y52cjt9hnne14tc70uqk6p5",
-                    "name": "U18 National Team",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "cancelled",
-                    "display": "Cancelled",
-                    "is_live": false,
-                    "state": "cancelled"
-                },
-                "home": {
-                    "id": "9td0xzs7ekzcyxlq16hcr1kch",
-                    "name": "USA U18",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9td0xzs7ekzcyxlq16hcr1kch.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "1reeyx7b56n5mza5b64xdcedx",
-                    "name": "Netherlands U18",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1reeyx7b56n5mza5b64xdcedx.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -610,7 +499,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "41'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7446,5 +7335,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 06:06:09"
+    "timestamp": "2026-09-29 06:43:36"
 }
