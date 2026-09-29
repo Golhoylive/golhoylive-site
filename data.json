@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 300,
+    "credits_remaining": 298,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -655,7 +655,7 @@
                     "id": "7qs5sxpwfnfpdhh6s07gpuahh",
                     "name": "Philippines",
                     "logo": "https:\/\/live-football-api.com\/teams\/7qs5sxpwfnfpdhh6s07gpuahh.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "c4b89du10irlb9y5q3z8p0o8t",
@@ -664,7 +664,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -681,28 +681,28 @@
                     "country": "Europe"
                 },
                 "week": "Regular Season",
-                "kickoff": "09:30",
+                "kickoff": "09:35",
                 "status": {
-                    "status": "scheduled",
-                    "display": "09:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "cjswvnp4xja7dif9gz2op9r4d",
                     "name": "England U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/cjswvnp4xja7dif9gz2op9r4d.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "5hpwmngudtgits98k5ce2ckjh",
                     "name": "France U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/5hpwmngudtgits98k5ce2ckjh.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7705,5 +7705,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 09:05:53"
+    "timestamp": "2026-09-29 09:39:50"
 }
