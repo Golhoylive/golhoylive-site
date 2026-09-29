@@ -1,590 +1,1022 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>GolHoyLive - مباريات كرة القدم</title>
 
-<meta name="description" content="GolHoyLive - مباريات ونتائج كرة القدم اليوم والأمس وغداً، أندية ومنتخبات من مختلف البطولات.">
+<meta name="description" content="GolHoyLive - مباريات كرة القدم أمس واليوم وغداً، أندية ومنتخبات وجميع البطولات.">
+
 <meta name="robots" content="index,follow">
 
 <style>
+
 *{
-  box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 html{
-  scroll-behavior:smooth;
+    scroll-behavior:smooth;
 }
 
 body{
-  margin:0;
-  background:#07110d;
-  color:#fff;
-  font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+    background:#06110c;
+    color:#ffffff;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
-button,input,select{
-  font:inherit;
+button,
+input,
+select{
+    font-family:inherit;
 }
 
-button{
-  cursor:pointer;
-}
+/* HEADER */
 
 .header{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  background:#07110d;
-  border-bottom:1px solid #18372a;
+    background:#07150f;
+    border-bottom:1px solid #18392a;
+    position:sticky;
+    top:0;
+    z-index:100;
 }
 
 .header-inner{
-  max-width:1100px;
-  margin:auto;
-  min-height:65px;
-  padding:10px 14px;
-  display:flex;
-  align-items:center;
-  gap:10px;
+    max-width:1100px;
+    margin:auto;
+    padding:12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
 .logo{
-  color:#38d878;
-  font-size:21px;
-  font-weight:900;
-  white-space:nowrap;
-  display:flex;
-  align-items:center;
-  gap:7px;
-  text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:7px;
+    color:#32df76;
+    font-size:23px;
+    font-weight:900;
+    white-space:nowrap;
 }
 
-.ball{
-  width:34px;
-  height:34px;
-  border-radius:50%;
-  background:#38d878;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#06100b;
+.logo-ball{
+    width:43px;
+    height:43px;
+    border-radius:50%;
+    background:#32df76;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:26px;
 }
 
 .search{
-  flex:1;
-  position:relative;
+    flex:1;
+    position:relative;
 }
 
 .search input{
-  width:100%;
-  height:42px;
-  border-radius:11px;
-  border:1px solid #254938;
-  background:#0d1d16;
-  color:#fff;
-  outline:none;
-  padding:0 40px 0 12px;
+    width:100%;
+    height:43px;
+    background:#0b2116;
+    color:white;
+    border:1px solid #27523b;
+    border-radius:12px;
+    outline:none;
+    padding:0 15px;
+    font-size:14px;
 }
 
 .search input:focus{
-  border-color:#38d878;
-}
-
-.search-icon{
-  position:absolute;
-  right:13px;
-  top:11px;
-  color:#8da69a;
+    border-color:#32df76;
 }
 
 .language{
-  height:42px;
-  border-radius:10px;
-  border:1px solid #254938;
-  background:#0d1d16;
-  color:#fff;
+    height:43px;
+    background:#0b2116;
+    color:white;
+    border:1px solid #27523b;
+    border-radius:12px;
+    padding:0 10px;
 }
 
+/* NAV */
+
 .nav{
-  background:#09150f;
-  border-bottom:1px solid #18372a;
+    background:#081810;
+    border-bottom:1px solid #18392a;
 }
 
 .nav-inner{
-  max-width:1100px;
-  margin:auto;
-  display:flex;
-  overflow-x:auto;
+    max-width:1100px;
+    margin:auto;
+    display:flex;
 }
 
 .nav button{
-  flex:1;
-  min-width:105px;
-  border:0;
-  background:transparent;
-  color:#8da69a;
-  padding:13px 8px;
-  font-weight:bold;
+    flex:1;
+    border:0;
+    background:transparent;
+    color:#91a89b;
+    padding:14px 8px;
+    font-size:14px;
+    font-weight:bold;
 }
 
 .nav button.active{
-  color:#38d878;
-  border-bottom:3px solid #38d878;
+    color:#32df76;
+    border-bottom:3px solid #32df76;
 }
 
+/* MAIN */
+
 .container{
-  max-width:1100px;
-  margin:auto;
-  padding:15px 12px 50px;
+    max-width:1100px;
+    margin:auto;
+    padding:15px 10px 50px;
 }
 
 .hero{
-  background:linear-gradient(135deg,#0d291c,#09150f);
-  border:1px solid #1c4733;
-  border-radius:15px;
-  padding:18px;
-  margin-bottom:15px;
+    background:linear-gradient(135deg,#0b2417,#0a1912);
+    border:1px solid #1c4932;
+    border-radius:15px;
+    padding:18px;
+    margin-bottom:14px;
 }
 
 .hero h1{
-  margin:0 0 8px;
-  font-size:24px;
+    margin:0 0 8px;
+    font-size:23px;
 }
 
 .hero p{
-  margin:0;
-  color:#9db4a8;
-  line-height:1.7;
+    margin:0;
+    color:#94aaa0;
+    line-height:1.7;
 }
+
+/* DAYS */
 
 .days{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:8px;
-  margin-bottom:15px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin-bottom:13px;
 }
 
-.day{
-  border:1px solid #254938;
-  background:#0c1c15;
-  color:#a9bdb3;
-  border-radius:12px;
-  padding:12px 5px;
+.day-button{
+    border:1px solid #244d37;
+    background:#0a1b13;
+    color:#a0b5aa;
+    border-radius:12px;
+    padding:12px 6px;
+    font-size:14px;
+    font-weight:bold;
 }
 
-.day.active{
-  background:#38d878;
-  color:#06100b;
-  border-color:#38d878;
+.day-button small{
+    display:block;
+    margin-top:5px;
+    font-size:11px;
+    opacity:.8;
 }
 
-.day-label{
-  display:block;
-  font-size:12px;
-  margin-bottom:4px;
+.day-button.active{
+    background:#32df76;
+    color:#06110c;
+    border-color:#32df76;
 }
 
-.day-date{
-  font-size:14px;
-  font-weight:bold;
-}
+/* COMPETITION FILTERS */
 
 .filters{
-  display:flex;
-  gap:7px;
-  overflow-x:auto;
-  margin-bottom:14px;
-  padding-bottom:3px;
+    display:flex;
+    gap:7px;
+    overflow-x:auto;
+    padding-bottom:5px;
+    margin-bottom:13px;
 }
 
 .filter{
-  white-space:nowrap;
-  border:1px solid #254938;
-  background:#0c1c15;
-  color:#aabeb4;
-  border-radius:20px;
-  padding:8px 14px;
+    flex:0 0 auto;
+    border:1px solid #244d37;
+    background:#0a1b13;
+    color:#9db2a7;
+    border-radius:20px;
+    padding:8px 14px;
+    font-size:12px;
 }
 
 .filter.active{
-  color:#38d878;
-  border-color:#38d878;
-  background:#123020;
+    color:#06110c;
+    background:#32df76;
+    border-color:#32df76;
 }
 
+/* COMPETITION */
+
 .competition{
-  background:#0b1913;
-  border:1px solid #1b392c;
-  border-radius:14px;
-  overflow:hidden;
-  margin-bottom:13px;
+    background:#091a12;
+    border:1px solid #1a3c2b;
+    border-radius:14px;
+    overflow:hidden;
+    margin-bottom:13px;
 }
 
 .competition-header{
-  min-height:52px;
-  display:flex;
-  align-items:center;
-  gap:9px;
-  padding:9px 12px;
-  background:#0e2118;
-  border-bottom:1px solid #1b392c;
-}
-
-.competition-logo{
-  width:32px;
-  height:32px;
-  object-fit:contain;
-  background:#fff;
-  border-radius:6px;
-  padding:3px;
+    background:#0d2418;
+    border-bottom:1px solid #1a3c2b;
+    padding:11px 13px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
 }
 
 .competition-name{
-  flex:1;
-  font-weight:800;
+    font-weight:bold;
+    font-size:14px;
 }
 
-.country{
-  font-size:11px;
-  color:#789287;
+.competition-country{
+    color:#718a7c;
+    font-size:11px;
 }
+
+/* MATCH */
 
 .match{
-  display:grid;
-  grid-template-columns:65px 1fr 50px;
-  align-items:center;
-  min-height:82px;
-  padding:9px 10px;
-  border-bottom:1px solid #142b20;
-  cursor:pointer;
+    display:grid;
+    grid-template-columns:65px 1fr 48px;
+    align-items:center;
+    min-height:82px;
+    padding:9px 11px;
+    border-bottom:1px solid #142d20;
 }
 
 .match:last-child{
-  border-bottom:0;
+    border-bottom:0;
 }
 
-.match:hover{
-  background:#10251a;
+.match-time{
+    text-align:center;
+    color:#a1b5aa;
+    font-size:12px;
 }
 
-.time{
-  text-align:center;
-  font-size:13px;
-  color:#a8bbb2;
-  font-weight:bold;
-}
-
-.status{
-  display:block;
-  margin-top:4px;
-  font-size:10px;
-  color:#7e968b;
-}
-
-.status.live{
-  color:#ff5555;
+.live-label{
+    display:block;
+    margin-top:4px;
+    color:#ff6464;
+    font-size:9px;
+    font-weight:bold;
 }
 
 .teams{
-  display:flex;
-  flex-direction:column;
-  gap:7px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
 }
 
 .team{
-  display:flex;
-  align-items:center;
-  gap:8px;
-  min-width:0;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    min-width:0;
 }
 
 .team-logo{
-  width:25px;
-  height:25px;
-  object-fit:contain;
-  flex-shrink:0;
+    width:27px;
+    height:27px;
+    object-fit:contain;
+    flex:0 0 27px;
 }
 
 .team-name{
-  font-size:14px;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:13px;
 }
 
 .scores{
-  text-align:center;
-  font-weight:900;
+    text-align:center;
+    font-weight:900;
+    font-size:14px;
 }
 
-.scores div{
-  height:31px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.score{
+    height:28px;
+}
+
+.status{
+    font-size:9px;
+    color:#718a7d;
+}
+
+/* EMPTY */
+
+.loading{
+    text-align:center;
+    padding:50px 15px;
+    color:#91a79b;
 }
 
 .empty{
-  text-align:center;
-  padding:45px 20px;
-  background:#0b1913;
-  border:1px solid #19372a;
-  border-radius:14px;
-  color:#91a89d;
+    background:#091a12;
+    border:1px solid #1a3c2b;
+    border-radius:14px;
+    text-align:center;
+    padding:50px 15px;
+    color:#91a79b;
 }
 
-.empty-icon{
-  font-size:38px;
-  margin-bottom:10px;
+.error{
+    color:#ff7777;
 }
 
-.loading{
-  text-align:center;
-  padding:45px;
-  color:#91a89d;
-}
-
-.spinner{
-  width:34px;
-  height:34px;
-  margin:0 auto 12px;
-  border:3px solid #17352a;
-  border-top-color:#38d878;
-  border-radius:50%;
-  animation:spin .8s linear infinite;
-}
-
-@keyframes spin{
-  to{transform:rotate(360deg)}
-}
-
-.live-box{
-  background:#291414;
-  border:1px solid #5b2929;
-  color:#ff6b6b;
-  border-radius:13px;
-  padding:14px;
-  margin-bottom:14px;
-  font-weight:bold;
-}
+/* LEAGUES */
 
 .leagues{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:10px;
 }
 
-.league{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  background:#0b1913;
-  border:1px solid #1b392c;
-  border-radius:13px;
-  padding:12px;
-  cursor:pointer;
+.league-card{
+    background:#091a12;
+    border:1px solid #1a3c2b;
+    border-radius:13px;
+    padding:14px;
 }
 
-.league img{
-  width:42px;
-  height:42px;
-  object-fit:contain;
-  background:#fff;
-  border-radius:8px;
-  padding:4px;
+.league-card strong{
+    display:block;
+    margin-bottom:7px;
 }
 
-.league-info{
-  min-width:0;
+.league-card span{
+    color:#718a7d;
+    font-size:12px;
 }
 
-.league-name{
-  font-weight:bold;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-}
-
-.league-country{
-  margin-top:4px;
-  font-size:11px;
-  color:#789287;
-}
+/* SEARCH RESULTS */
 
 .search-results{
-  display:none;
-  position:absolute;
-  top:48px;
-  left:0;
-  right:0;
-  background:#0b1913;
-  border:1px solid #274b3b;
-  border-radius:12px;
-  overflow:hidden;
-  z-index:2000;
+    display:none;
+    position:absolute;
+    top:48px;
+    right:0;
+    left:0;
+    background:#0b1d14;
+    border:1px solid #244d37;
+    border-radius:12px;
+    overflow:hidden;
+    z-index:200;
 }
 
 .search-result{
-  padding:12px;
-  border-bottom:1px solid #18352a;
-  cursor:pointer;
+    padding:11px;
+    border-bottom:1px solid #183528;
+    font-size:13px;
 }
 
-.search-result:hover{
-  background:#12291d;
+.search-result:last-child{
+    border-bottom:0;
 }
 
-.result-title{
-  font-weight:bold;
+.search-result small{
+    display:block;
+    color:#718a7d;
+    margin-top:4px;
 }
 
-.result-sub{
-  font-size:11px;
-  color:#789287;
-  margin-top:4px;
-}
+/* FOOTER */
 
 .footer{
-  text-align:center;
-  color:#70867b;
-  font-size:12px;
-  border-top:1px solid #183328;
-  padding:25px 15px;
+    border-top:1px solid #18392a;
+    text-align:center;
+    color:#60786c;
+    padding:25px 10px;
+    font-size:12px;
 }
 
-.modal{
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.75);
-  z-index:3000;
-  display:none;
-  align-items:flex-end;
-  justify-content:center;
+/* MOBILE */
+
+@media(max-width:650px){
+
+    .header-inner{
+        gap:7px;
+    }
+
+    .logo{
+        font-size:18px;
+    }
+
+    .logo-ball{
+        width:38px;
+        height:38px;
+        font-size:22px;
+    }
+
+    .language{
+        max-width:95px;
+        font-size:11px;
+    }
+
+    .search input{
+        font-size:12px;
+    }
+
+    .nav button{
+        font-size:12px;
+    }
+
+    .match{
+        grid-template-columns:55px 1fr 38px;
+    }
+
+    .team-logo{
+        width:24px;
+        height:24px;
+        flex-basis:24px;
+    }
+
+    .team-name{
+        font-size:12px;
+    }
+
 }
 
-.modal.show{
-  display:flex;
-}
-
-.modal-box{
-  width:100%;
-  max-width:650px;
-  max-height:90vh;
-  overflow:auto;
-  background:#0a1811;
-  border:1px solid #244838;
-  border-radius:20px 20px 0 0;
-  padding:18px;
-}
-
-.modal-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-
-.close{
-  width:36px;
-  height:36px;
-  border-radius:50%;
-  border:1px solid #315543;
-  background:#0e2118;
-  color:#fff;
-  font-size:20px;
-}
-
-.detail-teams{
-  display:grid;
-  grid-template-columns:1fr 80px 1fr;
-  align-items:center;
-  text-align:center;
-  gap:8px;
-  padding:25px 0;
-}
-
-.detail-team img{
-  width:55px;
-  height:55px;
-  object-fit:contain;
-  margin-bottom:7px;
-}
-
-.detail-team-name{
-  font-weight:bold;
-}
-
-.detail-score{
-  font-size:25px;
-  font-weight:900;
-}
-
-.detail-info{
-  background:#0d2017;
-  border-radius:12px;
-  padding:13px;
-  color:#91a89d;
-  line-height:2;
-}
-
-@media(min-width:700px){
-
-  .container{
-    padding-left:0;
-    padding-right:0;
-  }
-
-  .match{
-    grid-template-columns:90px 1fr 70px;
-    padding:10px 17px;
-  }
-
-  .leagues{
-    grid-template-columns:repeat(3,1fr);
-  }
-
-  .modal{
-    align-items:center;
-  }
-
-  .modal-box{
-    border-radius:18px;
-  }
-}
 </style>
+
 </head>
 
 <body>
 
+<!-- HEADER -->
+
 <header class="header">
 
-  <div class="header-inner">
+    <div class="header-inner">
 
-    <a href="#" class="logo" onclick="showPage('home');return false;">
-      <span class="ball">⚽</span>
-      <span>GolHoyLive</span>
-    </a>
+        <div class="logo">
 
-    <div class="search">
+            <div class="logo-ball">⚽</div>
 
-      <span class="search-icon">🔎</span>
+            <span>GolHoyLive</span>
 
-      <input
-        id="searchInput"
-        type="search"
-        placeholder="ابحث عن فريق أو بطولة..."
-        autocomplete="off"
-      >
+        </div>
 
-      <div id="searchResults" class="search-results"></div>
+        <div class="search">
+
+            <input
+                id="searchInput"
+                type="search"
+                placeholder="🔎 ابحث عن فريق أو بطولة..."
+                autocomplete="off"
+            >
+
+            <div
+                id="searchResults"
+                class="search-results">
+            </div>
+
+        </div>
+
+        <select id="language" class="language">
+
+            <option value="ar">العربية</option>
+
+            <option value="es">Español</option>
+
+            <option value="fr">Français</option>
+
+            <option value="en">English</option>
+
+        </select>
 
     </div>
 
-    <select id="language" class="language">
-      <option value="ar">العربية</option>
-      <option value="es">Español</option>
-      <option value="fr">Français</option>
-      <option value="en">English</option>
-    </select>
+</header>
+
+
+<!-- NAV -->
+
+<nav class="nav">
+
+    <div class="nav-inner">
+
+        <button
+            id="navHome"
+            class="active"
+            onclick="showPage('home')">
+            🏠 الرئيسية
+        </button>
+
+        <button
+            id="navLive"
+            onclick="showPage('live')">
+            🔴 مباشر
+        </button>
+
+        <button
+            id="navLeagues"
+            onclick="showPage('leagues')">
+            🏆 البطولات
+        </button>
+
+    </div>
+
+</nav>
+
+
+<!-- MAIN -->
+
+<main class="container">
+
+
+<!-- HOME -->
+
+<section id="homePage">
+
+    <div class="hero">
+
+        <h1>⚽ مباريات كرة القدم</h1>
+
+        <p>
+            مباريات الأمس واليوم وغداً
+            — أندية ومنتخبات وجميع البطولات.
+        </p>
+
+    </div>
+
+
+    <!-- DAYS -->
+
+    <div class="days">
+
+        <button
+            id="dayYesterday"
+            class="day-button"
+            onclick="changeDay('yesterday')">
+
+            الأمس
+
+            <small id="dateYesterday">
+                --
+            </small>
+
+        </button>
+
+
+        <button
+            id="dayToday"
+            class="day-button active"
+            onclick="changeDay('today')">
+
+            اليوم
+
+            <small id="dateToday">
+                --
+            </small>
+
+        </button>
+
+
+        <button
+            id="dayTomorrow"
+            class="day-button"
+            onclick="changeDay('tomorrow')">
+
+            غداً
+
+            <small id="dateTomorrow">
+                --
+            </small>
+
+        </button>
+
+    </div>
+
+
+    <!-- COMPETITION FILTERS -->
+
+    <div
+        id="competitionFilters"
+        class="filters">
+    </div>
+
+
+    <!-- MATCHES -->
+
+    <div
+        id="matchesContainer"
+        class="loading">
+
+        جاري تحميل المباريات...
+
+    </div>
+
+</section>
+
+
+<!-- LIVE -->
+
+<section
+    id="livePage"
+    style="display:none;">
+
+    <div class="hero">
+
+        <h1>🔴 المباريات المباشرة</h1>
+
+        <p>
+            المباريات التي تظهر حالياً كمباشرة.
+        </p>
+
+    </div>
+
+    <div
+        id="liveContainer"
+        class="loading">
+
+        جاري تحميل المباريات...
+
+    </div>
+
+</section>
+
+
+<!-- LEAGUES -->
+
+<section
+    id="leaguesPage"
+    style="display:none;">
+
+    <div class="hero">
+
+        <h1>🏆 البطولات</h1>
+
+        <p>
+            البطولات المتوفرة في بيانات GolHoyLive.
+        </p>
+
+    </div>
+
+    <div
+        id="leaguesContainer"
+        class="leagues">
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    GolHoyLive © 2026
+
+    <br>
+
+    Football Matches
+
+</footer>
+
+
+<script>
+
+/* ==============================
+   DATA
+============================== */
+
+const state = {
+
+    currentDay: "today",
+
+    today: null,
+
+    yesterday: null,
+
+    tomorrow: null,
+
+    leagues: null,
+
+    selectedLeague: "all"
+
+};
+
+
+/* ==============================
+   HELPERS
+============================== */
+
+function el(id){
+
+    return document.getElementById(id);
+
+}
+
+
+function escapeHTML(value){
+
+    if(value === null || value === undefined){
+
+        return "";
+
+    }
+
+    return String(value)
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;");
+
+}
+
+
+function getMatches(data){
+
+    if(Array.isArray(data)){
+
+        return data;
+
+    }
+
+    if(data && Array.isArray(data.matches)){
+
+        return data.matches;
+
+    }
+
+    if(data && Array.isArray(data.data)){
+
+        return data.data;
+
+    }
+
+    if(data && data.data && Array.isArray(data.data.matches)){
+
+        return data.data.matches;
+
+    }
+
+    return [];
+
+}
+
+
+function getLeague(match){
+
+    return match.league ||
+           match.competition ||
+           match.tournament ||
+           {};
+
+}
+
+
+function getTeam(match,type){
+
+    if(type === "home"){
+
+        return match.home ||
+               match.home_team ||
+               match.homeTeam ||
+               {};
+
+    }
+
+    return match.away ||
+           match.away_team ||
+           match.awayTeam ||
+           {};
+
+}
+
+
+function getTeamName(team){
+
+    return team.name ||
+           team.team_name ||
+           team.short_name ||
+           "—";
+
+}
+
+
+function getTeamLogo(team){
+
+    return team.logo ||
+           team.logo_url ||
+           team.image ||
+           team.crest ||
+           "";
+
+}
+
+
+function getScore(team){
+
+    if(team.score === null || team.score === undefined){
+
+        return "-";
+
+    }
+
+    return team.score;
+
+}
+
+
+function getLeagueName(match){
+
+    const league = getLeague(match);
+
+    return league.name ||
+           league.league_name ||
+           "Football";
+
+}
+
+
+function getLeagueCountry(match){
+
+    const league = getLeague(match);
+
+    return league.country ||
+           league.country_name ||
+           "";
+
+}
+
+
+function getLeagueId(match){
+
+    const league = getLeague(match);
+
+    return String(
+        league.id ||
+        league.league_id ||
+        league.name ||
+        "other"
+    );
+
+}
+
+
+function getTime(match){
+
+    return match.time ||
+           match.kickoff ||
+           match.start_time ||
+           match.date_time ||
+           "--:--";
+
+}
+
+
+function getStatus(match){
+
+    const status = match.status;
+
+    if(typeof status === "object" && status){
+
+        return String(
+            status.status ||
+            status.state ||
+            status.name ||
+            ""
+        );
+
+    }
+
+    return String(status || "");
+
+}
+
+
+function isLive(match){
+
+    const status = getStatus(match).toLowerCase();
+
+    if(
+        match.is_live === true ||
+        match.live === true ||
+        match.in_play === true
+    ){
+
+        return true;
+
+    }
+
+    return [
+        "live",
+        "1h",
+        "2h",
+        "ht",
+        "et",
+        "inplay",
+        "in_play",
+        "first half",
+        "second half"
+    ].includes(status);
+
+}
+
+
+/* ==============================
+   DATE
+============================== */
+
+function getDate(offset){
+
+    const d = new Date();
+
+    d.setHours(12,0,0,0);
+
+    d.setDate(d.getDate() + offset);
+
+    const year = d.getFullYear();
+
+    const month = String(
+        d.getMonth()+1
+    ).padStart(2,"0");
+
+    const day = String(
+        d.getDate()
+    ).padStart(2,"0");
+
+    return year+"-"+month+"-"+day;
+
+}
+
+
+function formatDate(date){
+
+    if(!date){
+
+        return "--";
+
+    }
+
+    const p = date.split("-");
+
+    if(p.length !== 3){
+
+        return date;
+
+    }
+
+    return p[2]+"/"+p[1];
+
+}
+
+
+/* ==============================
+   GROUP MATCHES
+============================== */
+
+function groupMatches(matches){
+
+    const groups = {};
+
+    matches.forEach(match => {
+
+        const id = getLeagueId(match);
+
+        if(!groups[id]){
+
+            groups[id] = {
+
+                id:id,
+
+                name:getLeagueName(match),
+
+                country:getLeagueCountry(match),
+
+                matches:[]
+
+            };
+
+        }
+
+        groups[id].matches.push(match);
+
+    });
+
+    return Object.values(groups);
+
+}
+
+
+/* ==============================
+   MATCH
