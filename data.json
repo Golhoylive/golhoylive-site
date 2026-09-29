@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 334,
+    "credits_remaining": 332,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -92,7 +92,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -129,7 +129,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "41'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -143,11 +143,11 @@
                     "id": "88ca766nh0ae9i9kpvwubxpzp",
                     "name": "Bermuda",
                     "logo": "https:\/\/live-football-api.com\/teams\/88ca766nh0ae9i9kpvwubxpzp.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 3,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -166,7 +166,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "41'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -387,26 +387,26 @@
                 "week": "9",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "bsuay4uc439ywyw9gltxipzp1",
                     "name": "Cariari Pococí",
                     "logo": "https:\/\/live-football-api.com\/teams\/bsuay4uc439ywyw9gltxipzp1.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "5af26xb34z3a1o49zsrcekon9",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/5af26xb34z3a1o49zsrcekon9.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7195,10 +7195,10 @@
                 "week": "8",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "85'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "ehyuxeire7ruxvc4nszvyiktx",
@@ -7232,10 +7232,10 @@
                 "week": "11",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "84'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "5j06w0vlxmxz08m9miwwaf9it",
@@ -7307,7 +7307,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "69'",
+                    "display": "90 +2'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7315,13 +7315,13 @@
                     "id": "47oiq3narnesms86fg0npobo4",
                     "name": "Paraná FC",
                     "logo": "https:\/\/live-football-api.com\/teams\/47oiq3narnesms86fg0npobo4.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "b49ym6y1dhl9lk55dau6zwsbu",
                     "name": "Atl. Baradero",
                     "logo": "https:\/\/live-football-api.com\/teams\/b49ym6y1dhl9lk55dau6zwsbu.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 1,
@@ -7343,10 +7343,10 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "62sx090hj2daol51qkro9bf8",
@@ -7380,16 +7380,16 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "6pd54flxcgti0aqbzf0s04c2c",
                     "name": "Independencia",
                     "logo": "https:\/\/live-football-api.com\/teams\/6pd54flxcgti0aqbzf0s04c2c.png",
-                    "score": "6"
+                    "score": "8"
                 },
                 "away": {
                     "id": "7znr4pkrb02ugto2vkfjpnspg",
@@ -7417,10 +7417,10 @@
                 "week": "Apertura",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "7jk6uz0an69dx9iw8vy67vjai",
@@ -7432,7 +7432,7 @@
                     "id": "b4iesl9xvgjqfvdxkyj2o6c16",
                     "name": "América",
                     "logo": "https:\/\/live-football-api.com\/teams\/b4iesl9xvgjqfvdxkyj2o6c16.png",
-                    "score": "4"
+                    "score": "5"
                 },
                 "halftime": {
                     "home": 0,
@@ -7483,5 +7483,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 00:43:37"
+    "timestamp": "2026-09-29 01:05:59"
 }
