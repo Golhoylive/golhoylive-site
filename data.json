@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 308,
+    "credits_remaining": 306,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -304,6 +304,43 @@
                 }
             },
             {
+                "id": "crietlvv0sylbaqx4q1syw5jo",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "01:06",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "aj0woidfo7hun895uedqvl7xm",
+                    "name": "Necaxa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aj0woidfo7hun895uedqvl7xm.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "d4roblxk51drf8vfu33hiafe2",
+                    "name": "Toluca",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d4roblxk51drf8vfu33hiafe2.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "1y9dxwpy8va0fci9c3bbq2pzo",
                 "league": {
                     "id": "cu0rmpyff5692eo06ltddjo8a",
@@ -499,7 +536,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -507,7 +544,7 @@
                     "id": "9re1ya6eccwux01glw16zek5j",
                     "name": "Korea DPR",
                     "logo": "https:\/\/live-football-api.com\/teams\/9re1ya6eccwux01glw16zek5j.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "ezuzxwe5qkik8ysahgtqsdl4m",
@@ -533,28 +570,28 @@
                     "country": "World"
                 },
                 "week": "Friendlies 2",
-                "kickoff": "07:10",
+                "kickoff": "07:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "07:10",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "30'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "7meku9ag2ynzxnp6ugzozivo2",
                     "name": "Fiji",
                     "logo": "https:\/\/live-football-api.com\/teams\/7meku9ag2ynzxnp6ugzozivo2.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "2zq8ussajmwzftn5j5emwpwc",
                     "name": "New Caledonia",
                     "logo": "https:\/\/live-football-api.com\/teams\/2zq8ussajmwzftn5j5emwpwc.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -674,6 +711,43 @@
                 }
             },
             {
+                "id": "4rgln4t535ri8qw6wed2tp79w",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "1f3ehp8p9yi8reamghry4p76t",
+                    "name": "Consadole",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1f3ehp8p9yi8reamghry4p76t.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "4rddupwnkxxcwou6iluymj29j",
+                    "name": "Fagiano",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4rddupwnkxxcwou6iluymj29j.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "4vtbahk9dxedli8ufz4rryeqc",
                 "league": {
                     "id": "bbajzna018c79opa1kl5kmkqo",
@@ -698,6 +772,43 @@
                     "id": "e90fnsgtnamze3yssxpg392eb",
                     "name": "Tokyo",
                     "logo": "https:\/\/live-football-api.com\/teams\/e90fnsgtnamze3yssxpg392eb.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4uor9ozvda9phsuyz9f3bf3f8",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "5o3cnx2qsla03c0n6m3175gfp",
+                    "name": "Fujieda",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5o3cnx2qsla03c0n6m3175gfp.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "90cc40yau7yv6n8r4xs361ofd",
+                    "name": "Cerezo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/90cc40yau7yv6n8r4xs361ofd.png",
                     "score": null
                 },
                 "halftime": {
@@ -970,6 +1081,80 @@
                 }
             },
             {
+                "id": "4putg80zgmwznli5r678x1ces",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "1nm96lsa5dm33vbu2jy56i9fk",
+                    "name": "Montedio",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1nm96lsa5dm33vbu2jy56i9fk.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "2cwez3hk2i75ope3qyu54cqh1",
+                    "name": "Yokohama M.",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2cwez3hk2i75ope3qyu54cqh1.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4tkhdmbscqqrmw7hppetgl2xg",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "e0u1sbhnf87oujxqvma544a8l",
+                    "name": "Osaka",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e0u1sbhnf87oujxqvma544a8l.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ydlnn8jofdkseegh42az3fpt",
+                    "name": "Avispa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ydlnn8jofdkseegh42az3fpt.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "4u25ap8rjl0ac5ughulfubx1w",
                 "league": {
                     "id": "bbajzna018c79opa1kl5kmkqo",
@@ -994,6 +1179,80 @@
                     "id": "6u7ltoz339il087ubf6rdtc2v",
                     "name": "Tokyo Verdy",
                     "logo": "https:\/\/live-football-api.com\/teams\/6u7ltoz339il087ubf6rdtc2v.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4o609qn79mhd3ygcbyjx8xlas",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "1zi7f852mrohymv3votysk6lm",
+                    "name": "Tochigi City",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1zi7f852mrohymv3votysk6lm.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "89wr6p2dkh7wjxtbwhtsruu02",
+                    "name": "Sanfrecce",
+                    "logo": "https:\/\/live-football-api.com\/teams\/89wr6p2dkh7wjxtbwhtsruu02.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4qcckfdvvc7r2968rykwv8gt0",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "dtjpkopknilpytvcelspishu4",
+                    "name": "Toyama",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dtjpkopknilpytvcelspishu4.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "3vfso415vj7uitnunviuzdyg3",
+                    "name": "Urawa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3vfso415vj7uitnunviuzdyg3.png",
                     "score": null
                 },
                 "halftime": {
@@ -7335,5 +7594,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 07:06:43"
+    "timestamp": "2026-09-29 07:38:28"
 }
