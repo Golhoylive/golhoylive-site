@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 282,
+    "credits_remaining": 280,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -1571,10 +1571,10 @@
                 "week": "2",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "live",
-                    "display": "79'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "i9syypvx4y58uy9r2oxzuisd",
@@ -1608,10 +1608,10 @@
                 "week": "3",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "live",
-                    "display": "82'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "bx4fvzl0u2db6ypmk7z19jzod",
@@ -1623,7 +1623,7 @@
                     "id": "cxgxssrn6eswx321yp5erd5so",
                     "name": "Bosnia U17",
                     "logo": "https:\/\/live-football-api.com\/teams\/cxgxssrn6eswx321yp5erd5so.png",
-                    "score": "8"
+                    "score": "9"
                 },
                 "halftime": {
                     "home": 0,
@@ -1645,10 +1645,10 @@
                 "week": "3",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "b0012lgzvzm7buomj659hff4w",
@@ -1683,7 +1683,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "69'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1720,7 +1720,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "74'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1757,7 +1757,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1771,11 +1771,11 @@
                     "id": "avggs3u2b5cu8i1dnzknhth52",
                     "name": "Morocco",
                     "logo": "https:\/\/live-football-api.com\/teams\/avggs3u2b5cu8i1dnzknhth52.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1794,7 +1794,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1831,7 +1831,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1868,7 +1868,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1905,7 +1905,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "40'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1942,7 +1942,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "7'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1978,26 +1978,26 @@
                 "week": "3",
                 "kickoff": "13:40",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:40",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "28'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "72q6wun8eup5w3idb9s78lk1g",
                     "name": "Rafsanjan",
                     "logo": "https:\/\/live-football-api.com\/teams\/72q6wun8eup5w3idb9s78lk1g.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "29780ehajsj67uddlsy8ywe09",
                     "name": "Be'sat",
                     "logo": "https:\/\/live-football-api.com\/teams\/29780ehajsj67uddlsy8ywe09.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2015,26 +2015,26 @@
                 "week": "Group Stage",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "8qs6eg6cnj5bc4kbr7ji7bbgg",
                     "name": "Slovenia U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/8qs6eg6cnj5bc4kbr7ji7bbgg.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "6jbpdqede8l8wtabp4l4nqlyk",
                     "name": "Israel U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/6jbpdqede8l8wtabp4l4nqlyk.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2052,26 +2052,26 @@
                 "week": "2",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "9kkn65uke5h6mx936kajcqw5k",
                     "name": "Madagascar",
                     "logo": "https:\/\/live-football-api.com\/teams\/9kkn65uke5h6mx936kajcqw5k.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "eptnbubek90aa6bsvekaplqt2",
                     "name": "Tanzania",
                     "logo": "https:\/\/live-football-api.com\/teams\/eptnbubek90aa6bsvekaplqt2.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7668,5 +7668,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 13:40:46"
+    "timestamp": "2026-09-29 14:06:21"
 }
