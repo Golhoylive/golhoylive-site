@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 304,
+    "credits_remaining": 302,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -276,10 +276,10 @@
                 "week": "4",
                 "kickoff": "01:05",
                 "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
+                    "status": "scheduled",
+                    "display": "01:05",
                     "is_live": false,
-                    "state": "postponed"
+                    "state": "preGame"
                 },
                 "home": {
                     "id": "bzpygd5fja0tbb2x8daphil1l",
@@ -573,7 +573,7 @@
                 "kickoff": "07:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -581,7 +581,7 @@
                     "id": "7meku9ag2ynzxnp6ugzozivo2",
                     "name": "Fiji",
                     "logo": "https:\/\/live-football-api.com\/teams\/7meku9ag2ynzxnp6ugzozivo2.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "2zq8ussajmwzftn5j5emwpwc",
@@ -4032,6 +4032,43 @@
                 },
                 "halftime": {
                     "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "f1ce1eu4ofi0egegauznrsm50",
+                "league": {
+                    "id": "bockl24qpr7ryjl8b6obukga",
+                    "name": "National League N \/ S",
+                    "country": "England"
+                },
+                "week": "5",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "scheduled",
+                    "display": "18:45",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "eu9bjjefb8519k162ubh90yqw",
+                    "name": "Brackley",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eu9bjjefb8519k162ubh90yqw.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "adqm20gnlk6huuvgu96flnttv",
+                    "name": "South Shields",
+                    "logo": "https:\/\/live-football-api.com\/teams\/adqm20gnlk6huuvgu96flnttv.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -7594,5 +7631,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 08:06:29"
+    "timestamp": "2026-09-29 08:39:34"
 }
