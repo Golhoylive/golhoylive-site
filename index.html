@@ -2,38 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>GolHoyLive - Live Football Scores</title>
 
 <meta name="description" content="GolHoyLive - Live football scores, results, competitions and national teams from around the world.">
-<meta name="keywords" content="football, soccer, live scores, results, La Liga, Premier League, Champions League, Serie A, Bundesliga, Ligue 1">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
 
 <style>
-
 :root{
   --bg:#07100d;
-  --bg2:#0b1713;
   --card:#101f19;
-  --card2:#13251e;
+  --card2:#0c1914;
   --green:#20e070;
-  --green2:#13b85a;
   --text:#f4fff8;
   --muted:#8fa79b;
   --border:#20372d;
-  --red:#ff5252;
-  --yellow:#ffd54f;
-  --blue:#4da6ff;
+  --red:#c62828;
 }
 
-*{
-  box-sizing:border-box;
-}
+*{box-sizing:border-box}
 
-html{
-  scroll-behavior:smooth;
-}
+html{scroll-behavior:smooth}
 
 body{
   margin:0;
@@ -45,43 +35,27 @@ body{
   min-height:100vh;
 }
 
-button,
-select,
-input{
-  font:inherit;
-}
-
-button{
-  cursor:pointer;
-}
-
-a{
-  color:inherit;
-  text-decoration:none;
-}
-
-
-/* =========================================================
-   HEADER
-   ========================================================= */
+button,input,select{font:inherit}
+button{cursor:pointer}
+img{max-width:100%}
 
 .header{
   position:sticky;
   top:0;
   z-index:1000;
-  background:rgba(5,13,10,.95);
+  background:rgba(5,13,10,.96);
   backdrop-filter:blur(14px);
   border-bottom:1px solid var(--border);
 }
 
 .header-inner{
   max-width:1250px;
-  margin:auto;
   min-height:72px;
+  margin:auto;
+  padding:12px 18px;
   display:flex;
   align-items:center;
   gap:18px;
-  padding:12px 18px;
 }
 
 .logo{
@@ -91,6 +65,7 @@ a{
   font-size:24px;
   font-weight:900;
   white-space:nowrap;
+  cursor:pointer;
 }
 
 .logo-ball{
@@ -106,9 +81,7 @@ a{
   box-shadow:0 0 25px rgba(32,224,112,.28);
 }
 
-.logo span{
-  color:var(--green);
-}
+.logo span{color:var(--green)}
 
 .search-box{
   flex:1;
@@ -127,15 +100,15 @@ a{
   padding:0 16px 0 42px;
 }
 
-.search-box input:focus{
-  border-color:var(--green);
-}
+.search-box input:focus{border-color:var(--green)}
 
 .search-icon{
   position:absolute;
   left:14px;
-  top:12px;
+  top:10px;
+  font-size:20px;
   color:var(--muted);
+  z-index:2;
 }
 
 .language{
@@ -144,14 +117,9 @@ a{
   border-radius:12px;
   background:#0b1813;
   color:white;
-  padding:0 10px;
+  padding:0 12px;
   outline:none;
 }
-
-
-/* =========================================================
-   NAV
-   ========================================================= */
 
 .nav{
   border-bottom:1px solid var(--border);
@@ -182,11 +150,6 @@ a{
   color:var(--green);
 }
 
-
-/* =========================================================
-   MAIN
-   ========================================================= */
-
 .container{
   max-width:1250px;
   margin:auto;
@@ -214,28 +177,6 @@ a{
   line-height:1.6;
 }
 
-.section-title{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:15px;
-  margin:25px 0 14px;
-}
-
-.section-title h2{
-  margin:0;
-  font-size:22px;
-}
-
-.section-title small{
-  color:var(--muted);
-}
-
-
-/* =========================================================
-   DAYS
-   ========================================================= */
-
 .days{
   display:flex;
   gap:8px;
@@ -259,10 +200,20 @@ a{
   font-weight:800;
 }
 
+.section-title{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:15px;
+  margin:25px 0 14px;
+}
 
-/* =========================================================
-   MATCHES
-   ========================================================= */
+.section-title h2{
+  margin:0;
+  font-size:22px;
+}
+
+.section-title small{color:var(--muted)}
 
 .matches{
   display:grid;
@@ -299,8 +250,8 @@ a{
 }
 
 .live{
-  color:#fff;
-  background:#c62828;
+  color:white;
+  background:var(--red);
   border-radius:6px;
   padding:3px 7px;
   font-size:10px;
@@ -367,90 +318,30 @@ a{
   font-size:11px;
 }
 
-
-/* =========================================================
-   GRID
-   ========================================================= */
-
 .grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:12px;
 }
 
-@media(max-width:1000px){
-  .grid{
-    grid-template-columns:repeat(3,1fr);
-  }
-}
-
-@media(max-width:700px){
-
-  .header-inner{
-    flex-wrap:wrap;
-  }
-
-  .logo{
-    font-size:20px;
-  }
-
-  .search-box{
-    order:3;
-    flex-basis:100%;
-    max-width:none;
-  }
-
-  .grid{
-    grid-template-columns:repeat(2,1fr);
-  }
-
-  .hero h1{
-    font-size:25px;
-  }
-
-}
-
-@media(max-width:450px){
-
-  .grid{
-    grid-template-columns:1fr;
-  }
-
-  .container{
-    padding-left:12px;
-    padding-right:12px;
-  }
-
-  .teams{
-    grid-template-columns:1fr 55px 1fr;
-  }
-
-  .team-name{
-    font-size:12px;
-  }
-
-}
-
-
-/* =========================================================
-   COMPETITIONS / TEAMS
-   ========================================================= */
-
-.competition-card{
+.competition-card,
+.national-card{
   border:1px solid var(--border);
   background:linear-gradient(135deg,#101f19,#0c1914);
   border-radius:15px;
   padding:16px;
   min-height:125px;
   transition:.2s;
-  cursor:pointer;
 }
 
-.competition-card:hover{
+.competition-card:hover,
+.national-card:hover{
   border-color:var(--green);
   transform:translateY(-2px);
   box-shadow:0 8px 25px rgba(0,0,0,.25);
 }
+
+.competition-card{cursor:pointer}
 
 .competition-logo{
   width:48px;
@@ -473,25 +364,9 @@ a{
   margin-top:5px;
 }
 
-
-/* =========================================================
-   NATIONAL TEAM CARD
-   ========================================================= */
-
 .national-card{
-  border:1px solid var(--border);
-  background:linear-gradient(135deg,#101f19,#0c1914);
-  border-radius:15px;
-  padding:16px;
-  min-height:150px;
-  transition:.2s;
+  min-height:155px;
   cursor:pointer;
-}
-
-.national-card:hover{
-  border-color:var(--green);
-  transform:translateY(-2px);
-  box-shadow:0 8px 25px rgba(0,0,0,.25);
 }
 
 .national-flag{
@@ -500,7 +375,7 @@ a{
   display:flex;
   align-items:center;
   justify-content:center;
-  font-size:40px;
+  font-size:39px;
   background:#172b21;
   border-radius:12px;
   margin-bottom:12px;
@@ -515,29 +390,19 @@ a{
 .national-region{
   color:var(--muted);
   font-size:12px;
-  margin-top:5px;
+  margin-top:6px;
 }
 
-
-/* =========================================================
-   COUNTRIES
-   ========================================================= */
-
-.country-block{
-  margin-bottom:22px;
+.region-block{
+  margin-bottom:30px;
 }
 
-.country-title{
+.region-title{
   color:var(--green);
-  font-size:18px;
+  font-size:20px;
   font-weight:900;
-  margin-bottom:10px;
+  margin-bottom:12px;
 }
-
-
-/* =========================================================
-   PAGE HEADER
-   ========================================================= */
 
 .page-header{
   display:flex;
@@ -554,11 +419,6 @@ a{
   padding:10px 14px;
 }
 
-.back-btn:hover{
-  border-color:var(--green);
-  color:var(--green);
-}
-
 .page-title{
   margin:0;
   font-size:25px;
@@ -569,11 +429,6 @@ a{
   font-size:13px;
   margin-top:4px;
 }
-
-
-/* =========================================================
-   LOADING
-   ========================================================= */
 
 .loading{
   padding:50px 15px;
@@ -592,15 +447,8 @@ a{
 }
 
 @keyframes spin{
-  to{
-    transform:rotate(360deg);
-  }
+  to{transform:rotate(360deg)}
 }
-
-
-/* =========================================================
-   EMPTY / ERROR
-   ========================================================= */
 
 .empty{
   padding:45px 20px;
@@ -618,47 +466,29 @@ a{
   border-radius:12px;
 }
 
-
-/* =========================================================
-   FOOTER
-   ========================================================= */
-
-footer{
-  border-top:1px solid var(--border);
-  margin-top:30px;
-  padding:30px 18px;
-  color:var(--muted);
-  text-align:center;
-}
-
-.footer-logo{
-  font-weight:900;
-  color:white;
-  margin-bottom:8px;
-}
-
-.footer-logo span{
-  color:var(--green);
-}
-
-
-/* =========================================================
-   SEARCH
-   ========================================================= */
-
 .search-results{
-  margin-top:15px;
+  position:absolute;
+  top:58px;
+  left:0;
+  right:0;
+  z-index:2000;
+  background:#0b1813;
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:8px;
+  max-height:430px;
+  overflow:auto;
 }
 
 .search-result{
   display:flex;
   align-items:center;
   gap:12px;
-  border:1px solid var(--border);
+  border:1px solid transparent;
   background:#0c1a14;
-  padding:12px;
+  padding:10px;
   border-radius:10px;
-  margin-bottom:8px;
+  margin-bottom:6px;
   cursor:pointer;
 }
 
@@ -671,11 +501,6 @@ footer{
   height:35px;
   object-fit:contain;
 }
-
-
-/* =========================================================
-   TOAST
-   ========================================================= */
 
 .toast{
   position:fixed;
@@ -692,14 +517,28 @@ footer{
   display:none;
 }
 
-
-/* =========================================================
-   RTL
-   ========================================================= */
-
-html[dir="rtl"] body{
-  text-align:right;
+.country-search{
+  max-width:none;
+  margin-bottom:22px;
 }
+
+footer{
+  border-top:1px solid var(--border);
+  margin-top:30px;
+  padding:30px 18px;
+  color:var(--muted);
+  text-align:center;
+}
+
+.footer-logo{
+  font-weight:900;
+  color:white;
+  margin-bottom:8px;
+}
+
+.footer-logo span{color:var(--green)}
+
+html[dir="rtl"] body{text-align:right}
 
 html[dir="rtl"] .search-icon{
   left:auto;
@@ -711,28 +550,58 @@ html[dir="rtl"] .search-box input{
   padding-right:42px;
 }
 
-html[dir="rtl"] .team.away{
-  text-align:left;
+html[dir="rtl"] .team.away{text-align:left}
+
+@media(max-width:1000px){
+  .grid{grid-template-columns:repeat(3,1fr)}
 }
 
+@media(max-width:700px){
+
+  .header-inner{flex-wrap:wrap}
+
+  .logo{font-size:20px}
+
+  .search-box{
+    order:3;
+    flex-basis:100%;
+    max-width:none;
+  }
+
+  .grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .hero h1{font-size:25px}
+}
+
+@media(max-width:450px){
+
+  .grid{grid-template-columns:1fr}
+
+  .container{
+    padding-left:12px;
+    padding-right:12px;
+  }
+
+  .teams{
+    grid-template-columns:1fr 55px 1fr;
+  }
+
+  .team-name{font-size:12px}
+}
 </style>
 </head>
 
-
 <body>
-
 
 <header class="header">
 
   <div class="header-inner">
 
-    <div class="logo"
-         onclick="goHome()"
-         style="cursor:pointer">
+    <div class="logo" onclick="goHome()">
 
-      <div class="logo-ball">
-        ⚽
-      </div>
+      <div class="logo-ball">⚽</div>
 
       <div>
         Gol<span>Hoy</span>Live
@@ -740,12 +609,9 @@ html[dir="rtl"] .team.away{
 
     </div>
 
-
     <div class="search-box">
 
-      <div class="search-icon">
-        🔎
-      </div>
+      <div class="search-icon">🔎</div>
 
       <input
         id="searchInput"
@@ -756,31 +622,13 @@ html[dir="rtl"] .team.away{
 
     </div>
 
+    <select id="languageSelect" class="language">
 
-    <select
-      id="languageSelect"
-      class="language"
-    >
-
-      <option value="ar">
-        🇲🇦 العربية
-      </option>
-
-      <option value="es">
-        🇪🇸 Español
-      </option>
-
-      <option value="en">
-        🇬🇧 English
-      </option>
-
-      <option value="fr">
-        🇫🇷 Français
-      </option>
-
-      <option value="pt">
-        🇧🇷 Português
-      </option>
+      <option value="ar">🇲🇦 العربية</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="pt">🇧🇷 Português</option>
 
     </select>
 
@@ -793,51 +641,20 @@ html[dir="rtl"] .team.away{
 
   <div class="nav-inner">
 
-    <button
-      class="nav-btn active"
-      data-page="home"
-      onclick="goHome()"
-    >
-      🏠
-      <span data-i18n="home">
-        Home
-      </span>
+    <button class="nav-btn active" data-page="home" onclick="goHome()">
+      🏠 <span data-i18n="home">Home</span>
     </button>
 
-
-    <button
-      class="nav-btn"
-      data-page="live"
-      onclick="openLive()"
-    >
-      🔴
-      <span data-i18n="live">
-        Live
-      </span>
+    <button class="nav-btn" data-page="live" onclick="openLive()">
+      🔴 <span data-i18n="live">Live</span>
     </button>
 
-
-    <button
-      class="nav-btn"
-      data-page="competitions"
-      onclick="openCompetitions()"
-    >
-      🏆
-      <span data-i18n="competitions">
-        Competitions
-      </span>
+    <button class="nav-btn" data-page="competitions" onclick="openCompetitions()">
+      🏆 <span data-i18n="competitions">Competitions</span>
     </button>
 
-
-    <button
-      class="nav-btn"
-      data-page="teams"
-      onclick="openTeams()"
-    >
-      👕
-      <span data-i18n="teams">
-        Teams
-      </span>
+    <button class="nav-btn" data-page="teams" onclick="openTeams()">
+      👕 <span data-i18n="teams">Teams</span>
     </button>
 
   </div>
@@ -845,17 +662,11 @@ html[dir="rtl"] .team.away{
 </nav>
 
 
-<main
-  class="container"
-  id="app"
->
+<main class="container" id="app">
 
   <div class="loading">
-
     <div class="spinner"></div>
-
     Loading...
-
   </div>
 
 </main>
@@ -878,26 +689,22 @@ html[dir="rtl"] .team.away{
 </footer>
 
 
-<div
-  class="toast"
-  id="toast"
-></div>
+<div class="toast" id="toast"></div>
 
 
 <script>
-
 
 /* =========================================================
    TRANSLATIONS
    ========================================================= */
 
-const translations = {
+const translations={
 
   ar:{
     home:"الرئيسية",
     live:"مباشر",
     competitions:"البطولات",
-    teams:"الفرق",
+    teams:"المنتخبات والفرق",
     today:"اليوم",
     yesterday:"أمس",
     tomorrow:"غداً",
@@ -909,22 +716,22 @@ const translations = {
     loading:"جاري التحميل...",
     back:"رجوع",
     liveNow:"مباشر الآن",
-    all:"الكل",
-    countries:"الدول",
     todayMatches:"مباريات اليوم",
-    selectedCompetition:"البطولة",
-    noMatchesToday:"لا توجد مباريات لهذه البطولة اليوم",
     nationalTeams:"المنتخبات الوطنية",
-    currentTeams:"الفرق الحالية",
-    europe:"أوروبا"
+    currentTeams:"الفرق",
+    europe:"أوروبا",
+    africa:"إفريقيا",
+    asia:"آسيا",
+    southAmerica:"أمريكا الجنوبية",
+    northAmerica:"أمريكا الشمالية",
+    oceania:"أوقيانوسيا"
   },
-
 
   es:{
     home:"Inicio",
     live:"En directo",
     competitions:"Competiciones",
-    teams:"Equipos",
+    teams:"Selecciones y equipos",
     today:"Hoy",
     yesterday:"Ayer",
     tomorrow:"Mañana",
@@ -936,49 +743,49 @@ const translations = {
     loading:"Cargando...",
     back:"Volver",
     liveNow:"EN DIRECTO",
-    all:"Todos",
-    countries:"Países",
     todayMatches:"Partidos de hoy",
-    selectedCompetition:"Competición",
-    noMatchesToday:"No hay partidos de esta competición hoy",
     nationalTeams:"Selecciones nacionales",
-    currentTeams:"Equipos actuales",
-    europe:"Europa"
+    currentTeams:"Equipos",
+    europe:"Europa",
+    africa:"África",
+    asia:"Asia",
+    southAmerica:"Sudamérica",
+    northAmerica:"Norteamérica",
+    oceania:"Oceanía"
   },
-
 
   en:{
     home:"Home",
     live:"Live",
     competitions:"Competitions",
-    teams:"Teams",
+    teams:"National teams & clubs",
     today:"Today",
     yesterday:"Yesterday",
     tomorrow:"Tomorrow",
     matches:"Matches",
     competitionsTitle:"All competitions",
-    search:"Search team or competition...",
+    search:"Search teams, competitions...",
     noMatches:"No matches",
     noResults:"No results",
     loading:"Loading...",
     back:"Back",
     liveNow:"LIVE NOW",
-    all:"All",
-    countries:"Countries",
     todayMatches:"Today's matches",
-    selectedCompetition:"Competition",
-    noMatchesToday:"No matches for this competition today",
     nationalTeams:"National teams",
-    currentTeams:"Current teams",
-    europe:"Europe"
+    currentTeams:"Clubs",
+    europe:"Europe",
+    africa:"Africa",
+    asia:"Asia",
+    southAmerica:"South America",
+    northAmerica:"North America",
+    oceania:"Oceania"
   },
-
 
   fr:{
     home:"Accueil",
     live:"Direct",
     competitions:"Compétitions",
-    teams:"Équipes",
+    teams:"Sélections et équipes",
     today:"Aujourd'hui",
     yesterday:"Hier",
     tomorrow:"Demain",
@@ -990,22 +797,22 @@ const translations = {
     loading:"Chargement...",
     back:"Retour",
     liveNow:"EN DIRECT",
-    all:"Tous",
-    countries:"Pays",
     todayMatches:"Matchs du jour",
-    selectedCompetition:"Compétition",
-    noMatchesToday:"Aucun match de cette compétition aujourd'hui",
     nationalTeams:"Équipes nationales",
-    currentTeams:"Équipes actuelles",
-    europe:"Europe"
+    currentTeams:"Clubs",
+    europe:"Europe",
+    africa:"Afrique",
+    asia:"Asie",
+    southAmerica:"Amérique du Sud",
+    northAmerica:"Amérique du Nord",
+    oceania:"Océanie"
   },
-
 
   pt:{
     home:"Início",
     live:"Ao vivo",
     competitions:"Competições",
-    teams:"Times",
+    teams:"Seleções e times",
     today:"Hoje",
     yesterday:"Ontem",
     tomorrow:"Amanhã",
@@ -1017,354 +824,225 @@ const translations = {
     loading:"Carregando...",
     back:"Voltar",
     liveNow:"AO VIVO",
-    all:"Todos",
-    countries:"Países",
     todayMatches:"Jogos de hoje",
-    selectedCompetition:"Competição",
-    noMatchesToday:"Nenhum jogo desta competição hoje",
     nationalTeams:"Seleções nacionais",
-    currentTeams:"Times atuais",
-    europe:"Europa"
+    currentTeams:"Times",
+    europe:"Europa",
+    africa:"África",
+    asia:"Ásia",
+    southAmerica:"América do Sul",
+    northAmerica:"América do Norte",
+    oceania:"Oceania"
   }
 
 };
 
 
 /* =========================================================
-   EUROPEAN NATIONAL TEAMS
+   NATIONAL TEAMS - ALL MAIN REGIONS
    ========================================================= */
 
-const nationalTeams = [
+const nationalTeams=[
 
-  {
-    name:"Albania",
-    flag:"🇦🇱",
-    country:"Albania"
-  },
+/* EUROPE */
 
-  {
-    name:"Andorra",
-    flag:"🇦🇩",
-    country:"Andorra"
-  },
+{name:"Albania",flag:"🇦🇱",region:"Europe"},
+{name:"Andorra",flag:"🇦🇩",region:"Europe"},
+{name:"Armenia",flag:"🇦🇲",region:"Europe"},
+{name:"Austria",flag:"🇦🇹",region:"Europe"},
+{name:"Azerbaijan",flag:"🇦🇿",region:"Europe"},
+{name:"Belarus",flag:"🇧🇾",region:"Europe"},
+{name:"Belgium",flag:"🇧🇪",region:"Europe"},
+{name:"Bosnia and Herzegovina",flag:"🇧🇦",region:"Europe"},
+{name:"Bulgaria",flag:"🇧🇬",region:"Europe"},
+{name:"Croatia",flag:"🇭🇷",region:"Europe"},
+{name:"Cyprus",flag:"🇨🇾",region:"Europe"},
+{name:"Czech Republic",flag:"🇨🇿",region:"Europe"},
+{name:"Denmark",flag:"🇩🇰",region:"Europe"},
+{name:"England",flag:"🏴",region:"Europe"},
+{name:"Estonia",flag:"🇪🇪",region:"Europe"},
+{name:"Faroe Islands",flag:"🇫🇴",region:"Europe"},
+{name:"Finland",flag:"🇫🇮",region:"Europe"},
+{name:"France",flag:"🇫🇷",region:"Europe"},
+{name:"Georgia",flag:"🇬🇪",region:"Europe"},
+{name:"Germany",flag:"🇩🇪",region:"Europe"},
+{name:"Gibraltar",flag:"🇬🇮",region:"Europe"},
+{name:"Greece",flag:"🇬🇷",region:"Europe"},
+{name:"Hungary",flag:"🇭🇺",region:"Europe"},
+{name:"Iceland",flag:"🇮🇸",region:"Europe"},
+{name:"Israel",flag:"🇮🇱",region:"Europe"},
+{name:"Italy",flag:"🇮🇹",region:"Europe"},
+{name:"Kazakhstan",flag:"🇰🇿",region:"Europe"},
+{name:"Kosovo",flag:"🇽🇰",region:"Europe"},
+{name:"Latvia",flag:"🇱🇻",region:"Europe"},
+{name:"Liechtenstein",flag:"🇱🇮",region:"Europe"},
+{name:"Lithuania",flag:"🇱🇹",region:"Europe"},
+{name:"Luxembourg",flag:"🇱🇺",region:"Europe"},
+{name:"Malta",flag:"🇲🇹",region:"Europe"},
+{name:"Moldova",flag:"🇲🇩",region:"Europe"},
+{name:"Montenegro",flag:"🇲🇪",region:"Europe"},
+{name:"Netherlands",flag:"🇳🇱",region:"Europe"},
+{name:"North Macedonia",flag:"🇲🇰",region:"Europe"},
+{name:"Northern Ireland",flag:"🇬🇧",region:"Europe"},
+{name:"Norway",flag:"🇳🇴",region:"Europe"},
+{name:"Poland",flag:"🇵🇱",region:"Europe"},
+{name:"Portugal",flag:"🇵🇹",region:"Europe"},
+{name:"Republic of Ireland",flag:"🇮🇪",region:"Europe"},
+{name:"Romania",flag:"🇷🇴",region:"Europe"},
+{name:"Russia",flag:"🇷🇺",region:"Europe"},
+{name:"San Marino",flag:"🇸🇲",region:"Europe"},
+{name:"Scotland",flag:"🏴",region:"Europe"},
+{name:"Serbia",flag:"🇷🇸",region:"Europe"},
+{name:"Slovakia",flag:"🇸🇰",region:"Europe"},
+{name:"Slovenia",flag:"🇸🇮",region:"Europe"},
+{name:"Spain",flag:"🇪🇸",region:"Europe"},
+{name:"Sweden",flag:"🇸🇪",region:"Europe"},
+{name:"Switzerland",flag:"🇨🇭",region:"Europe"},
+{name:"Turkey",flag:"🇹🇷",region:"Europe"},
+{name:"Ukraine",flag:"🇺🇦",region:"Europe"},
+{name:"Wales",flag:"🏴",region:"Europe"},
 
-  {
-    name:"Armenia",
-    flag:"🇦🇲",
-    country:"Armenia"
-  },
+/* AFRICA */
 
-  {
-    name:"Austria",
-    flag:"🇦🇹",
-    country:"Austria"
-  },
+{name:"Algeria",flag:"🇩🇿",region:"Africa"},
+{name:"Angola",flag:"🇦🇴",region:"Africa"},
+{name:"Benin",flag:"🇧🇯",region:"Africa"},
+{name:"Botswana",flag:"🇧🇼",region:"Africa"},
+{name:"Burkina Faso",flag:"🇧🇫",region:"Africa"},
+{name:"Burundi",flag:"🇧🇮",region:"Africa"},
+{name:"Cameroon",flag:"🇨🇲",region:"Africa"},
+{name:"Cape Verde",flag:"🇨🇻",region:"Africa"},
+{name:"Central African Republic",flag:"🇨🇫",region:"Africa"},
+{name:"Chad",flag:"🇹🇩",region:"Africa"},
+{name:"Comoros",flag:"🇰🇲",region:"Africa"},
+{name:"Congo",flag:"🇨🇬",region:"Africa"},
+{name:"DR Congo",flag:"🇨🇩",region:"Africa"},
+{name:"Djibouti",flag:"🇩🇯",region:"Africa"},
+{name:"Egypt",flag:"🇪🇬",region:"Africa"},
+{name:"Equatorial Guinea",flag:"🇬🇶",region:"Africa"},
+{name:"Eritrea",flag:"🇪🇷",region:"Africa"},
+{name:"Eswatini",flag:"🇸🇿",region:"Africa"},
+{name:"Ethiopia",flag:"🇪🇹",region:"Africa"},
+{name:"Gabon",flag:"🇬🇦",region:"Africa"},
+{name:"Gambia",flag:"🇬🇲",region:"Africa"},
+{name:"Ghana",flag:"🇬🇭",region:"Africa"},
+{name:"Guinea",flag:"🇬🇳",region:"Africa"},
+{name:"Guinea-Bissau",flag:"🇬🇼",region:"Africa"},
+{name:"Ivory Coast",flag:"🇨🇮",region:"Africa"},
+{name:"Kenya",flag:"🇰🇪",region:"Africa"},
+{name:"Lesotho",flag:"🇱🇸",region:"Africa"},
+{name:"Liberia",flag:"🇱🇷",region:"Africa"},
+{name:"Libya",flag:"🇱🇾",region:"Africa"},
+{name:"Madagascar",flag:"🇲🇬",region:"Africa"},
+{name:"Malawi",flag:"🇲🇼",region:"Africa"},
+{name:"Mali",flag:"🇲🇱",region:"Africa"},
+{name:"Mauritania",flag:"🇲🇷",region:"Africa"},
+{name:"Mauritius",flag:"🇲🇺",region:"Africa"},
+{name:"Morocco",flag:"🇲🇦",region:"Africa"},
+{name:"Mozambique",flag:"🇲🇿",region:"Africa"},
+{name:"Namibia",flag:"🇳🇦",region:"Africa"},
+{name:"Niger",flag:"🇳🇪",region:"Africa"},
+{name:"Nigeria",flag:"🇳🇬",region:"Africa"},
+{name:"Rwanda",flag:"🇷🇼",region:"Africa"},
+{name:"Senegal",flag:"🇸🇳",region:"Africa"},
+{name:"Seychelles",flag:"🇸🇨",region:"Africa"},
+{name:"Sierra Leone",flag:"🇸🇱",region:"Africa"},
+{name:"Somalia",flag:"🇸🇴",region:"Africa"},
+{name:"South Africa",flag:"🇿🇦",region:"Africa"},
+{name:"South Sudan",flag:"🇸🇸",region:"Africa"},
+{name:"Sudan",flag:"🇸🇩",region:"Africa"},
+{name:"Tanzania",flag:"🇹🇿",region:"Africa"},
+{name:"Togo",flag:"🇹🇬",region:"Africa"},
+{name:"Tunisia",flag:"🇹🇳",region:"Africa"},
+{name:"Uganda",flag:"🇺🇬",region:"Africa"},
+{name:"Zambia",flag:"🇿🇲",region:"Africa"},
+{name:"Zimbabwe",flag:"🇿🇼",region:"Africa"},
 
-  {
-    name:"Azerbaijan",
-    flag:"🇦🇿",
-    country:"Azerbaijan"
-  },
+/* ASIA */
 
-  {
-    name:"Belarus",
-    flag:"🇧🇾",
-    country:"Belarus"
-  },
+{name:"Afghanistan",flag:"🇦🇫",region:"Asia"},
+{name:"Australia",flag:"🇦🇺",region:"Asia"},
+{name:"Bahrain",flag:"🇧🇭",region:"Asia"},
+{name:"Bangladesh",flag:"🇧🇩",region:"Asia"},
+{name:"Bhutan",flag:"🇧🇹",region:"Asia"},
+{name:"Brunei",flag:"🇧🇳",region:"Asia"},
+{name:"Cambodia",flag:"🇰🇭",region:"Asia"},
+{name:"China",flag:"🇨🇳",region:"Asia"},
+{name:"Chinese Taipei",flag:"🇹🇼",region:"Asia"},
+{name:"Hong Kong",flag:"🇭🇰",region:"Asia"},
+{name:"India",flag:"🇮🇳",region:"Asia"},
+{name:"Indonesia",flag:"🇮🇩",region:"Asia"},
+{name:"Iran",flag:"🇮🇷",region:"Asia"},
+{name:"Iraq",flag:"🇮🇶",region:"Asia"},
+{name:"Japan",flag:"🇯🇵",region:"Asia"},
+{name:"Jordan",flag:"🇯🇴",region:"Asia"},
+{name:"Kuwait",flag:"🇰🇼",region:"Asia"},
+{name:"Kyrgyzstan",flag:"🇰🇬",region:"Asia"},
+{name:"Lebanon",flag:"🇱🇧",region:"Asia"},
+{name:"Malaysia",flag:"🇲🇾",region:"Asia"},
+{name:"Maldives",flag:"🇲🇻",region:"Asia"},
+{name:"Mongolia",flag:"🇲🇳",region:"Asia"},
+{name:"Myanmar",flag:"🇲🇲",region:"Asia"},
+{name:"Nepal",flag:"🇳🇵",region:"Asia"},
+{name:"North Korea",flag:"🇰🇵",region:"Asia"},
+{name:"Oman",flag:"🇴🇲",region:"Asia"},
+{name:"Pakistan",flag:"🇵🇰",region:"Asia"},
+{name:"Palestine",flag:"🇵🇸",region:"Asia"},
+{name:"Philippines",flag:"🇵🇭",region:"Asia"},
+{name:"Qatar",flag:"🇶🇦",region:"Asia"},
+{name:"Saudi Arabia",flag:"🇸🇦",region:"Asia"},
+{name:"Singapore",flag:"🇸🇬",region:"Asia"},
+{name:"South Korea",flag:"🇰🇷",region:"Asia"},
+{name:"Sri Lanka",flag:"🇱🇰",region:"Asia"},
+{name:"Syria",flag:"🇸🇾",region:"Asia"},
+{name:"Tajikistan",flag:"🇹🇯",region:"Asia"},
+{name:"Thailand",flag:"🇹🇭",region:"Asia"},
+{name:"Turkmenistan",flag:"🇹🇲",region:"Asia"},
+{name:"United Arab Emirates",flag:"🇦🇪",region:"Asia"},
+{name:"Uzbekistan",flag:"🇺🇿",region:"Asia"},
+{name:"Vietnam",flag:"🇻🇳",region:"Asia"},
+{name:"Yemen",flag:"🇾🇪",region:"Asia"},
 
-  {
-    name:"Belgium",
-    flag:"🇧🇪",
-    country:"Belgium"
-  },
+/* SOUTH AMERICA */
 
-  {
-    name:"Bosnia and Herzegovina",
-    flag:"🇧🇦",
-    country:"Bosnia and Herzegovina"
-  },
+{name:"Argentina",flag:"🇦🇷",region:"South America"},
+{name:"Bolivia",flag:"🇧🇴",region:"South America"},
+{name:"Brazil",flag:"🇧🇷",region:"South America"},
+{name:"Chile",flag:"🇨🇱",region:"South America"},
+{name:"Colombia",flag:"🇨🇴",region:"South America"},
+{name:"Ecuador",flag:"🇪🇨",region:"South America"},
+{name:"Paraguay",flag:"🇵🇾",region:"South America"},
+{name:"Peru",flag:"🇵🇪",region:"South America"},
+{name:"Uruguay",flag:"🇺🇾",region:"South America"},
+{name:"Venezuela",flag:"🇻🇪",region:"South America"},
 
-  {
-    name:"Bulgaria",
-    flag:"🇧🇬",
-    country:"Bulgaria"
-  },
+/* NORTH AMERICA */
 
-  {
-    name:"Croatia",
-    flag:"🇭🇷",
-    country:"Croatia"
-  },
+{name:"Canada",flag:"🇨🇦",region:"North America"},
+{name:"Costa Rica",flag:"🇨🇷",region:"North America"},
+{name:"Cuba",flag:"🇨🇺",region:"North America"},
+{name:"Dominican Republic",flag:"🇩🇴",region:"North America"},
+{name:"El Salvador",flag:"🇸🇻",region:"North America"},
+{name:"Guatemala",flag:"🇬🇹",region:"North America"},
+{name:"Haiti",flag:"🇭🇹",region:"North America"},
+{name:"Honduras",flag:"🇭🇳",region:"North America"},
+{name:"Jamaica",flag:"🇯🇲",region:"North America"},
+{name:"Mexico",flag:"🇲🇽",region:"North America"},
+{name:"Nicaragua",flag:"🇳🇮",region:"North America"},
+{name:"Panama",flag:"🇵🇦",region:"North America"},
+{name:"Trinidad and Tobago",flag:"🇹🇹",region:"North America"},
+{name:"United States",flag:"🇺🇸",region:"North America"},
 
-  {
-    name:"Cyprus",
-    flag:"🇨🇾",
-    country:"Cyprus"
-  },
+/* OCEANIA */
 
-  {
-    name:"Czech Republic",
-    flag:"🇨🇿",
-    country:"Czech Republic"
-  },
-
-  {
-    name:"Denmark",
-    flag:"🇩🇰",
-    country:"Denmark"
-  },
-
-  {
-    name:"England",
-    flag:"🏴",
-    country:"England"
-  },
-
-  {
-    name:"Estonia",
-    flag:"🇪🇪",
-    country:"Estonia"
-  },
-
-  {
-    name:"Faroe Islands",
-    flag:"🇫🇴",
-    country:"Faroe Islands"
-  },
-
-  {
-    name:"Finland",
-    flag:"🇫🇮",
-    country:"Finland"
-  },
-
-  {
-    name:"France",
-    flag:"🇫🇷",
-    country:"France"
-  },
-
-  {
-    name:"Georgia",
-    flag:"🇬🇪",
-    country:"Georgia"
-  },
-
-  {
-    name:"Germany",
-    flag:"🇩🇪",
-    country:"Germany"
-  },
-
-  {
-    name:"Gibraltar",
-    flag:"🇬🇮",
-    country:"Gibraltar"
-  },
-
-  {
-    name:"Greece",
-    flag:"🇬🇷",
-    country:"Greece"
-  },
-
-  {
-    name:"Hungary",
-    flag:"🇭🇺",
-    country:"Hungary"
-  },
-
-  {
-    name:"Iceland",
-    flag:"🇮🇸",
-    country:"Iceland"
-  },
-
-  {
-    name:"Israel",
-    flag:"🇮🇱",
-    country:"Israel"
-  },
-
-  {
-    name:"Italy",
-    flag:"🇮🇹",
-    country:"Italy"
-  },
-
-  {
-    name:"Kazakhstan",
-    flag:"🇰🇿",
-    country:"Kazakhstan"
-  },
-
-  {
-    name:"Kosovo",
-    flag:"🇽🇰",
-    country:"Kosovo"
-  },
-
-  {
-    name:"Latvia",
-    flag:"🇱🇻",
-    country:"Latvia"
-  },
-
-  {
-    name:"Liechtenstein",
-    flag:"🇱🇮",
-    country:"Liechtenstein"
-  },
-
-  {
-    name:"Lithuania",
-    flag:"🇱🇹",
-    country:"Lithuania"
-  },
-
-  {
-    name:"Luxembourg",
-    flag:"🇱🇺",
-    country:"Luxembourg"
-  },
-
-  {
-    name:"Malta",
-    flag:"🇲🇹",
-    country:"Malta"
-  },
-
-  {
-    name:"Moldova",
-    flag:"🇲🇩",
-    country:"Moldova"
-  },
-
-  {
-    name:"Montenegro",
-    flag:"🇲🇪",
-    country:"Montenegro"
-  },
-
-  {
-    name:"Netherlands",
-    flag:"🇳🇱",
-    country:"Netherlands"
-  },
-
-  {
-    name:"North Macedonia",
-    flag:"🇲🇰",
-    country:"North Macedonia"
-  },
-
-  {
-    name:"Northern Ireland",
-    flag:"🇬🇧",
-    country:"Northern Ireland"
-  },
-
-  {
-    name:"Norway",
-    flag:"🇳🇴",
-    country:"Norway"
-  },
-
-  {
-    name:"Poland",
-    flag:"🇵🇱",
-    country:"Poland"
-  },
-
-  {
-    name:"Portugal",
-    flag:"🇵🇹",
-    country:"Portugal"
-  },
-
-  {
-    name:"Republic of Ireland",
-    flag:"🇮🇪",
-    country:"Ireland"
-  },
-
-  {
-    name:"Romania",
-    flag:"🇷🇴",
-    country:"Romania"
-  },
-
-  {
-    name:"Russia",
-    flag:"🇷🇺",
-    country:"Russia"
-  },
-
-  {
-    name:"San Marino",
-    flag:"🇸🇲",
-    country:"San Marino"
-  },
-
-  {
-    name:"Scotland",
-    flag:"🏴",
-    country:"Scotland"
-  },
-
-  {
-    name:"Serbia",
-    flag:"🇷🇸",
-    country:"Serbia"
-  },
-
-  {
-    name:"Slovakia",
-    flag:"🇸🇰",
-    country:"Slovakia"
-  },
-
-  {
-    name:"Slovenia",
-    flag:"🇸🇮",
-    country:"Slovenia"
-  },
-
-  {
-    name:"Spain",
-    flag:"🇪🇸",
-    country:"Spain"
-  },
-
-  {
-    name:"Sweden",
-    flag:"🇸🇪",
-    country:"Sweden"
-  },
-
-  {
-    name:"Switzerland",
-    flag:"🇨🇭",
-    country:"Switzerland"
-  },
-
-  {
-    name:"Turkey",
-    flag:"🇹🇷",
-    country:"Turkey"
-  },
-
-  {
-    name:"Ukraine",
-    flag:"🇺🇦",
-    country:"Ukraine"
-  },
-
-  {
-    name:"Wales",
-    flag:"🏴",
-    country:"Wales"
-  }
+{name:"Fiji",flag:"🇫🇯",region:"Oceania"},
+{name:"New Zealand",flag:"🇳🇿",region:"Oceania"},
+{name:"Papua New Guinea",flag:"🇵🇬",region:"Oceania"},
+{name:"Samoa",flag:"🇼🇸",region:"Oceania"},
+{name:"Solomon Islands",flag:"🇸🇧",region:"Oceania"},
+{name:"Tahiti",flag:"🇵🇫",region:"Oceania"},
+{name:"Tonga",flag:"🇹🇴",region:"Oceania"},
+{name:"Vanuatu",flag:"🇻🇺",region:"Oceania"}
 
 ];
 
@@ -1373,92 +1051,44 @@ const nationalTeams = [
    STATE
    ========================================================= */
 
-const state = {
-
+const state={
   page:"home",
-
-  day:"today",
-
   matches:[],
-
   leagues:[],
-
-  search:"",
-
   selectedLeague:null,
-
-  language:
-    localStorage.getItem("ghl_lang")
-    || detectLanguage(),
-
+  language:localStorage.getItem("ghl_lang")||detectLanguage(),
   loading:true,
-
   error:null
-
 };
 
 
 /* =========================================================
-   LANGUAGE DETECTION
+   LANGUAGE
    ========================================================= */
 
 function detectLanguage(){
 
-  const lang =
-    navigator.language ||
-    navigator.userLanguage ||
-    "en";
+  const l=(navigator.language||"en").toLowerCase();
 
-  const l =
-    lang.toLowerCase();
+  if(l.startsWith("ar"))return"ar";
+  if(l.startsWith("es"))return"es";
+  if(l.startsWith("fr"))return"fr";
+  if(l.startsWith("pt"))return"pt";
 
-  if(l.startsWith("ar")){
-    return "ar";
-  }
-
-  if(l.startsWith("es")){
-    return "es";
-  }
-
-  if(l.startsWith("fr")){
-    return "fr";
-  }
-
-  if(l.startsWith("pt")){
-    return "pt";
-  }
-
-  return "en";
-
+  return"en";
 }
-
-
-/* =========================================================
-   TRANSLATION
-   ========================================================= */
 
 function t(key){
-
-  return (
-    translations[state.language] &&
-    translations[state.language][key]
-  )
-  ||
-  translations.en[key]
-  ||
-  key;
-
+  return translations[state.language]?.[key]
+    ||translations.en[key]
+    ||key;
 }
-
 
 function setLanguage(lang){
 
-  if(!translations[lang]){
-    return;
-  }
+  if(!translations[lang])return;
 
-  state.language =
-    lang;
+  state.language=lang;
 
   localStorage.setItem(
     "ghl_lang",
@@ -1466,23 +1096,18 @@ function setLanguage(lang){
   );
 
   applyDirection();
-
   render();
-
 }
-
 
 function applyDirection(){
 
-  const rtl =
-    state.language === "ar";
-
-  document.documentElement.lang =
+  document.documentElement.lang=
     state.language;
 
-  document.documentElement.dir =
-    rtl ? "rtl" : "ltr";
-
+  document.documentElement.dir=
+    state.language==="ar"
+    ?"rtl"
+    :"ltr";
 }
 
 
@@ -1492,12 +1117,7 @@ function applyDirection(){
 
 function escapeHtml(value){
 
-  if(
-    value === undefined ||
-    value === null
-  ){
-    return "";
-  }
+  if(value===undefined||value===null)return"";
 
   return String(value)
     .replaceAll("&","&amp;")
@@ -1505,26 +1125,16 @@ function escapeHtml(value){
     .replaceAll(">","&gt;")
     .replaceAll('"',"&quot;")
     .replaceAll("'","&#039;");
-
 }
-
 
 function formatTime(value){
 
-  if(!value){
-    return "--:--";
-  }
+  if(!value)return"--:--";
 
-  const d =
-    new Date(value);
+  const d=new Date(value);
 
-  if(
-    Number.isNaN(
-      d.getTime()
-    )
-  ){
+  if(Number.isNaN(d.getTime()))
     return value;
-  }
 
   return d.toLocaleTimeString(
     state.language,
@@ -1533,98 +1143,69 @@ function formatTime(value){
       minute:"2-digit"
     }
   );
-
 }
-
 
 function showToast(message){
 
-  const el =
+  const el=
     document.getElementById("toast");
 
-  el.textContent =
-    message;
+  el.textContent=message;
+  el.style.display="block";
 
-  el.style.display =
-    "block";
+  clearTimeout(window.toastTimer);
 
-  clearTimeout(
-    window.toastTimer
+  window.toastTimer=setTimeout(
+    ()=>{
+      el.style.display="none";
+    },
+    2500
   );
-
-  window.toastTimer =
-    setTimeout(()=>{
-      el.style.display =
-        "none";
-    },2500);
-
 }
 
 
 /* =========================================================
-   LOAD DATA
+   LOAD API DATA
    ========================================================= */
 
 async function loadData(){
 
-  state.loading =
-    true;
-
-  state.error =
-    null;
+  state.loading=true;
+  state.error=null;
 
   render();
 
   try{
 
-    const responses =
-      await Promise.all([
+    const [
+      matchesResponse,
+      leaguesResponse
+    ]=await Promise.all([
 
-        fetch(
-          "data.json?x="+Date.now()
-        ),
+      fetch(
+        "data.json?x="+Date.now()
+      ),
 
-        fetch(
-          "leagues.json?x="+Date.now()
-        )
+      fetch(
+        "leagues.json?x="+Date.now()
+      )
 
-      ]);
+    ]);
 
+    if(!matchesResponse.ok)
+      throw new Error("data.json failed");
 
-    const matchesResponse =
-      responses[0];
+    if(!leaguesResponse.ok)
+      throw new Error("leagues.json failed");
 
-    const leaguesResponse =
-      responses[1];
-
-
-    if(
-      !matchesResponse.ok
-    ){
-      throw new Error(
-        "data.json failed"
-      );
-    }
-
-
-    if(
-      !leaguesResponse.ok
-    ){
-      throw new Error(
-        "leagues.json failed"
-      );
-    }
-
-
-    const matchesPayload =
+    const matchesPayload=
       await matchesResponse.json();
 
-
-    const leaguesPayload =
+    const leaguesPayload=
       await leaguesResponse.json();
 
 
-    let matches =
+    let rawMatches=
       matchesPayload?.data?.matches
       ||
       matchesPayload?.matches
@@ -1632,7 +1213,7 @@ async function loadData(){
       [];
 
 
-    let countries =
+    let countryBlocks=
       leaguesPayload?.data?.data
       ||
       leaguesPayload?.data
@@ -1640,69 +1221,58 @@ async function loadData(){
       [];
 
 
-    let leagues = [];
+    let leagues=[];
 
 
-    if(
-      Array.isArray(countries)
-    ){
+    if(Array.isArray(countryBlocks)){
 
-      countries.forEach(
-        countryBlock=>{
+      countryBlocks.forEach(
+        block=>{
 
-          if(!countryBlock){
-            return;
-          }
-
-          const countryName =
-            countryBlock.country
+          const country=
+            block.country
             ||
-            countryBlock.name
+            block.name
             ||
             "International";
 
-
-          const list =
-            countryBlock.leagues
+          const list=
+            block.leagues
             ||
             [];
 
 
-          if(
-            Array.isArray(list)
-          ){
+          if(!Array.isArray(list))
+            return;
 
-            list.forEach(
-              league=>{
 
-                leagues.push({
+          list.forEach(
+            league=>{
 
-                  id:
-                    league.id,
+              leagues.push({
 
-                  name:
-                    league.name
-                    ||
-                    league.league_name
-                    ||
-                    "Unknown",
+                id:league.id,
 
-                  country:
-                    countryName,
+                name:
+                  league.name
+                  ||
+                  league.league_name
+                  ||
+                  "Unknown",
 
-                  logo:
-                    league.logo
-                    ||
-                    league.image
-                    ||
-                    ""
+                country,
 
-                });
+                logo:
+                  league.logo
+                  ||
+                  league.image
+                  ||
+                  ""
 
-              }
-            );
+              });
 
-          }
+            }
+          );
 
         }
       );
@@ -1717,7 +1287,7 @@ async function loadData(){
       )
     ){
 
-      leagues =
+      leagues=
         leaguesPayload.data.leagues.map(
           league=>({
 
@@ -1746,19 +1316,15 @@ async function loadData(){
     }
 
 
-    state.matches =
-      matches.map(
+    state.matches=
+      rawMatches.map(
         normalizeMatch
       );
 
-
-    state.leagues =
+    state.leagues=
       leagues;
 
-
-    state.loading =
-      false;
-
+    state.loading=false;
 
     render();
 
@@ -1767,18 +1333,15 @@ async function loadData(){
 
     console.error(error);
 
-    state.loading =
-      false;
+    state.loading=false;
 
-    state.error =
+    state.error=
       error.message
       ||
       "Unknown error";
 
     render();
-
   }
-
 }
 
 
@@ -1788,32 +1351,32 @@ async function loadData(){
 
 function normalizeMatch(match){
 
-  const home =
+  const home=
     match.home
     ||
     match.teams?.home
     ||
     {};
 
-  const away =
+  const away=
     match.away
     ||
     match.teams?.away
     ||
     {};
 
-  const score =
+  const score=
     match.score
     ||
     {};
 
-  const league =
+  const league=
     match.league
     ||
     {};
 
 
-  return {
+  return{
 
     id:
       match.id
@@ -1848,9 +1411,9 @@ function normalizeMatch(match){
     leagueId:
       match.league_id
       ||
-      league.id
-      ||
       match.leagueId
+      ||
+      league.id
       ||
       "",
 
@@ -1933,7 +1496,6 @@ function normalizeMatch(match){
       "-"
 
   };
-
 }
 
 
@@ -1943,42 +1505,35 @@ function normalizeMatch(match){
 
 function render(){
 
-  const app =
+  const app=
     document.getElementById("app");
 
 
   if(state.loading){
 
-    app.innerHTML = `
+    app.innerHTML=`
 
       <div class="loading">
 
         <div class="spinner"></div>
 
-        ${escapeHtml(
-          t("loading")
-        )}
+        ${escapeHtml(t("loading"))}
 
       </div>
 
     `;
 
     return;
-
   }
 
 
   if(state.error){
 
-    app.innerHTML = `
+    app.innerHTML=`
 
       <div class="error">
 
-        ⚠️
-
-        ${escapeHtml(
-          state.error
-        )}
+        ⚠️ ${escapeHtml(state.error)}
 
         <br><br>
 
@@ -1994,64 +1549,23 @@ function render(){
     `;
 
     return;
-
   }
 
 
-  if(state.page === "home"){
+  if(state.page==="home")
+    return renderHome();
 
-    setActiveNav("home");
+  if(state.page==="live")
+    return renderLive();
 
-    renderHome();
+  if(state.page==="competitions")
+    return renderCompetitions();
 
-    return;
+  if(state.page==="competition")
+    return renderCompetitionPage();
 
-  }
-
-
-  if(state.page === "live"){
-
-    setActiveNav("live");
-
-    renderLive();
-
-    return;
-
-  }
-
-
-  if(state.page === "competitions"){
-
-    setActiveNav("competitions");
-
-    renderCompetitions();
-
-    return;
-
-  }
-
-
-  if(state.page === "competition"){
-
-    setActiveNav("competitions");
-
-    renderCompetitionPage();
-
-    return;
-
-  }
-
-
-  if(state.page === "teams"){
-
-    setActiveNav("teams");
-
-    renderTeams();
-
-    return;
-
-  }
-
+  if(state.page==="teams")
+    return renderTeams();
 }
 
 
@@ -2061,32 +1575,35 @@ function render(){
 
 function renderHome(){
 
-  const matches =
-    state.matches;
+  const matches=state.matches;
+
+  setActiveNav("home");
 
 
-  document.getElementById(
-    "app"
-  ).innerHTML = `
+  document.getElementById("app").innerHTML=`
 
     <section class="hero">
 
-      <h1>
-        GolHoyLive ⚽
-      </h1>
+      <h1>GolHoyLive ⚽</h1>
 
       <p>
-        ${escapeHtml(
-          state.language === "ar"
-          ? "نتائج ومباريات كرة القدم مباشرة من جميع أنحاء العالم."
-          : state.language === "es"
-          ? "Resultados y partidos de fútbol en directo de todo el mundo."
-          : state.language === "fr"
-          ? "Résultats et matchs de football en direct du monde entier."
-          : state.language === "pt"
-          ? "Resultados e jogos de futebol ao vivo de todo o mundo."
-          : "Live football scores and matches from around the world."
-        )}
+
+        ${
+          state.language==="ar"
+          ?"نتائج ومباريات كرة القدم مباشرة من جميع أنحاء العالم."
+          :
+          state.language==="es"
+          ?"Resultados y partidos de fútbol en directo de todo el mundo."
+          :
+          state.language==="fr"
+          ?"Résultats et matchs de football en direct du monde entier."
+          :
+          state.language==="pt"
+          ?"Resultados e jogos de futebol ao vivo de todo o mundo."
+          :
+          "Live football scores and matches from around the world."
+        }
+
       </p>
 
     </section>
@@ -2098,26 +1615,21 @@ function renderHome(){
         class="day-btn active"
         onclick="changeDay('today')"
       >
-        📅
-        ${escapeHtml(t("today"))}
+        📅 ${escapeHtml(t("today"))}
       </button>
-
 
       <button
         class="day-btn"
         onclick="changeDay('yesterday')"
       >
-        ◀
-        ${escapeHtml(t("yesterday"))}
+        ◀ ${escapeHtml(t("yesterday"))}
       </button>
-
 
       <button
         class="day-btn"
         onclick="changeDay('tomorrow')"
       >
-        ${escapeHtml(t("tomorrow"))}
-        ▶
+        ${escapeHtml(t("tomorrow"))} ▶
       </button>
 
     </div>
@@ -2126,33 +1638,28 @@ function renderHome(){
     <div class="section-title">
 
       <h2>
-        ⚽
-        ${escapeHtml(t("todayMatches"))}
+        ⚽ ${escapeHtml(t("todayMatches"))}
       </h2>
 
-      <small>
-        ${matches.length}
-      </small>
+      <small>${matches.length}</small>
 
     </div>
 
 
     ${
       matches.length
-      ? renderMatches(matches)
-      : `
+      ?
+      renderMatches(matches)
+      :
+      `
         <div class="empty">
-          ⚽
-          <br><br>
-          ${escapeHtml(
-            t("noMatches")
-          )}
+          ⚽<br><br>
+          ${escapeHtml(t("noMatches"))}
         </div>
       `
     }
 
   `;
-
 }
 
 
@@ -2160,29 +1667,55 @@ function renderHome(){
    LIVE
    ========================================================= */
 
+function isLiveMatch(match){
+
+  const s=
+    String(match.status||"")
+    .toLowerCase();
+
+  return(
+    s.includes("live")
+    ||
+    s.includes("1h")
+    ||
+    s.includes("2h")
+    ||
+    s.includes("ht")
+    ||
+    s.includes("playing")
+    ||
+    s.includes("in play")
+    ||
+    (
+      match.minute!=="" &&
+      match.minute!==null &&
+      match.minute!==undefined
+    )
+  );
+}
+
 function renderLive(){
 
-  const liveMatches =
+  setActiveNav("live");
+
+  const matches=
     state.matches.filter(
       isLiveMatch
     );
 
 
-  document.getElementById(
-    "app"
-  ).innerHTML = `
+  document.getElementById("app").innerHTML=`
 
     <div class="page-header">
 
       <div>
 
         <h1 class="page-title">
-          🔴
-          ${escapeHtml(t("live"))}
+          🔴 ${escapeHtml(t("live"))}
         </h1>
 
         <div class="page-subtitle">
-          ${liveMatches.length}
+          ${matches.length}
         </div>
 
       </div>
@@ -2191,27 +1724,29 @@ function renderLive(){
 
 
     ${
-      liveMatches.length
-      ? renderMatches(
-          liveMatches
-        )
-      : `
+      matches.length
+      ?
+      renderMatches(matches)
+      :
+      `
         <div class="empty">
 
-          🔴
-
-          <br><br>
+          🔴<br><br>
 
           ${
-            state.language === "ar"
-            ? "لا توجد مباريات مباشرة الآن"
-            : state.language === "es"
-            ? "No hay partidos en directo ahora"
-            : state.language === "fr"
-            ? "Aucun match en direct"
-            : state.language === "pt"
-            ? "Nenhum jogo ao vivo agora"
-            : "No live matches right now"
+            state.language==="ar"
+            ?"لا توجد مباريات مباشرة الآن"
+            :
+            state.language==="es"
+            ?"No hay partidos en directo ahora"
+            :
+            state.language==="fr"
+            ?"Aucun match en direct"
+            :
+            state.language==="pt"
+            ?"Nenhum jogo ao vivo agora"
+            :
+            "No live matches right now"
           }
 
         </div>
@@ -2219,119 +1754,52 @@ function renderLive(){
     }
 
   `;
-
 }
 
 
 /* =========================================================
-   LIVE DETECTION
-   ========================================================= */
-
-function isLiveMatch(match){
-
-  const status =
-    String(
-      match.status || ""
-    ).toLowerCase();
-
-
-  return (
-
-    status.includes("live")
-
-    ||
-
-    status.includes("1h")
-
-    ||
-
-    status.includes("2h")
-
-    ||
-
-    status.includes("ht")
-
-    ||
-
-    status.includes("halftime")
-
-    ||
-
-    status.includes("first half")
-
-    ||
-
-    status.includes("second half")
-
-    ||
-
-    status.includes("playing")
-
-    ||
-
-    status.includes("in play")
-
-    ||
-
-    (
-      match.minute !== "" &&
-      match.minute !== null &&
-      match.minute !== undefined
-    )
-
-  );
-
-}
-
-
-/* =========================================================
-   MATCH LIST
+   MATCHES
    ========================================================= */
 
 function renderMatches(matches){
 
-  return `
+  return`
 
     <div class="matches">
 
-      ${matches.map(
-        renderMatch
-      ).join("")}
+      ${matches.map(renderMatch).join("")}
 
     </div>
 
   `;
-
 }
 
 
-/* =========================================================
-   MATCH CARD
-   ========================================================= */
-
 function renderMatch(match){
 
-  const live =
+  const live=
     isLiveMatch(match);
 
 
-  let statusText =
-    match.status
-    ||
-    "";
-
-
-  if(live){
-
-    statusText =
+  const status=
+    live
+    ?
+    (
       match.minute
-      ? `${match.minute}'`
-      : t("liveNow");
+      ?
+      `${match.minute}'`
+      :
+      t("liveNow")
+    )
+    :
+    (
+      match.status
+      ||
+      formatTime(match.date)
+    );
 
-  }
 
-
-  return `
+  return`
 
     <div class="match-card">
 
@@ -2341,43 +1809,27 @@ function renderMatch(match){
 
           ${
             match.leagueLogo
-            ? `
-              <img
-                src="${escapeHtml(match.leagueLogo)}"
-                style="
-                  width:18px;
-                  height:18px;
-                  object-fit:contain;
-                  vertical-align:middle;
-                  margin-right:5px;
-                "
-                alt=""
-              >
-            `
-            : "🏆 "
+            ?
+            `<img
+              src="${escapeHtml(match.leagueLogo)}"
+              style="width:18px;height:18px;object-fit:contain;vertical-align:middle"
+              alt=""
+            >`
+            :
+            "🏆"
           }
 
-          ${escapeHtml(
-            match.leagueName
-          )}
+          ${escapeHtml(match.leagueName)}
 
         </div>
 
 
         ${
           live
-          ? `
-            <div class="live">
-              LIVE
-            </div>
-          `
-          : `
-            <div class="status">
-              ${escapeHtml(
-                statusText
-              )}
-            </div>
-          `
+          ?
+          `<div class="live">LIVE</div>`
+          :
+          `<div class="status">${escapeHtml(status)}</div>`
         }
 
       </div>
@@ -2385,35 +1837,23 @@ function renderMatch(match){
 
       <div class="teams">
 
-
         <div class="team">
 
           ${
             match.home.logo
-            ? `
-              <img
-                class="team-logo"
-                src="${escapeHtml(
-                  match.home.logo
-                )}"
-                alt=""
-                loading="lazy"
-              >
-            `
-            : `
-              <div class="team-logo">
-                ⚽
-              </div>
-            `
+            ?
+            `<img
+              class="team-logo"
+              src="${escapeHtml(match.home.logo)}"
+              alt=""
+              loading="lazy"
+            >`
+            :
+            `<div class="team-logo">⚽</div>`
           }
 
-
           <div class="team-name">
-
-            ${escapeHtml(
-              match.home.name
-            )}
-
+            ${escapeHtml(match.home.name)}
           </div>
 
         </div>
@@ -2423,29 +1863,20 @@ function renderMatch(match){
 
           <div class="score">
 
-            ${
-              match.homeScore
-            }
-
+            ${escapeHtml(match.homeScore)}
             -
-
-            ${
-              match.awayScore
-            }
+            ${escapeHtml(match.awayScore)}
 
           </div>
-
 
           <div class="time">
 
             ${
               live
-              ? `<span class="extra">${escapeHtml(statusText)}</span>`
-              : escapeHtml(
-                  formatTime(
-                    match.date
-                  )
-                )
+              ?
+              `<span class="extra">${escapeHtml(status)}</span>`
+              :
+              escapeHtml(formatTime(match.date))
             }
 
           </div>
@@ -2455,33 +1886,21 @@ function renderMatch(match){
 
         <div class="team away">
 
-
           <div class="team-name">
-
-            ${escapeHtml(
-              match.away.name
-            )}
-
+            ${escapeHtml(match.away.name)}
           </div>
-
 
           ${
             match.away.logo
-            ? `
-              <img
-                class="team-logo"
-                src="${escapeHtml(
-                  match.away.logo
-                )}"
-                alt=""
-                loading="lazy"
-              >
-            `
-            : `
-              <div class="team-logo">
-                ⚽
-              </div>
-            `
+            ?
+            `<img
+              class="team-logo"
+              src="${escapeHtml(match.away.logo)}"
+              alt=""
+              loading="lazy"
+            >`
+            :
+            `<div class="team-logo">⚽</div>`
           }
 
         </div>
@@ -2491,7 +1910,6 @@ function renderMatch(match){
     </div>
 
   `;
-
 }
 
 
@@ -2501,81 +1919,62 @@ function renderMatch(match){
 
 function renderCompetitions(){
 
+  setActiveNav("competitions");
+
+
   if(!state.leagues.length){
 
-    document.getElementById(
-      "app"
-    ).innerHTML = `
+    document.getElementById("app").innerHTML=`
 
       <div class="empty">
-
-        ${escapeHtml(
-          t("noResults")
-        )}
-
+        ${escapeHtml(t("noResults"))}
       </div>
 
     `;
 
     return;
-
   }
 
 
-  const grouped = {};
+  const grouped={};
 
 
   state.leagues.forEach(
     league=>{
 
-      const country =
+      const country=
         league.country
         ||
         "International";
 
+      if(!grouped[country])
+        grouped[country]=[];
 
-      if(!grouped[country]){
-        grouped[country] = [];
-      }
-
-
-      grouped[country].push(
-        league
-      );
+      grouped[country].push(league);
 
     }
   );
 
 
-  const countries =
+  const countries=
     Object.keys(grouped)
       .sort(
-        (a,b)=>
-          a.localeCompare(b)
+        (a,b)=>a.localeCompare(b)
       );
 
 
-  document.getElementById(
-    "app"
-  ).innerHTML = `
+  document.getElementById("app").innerHTML=`
 
     <div class="page-header">
 
       <div>
 
         <h1 class="page-title">
-
-          🏆
-          ${escapeHtml(
-            t("competitionsTitle")
-          )}
-
+          🏆 ${escapeHtml(t("competitionsTitle"))}
         </h1>
 
         <div class="page-subtitle">
-
           ${state.leagues.length}
-
         </div>
 
       </div>
@@ -2583,31 +1982,21 @@ function renderCompetitions(){
     </div>
 
 
-    <div
-      class="search-box"
-      style="
-        max-width:none;
-        margin-bottom:22px
-      "
-    >
+    <div class="search-box country-search">
 
-      <div class="search-icon">
-        🔎
-      </div>
+      <div class="search-icon">🔎</div>
 
       <input
         id="competitionSearch"
         type="search"
-        placeholder="${escapeHtml(
-          t("search")
-        )}"
+        placeholder="${escapeHtml(t("search"))}"
         oninput="filterCompetitions(this.value)"
       >
 
     </div>
 
 
-    <div id="competitionsContainer">
+    <div>
 
       ${
         countries.map(
@@ -2615,27 +2004,18 @@ function renderCompetitions(){
 
             <section
               class="country-block"
-              data-country="${escapeHtml(
-                country
-              )}"
+              data-country="${escapeHtml(country)}"
             >
 
-              <div class="country-title">
-
-                ${escapeHtml(
-                  country
-                )}
-
+              <div class="region-title">
+                ${escapeHtml(country)}
               </div>
-
 
               <div class="grid">
 
                 ${
                   grouped[country]
-                    .map(
-                      renderCompetitionCard
-                    )
+                    .map(renderCompetitionCard)
                     .join("")
                 }
 
@@ -2650,111 +2030,42 @@ function renderCompetitions(){
     </div>
 
   `;
-
 }
 
 
-/* =========================================================
-   COMPETITION CARD
-   ========================================================= */
+function renderCompetitionCard(league){
 
-function renderCompetitionCard(
-  league
-){
-
-  return `
+  return`
 
     <div
       class="competition-card"
-      onclick="openCompetition('${escapeHtml(
-        String(league.id)
-      )}')"
+      onclick="openCompetition('${escapeHtml(String(league.id))}')"
     >
 
       ${
         league.logo
-        ? `
-          <img
-            class="competition-logo"
-            src="${escapeHtml(
-              league.logo
-            )}"
-            alt=""
-            loading="lazy"
-          >
-        `
-        : `
-          <div class="competition-logo">
-            🏆
-          </div>
-        `
+        ?
+        `<img
+          class="competition-logo"
+          src="${escapeHtml(league.logo)}"
+          alt=""
+          loading="lazy"
+        >`
+        :
+        `<div class="competition-logo">🏆</div>`
       }
-
 
       <div class="competition-name">
-
-        ${escapeHtml(
-          league.name
-        )}
-
+        ${escapeHtml(league.name)}
       </div>
 
-
-      ${
-        league.country
-        ? `
-          <div class="competition-country">
-
-            ${escapeHtml(
-              league.country
-            )}
-
-          </div>
-        `
-        : ""
-      }
+      <div class="competition-country">
+        ${escapeHtml(league.country||"")}
+      </div>
 
     </div>
 
   `;
-
-}
-
-
-/* =========================================================
-   OPEN COMPETITION
-   ========================================================= */
-
-function openCompetition(id){
-
-  const league =
-    state.leagues.find(
-      l =>
-        String(l.id)
-        ===
-        String(id)
-    );
-
-
-  if(!league){
-
-    showToast(
-      "Competition not found"
-    );
-
-    return;
-
-  }
-
-
-  state.selectedLeague =
-    league;
-
-  state.page =
-    "competition";
-
-  render();
-
 }
 
 
@@ -2762,41 +2073,49 @@ function openCompetition(id){
    COMPETITION PAGE
    ========================================================= */
 
-function renderCompetitionPage(){
+function openCompetition(id){
 
-  const league =
-    state.selectedLeague;
-
+  const league=
+    state.leagues.find(
+      l=>String(l.id)===String(id)
+    );
 
   if(!league){
 
-    openCompetitions();
-
+    showToast("Competition not found");
     return;
 
   }
 
+  state.selectedLeague=league;
+  state.page="competition";
 
-  const matches =
+  render();
+}
+
+
+function renderCompetitionPage(){
+
+  const league=
+    state.selectedLeague;
+
+
+  if(!league){
+    openCompetitions();
+    return;
+  }
+
+
+  const matches=
     state.matches.filter(
-      match =>
-        String(
-          match.leagueId
-        )
+      match=>
+        String(match.leagueId)
         ===
-        String(
-          league.id
-        )
+        String(league.id)
     );
 
 
-  const app =
-    document.getElementById(
-      "app"
-    );
-
-
-  app.innerHTML = `
+  document.getElementById("app").innerHTML=`
 
     <div class="page-header">
 
@@ -2804,12 +2123,8 @@ function renderCompetitionPage(){
         class="back-btn"
         onclick="openCompetitions()"
       >
-        ←
-        ${escapeHtml(
-          t("back")
-        )}
+        ← ${escapeHtml(t("back"))}
       </button>
-
 
       <div>
 
@@ -2817,36 +2132,22 @@ function renderCompetitionPage(){
 
           ${
             league.logo
-            ? `
-              <img
-                src="${escapeHtml(
-                  league.logo
-                )}"
-                style="
-                  width:40px;
-                  height:40px;
-                  object-fit:contain;
-                  vertical-align:middle
-                "
-                alt=""
-              >
-            `
-            : "🏆"
+            ?
+            `<img
+              src="${escapeHtml(league.logo)}"
+              style="width:40px;height:40px;object-fit:contain;vertical-align:middle"
+              alt=""
+            >`
+            :
+            "🏆"
           }
 
-          ${escapeHtml(
-            league.name
-          )}
+          ${escapeHtml(league.name)}
 
         </h1>
 
-
         <div class="page-subtitle">
-
-          ${escapeHtml(
-            league.country || ""
-          )}
-
+          ${escapeHtml(league.country||"")}
         </div>
 
       </div>
@@ -2857,165 +2158,129 @@ function renderCompetitionPage(){
     <div class="section-title">
 
       <h2>
-
-        ${escapeHtml(
-          t("todayMatches")
-        )}
-
+        ${escapeHtml(t("todayMatches"))}
       </h2>
 
-      <small>
-        ${matches.length}
-      </small>
+      <small>${matches.length}</small>
 
     </div>
 
 
     ${
       matches.length
-      ? renderMatches(matches)
-      : `
-
+      ?
+      renderMatches(matches)
+      :
+      `
         <div class="empty">
-
-          🏆
-
-          <br><br>
-
-          ${escapeHtml(
-            t("noMatchesToday")
-          )}
-
+          🏆<br><br>
+          ${escapeHtml(t("noMatches"))}
         </div>
-
       `
     }
 
   `;
-
 }
 
 
 /* =========================================================
-   TEAMS PAGE
+   NATIONAL TEAMS
    ========================================================= */
+
+function regionLabel(region){
+
+  const map={
+
+    Europe:"europe",
+    Africa:"africa",
+    Asia:"asia",
+    "South America":"southAmerica",
+    "North America":"northAmerica",
+    Oceania:"oceania"
+
+  };
+
+  return t(map[region]||"europe");
+}
+
 
 function renderTeams(){
 
-  const clubs = [];
+  setActiveNav("teams");
+
+
+  const grouped={};
+
+
+  nationalTeams.forEach(
+    team=>{
+
+      if(!grouped[team.region])
+        grouped[team.region]=[];
+
+      grouped[team.region].push(team);
+
+    }
+  );
+
+
+  const regionOrder=[
+    "Europe",
+    "Africa",
+    "Asia",
+    "South America",
+    "North America",
+    "Oceania"
+  ];
+
+
+  const clubs=[];
+  const seen=new Set();
 
 
   state.matches.forEach(
     match=>{
 
-      if(
-        match.home &&
-        match.home.name
-      ){
+      [
+        match.home,
+        match.away
+      ].forEach(
+        team=>{
 
-        clubs.push({
+          if(!team?.name)
+            return;
 
-          id:
-            match.home.id,
+          const key=
+            String(
+              team.id||team.name
+            );
 
-          name:
-            match.home.name,
+          if(seen.has(key))
+            return;
 
-          logo:
-            match.home.logo
+          seen.add(key);
 
-        });
+          clubs.push(team);
 
-      }
-
-
-      if(
-        match.away &&
-        match.away.name
-      ){
-
-        clubs.push({
-
-          id:
-            match.away.id,
-
-          name:
-            match.away.name,
-
-          logo:
-            match.away.logo
-
-        });
-
-      }
+        }
+      );
 
     }
   );
 
 
-  const uniqueClubs =
-    [];
-
-  const seen =
-    new Set();
-
-
-  clubs.forEach(
-    team=>{
-
-      const key =
-        String(
-          team.id
-          ||
-          team.name
-        );
-
-
-      if(
-        !seen.has(key)
-      ){
-
-        seen.add(key);
-
-        uniqueClubs.push(
-          team
-        );
-
-      }
-
-    }
-  );
-
-
-  const app =
-    document.getElementById(
-      "app"
-    );
-
-
-  app.innerHTML = `
+  document.getElementById("app").innerHTML=`
 
     <div class="page-header">
 
       <div>
 
         <h1 class="page-title">
-
-          👕
-          ${escapeHtml(
-            t("teams")
-          )}
-
+          👕 ${escapeHtml(t("teams"))}
         </h1>
 
         <div class="page-subtitle">
-
-          🌍
-          ${nationalTeams.length}
-          ${escapeHtml(
-            t("nationalTeams")
-          )}
-
+          🌍 ${nationalTeams.length} ${escapeHtml(t("nationalTeams"))}
         </div>
 
       </div>
@@ -3023,135 +2288,136 @@ function renderTeams(){
     </div>
 
 
-    <!-- NATIONAL TEAMS -->
+    <div class="search-box country-search">
 
-    <div class="section-title">
+      <div class="search-icon">🔎</div>
 
-      <h2>
-
-        🌍
-        ${escapeHtml(
-          t("nationalTeams")
-        )}
-
-      </h2>
-
-
-      <small>
-        ${nationalTeams.length}
-      </small>
+      <input
+        id="teamSearch"
+        type="search"
+        placeholder="${escapeHtml(t("search"))}"
+        oninput="filterNationalTeams(this.value)"
+      >
 
     </div>
 
 
-    <div class="grid">
+    <div id="nationalTeamsContainer">
 
       ${
-        nationalTeams.map(
-          team=>`
+        regionOrder.map(
+          region=>{
 
-            <div
-              class="national-card"
-              onclick="searchNationalTeam('${escapeHtml(
-                team.name
-              )}')"
-            >
+            const list=
+              grouped[region]||[];
 
-              <div class="national-flag">
+            return`
 
-                ${team.flag}
+              <section
+                class="region-block"
+                data-region="${escapeHtml(region)}"
+              >
 
-              </div>
+                <div class="region-title">
+
+                  🌍
+                  ${escapeHtml(
+                    regionLabel(region)
+                  )}
+
+                  <span
+                    style="
+                      color:var(--muted);
+                      font-size:12px;
+                      margin-left:8px
+                    "
+                  >
+                    ${list.length}
+                  </span>
+
+                </div>
 
 
-              <div class="national-name">
+                <div class="grid">
 
-                ${escapeHtml(
-                  team.name
-                )}
+                  ${
+                    list.map(
+                      team=>`
 
-              </div>
+                        <div
+                          class="national-card"
+                          data-team="${escapeHtml(team.name.toLowerCase())}"
+                          onclick="openNationalTeam('${escapeHtml(team.name)}')"
+                        >
 
+                          <div class="national-flag">
+                            ${team.flag}
+                          </div>
 
-              <div class="national-region">
+                          <div class="national-name">
+                            ${escapeHtml(team.name)}
+                          </div>
 
-                🇪🇺
-                ${escapeHtml(
-                  t("europe")
-                )}
+                          <div class="national-region">
+                            🌍 ${escapeHtml(regionLabel(region))}
+                          </div>
 
-              </div>
+                        </div>
 
-            </div>
+                      `
+                    ).join("")
+                  }
 
-          `
+                </div>
+
+              </section>
+
+            `;
+
+          }
         ).join("")
       }
 
     </div>
 
 
-    <!-- CLUB TEAMS -->
-
     <div class="section-title">
 
       <h2>
-
-        ⚽
-        ${escapeHtml(
-          t("currentTeams")
-        )}
-
+        ⚽ ${escapeHtml(t("currentTeams"))}
       </h2>
 
-
-      <small>
-        ${uniqueClubs.length}
-      </small>
+      <small>${clubs.length}</small>
 
     </div>
 
 
     ${
-      uniqueClubs.length
-      ? `
-
+      clubs.length
+      ?
+      `
         <div class="grid">
 
           ${
-            uniqueClubs.map(
+            clubs.map(
               team=>`
 
-                <div
-                  class="competition-card"
-                >
+                <div class="competition-card">
 
                   ${
                     team.logo
-                    ? `
-                      <img
-                        class="competition-logo"
-                        src="${escapeHtml(
-                          team.logo
-                        )}"
-                        alt=""
-                        loading="lazy"
-                      >
-                    `
-                    : `
-                      <div class="competition-logo">
-                        👕
-                      </div>
-                    `
+                    ?
+                    `<img
+                      class="competition-logo"
+                      src="${escapeHtml(team.logo)}"
+                      alt=""
+                    >`
+                    :
+                    `<div class="competition-logo">⚽</div>`
                   }
 
-
                   <div class="competition-name">
-
-                    ${escapeHtml(
-                      team.name
-                    )}
-
+                    ${escapeHtml(team.name)}
                   </div>
 
                 </div>
@@ -3161,23 +2427,16 @@ function renderTeams(){
           }
 
         </div>
-
       `
-      : `
-
+      :
+      `
         <div class="empty">
-
-          ${escapeHtml(
-            t("noResults")
-          )}
-
+          ${escapeHtml(t("noResults"))}
         </div>
-
       `
     }
 
   `;
-
 }
 
 
@@ -3185,33 +2444,199 @@ function renderTeams(){
    NATIONAL TEAM SEARCH
    ========================================================= */
 
-function searchNationalTeam(
-  name
-){
+function filterNationalTeams(value){
 
-  const input =
-    document.getElementById(
-      "searchInput"
+  const search=
+    String(value||"")
+      .trim()
+      .toLowerCase();
+
+
+  document
+    .querySelectorAll(
+      ".region-block"
+    )
+    .forEach(
+      block=>{
+
+        let visible=0;
+
+
+        block
+          .querySelectorAll(
+            ".national-card"
+          )
+          .forEach(
+            card=>{
+
+              const name=
+                card.dataset.team
+                ||
+                "";
+
+
+              const show=
+                !search
+                ||
+                name.includes(search);
+
+
+              card.style.display=
+                show
+                ?
+                ""
+                :
+                "none";
+
+
+              if(show)
+                visible++;
+
+            }
+          );
+
+
+        block.style.display=
+          visible
+          ?
+          ""
+          :
+          "none";
+
+      }
+    );
+
+}
+
+
+/* =========================================================
+   NATIONAL TEAM CLICK
+   ========================================================= */
+
+function openNationalTeam(name){
+
+  const team=
+    nationalTeams.find(
+      t=>
+        t.name.toLowerCase()
+        ===
+        String(name).toLowerCase()
     );
 
 
-  if(input){
+  if(!team)
+    return;
 
-    input.value =
-      name;
 
-    state.search =
-      name.toLowerCase();
+  const matching=
+    state.matches.filter(
+      match=>
 
-    renderSearchResults();
+        String(
+          match.home.name
+        ).toLowerCase()
+        .includes(
+          team.name.toLowerCase()
+        )
 
-    window.scrollTo({
-      top:0,
-      behavior:"smooth"
-    });
+        ||
 
-  }
+        String(
+          match.away.name
+        ).toLowerCase()
+        .includes(
+          team.name.toLowerCase()
+        )
+    );
 
+
+  const app=
+    document.getElementById("app");
+
+
+  app.innerHTML=`
+
+    <div class="page-header">
+
+      <button
+        class="back-btn"
+        onclick="openTeams()"
+      >
+        ← ${escapeHtml(t("back"))}
+      </button>
+
+      <div>
+
+        <h1 class="page-title">
+
+          ${team.flag}
+
+          ${escapeHtml(team.name)}
+
+        </h1>
+
+        <div class="page-subtitle">
+
+          🌍
+          ${escapeHtml(
+            regionLabel(team.region)
+          )}
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="section-title">
+
+      <h2>
+        ⚽ ${escapeHtml(t("todayMatches"))}
+      </h2>
+
+      <small>${matching.length}</small>
+
+    </div>
+
+
+    ${
+      matching.length
+      ?
+      renderMatches(matching)
+      :
+      `
+        <div class="empty">
+
+          ${team.flag}
+
+          <br><br>
+
+          ${
+            state.language==="ar"
+            ?
+            "ما كايناش مباراة ديال هاد المنتخب فبيانات اليوم."
+            :
+            state.language==="es"
+            ?
+            "No hay partidos de esta selección en los datos de hoy."
+            :
+            state.language==="fr"
+            ?
+            "Aucun match de cette sélection dans les données du jour."
+            :
+            state.language==="pt"
+            ?
+            "Nenhum jogo desta seleção nos dados de hoje."
+            :
+            "No match for this national team in today's data."
+          }
+
+        </div>
+      `
+    }
+
+  `;
 }
 
 
@@ -3222,71 +2647,51 @@ function searchNationalTeam(
 function setActiveNav(page){
 
   document
-    .querySelectorAll(
-      ".nav-btn"
-    )
+    .querySelectorAll(".nav-btn")
     .forEach(
       btn=>{
 
         btn.classList.toggle(
           "active",
-          btn.dataset.page
-          ===
-          page
+          btn.dataset.page===page
         );
 
       }
     );
-
 }
 
 
 function goHome(){
 
-  state.page =
-    "home";
-
-  state.selectedLeague =
-    null;
-
-  state.day =
-    "today";
+  state.page="home";
+  state.selectedLeague=null;
 
   render();
-
 }
 
 
 function openLive(){
 
-  state.page =
-    "live";
+  state.page="live";
 
   render();
-
 }
 
 
 function openCompetitions(){
 
-  state.page =
-    "competitions";
-
-  state.selectedLeague =
-    null;
+  state.page="competitions";
+  state.selectedLeague=null;
 
   render();
-
 }
 
 
 function openTeams(){
 
-  state.page =
-    "teams";
+  state.page="teams";
 
   render();
-
 }
 
 
@@ -3296,43 +2701,39 @@ function openTeams(){
 
 function changeDay(day){
 
-  state.day =
-    day;
-
-
-  if(
-    day === "today"
-  ){
+  if(day==="today"){
 
     render();
 
     return;
-
   }
 
 
   showToast(
 
-    state.language === "ar"
+    state.language==="ar"
+    ?
+    "أمس وغداً غادي نربطوهم بالـAPI فالمرحلة الجاية."
 
-    ? "بيانات أمس وغداً غادي نضيفوها فالمرحلة الجاية."
+    :
+    state.language==="es"
+    ?
+    "Ayer y mañana se conectarán con la API en la siguiente etapa."
 
-    : state.language === "es"
+    :
+    state.language==="fr"
+    ?
+    "Hier et demain seront connectés à l'API dans la prochaine étape."
 
-    ? "Los datos de ayer y mañana se añadirán en la siguiente etapa."
+    :
+    state.language==="pt"
+    ?
+    "Ontem e amanhã serão ligados à API na próxima etapa."
 
-    : state.language === "fr"
-
-    ? "Les données d'hier et de demain seront ajoutées dans la prochaine étape."
-
-    : state.language === "pt"
-
-    ? "Os dados de ontem e amanhã serão adicionados na próxima etapa."
-
-    : "Yesterday and tomorrow data will be added in the next stage."
+    :
+    "Yesterday and tomorrow will be connected to the API in the next stage."
 
   );
-
 }
 
 
@@ -3340,225 +2741,91 @@ function changeDay(day){
    GLOBAL SEARCH
    ========================================================= */
 
-document
-  .getElementById(
+const searchInput=
+  document.getElementById(
     "searchInput"
-  )
-  .addEventListener(
-    "input",
-    function(){
-
-      state.search =
-        this.value
-          .trim()
-          .toLowerCase();
-
-      renderSearchResults();
-
-    }
   );
 
 
-function renderSearchResults(){
+searchInput.addEventListener(
+  "input",
+  function(){
 
-  const value =
-    state.search;
-
-
-  const old =
-    document.getElementById(
-      "globalSearchResults"
-    );
+    const value=
+      this.value
+        .trim()
+        .toLowerCase();
 
 
-  if(old){
-    old.remove();
-  }
-
-
-  if(!value){
-    return;
-  }
-
-
-  const nationalResults =
-    nationalTeams
-      .filter(
-        team =>
-          team.name
-            .toLowerCase()
-            .includes(value)
+    document
+      .querySelectorAll(
+        ".global-search-result"
       )
-      .slice(0,10);
+      .forEach(
+        x=>x.remove()
+      );
 
 
-  const leagueResults =
-    state.leagues
-      .filter(
-        league =>
-          String(
-            league.name
-          )
-          .toLowerCase()
-          .includes(value)
-      )
-      .slice(0,10);
+    if(!value)
+      return;
 
 
-  const matchResults =
-    state.matches
-      .filter(
-        match =>
-
-          String(
-            match.home.name
-          )
-          .toLowerCase()
-          .includes(value)
-
-          ||
-
-          String(
-            match.away.name
-          )
-          .toLowerCase()
-          .includes(value)
-
-          ||
-
-          String(
-            match.leagueName
-          )
-          .toLowerCase()
-          .includes(value)
-      )
-      .slice(0,10);
-
-
-  const box =
-    document.createElement(
-      "div"
-    );
-
-
-  box.id =
-    "globalSearchResults";
-
-
-  box.className =
-    "search-results";
-
-
-  box.style.maxWidth =
-    "1250px";
-
-
-  box.style.margin =
-    "10px auto";
-
-
-  box.style.padding =
-    "0 18px";
-
-
-  let html =
-    "";
-
-
-  nationalResults.forEach(
-    team=>{
-
-      html += `
-
-        <div
-          class="search-result"
-          onclick="searchNationalTeam('${escapeHtml(
+    const teams=
+      nationalTeams
+        .filter(
+          team=>
             team.name
-          )}')"
-        >
+              .toLowerCase()
+              .includes(value)
+        )
+        .slice(0,8);
 
-          <div
-            style="
-              font-size:30px;
-              width:35px;
-              text-align:center
-            "
-          >
+
+    const leagues=
+      state.leagues
+        .filter(
+          league=>
+            String(league.name)
+              .toLowerCase()
+              .includes(value)
+        )
+        .slice(0,8);
+
+
+    if(!teams.length&&!leagues.length)
+      return;
+
+
+    const box=
+      document.createElement("div");
+
+
+    box.className=
+      "search-results global-search-result";
+
+
+    teams.forEach(
+      team=>{
+
+        const row=
+          document.createElement("div");
+
+
+        row.className=
+          "search-result";
+
+
+        row.innerHTML=`
+
+          <div style="font-size:28px">
             ${team.flag}
           </div>
 
-
           <div>
 
             <strong>
-
-              ${escapeHtml(
-                team.name
-              )}
-
+              ${escapeHtml(team.name)}
             </strong>
-
-
-            <div
-              style="
-                color:var(--green);
-                font-size:12px
-              "
-            >
-
-              🇪🇺
-              ${escapeHtml(
-                t("nationalTeams")
-              )}
-
-            </div>
-
-          </div>
-
-        </div>
-
-      `;
-
-    }
-  );
-
-
-  leagueResults.forEach(
-    league=>{
-
-      html += `
-
-        <div
-          class="search-result"
-          onclick="openCompetition('${escapeHtml(
-            String(league.id)
-          )}')"
-        >
-
-          ${
-            league.logo
-            ? `
-              <img
-                src="${escapeHtml(
-                  league.logo
-                )}"
-                alt=""
-              >
-            `
-            : "🏆"
-          }
-
-
-          <div>
-
-            <strong>
-
-              ${escapeHtml(
-                league.name
-              )}
-
-            </strong>
-
 
             <div
               style="
@@ -3566,126 +2833,111 @@ function renderSearchResults(){
                 font-size:12px
               "
             >
-
-              ${escapeHtml(
-                league.country || ""
+              🌍 ${escapeHtml(
+                regionLabel(team.region)
               )}
-
             </div>
 
           </div>
 
-        </div>
-
-      `;
-
-    }
-  );
+        `;
 
 
-  matchResults.forEach(
-    match=>{
+        row.onclick=()=>{
 
-      html += `
+          box.remove();
+          openNationalTeam(
+            team.name
+          );
 
-        <div class="search-result">
-
-          ${
-            match.home.logo
-            ? `
-              <img
-                src="${escapeHtml(
-                  match.home.logo
-                )}"
-                alt=""
-              >
-            `
-            : "⚽"
-          }
+        };
 
 
-          <div>
+        box.appendChild(row);
 
-            <strong>
-
-              ${escapeHtml(
-                match.home.name
-              )}
-
-              -
-
-              ${escapeHtml(
-                match.away.name
-              )}
-
-            </strong>
-
-
-            <div
-              style="
-                color:var(--muted);
-                font-size:12px
-              "
-            >
-
-              ${escapeHtml(
-                match.leagueName
-              )}
-
-            </div>
-
-          </div>
-
-        </div>
-
-      `;
-
-    }
-  );
-
-
-  if(!html){
-
-    html = `
-
-      <div class="empty">
-
-        ${escapeHtml(
-          t("noResults")
-        )}
-
-      </div>
-
-    `;
-
-  }
-
-
-  box.innerHTML =
-    html;
-
-
-  const header =
-    document.querySelector(
-      ".header"
+      }
     );
 
 
-  header.after(box);
+    leagues.forEach(
+      league=>{
 
-}
+        const row=
+          document.createElement("div");
+
+
+        row.className=
+          "search-result";
+
+
+        row.innerHTML=`
+
+          ${
+            league.logo
+            ?
+            `<img
+              src="${escapeHtml(league.logo)}"
+              alt=""
+            >`
+            :
+            `<div style="font-size:28px">🏆</div>`
+          }
+
+          <div>
+
+            <strong>
+              ${escapeHtml(league.name)}
+            </strong>
+
+            <div
+              style="
+                color:var(--muted);
+                font-size:12px
+              "
+            >
+              ${escapeHtml(
+                league.country||""
+              )}
+            </div>
+
+          </div>
+
+        `;
+
+
+        row.onclick=()=>{
+
+          box.remove();
+
+          openCompetition(
+            league.id
+          );
+
+        };
+
+
+        box.appendChild(row);
+
+      }
+    );
+
+
+    searchInput.parentElement.appendChild(
+      box
+    );
+
+  }
+);
 
 
 /* =========================================================
    COMPETITION SEARCH
    ========================================================= */
 
-function filterCompetitions(
-  value
-){
+function filterCompetitions(value){
 
-  const search =
-    String(value || "")
+  const search=
+    String(value||"")
       .trim()
       .toLowerCase();
 
@@ -3697,8 +2949,7 @@ function filterCompetitions(
     .forEach(
       block=>{
 
-        let visible =
-          0;
+        let visible=0;
 
 
         block
@@ -3708,106 +2959,66 @@ function filterCompetitions(
           .forEach(
             card=>{
 
-              const text =
+              const text=
                 card.textContent
                   .toLowerCase();
 
 
-              const show =
+              const show=
                 !search
                 ||
-                text.includes(
-                  search
-                );
+                text.includes(search);
 
 
-              card.style.display =
+              card.style.display=
                 show
-                ? ""
-                : "none";
+                ?
+                ""
+                :
+                "none";
 
 
-              if(show){
+              if(show)
                 visible++;
-              }
 
             }
           );
 
 
-        block.style.display =
+        block.style.display=
           visible
-          ? ""
-          : "none";
+          ?
+          ""
+          :
+          "none";
 
       }
     );
-
 }
 
 
 /* =========================================================
-   CLOSE SEARCH
+   LANGUAGE
    ========================================================= */
 
-document.addEventListener(
-  "click",
-  function(event){
-
-    const results =
-      document.getElementById(
-        "globalSearchResults"
-      );
+document.getElementById(
+  "languageSelect"
+).value=
+  state.language;
 
 
-    const input =
-      document.getElementById(
-        "searchInput"
-      );
+document.getElementById(
+  "languageSelect"
+).addEventListener(
+  "change",
+  function(){
 
-
-    if(
-      results &&
-      !results.contains(
-        event.target
-      ) &&
-      event.target !== input
-    ){
-
-      results.remove();
-
-    }
+    setLanguage(
+      this.value
+    );
 
   }
 );
-
-
-/* =========================================================
-   LANGUAGE SELECT
-   ========================================================= */
-
-document
-  .getElementById(
-    "languageSelect"
-  )
-  .value =
-    state.language;
-
-
-document
-  .getElementById(
-    "languageSelect"
-  )
-  .addEventListener(
-    "change",
-    function(){
-
-      setLanguage(
-        this.value
-      );
-
-    }
-  );
 
 
 /* =========================================================
@@ -3818,7 +3029,7 @@ setInterval(
   ()=>{
     loadData();
   },
-  5 * 60 * 1000
+  5*60*1000
 );
 
 
@@ -3829,7 +3040,6 @@ setInterval(
 applyDirection();
 
 loadData();
-
 
 </script>
 
