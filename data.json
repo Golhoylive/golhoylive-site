@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 332,
+    "credits_remaining": 330,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -92,7 +92,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -129,7 +129,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -137,13 +137,13 @@
                     "id": "3lk3jbw7cuvuny690bz0obsp6",
                     "name": "St. Lucia",
                     "logo": "https:\/\/live-football-api.com\/teams\/3lk3jbw7cuvuny690bz0obsp6.png",
-                    "score": "3"
+                    "score": "5"
                 },
                 "away": {
                     "id": "88ca766nh0ae9i9kpvwubxpzp",
                     "name": "Bermuda",
                     "logo": "https:\/\/live-football-api.com\/teams\/88ca766nh0ae9i9kpvwubxpzp.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 3,
@@ -166,7 +166,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -304,43 +304,6 @@
                 }
             },
             {
-                "id": "ajdn8w91n3ycag6udegeal3bo",
-                "league": {
-                    "id": "8tv00s1b0ija279uydetvvfca",
-                    "name": "North of Scotland Cup",
-                    "country": "Scotland"
-                },
-                "week": "Quarter-finals",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "8v9383uq2txm57b9cw643vksr",
-                    "name": "Clachnacuddin",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8v9383uq2txm57b9cw643vksr.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "3slgo0n0eutes78lc55vw921i",
-                    "name": "Brora Rangers",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3slgo0n0eutes78lc55vw921i.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "ald2l9pcy3zkfs7h2dv0hgphw",
                 "league": {
                     "id": "8tv00s1b0ija279uydetvvfca",
@@ -350,10 +313,10 @@
                 "week": "Quarter-finals",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
+                    "status": "postponed",
+                    "display": "Postponed",
                     "is_live": false,
-                    "state": "preGame"
+                    "state": "postponed"
                 },
                 "home": {
                     "id": "cidebsgnsbrod3iou5rmu7ihx",
@@ -388,7 +351,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -407,43 +370,6 @@
                 "halftime": {
                     "home": 0,
                     "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8pn0opsssi027tinxsihp1gd0",
-                "league": {
-                    "id": "2ni5x4ta0fv1zxee9l10rp1bz",
-                    "name": "LPF",
-                    "country": "Panama"
-                },
-                "week": "10",
-                "kickoff": "01:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "01:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "8k6znoefwdmwftowuoesovbxy",
-                    "name": "Alianza",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8k6znoefwdmwftowuoesovbxy.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "9dsz4gr440muwjq4ptjfk9viq",
-                    "name": "Independiente",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9dsz4gr440muwjq4ptjfk9viq.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7306,10 +7232,10 @@
                 "week": "5",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "90 +2'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "47oiq3narnesms86fg0npobo4",
@@ -7483,5 +7409,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 01:05:59"
+    "timestamp": "2026-09-29 01:36:19"
 }
