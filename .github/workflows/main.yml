@@ -23,22 +23,15 @@ jobs:
           set -e
           mkdir -p fixtures
 
-      - name: Get football matches
+      - name: Get yesterday matches
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-
         run: |
           set -e
 
-          TODAY=$(TZ=Africa/Casablanca date +%F)
-          YESTERDAY=$(TZ=Africa/Casablanca date -d "yesterday" +%F)
-          TOMORROW=$(TZ=Africa/Casablanca date -d "tomorrow" +%F)
+          DATE=$(TZ=Africa/Casablanca date -d "yesterday" +%F)
 
-          echo "Today: $TODAY"
-          echo "Yesterday: $YESTERDAY"
-          echo "Tomorrow: $TOMORROW"
-
-          echo "Getting today's matches..."
+          echo "Getting yesterday matches: $DATE"
 
           curl --fail \
             --silent \
@@ -46,87 +39,82 @@ jobs:
             --get \
             "https://live-football-api.com/api/v1/matches" \
             --data-urlencode "api_key=$LFA_API_KEY" \
-            --data-urlencode "date=$TODAY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/yesterday.json
+
+          test -s fixtures/yesterday.json
+
+          echo "Yesterday matches downloaded."
+
+      - name: Get today matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date +%F)
+
+          echo "Getting today matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
             --data-urlencode "lang=en" \
             -o data.json
 
           test -s data.json
 
-          echo "Today's matches downloaded."
+          echo "Today matches downloaded."
 
-          HOUR=$(TZ=Africa/Casablanca date +%H)
-          HOUR_NUMBER=$((10#$HOUR))
+      - name: Get tomorrow matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
 
-          if [ $((HOUR_NUMBER % 6)) -eq 0 ]; then
+          DATE=$(TZ=Africa/Casablanca date -d "tomorrow" +%F)
 
-            echo "Updating yesterday..."
+          echo "Getting tomorrow matches: $DATE"
 
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/matches" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "date=$YESTERDAY" \
-              --data-urlencode "lang=en" \
-              -o fixtures/yesterday.json
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/tomorrow.json
 
-            test -s fixtures/yesterday.json
+          test -s fixtures/tomorrow.json
 
-            echo "Updating tomorrow..."
-
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/matches" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "date=$TOMORROW" \
-              --data-urlencode "lang=en" \
-              -o fixtures/tomorrow.json
-
-            test -s fixtures/tomorrow.json
-
-            echo "Yesterday and tomorrow updated."
-
-          else
-
-            echo "Yesterday and tomorrow will be updated every 6 hours."
-
-          fi
+          echo "Tomorrow matches downloaded."
 
       - name: Get competitions
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-
         run: |
           set -e
 
-          HOUR=$(TZ=Africa/Casablanca date +%H)
-          HOUR_NUMBER=$((10#$HOUR))
+          echo "Getting competitions..."
 
-          if [ $((HOUR_NUMBER % 6)) -eq 0 ]; then
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/leagues" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "lang=en" \
+            -o leagues.json
 
-            echo "Updating competitions..."
+          test -s leagues.json
 
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/leagues" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "lang=en" \
-              -o leagues.json
-
-            test -s leagues.json
-
-            echo "Competitions updated."
-
-          else
-
-            echo "Keeping existing leagues.json."
-
-          fi
+          echo "Competitions downloaded."
 
       - name: Save football data
         run: |
@@ -137,15 +125,16 @@ jobs:
 
           git add data.json
           git add leagues.json
-          git add fixtures/
+          git add fixtures/yesterday.json
+          git add fixtures/tomorrow.json
 
           if git diff --cached --quiet; then
             echo "No changes in football data."
             exit 0
           fi
 
-          git commit -m "Update GolHoyLive football data"
+          git commit -m "Update yesterday today tomorrow football data"
 
           git push
 
-          echo "GolHoyLive data saved successfully."
+          echo "GolHoyLive football data saved successfully."
