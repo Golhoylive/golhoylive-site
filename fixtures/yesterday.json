@@ -1,0 +1,4638 @@
+{
+    "success": true,
+    "message": "Success",
+    "credits_remaining": 239,
+    "data": {
+        "date": "2026-09-28",
+        "language": "en",
+        "timezone": "UTC",
+        "matches": [
+            {
+                "id": "1wpjm25v2o37m8vl38fylqh3o",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "3csexoalt9hfesmo2p4619ga4",
+                    "name": "Curaçao",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3csexoalt9hfesmo2p4619ga4.png",
+                    "score": "6"
+                },
+                "away": {
+                    "id": "8tdrk99ukper6iqqutevwqech",
+                    "name": "Nicaragua",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8tdrk99ukper6iqqutevwqech.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 5,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1xhg0550hjzg2lvht3ed6l4wk",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8yhjl13p7luh3v905btbvz42t",
+                    "name": "Jamaica",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8yhjl13p7luh3v905btbvz42t.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "6ngz19ekzqqufux1sswnhzlsw",
+                    "name": "Honduras",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6ngz19ekzqqufux1sswnhzlsw.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dl4kc47i2dnifvp59is74izv8",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League B",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1vfo4jep2v606lou5a90mwwow",
+                    "name": "Dominica",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1vfo4jep2v606lou5a90mwwow.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "9cud7g7g69dymxowmuu5ueod1",
+                    "name": "Puerto Rico",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9cud7g7g69dymxowmuu5ueod1.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dlylleztuo7clusepxogr3x90",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League B",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "3lk3jbw7cuvuny690bz0obsp6",
+                    "name": "St. Lucia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3lk3jbw7cuvuny690bz0obsp6.png",
+                    "score": "5"
+                },
+                "away": {
+                    "id": "88ca766nh0ae9i9kpvwubxpzp",
+                    "name": "Bermuda",
+                    "logo": "https:\/\/live-football-api.com\/teams\/88ca766nh0ae9i9kpvwubxpzp.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dmsporsevs7aqyf35mbzj8qac",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League B",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6jwullawcerruu29afyok2wgl",
+                    "name": "St. Kitts",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6jwullawcerruu29afyok2wgl.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "88jwqq14es3obmtaxvj042tnv",
+                    "name": "Grenada",
+                    "logo": "https:\/\/live-football-api.com\/teams\/88jwqq14es3obmtaxvj042tnv.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "o2wxrhghao1sujm595i0dlhw",
+                "league": {
+                    "id": "byu00jvt1j6csyv4y1lkt2fm2",
+                    "name": "Primera Nacional",
+                    "country": "Argentina"
+                },
+                "week": "31",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "cfoocd4w2b1dia1gmaelkt13o",
+                    "name": "Gimn Jujuy",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cfoocd4w2b1dia1gmaelkt13o.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "39yl9nw2nhhulyjssa497c758",
+                    "name": "SM Tucumán",
+                    "logo": "https:\/\/live-football-api.com\/teams\/39yl9nw2nhhulyjssa497c758.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "cqcrkvm4gfctz974lojy3p638",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "00:06",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6yfdc2frjgibkax4c2uf2hbhm",
+                    "name": "Tigres UANL",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6yfdc2frjgibkax4c2uf2hbhm.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "723iqtis2afkaq656r7odf7u2",
+                    "name": "Atlético San L",
+                    "logo": "https:\/\/live-football-api.com\/teams\/723iqtis2afkaq656r7odf7u2.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8ux8ox6dwaarw23o4q5nmadqs",
+                "league": {
+                    "id": "2hsidwomhjsaaytdy9u5niyi4",
+                    "name": "Liga MX",
+                    "country": "Mexico"
+                },
+                "week": "10",
+                "kickoff": "01:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "2ei66pjfsrr6uxqp1bywq31lo",
+                    "name": "León",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2ei66pjfsrr6uxqp1bywq31lo.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "ecphe4bqgmin2tzsohf50egvd",
+                    "name": "Juárez",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ecphe4bqgmin2tzsohf50egvd.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1x3inmafrb00wb461arfz45xw",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "01:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8vxfv3p9ff60t5v4mm1t5si4s",
+                    "name": "Trinidad",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8vxfv3p9ff60t5v4mm1t5si4s.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "2uq1ocokdg5b95fmc6m7sp6md",
+                    "name": "Dominican Rep",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2uq1ocokdg5b95fmc6m7sp6md.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9euh19uwe34yc0j43ku5m6tqs",
+                "league": {
+                    "id": "2yyjcbbryf1r10apyzl7c7jvp",
+                    "name": "Liga de Ascenso",
+                    "country": "Costa Rica"
+                },
+                "week": "9",
+                "kickoff": "01:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bsuay4uc439ywyw9gltxipzp1",
+                    "name": "Cariari Pococí",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bsuay4uc439ywyw9gltxipzp1.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "5af26xb34z3a1o49zsrcekon9",
+                    "name": "Uruguay",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5af26xb34z3a1o49zsrcekon9.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "crietlvv0sylbaqx4q1syw5jo",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "01:06",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "aj0woidfo7hun895uedqvl7xm",
+                    "name": "Necaxa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aj0woidfo7hun895uedqvl7xm.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "d4roblxk51drf8vfu33hiafe2",
+                    "name": "Toluca",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d4roblxk51drf8vfu33hiafe2.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5shfw41pp00uxzh4r8l7ea2ok",
+                "league": {
+                    "id": "2ty8ihceabty8yddmu31iuuej",
+                    "name": "Primera A",
+                    "country": "Colombia"
+                },
+                "week": "3",
+                "kickoff": "01:10",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dmixnuqy63yn1wgkobi9ie5sc",
+                    "name": "Cali",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dmixnuqy63yn1wgkobi9ie5sc.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "64zckvniro8jjvyzul0dfjj0j",
+                    "name": "Águilas D",
+                    "logo": "https:\/\/live-football-api.com\/teams\/64zckvniro8jjvyzul0dfjj0j.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1y9dxwpy8va0fci9c3bbq2pzo",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "02:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "a4wu0pabb2b7r8ik6gs0w1o28",
+                    "name": "Guatemala",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a4wu0pabb2b7r8ik6gs0w1o28.png",
+                    "score": "6"
+                },
+                "away": {
+                    "id": "avc9qnhswi33ld54pvpp4fmkg",
+                    "name": "El Salvador",
+                    "logo": "https:\/\/live-football-api.com\/teams\/avc9qnhswi33ld54pvpp4fmkg.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8va26dyvf6f0hj6qjbbsw8t90",
+                "league": {
+                    "id": "2hsidwomhjsaaytdy9u5niyi4",
+                    "name": "Liga MX",
+                    "country": "Mexico"
+                },
+                "week": "10",
+                "kickoff": "03:10",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "b7hn6knkuxbpj1i8rmzapns7b",
+                    "name": "Necaxa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b7hn6knkuxbpj1i8rmzapns7b.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "eu8c408f59yx7egaqossbv25e",
+                    "name": "Club America",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eu8c408f59yx7egaqossbv25e.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "28kla1939fuj30m953vvba9lg",
+                "league": {
+                    "id": "dvtl8sf1262pd2aqgu641qa7u",
+                    "name": "Friendly International Women",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "04:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1jq0sqj2d8d9bkmrzu0cmw3z7",
+                    "name": "PNG",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1jq0sqj2d8d9bkmrzu0cmw3z7.png",
+                    "score": "5"
+                },
+                "away": {
+                    "id": "81nvpafz5jaoigxh9acohgrcz",
+                    "name": "Solomon Island",
+                    "logo": "https:\/\/live-football-api.com\/teams\/81nvpafz5jaoigxh9acohgrcz.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5wgt94g4ubh933nght0ev5p90",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "09:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "edh37yqpwpy8628yh53jwku9e",
+                    "name": "Faroe Islands U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/edh37yqpwpy8628yh53jwku9e.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "74ynk4uncrxfgkb212b13i8cd",
+                    "name": "Ireland U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/74ynk4uncrxfgkb212b13i8cd.png",
+                    "score": "5"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "7ih3gvvqwdqfgh19d190kel1w",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "09:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "d04215agawywn6ytau41suzki",
+                    "name": "Kazakhstan U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d04215agawywn6ytau41suzki.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "dytxwkmkvhz1jx9siwxg7c1l7",
+                    "name": "Switzerland U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dytxwkmkvhz1jx9siwxg7c1l7.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4tkhdmbscqqrmw7hppetgl2xg",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "live",
+                    "display": "96'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "e0u1sbhnf87oujxqvma544a8l",
+                    "name": "Osaka",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e0u1sbhnf87oujxqvma544a8l.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "ydlnn8jofdkseegh42az3fpt",
+                    "name": "Avispa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ydlnn8jofdkseegh42az3fpt.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4u25ap8rjl0ac5ughulfubx1w",
+                "league": {
+                    "id": "bbajzna018c79opa1kl5kmkqo",
+                    "name": "J-League Cup",
+                    "country": "Japan"
+                },
+                "week": "2nd Round",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "live",
+                    "display": "97'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "27o8mdqno6jslcjb709sxjwyy",
+                    "name": "Sagan",
+                    "logo": "https:\/\/live-football-api.com\/teams\/27o8mdqno6jslcjb709sxjwyy.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "6u7ltoz339il087ubf6rdtc2v",
+                    "name": "Tokyo Verdy",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6u7ltoz339il087ubf6rdtc2v.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "52gdhzk9gjoq0xkhsk19tknpw",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "10:25",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6duaxcbrofil112qfq4v895go",
+                    "name": "Japan",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6duaxcbrofil112qfq4v895go.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "2pguid8qwn158n8a58waenbbq",
+                    "name": "Venezuela",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2pguid8qwn158n8a58waenbbq.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "3sr4gg5xv1rmlbiksg6ckwhsk",
+                "league": {
+                    "id": "3s9mhguj7zxslsjg2ly7ziaj9",
+                    "name": "Women's Asian Games",
+                    "country": "Asia"
+                },
+                "week": "Semi-finals",
+                "kickoff": "10:30",
+                "status": {
+                    "status": "live",
+                    "display": "84'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "br892lrczd8pow3crz8nain5d",
+                    "name": "Japan",
+                    "logo": "https:\/\/live-football-api.com\/teams\/br892lrczd8pow3crz8nain5d.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "5hzotxmbfobtzdlkltg3s3bsh",
+                    "name": "Korea Republic",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5hzotxmbfobtzdlkltg3s3bsh.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1ro01ho3hafem0nvomoqiytxw",
+                "league": {
+                    "id": "el9gtwpm38pnstn93npoqni8k",
+                    "name": "Liga 2 Feminin",
+                    "country": "Romania"
+                },
+                "week": "4",
+                "kickoff": "10:30",
+                "status": {
+                    "status": "live",
+                    "display": "83'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "1hkxxa4484hu1wuhbivii3hn8",
+                    "name": "Kids Tâmpa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1hkxxa4484hu1wuhbivii3hn8.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "eglbj1705tdnd6iatu9dp0cr",
+                    "name": "VG Roman",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eglbj1705tdnd6iatu9dp0cr.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "53bylr5wciajcitm1nvxi2a6s",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "11:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1yghbv1c71b37eenutbwnvvq",
+                    "name": "Korea Rep",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1yghbv1c71b37eenutbwnvvq.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "9l06impjllgop0gte8fldb4zo",
+                    "name": "Uruguay",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9l06impjllgop0gte8fldb4zo.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 3
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2388zbzd7b19ssxvbpscydmok",
+                "league": {
+                    "id": "4s94rutiwgaof6d335yo7yl1w",
+                    "name": "Division Profesional Reserva",
+                    "country": "Paraguay"
+                },
+                "week": "12",
+                "kickoff": "11:00",
+                "status": {
+                    "status": "live",
+                    "display": "51'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "b11j675z7qjd7fyk90x3uw74k",
+                    "name": "Libertad Rez",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b11j675z7qjd7fyk90x3uw74k.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "r6vtei8airdol2k7hldck4yc",
+                    "name": "Olimpia Res.",
+                    "logo": "https:\/\/live-football-api.com\/teams\/r6vtei8airdol2k7hldck4yc.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8v4k5ujs191nq4pvf62mrtlp0",
+                "league": {
+                    "id": "23e698ls3x6vi9x8wl0mz7bsa",
+                    "name": "Liga Revelação U23",
+                    "country": "Portugal"
+                },
+                "week": "1",
+                "kickoff": "11:00",
+                "status": {
+                    "status": "live",
+                    "display": "49'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "2z4c0ff064iq7xvjyy95rkems",
+                    "name": "Santa Clara U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2z4c0ff064iq7xvjyy95rkems.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "dooyqk64mz3ghfxctp3g0crh0",
+                    "name": "Felgueiras",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dooyqk64mz3ghfxctp3g0crh0.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1vrhc5h6faduvd35pet6fxyxg",
+                "league": {
+                    "id": "ax1yf4nlzqpcji4j8epdgx3zl",
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "2",
+                "kickoff": "12:00",
+                "status": {
+                    "status": "live",
+                    "display": "6'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "i9syypvx4y58uy9r2oxzuisd",
+                    "name": "Comoros",
+                    "logo": "https:\/\/live-football-api.com\/teams\/i9syypvx4y58uy9r2oxzuisd.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "1c4abhllx6kisec6sbrm6olth",
+                    "name": "Namibia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1c4abhllx6kisec6sbrm6olth.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9ss5cji2gg1u7vijv61y5y42c",
+                "league": {
+                    "id": "e8uxp9qj2i2kn5c6vhiz5kju2",
+                    "name": "UEFA U17 Championship Qualification",
+                    "country": "Europe"
+                },
+                "week": "3",
+                "kickoff": "12:00",
+                "status": {
+                    "status": "live",
+                    "display": "7'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "bx4fvzl0u2db6ypmk7z19jzod",
+                    "name": "Gibraltar U17",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bx4fvzl0u2db6ypmk7z19jzod.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "cxgxssrn6eswx321yp5erd5so",
+                    "name": "Bosnia U17",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cxgxssrn6eswx321yp5erd5so.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9shfjpw00p2rwlx1xbplrs4r8",
+                "league": {
+                    "id": "e8uxp9qj2i2kn5c6vhiz5kju2",
+                    "name": "UEFA U17 Championship Qualification",
+                    "country": "Europe"
+                },
+                "week": "3",
+                "kickoff": "12:00",
+                "status": {
+                    "status": "live",
+                    "display": "8'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "b0012lgzvzm7buomj659hff4w",
+                    "name": "Greece U17",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b0012lgzvzm7buomj659hff4w.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "9cxzk91a1vtam3ggftk1vltj2",
+                    "name": "Iceland U17",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9cxzk91a1vtam3ggftk1vltj2.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4e6wp42ne8e1z6lon0ojaw1lg",
+                "league": {
+                    "id": "27zeqzs85uxv3eej1mhot6gic",
+                    "name": "Africa U23 Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "1st Round",
+                "kickoff": "12:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "beca9xd0o7ojmcupnmtdo2x9t",
+                    "name": "Kenya U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/beca9xd0o7ojmcupnmtdo2x9t.png",
+                    "score": "4"
+                },
+                "away": {
+                    "id": "3om06pt4yirb2dfjo24vnr664",
+                    "name": "Tanzania",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3om06pt4yirb2dfjo24vnr664.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "f512h387lcdzjkt0tko14ifbo",
+                "league": {
+                    "id": "ci85236xldxfp81ex18fly044",
+                    "name": "Women Premier League",
+                    "country": "Kenya"
+                },
+                "week": "Regular Season",
+                "kickoff": "12:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "agnnbgrdc5l2bljm8399lu6ms",
+                    "name": "Zetech",
+                    "logo": "https:\/\/live-football-api.com\/teams\/agnnbgrdc5l2bljm8399lu6ms.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "5xgzlpddn7q960cvdm04ps2s4",
+                    "name": "Kenya Police",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5xgzlpddn7q960cvdm04ps2s4.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "3aomhvnx0b950q1bg281a87is",
+                "league": {
+                    "id": "6d53ah0e3f758zgt3wz4py4us",
+                    "name": "FIFA ASEAN Cup",
+                    "country": "Asia"
+                },
+                "week": "Premier Division",
+                "kickoff": "12:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8uf757jcrrtlck83hpk9rytaz",
+                    "name": "Malaysia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8uf757jcrrtlck83hpk9rytaz.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "3oht9gs0l91fikms2798i8c35",
+                    "name": "Indonesia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3oht9gs0l91fikms2798i8c35.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "7yqkcsudod0hqgtkf1ebb3rpw",
+                "league": {
+                    "id": "3ky4uefktqxlr9ybxuk6q2kgk",
+                    "name": "Paraense A3",
+                    "country": "Brazil"
+                },
+                "week": "Quarter-finals",
+                "kickoff": "13:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "etarbtxnk2d2f1rv76hdqsu8k",
+                    "name": "Belenense",
+                    "logo": "https:\/\/live-football-api.com\/teams\/etarbtxnk2d2f1rv76hdqsu8k.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "wh6bj73izyfheq1vvnqg1ypb",
+                    "name": "Gavião",
+                    "logo": "https:\/\/live-football-api.com\/teams\/wh6bj73izyfheq1vvnqg1ypb.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "avh2z8fgxib754ksh0cldlmhg",
+                "league": {
+                    "id": "4k8p8nmee0yjb7j7177474sx6",
+                    "name": "Super League 2",
+                    "country": "Greece"
+                },
+                "week": "4",
+                "kickoff": "13:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6k2e9m32yn23o0fn4kzg9jemf",
+                    "name": "Kallithea",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6k2e9m32yn23o0fn4kzg9jemf.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "1uqm2hibczh12c67krf5o3x1w",
+                    "name": "Asteras",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1uqm2hibczh12c67krf5o3x1w.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "awq85i7jdrkwulgqhfxdhs0es",
+                "league": {
+                    "id": "4k8p8nmee0yjb7j7177474sx6",
+                    "name": "Super League 2",
+                    "country": "Greece"
+                },
+                "week": "4",
+                "kickoff": "13:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "79mxf6jbxfhfjo7jpex4b64hm",
+                    "name": "Marko",
+                    "logo": "https:\/\/live-football-api.com\/teams\/79mxf6jbxfhfjo7jpex4b64hm.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "21z0usjfz2afquuoxqqdr2gz0",
+                    "name": "Panthrakikos",
+                    "logo": "https:\/\/live-football-api.com\/teams\/21z0usjfz2afquuoxqqdr2gz0.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "ebugtzt2k457qzgbb243sss9g",
+                "league": {
+                    "id": "d3gexg17t0wn9hpw12ww4poh5",
+                    "name": "Prva Liga",
+                    "country": "Serbia"
+                },
+                "week": "11",
+                "kickoff": "13:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "19632ie12uehcbgmd21cudy7z",
+                    "name": "Grafičar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/19632ie12uehcbgmd21cudy7z.png",
+                    "score": "4"
+                },
+                "away": {
+                    "id": "47uf7nf60xhf6rsr7kh2dfn33",
+                    "name": "Teleoptik",
+                    "logo": "https:\/\/live-football-api.com\/teams\/47uf7nf60xhf6rsr7kh2dfn33.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9m2vxsx0dxji3e7muu6jsjtw4",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "13:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "aho00d9mdph2jdpv3chwgga7y",
+                    "name": "Italy U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aho00d9mdph2jdpv3chwgga7y.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "907ysuvn04z6lvvdute24zdqf",
+                    "name": "Turkiye U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/907ysuvn04z6lvvdute24zdqf.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "lfa17905919067525103443",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "13:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bgmvqq84gnrtq23q5upys0l04",
+                    "name": "Croatia U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bgmvqq84gnrtq23q5upys0l04.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "55m6oyfspw0vraflgiksqbcda",
+                    "name": "France U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/55m6oyfspw0vraflgiksqbcda.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9rcxh0yed27beqrozlsbctr10",
+                "league": {
+                    "id": "abs7n2ae3oydilk0tgmpnsj89",
+                    "name": "Division 1",
+                    "country": "Iran"
+                },
+                "week": "3",
+                "kickoff": "13:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dchlskf0q86cqjjhz9mq3j40k",
+                    "name": "Ario",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dchlskf0q86cqjjhz9mq3j40k.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "9ehvbvqw5wqb0z7bvyhjc6b6c",
+                    "name": "Havadar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9ehvbvqw5wqb0z7bvyhjc6b6c.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "73ok66nexqvmizjwi2ytsntp0",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": "Friendlies 3",
+                "kickoff": "14:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "4gwmm3ovptdbaso8pglsptjjn",
+                    "name": "Kyrgyzstan",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4gwmm3ovptdbaso8pglsptjjn.png",
+                    "score": "5"
+                },
+                "away": {
+                    "id": "3odczxzq91h56pjk7k78ywxxk",
+                    "name": "Maldives",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3odczxzq91h56pjk7k78ywxxk.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 5,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8d9ibajbd2njob84b6jccm9lg",
+                "league": {
+                    "id": "etta63x1t7tnkn4jheisjwk4p",
+                    "name": "U21 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Regular Season",
+                "kickoff": "14:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "fv1xvbq86y2nsjtm7u6crw2s",
+                    "name": "Macedonia U21",
+                    "logo": "https:\/\/live-football-api.com\/teams\/fv1xvbq86y2nsjtm7u6crw2s.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "9n461dg77730yh83y60lwyc4z",
+                    "name": "Russia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9n461dg77730yh83y60lwyc4z.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "6yxcgxvwvipb0x6x372vbto2c",
+                "league": {
+                    "id": "9aqyw0raer3fkb9z4e73kdnll",
+                    "name": "1. Zenska Liga",
+                    "country": "Slovenia"
+                },
+                "week": "6",
+                "kickoff": "14:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dhdcvt2kmnhmlsvywff22des4",
+                    "name": "Mura",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dhdcvt2kmnhmlsvywff22des4.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "e5r4m3srz10xkb69usd1ikycp",
+                    "name": "Olimpija",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e5r4m3srz10xkb69usd1ikycp.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "36bpfodyt12ih551lcgku9yqc",
+                "league": {
+                    "id": "2smaq6vx7pgwmkfkn15kp7ib",
+                    "name": "Presidents Cup",
+                    "country": "United Arab Emirates"
+                },
+                "week": "2nd Preliminary Round",
+                "kickoff": "14:40",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "36izgzdgodwuyok9ab5lncpm9",
+                    "name": "Arabi",
+                    "logo": "https:\/\/live-football-api.com\/teams\/36izgzdgodwuyok9ab5lncpm9.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "6p8m7au3ts56uzu180yy9hy0a",
+                    "name": "Thaid",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6p8m7au3ts56uzu180yy9hy0a.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "36l7wvrswy1wp377qonro6y38",
+                "league": {
+                    "id": "2smaq6vx7pgwmkfkn15kp7ib",
+                    "name": "Presidents Cup",
+                    "country": "United Arab Emirates"
+                },
+                "week": "2nd Preliminary Round",
+                "kickoff": "14:40",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "a2nlrhh208zh7nr19qqaq89w4",
+                    "name": "Ittifaq",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a2nlrhh208zh7nr19qqaq89w4.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "7av2o3yj2qyozgrxcl8kr8bol",
+                    "name": "Orooba",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7av2o3yj2qyozgrxcl8kr8bol.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "32o1bytlddo7yx6w7xln3vqc4",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": "Regular Season",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "7j02pgsnm4t8tjiopca913tq8",
+                    "name": "Petrovac",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7j02pgsnm4t8tjiopca913tq8.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "7xjtcmw7x7pau3v4hsjy0527e",
+                    "name": "Mladost DG",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7xjtcmw7x7pau3v4hsjy0527e.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "7iossiz948aua3d1zbw9ug00k",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "atgttrlcrl1qc5ljbfaqu2343",
+                    "name": "Slovakia U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/atgttrlcrl1qc5ljbfaqu2343.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "6qomvxa8g7jetm36ccuz7e05d",
+                    "name": "Poland U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6qomvxa8g7jetm36ccuz7e05d.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "96hdivr1jq41xmbrglntpf5ec",
+                "league": {
+                    "id": "6c8i3dxxtqhhxw6eacylplt73",
+                    "name": "QSL Cup",
+                    "country": "Qatar"
+                },
+                "week": "2",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "av9qqoh6iuwon6ib6v0bmejlk",
+                    "name": "Kharitiyath",
+                    "logo": "https:\/\/live-football-api.com\/teams\/av9qqoh6iuwon6ib6v0bmejlk.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "c392huxdsfk82c1mvvt2mze6q",
+                    "name": "Al Wakrah",
+                    "logo": "https:\/\/live-football-api.com\/teams\/c392huxdsfk82c1mvvt2mze6q.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5rgjpsaolmt039p9j3ip4mzo4",
+                "league": {
+                    "id": "4qehj8hfxmy6o2ohp4fxinnzo",
+                    "name": "2. League",
+                    "country": "Slovakia"
+                },
+                "week": "10",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "cyjesp5knf0y731gb5k8ers9w",
+                    "name": "Žilina II",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cyjesp5knf0y731gb5k8ers9w.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "4rpojbi9c6f0yupvqdj3bur74",
+                    "name": "Humenné",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4rpojbi9c6f0yupvqdj3bur74.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "bi7e3frya26ylmjcir0xbuuqc",
+                "league": {
+                    "id": "1m4sxndpm5lnnc09qn84cu2vo",
+                    "name": "Division One",
+                    "country": "Ghana"
+                },
+                "week": "2",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "3ud8malwsr3du6abuio56ks9g",
+                    "name": "Steadfast",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3ud8malwsr3du6abuio56ks9g.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "5xl2fz5szafl5b9reyokoarmy",
+                    "name": "Tamale City",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5xl2fz5szafl5b9reyokoarmy.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8ti69z5hsuwxyjhcur6vrf6l0",
+                "league": {
+                    "id": "23e698ls3x6vi9x8wl0mz7bsa",
+                    "name": "Liga Revelação U23",
+                    "country": "Portugal"
+                },
+                "week": "1",
+                "kickoff": "15:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bn3d25k60npudyhn9ppimvgbu",
+                    "name": "Leixões U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bn3d25k60npudyhn9ppimvgbu.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "dh2306e3d9usrz6634l7nzu38",
+                    "name": "Vizela U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dh2306e3d9usrz6634l7nzu38.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9rvuqihma66haoqi5lr1axkwk",
+                "league": {
+                    "id": "abs7n2ae3oydilk0tgmpnsj89",
+                    "name": "Division 1",
+                    "country": "Iran"
+                },
+                "week": "3",
+                "kickoff": "15:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bsk4ffenpmqy0ia8u2a01kgvm",
+                    "name": "Pars Jam",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bsk4ffenpmqy0ia8u2a01kgvm.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "7zwvzborw2mf2yh9339bs5djh",
+                    "name": "Naft MIS",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7zwvzborw2mf2yh9339bs5djh.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2i6dy9py00iwtopj6dj6gk9p0",
+                "league": {
+                    "id": "a3agf15089yvptkvldhuiel86",
+                    "name": "Ligue 1",
+                    "country": "Burkina Faso"
+                },
+                "week": "2",
+                "kickoff": "15:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "15:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "6tepujrt0kkdtl1123z9dtclw",
+                    "name": "Vitesse",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6tepujrt0kkdtl1123z9dtclw.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "62i7h97dlbf7jmfi0v4ar22gs",
+                    "name": "ASFA",
+                    "logo": "https:\/\/live-football-api.com\/teams\/62i7h97dlbf7jmfi0v4ar22gs.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "enj6dzub3j08ogq1lr48lhh5g",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "e66sh3h66swg7spvam9gzzea1",
+                    "name": "Georgia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e66sh3h66swg7spvam9gzzea1.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "7a8no9dyo0r9g31sfi9h7ffbc",
+                    "name": "Ukraine",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7a8no9dyo0r9g31sfi9h7ffbc.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "13ppk3fcf8ncswsnwvckofytw",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1qknuit4o4zs1xzthrd1pd4ax",
+                    "name": "Armenia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1qknuit4o4zs1xzthrd1pd4ax.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "6agojcuvg4c9fkcm2gpfiiahd",
+                    "name": "Montenegro",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6agojcuvg4c9fkcm2gpfiiahd.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "14gpxz6muubypaxupqcgbtzx0",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "cyngwp50jfiewrgyzhlaw1z9e",
+                    "name": "Latvia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cyngwp50jfiewrgyzhlaw1z9e.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "3vmiqi95f7lo3ajug9huswg6z",
+                    "name": "Cyprus",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3vmiqi95f7lo3ajug9huswg6z.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "epu8nanu2s9qgntecqz486b6c",
+                "league": {
+                    "id": "ax1yf4nlzqpcji4j8epdgx3zl",
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "9ctt1n42zkszkabxdhzixsidc",
+                    "name": "Equat Guinea",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9ctt1n42zkszkabxdhzixsidc.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "1qobfm6yqjmm62f1xht94agjh",
+                    "name": "Sierra Leone",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1qobfm6yqjmm62f1xht94agjh.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eq63b9yruj4dsfqoxmvtq7lec",
+                "league": {
+                    "id": "ax1yf4nlzqpcji4j8epdgx3zl",
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "clai5b8pxjwlxl6prcg403owt",
+                    "name": "Zimbabwe",
+                    "logo": "https:\/\/live-football-api.com\/teams\/clai5b8pxjwlxl6prcg403owt.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "dd4ko7d3muqheb54u1s9k39p3",
+                    "name": "Congo DR",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dd4ko7d3muqheb54u1s9k39p3.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "e15qljios6ag23degllftfyms",
+                "league": {
+                    "id": "ax1yf4nlzqpcji4j8epdgx3zl",
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "4hkhig2rnhcafpxezxgwbdwrl",
+                    "name": "CAR",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4hkhig2rnhcafpxezxgwbdwrl.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "etmdes5ggjhtxte8v8ceiwbio",
+                    "name": "Burkina Faso",
+                    "logo": "https:\/\/live-football-api.com\/teams\/etmdes5ggjhtxte8v8ceiwbio.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2ytvf14cdcclcyuvwavahv8k4",
+                "league": {
+                    "id": "byaqhzbd3qtx4qho6hxs772sp",
+                    "name": "U20 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 2",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8j5t166ehedg5j7cule0gvctw",
+                    "name": "Brazil U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8j5t166ehedg5j7cule0gvctw.png",
+                    "score": "4"
+                },
+                "away": {
+                    "id": "8kxaosk8rue53erf9wgxayd3p",
+                    "name": "Denmark U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8kxaosk8rue53erf9wgxayd3p.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5qd41v8l74eov3vn2ozzr5zo",
+                "league": {
+                    "id": "a4fgj2rfbpf4ejo1qi624fefo",
+                    "name": "3. Division",
+                    "country": "Norway"
+                },
+                "week": "21",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bijdhho4g1gk6nnn01wyrgazf",
+                    "name": "Rælingen",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bijdhho4g1gk6nnn01wyrgazf.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "dqjclx4mejansg7nm08jvrne0",
+                    "name": "Lyn II",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dqjclx4mejansg7nm08jvrne0.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eb5wdksd1i0poybkdan1rik9g",
+                "league": {
+                    "id": "d3gexg17t0wn9hpw12ww4poh5",
+                    "name": "Prva Liga",
+                    "country": "Serbia"
+                },
+                "week": "11",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "auv8gdgj5vvu9ftv3ca2d8593",
+                    "name": "Dubočica",
+                    "logo": "https:\/\/live-football-api.com\/teams\/auv8gdgj5vvu9ftv3ca2d8593.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "9pro2wcaugw41qn4s7o9my85",
+                    "name": "Javor",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9pro2wcaugw41qn4s7o9my85.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eato8tsfync9ccxgihu4kkdn8",
+                "league": {
+                    "id": "d3gexg17t0wn9hpw12ww4poh5",
+                    "name": "Prva Liga",
+                    "country": "Serbia"
+                },
+                "week": "11",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "eztokymjlymyrnlnyqiu4hfro",
+                    "name": "Proleter 023",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eztokymjlymyrnlnyqiu4hfro.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "daa2roah2k4uc41yqiwzb6f17",
+                    "name": "Jedinstvo UB",
+                    "logo": "https:\/\/live-football-api.com\/teams\/daa2roah2k4uc41yqiwzb6f17.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b20v79n53lti36cxt9w5zbo5w",
+                "league": {
+                    "id": "ili150pwfuf39f7yfdch9lhw",
+                    "name": "UEFA U21 Championship Qualification",
+                    "country": "Europe"
+                },
+                "week": "Group Stage",
+                "kickoff": "16:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "86w4f7sl8i84b12nwfmbwzyy8",
+                    "name": "Denmark U21",
+                    "logo": "https:\/\/live-football-api.com\/teams\/86w4f7sl8i84b12nwfmbwzyy8.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "bcmdsjf6g7m7f8gei63dqiep3",
+                    "name": "Belarus U21",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bcmdsjf6g7m7f8gei63dqiep3.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "tnd6rn5obdml71hbi1654iz8",
+                "league": {
+                    "id": "a4fgj2rfbpf4ejo1qi624fefo",
+                    "name": "3. Division",
+                    "country": "Norway"
+                },
+                "week": "21",
+                "kickoff": "17:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "96xacv0bz1yccdtr5sdae3dxn",
+                    "name": "Haugesund II",
+                    "logo": "https:\/\/live-football-api.com\/teams\/96xacv0bz1yccdtr5sdae3dxn.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "5s4mws5crlcqzszxez5lmpyui",
+                    "name": "Hinna",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5s4mws5crlcqzszxez5lmpyui.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9fz0b10b25bs80xbt4x2m7uvo",
+                "league": {
+                    "id": "5aw6uyw4pz2bpj24t5z8aacim",
+                    "name": "2. SNL",
+                    "country": "Slovenia"
+                },
+                "week": "8",
+                "kickoff": "17:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "5fwvqtgrlhxe4biydirn63d90",
+                    "name": "Rudar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5fwvqtgrlhxe4biydirn63d90.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "6ge2ol0frf7toik5rwpela191",
+                    "name": "Dravinja",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6ge2ol0frf7toik5rwpela191.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "97475h6gwzxftqwb00e8brw2c",
+                "league": {
+                    "id": "6c8i3dxxtqhhxw6eacylplt73",
+                    "name": "QSL Cup",
+                    "country": "Qatar"
+                },
+                "week": "2",
+                "kickoff": "17:15",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "f02vvvnk96ayu9y7qubrjwqcv",
+                    "name": "Sailiya",
+                    "logo": "https:\/\/live-football-api.com\/teams\/f02vvvnk96ayu9y7qubrjwqcv.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "bysx5682cx93z7yvefajzdban",
+                    "name": "Al Rayyan",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bysx5682cx93z7yvefajzdban.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "96slgfqdfvz2n9hs2dskotb84",
+                "league": {
+                    "id": "6c8i3dxxtqhhxw6eacylplt73",
+                    "name": "QSL Cup",
+                    "country": "Qatar"
+                },
+                "week": "2",
+                "kickoff": "17:15",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "cwpjyxfnrkd8q4anxjbhqff5g",
+                    "name": "Shahaniya",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cwpjyxfnrkd8q4anxjbhqff5g.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "ctuq9a387eg99hp686ml1oapc",
+                    "name": "AL Duhail",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ctuq9a387eg99hp686ml1oapc.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "7gzjpiigukcyvyk99esbz2238",
+                "league": {
+                    "id": "1cnx2c8g3hhp8ssxnwwli0mjb",
+                    "name": "Premier League Cup U21",
+                    "country": "England"
+                },
+                "week": "1",
+                "kickoff": "18:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "ee9yus7kcy4lsc03ytvzmeutn",
+                    "name": "Exeter U21",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ee9yus7kcy4lsc03ytvzmeutn.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "8vnhah5yzt3ubr9oms9zg9bnk",
+                    "name": "Norwich U21",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8vnhah5yzt3ubr9oms9zg9bnk.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "3zt0rnpqq4xjw9mksr1l0vm6s",
+                "league": {
+                    "id": "66nxwll8fur0rtp9q7wqaki1l",
+                    "name": "Primera B Metropolitana",
+                    "country": "Argentina"
+                },
+                "week": "37",
+                "kickoff": "18:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "a7f63w67qicc2j54k0h6a2qt7",
+                    "name": "Flandria",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a7f63w67qicc2j54k0h6a2qt7.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "2eqs839g60quk3mm6c4zxsutf",
+                    "name": "Dock Sud",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2eqs839g60quk3mm6c4zxsutf.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "bynunrwuj2sk2ev6a0o6vgrh0",
+                "league": {
+                    "id": "aou8in27t4j7hbfws7e9mg7x0",
+                    "name": "Carioca B2",
+                    "country": "Brazil"
+                },
+                "week": "5",
+                "kickoff": "18:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "18:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "bm7f6q1y2zl2cq303ploo0xhz",
+                    "name": "Barra Mansa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bm7f6q1y2zl2cq303ploo0xhz.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "5a505whqfo7669ld7hsa6evpw",
+                    "name": "Búzios",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5a505whqfo7669ld7hsa6evpw.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eahgey40umlrw2cpxcarlos9g",
+                "league": {
+                    "id": "d3gexg17t0wn9hpw12ww4poh5",
+                    "name": "Prva Liga",
+                    "country": "Serbia"
+                },
+                "week": "11",
+                "kickoff": "18:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "p08xod9r3iiof8ov66dmucrf",
+                    "name": "Loznica",
+                    "logo": "https:\/\/live-football-api.com\/teams\/p08xod9r3iiof8ov66dmucrf.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "e8wfdw7ttr59p4afuqctv3nad",
+                    "name": "Spartak",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e8wfdw7ttr59p4afuqctv3nad.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "3qaqtts1a2yqwuc2kc9cz3j10",
+                "league": {
+                    "id": "3is4bkgf3loxv9qfg3hm8zfqb",
+                    "name": "Segunda Division",
+                    "country": "Spain"
+                },
+                "week": "7",
+                "kickoff": "18:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "3krm0f4yr1l80j1sd7823f9xn",
+                    "name": "Leganés",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3krm0f4yr1l80j1sd7823f9xn.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "5ziakdomggtzs5xqnb50jpi5o",
+                    "name": "Castellón",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5ziakdomggtzs5xqnb50jpi5o.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "70r1jhm9mvh1xlb6m0r9php1w",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "pfvmhackqyhhk02majd2tb8l",
+                    "name": "Belgium",
+                    "logo": "https:\/\/live-football-api.com\/teams\/pfvmhackqyhhk02majd2tb8l.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "4pz87gsel7183b7kcadw1dwzv",
+                    "name": "France",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4pz87gsel7183b7kcadw1dwzv.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "71bqi0k5txvo37bsw1z63x5p0",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "9s2kpeunkes0g17l95r3t91j6",
+                    "name": "Türkiye",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9s2kpeunkes0g17l95r3t91j6.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "eks08q2vbr45w563zrctsl5xo",
+                    "name": "Italy",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eks08q2vbr45w563zrctsl5xo.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 3
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eo3huqlpx4guc6w2w2bljo4yc",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "awn64nh0odux22yj90jcxwklg",
+                    "name": "N. Ireland",
+                    "logo": "https:\/\/live-football-api.com\/teams\/awn64nh0odux22yj90jcxwklg.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "ajqq56th1sg5f7kcx9yon9z6x",
+                    "name": "Hungary",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ajqq56th1sg5f7kcx9yon9z6x.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eoqhwcyfiti6nrt4fdveqwoic",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1qiyr1mknujsl19tb9u2w9h3n",
+                    "name": "Romania",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1qiyr1mknujsl19tb9u2w9h3n.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "o5iztj2zl6b0v6ed9q5m7p1k",
+                    "name": "Bosnia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/o5iztj2zl6b0v6ed9q5m7p1k.png",
+                    "score": "4"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "epbtlemu0ujrpj879vwq4up04",
+                "league": {
+                    "id": "595nsvo7ykvoe690b1e4u5n56",
+                    "name": "UEFA Nations League",
+                    "country": "Europe"
+                },
+                "week": "2",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "4w1ktgu1nbbgqfe3ssbb4fg5v",
+                    "name": "Sweden",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4w1ktgu1nbbgqfe3ssbb4fg5v.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "ba25ib8pofxr85hkbs8lt7kw7",
+                    "name": "Poland",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ba25ib8pofxr85hkbs8lt7kw7.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "40uxn3uxcyk1qvswiw1xypjpw",
+                "league": {
+                    "id": "2o6aygqek4rqvuzbj8nf2rk1u",
+                    "name": "Non League Div One",
+                    "country": "England"
+                },
+                "week": "5",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "btvljckjjeed5ppiri2amgfvu",
+                    "name": "Punjab Utd",
+                    "logo": "https:\/\/live-football-api.com\/teams\/btvljckjjeed5ppiri2amgfvu.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "a738ngzw37oractzrf2j8zz6x",
+                    "name": "Croydon Ath.",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a738ngzw37oractzrf2j8zz6x.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "apot0eqno7z6dw5kd179fi3o4",
+                "league": {
+                    "id": "2o6aygqek4rqvuzbj8nf2rk1u",
+                    "name": "Non League Div One",
+                    "country": "England"
+                },
+                "week": "12",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "7z92ud9awkr44qvfemat23sy4",
+                    "name": "Coleshill",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7z92ud9awkr44qvfemat23sy4.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "5nlxygj6phcjb2a1jhn4s8txm",
+                    "name": "Belper",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5nlxygj6phcjb2a1jhn4s8txm.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "aq0hv174to9avavpja1lg56vo",
+                "league": {
+                    "id": "2o6aygqek4rqvuzbj8nf2rk1u",
+                    "name": "Non League Div One",
+                    "country": "England"
+                },
+                "week": "12",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dkeyuef7yja5pp8rds3cemdq8",
+                    "name": "St Ives",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dkeyuef7yja5pp8rds3cemdq8.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "azj9hlcibit8olwxmpr3xa6iz",
+                    "name": "Nuneaton",
+                    "logo": "https:\/\/live-football-api.com\/teams\/azj9hlcibit8olwxmpr3xa6iz.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "a08821li04w1tmhwum577nzf8",
+                "league": {
+                    "id": "2o6aygqek4rqvuzbj8nf2rk1u",
+                    "name": "Non League Div One",
+                    "country": "England"
+                },
+                "week": "8",
+                "kickoff": "18:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "awm80yjbcj7zkwcdmxf7ba6u3",
+                    "name": "Biggleswade",
+                    "logo": "https:\/\/live-football-api.com\/teams\/awm80yjbcj7zkwcdmxf7ba6u3.png",
+                    "score": "5"
+                },
+                "away": {
+                    "id": "267blrln26bu9p9lqvsvzscis",
+                    "name": "Hertford",
+                    "logo": "https:\/\/live-football-api.com\/teams\/267blrln26bu9p9lqvsvzscis.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 4,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5fso2whikpn9gxg8f0xxrkhsk",
+                "league": {
+                    "id": "ax1yf4nlzqpcji4j8epdgx3zl",
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": "Africa"
+                },
+                "week": "2",
+                "kickoff": "19:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "ctp7ovvf34m7fzshua9ogbr6i",
+                    "name": "Tunisia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ctp7ovvf34m7fzshua9ogbr6i.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "7wkvdl4pc28z7pjutt7g20fy1",
+                    "name": "Botswana",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7wkvdl4pc28z7pjutt7g20fy1.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dljl2w00a1bwvbziq2gk6rnkk",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League B",
+                "kickoff": "19:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "42pfckeuruxqitnr7kxd9436x",
+                    "name": "Guadeloupe",
+                    "logo": "https:\/\/live-football-api.com\/teams\/42pfckeuruxqitnr7kxd9436x.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "6raiahlhb99i9rzr6sj4nm7qh",
+                    "name": "Barbados",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6raiahlhb99i9rzr6sj4nm7qh.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5aa7ywrv7i3cozj5pps76vml0",
+                "league": {
+                    "id": "5y0z0l2epprzbscvzsgldw8vu",
+                    "name": "Division Profesional",
+                    "country": "Paraguay"
+                },
+                "week": "12",
+                "kickoff": "20:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "t71on2dbrfyknxq990h6l0dc",
+                    "name": "San Lorenzo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/t71on2dbrfyknxq990h6l0dc.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "24h1lehk43heu9nkp3p7co76y",
+                    "name": "Dep.Recoleta",
+                    "logo": "https:\/\/live-football-api.com\/teams\/24h1lehk43heu9nkp3p7co76y.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b3nd0lwu13e0c9jzwn3enk8b8",
+                "league": {
+                    "id": "6qitd9h242qkvjenaytfdnsf2",
+                    "name": "Division Intermedia",
+                    "country": "Paraguay"
+                },
+                "week": "26",
+                "kickoff": "20:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8v5tea76k9utwjqpq4u2uetey",
+                    "name": "Tembetary",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8v5tea76k9utwjqpq4u2uetey.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "1j1cw62js98t7l56oj7h06lg4",
+                    "name": "Paraguarí",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1j1cw62js98t7l56oj7h06lg4.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "aqpb5bw4a95zzatxnumk93is",
+                "league": {
+                    "id": "580d5o01l5lqawc8hsdxxnz10",
+                    "name": "Liga 3",
+                    "country": "Peru"
+                },
+                "week": "17",
+                "kickoff": "20:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "d66h38bfx3rqpdeq37hxwm1p0",
+                    "name": "ADT II",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d66h38bfx3rqpdeq37hxwm1p0.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "7j0llly8r3rw4rej9ao6lkrck",
+                    "name": "UDA",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7j0llly8r3rw4rej9ao6lkrck.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2n0qjoqb2ja3edlzp5dxgyfbo",
+                "league": {
+                    "id": "by5nibd18nkt40t0j8a0j5yzx",
+                    "name": "Primera B",
+                    "country": "Colombia"
+                },
+                "week": "11",
+                "kickoff": "20:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "new6avhmf5e9437ojzcnq8t0",
+                    "name": "Independiente",
+                    "logo": "https:\/\/live-football-api.com\/teams\/new6avhmf5e9437ojzcnq8t0.png",
+                    "score": "4"
+                },
+                "away": {
+                    "id": "2lwrtp1tqpv9e1mds2ulp39vv",
+                    "name": "Orsomarso",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2lwrtp1tqpv9e1mds2ulp39vv.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dmdq8jl4ue28eepakfc7rhzpw",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League B",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "m49kr6rapkqh6zbqdm01w3sj",
+                    "name": "Cuba",
+                    "logo": "https:\/\/live-football-api.com\/teams\/m49kr6rapkqh6zbqdm01w3sj.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "8tjgp47v3kqgyyfo8tvo55av7",
+                    "name": "Bonaire",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8tjgp47v3kqgyyfo8tvo55av7.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "6ncu3256s2jtl3z5clk24ixhw",
+                "league": {
+                    "id": "2ty8ihceabty8yddmu31iuuej",
+                    "name": "Primera A",
+                    "country": "Colombia"
+                },
+                "week": "12",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "eop1idmqahf7r802e6zqng7rh",
+                    "name": "Jaguares",
+                    "logo": "https:\/\/live-football-api.com\/teams\/eop1idmqahf7r802e6zqng7rh.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "9d9s47ohwsolvt3hknjrqcgv5",
+                    "name": "Alianza Valledupar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9d9s47ohwsolvt3hknjrqcgv5.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "p2bvleqeuqwe2n5ler8xxatw",
+                "league": {
+                    "id": "byu00jvt1j6csyv4y1lkt2fm2",
+                    "name": "Primera Nacional",
+                    "country": "Argentina"
+                },
+                "week": "31",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1ms8tznb9y9j6li5migxmipp2",
+                    "name": "Gimnasia Tiro",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1ms8tznb9y9j6li5migxmipp2.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "1q0ukadexm6xinnytfac9eglg",
+                    "name": "Rafaela",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1q0ukadexm6xinnytfac9eglg.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "90eohs8693ibemrim36vdx638",
+                "league": {
+                    "id": "2wolc27r8z03itcvwp43e38c5",
+                    "name": "Primera División",
+                    "country": "Uruguay"
+                },
+                "week": "8",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "21sdnh4ueo8he1r42ebn0sz0",
+                    "name": "Def. Sporting",
+                    "logo": "https:\/\/live-football-api.com\/teams\/21sdnh4ueo8he1r42ebn0sz0.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "13dm67jajkwthfllv5h6uqha6",
+                    "name": "Danubio",
+                    "logo": "https:\/\/live-football-api.com\/teams\/13dm67jajkwthfllv5h6uqha6.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2nc3atg3w99igihv6tzvuc3dg",
+                "league": {
+                    "id": "by5nibd18nkt40t0j8a0j5yzx",
+                    "name": "Primera B",
+                    "country": "Colombia"
+                },
+                "week": "11",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8kmba502sqda1quxarnnohx5g",
+                    "name": "Inter Palmira",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8kmba502sqda1quxarnnohx5g.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "6rigic3bl36srv4lgojqo1kz8",
+                    "name": "Leones",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6rigic3bl36srv4lgojqo1kz8.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5tr8oj443jkvu5mdkfb1ldbtg",
+                "league": {
+                    "id": "ae1wva3zrzcp2zd15gpvsntg6",
+                    "name": "Liga Nacional",
+                    "country": "Guatemala"
+                },
+                "week": "11",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "7zvpa5mvf6mgae5fpqtq573g7",
+                    "name": "Mixco",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7zvpa5mvf6mgae5fpqtq573g7.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "vb4zqon7l05foj8xxnpygn5m",
+                    "name": "Antigua",
+                    "logo": "https:\/\/live-football-api.com\/teams\/vb4zqon7l05foj8xxnpygn5m.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8cmnh801pu9dzjt409nnp2adw",
+                "league": {
+                    "id": "ein4fkggto3pdh5msp8huafiq",
+                    "name": "Primera Division",
+                    "country": "El Salvador"
+                },
+                "week": "12",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "afuoxixzmtsj98rh1q644jnvt",
+                    "name": "Alianza",
+                    "logo": "https:\/\/live-football-api.com\/teams\/afuoxixzmtsj98rh1q644jnvt.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "2zcgxqj7bke90hcnobfux2yvo",
+                    "name": "INCA-Aruba",
+                    "logo": "https:\/\/live-football-api.com\/teams\/2zcgxqj7bke90hcnobfux2yvo.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8djxnj99xryxpuxfuzwduxgyc",
+                "league": {
+                    "id": "ein4fkggto3pdh5msp8huafiq",
+                    "name": "Primera Division",
+                    "country": "El Salvador"
+                },
+                "week": "12",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "erhh6pzf5gb393pa1w3ob5qwa",
+                    "name": "Platense",
+                    "logo": "https:\/\/live-football-api.com\/teams\/erhh6pzf5gb393pa1w3ob5qwa.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "9xexl82aun7asrdt8k28bgavo",
+                    "name": "Fuerte",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9xexl82aun7asrdt8k28bgavo.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "a4vomf9pkyhqcnghts46au1p0",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "b0d9g8ypi2igkres4r0s4s4df",
+                    "name": "Zapla",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b0d9g8ypi2igkres4r0s4s4df.png",
+                    "score": "5"
+                },
+                "away": {
+                    "id": "4wh7kfdh04x1wxkbduynvogt4",
+                    "name": "Defensores FP",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4wh7kfdh04x1wxkbduynvogt4.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5r1n20y83ktr45xtgdz2yc6j8",
+                "league": {
+                    "id": "5em08hhvd7komnfdsb1yagpas",
+                    "name": "Professional Division Cup",
+                    "country": "Bolivia"
+                },
+                "week": "5",
+                "kickoff": "21:15",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dj7mlv2txjphj4xtannqj8q6z",
+                    "name": "Bolívar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dj7mlv2txjphj4xtannqj8q6z.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "18vvpk4zd1sj61x56tyx8iirk",
+                    "name": "Blooming",
+                    "logo": "https:\/\/live-football-api.com\/teams\/18vvpk4zd1sj61x56tyx8iirk.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b1ql19lytdwpvqacse2hqnqxg",
+                "league": {
+                    "id": "5zr0b05eyx25km7z1k03ca9jx",
+                    "name": "Serie B",
+                    "country": "Brazil"
+                },
+                "week": "30",
+                "kickoff": "21:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "1vvaya787s5wg5geudzacya7m",
+                    "name": "Fortaleza",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1vvaya787s5wg5geudzacya7m.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "9snrf8lxwl8ih0ko7xaz88xrd",
+                    "name": "Athletic",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9snrf8lxwl8ih0ko7xaz88xrd.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "46mveg2xqio89ao5pgxeorllg",
+                "league": {
+                    "id": "cfesxhzb83yl8b779uv3revz1",
+                    "name": "Serie C",
+                    "country": "Brazil"
+                },
+                "week": "4",
+                "kickoff": "21:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bde5jse6ssrqor2pmrhe4xu07",
+                    "name": "Brusque",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bde5jse6ssrqor2pmrhe4xu07.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "bf6uzpzw5t8n1ax1cpjo6sf7u",
+                    "name": "Ferroviária",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bf6uzpzw5t8n1ax1cpjo6sf7u.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "44fdquqouxwrm63wds0f6hel0",
+                "league": {
+                    "id": "1h597ebt4hkuhaajlo7zbqolw",
+                    "name": "Paranaense 3",
+                    "country": "Brazil"
+                },
+                "week": "Semi-finals",
+                "kickoff": "21:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "5waeoadoxdlynrjg9mh02gsgk",
+                    "name": "London",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5waeoadoxdlynrjg9mh02gsgk.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "e1oxnyq926eqlaxm4ghnehv44",
+                    "name": "Cambé",
+                    "logo": "https:\/\/live-football-api.com\/teams\/e1oxnyq926eqlaxm4ghnehv44.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "cqpjj8pl9367dplc2z4ysd6hg",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "21:45",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "dks0a8l22zatk9v0v9encwtn8",
+                    "name": "Atlante",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dks0a8l22zatk9v0v9encwtn8.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "aav9njbcwyltszy8ia7dwqxyi",
+                    "name": "Pumas",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aav9njbcwyltszy8ia7dwqxyi.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1xvg53yj76e6hq84h03rkror8",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "165simty2guc4l2fb7zbrlg9m",
+                    "name": "Suriname",
+                    "logo": "https:\/\/live-football-api.com\/teams\/165simty2guc4l2fb7zbrlg9m.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "40tyvoz1vs7drd192u010oiqr",
+                    "name": "Martinique",
+                    "logo": "https:\/\/live-football-api.com\/teams\/40tyvoz1vs7drd192u010oiqr.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2nyqc8wfdb4lwj0st4jij9zbo",
+                "league": {
+                    "id": "by5nibd18nkt40t0j8a0j5yzx",
+                    "name": "Primera B",
+                    "country": "Colombia"
+                },
+                "week": "11",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "55rro857pdshdqjst0t7ydsro",
+                    "name": "Barranquilla",
+                    "logo": "https:\/\/live-football-api.com\/teams\/55rro857pdshdqjst0t7ydsro.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "dpeayb3psrpqkal533af10844",
+                    "name": "Cundinamarca",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dpeayb3psrpqkal533af10844.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "7019dsp3zm4w02uvpt4nnnzf8",
+                "league": {
+                    "id": "a08z7wsz0uqx90wsj33g65fcd",
+                    "name": "Torneo Federal A",
+                    "country": "Argentina"
+                },
+                "week": "Championship - Quarter-finals",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "522mp6j6hmoo671etzul59l6n",
+                    "name": "Sol de América",
+                    "logo": "https:\/\/live-football-api.com\/teams\/522mp6j6hmoo671etzul59l6n.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "djlgq8gwc3vmfi6lyllvggk5y",
+                    "name": "Cipolletti",
+                    "logo": "https:\/\/live-football-api.com\/teams\/djlgq8gwc3vmfi6lyllvggk5y.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9e6w7lz6efquguqdqyvhaa1w4",
+                "league": {
+                    "id": "6jgwiu2gq3dllmrwt45pfdn2z",
+                    "name": "Segunda División",
+                    "country": "Uruguay"
+                },
+                "week": "20",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "bq74omcibmi1qjznen2lui1q0",
+                    "name": "Paysandú",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bq74omcibmi1qjznen2lui1q0.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "a7zmnd3kr3xlqmjva6r5wt9k8",
+                    "name": "Tacuarembó",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a7zmnd3kr3xlqmjva6r5wt9k8.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "4ivru1ypbk825uddorcasbllg",
+                "league": {
+                    "id": "2wfvjdhzl6v3s1pf2s96qvdjx",
+                    "name": "Liga Mayor",
+                    "country": "Dominican Republic"
+                },
+                "week": "Apertura",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6lrtx6i2hsf52v8fh1j43f6cp",
+                    "name": "Cibao",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6lrtx6i2hsf52v8fh1j43f6cp.png",
+                    "score": "3"
+                },
+                "away": {
+                    "id": "safesj3eqp21491lgto0t51r",
+                    "name": "Jarabacoa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/safesj3eqp21491lgto0t51r.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5alzjynn9irsic5yo4l1fof84",
+                "league": {
+                    "id": "5y0z0l2epprzbscvzsgldw8vu",
+                    "name": "Division Profesional",
+                    "country": "Paraguay"
+                },
+                "week": "12",
+                "kickoff": "22:15",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "984ibdjplnlwb36kt6wbgwe97",
+                    "name": "Libertad",
+                    "logo": "https:\/\/live-football-api.com\/teams\/984ibdjplnlwb36kt6wbgwe97.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "ajjzd6ex2rqp70mwh5by9wdfb",
+                    "name": "Olimpia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ajjzd6ex2rqp70mwh5by9wdfb.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "b3wt4dsgaceivch1q9y3qzaj8",
+                "league": {
+                    "id": "6qitd9h242qkvjenaytfdnsf2",
+                    "name": "Division Intermedia",
+                    "country": "Paraguay"
+                },
+                "week": "26",
+                "kickoff": "22:15",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "565kbfxjhrxrn30ihh3x9iwa1",
+                    "name": "Guaireña",
+                    "logo": "https:\/\/live-football-api.com\/teams\/565kbfxjhrxrn30ihh3x9iwa1.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "efr1t05qe0waca9nnctacl3no",
+                    "name": "Fernando Mora",
+                    "logo": "https:\/\/live-football-api.com\/teams\/efr1t05qe0waca9nnctacl3no.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "azzgs3r2311zdy5jgcn4tkf10",
+                "league": {
+                    "id": "5zr0b05eyx25km7z1k03ca9jx",
+                    "name": "Serie B",
+                    "country": "Brazil"
+                },
+                "week": "30",
+                "kickoff": "22:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "d0tpuy1w8ckf8iiea01t1aob5",
+                    "name": "América MG",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d0tpuy1w8ckf8iiea01t1aob5.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "7avb9meepw828qkp0tiugzd1b",
+                    "name": "Juventude",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7avb9meepw828qkp0tiugzd1b.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "6z10ox7z6f18ibj1t80y5ta8k",
+                "league": {
+                    "id": "a08z7wsz0uqx90wsj33g65fcd",
+                    "name": "Torneo Federal A",
+                    "country": "Argentina"
+                },
+                "week": "Championship - Quarter-finals",
+                "kickoff": "22:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "13x6pponjb28rc5ydtk8k0yxh",
+                    "name": "Atenas",
+                    "logo": "https:\/\/live-football-api.com\/teams\/13x6pponjb28rc5ydtk8k0yxh.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "7rglhu14a03hhyen1gf4k0yn9",
+                    "name": "SM Formosa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7rglhu14a03hhyen1gf4k0yn9.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "baho4mtiigm4o2yzx5be5qas4",
+                "league": {
+                    "id": "287tckirbfj9nb8ar2k9r60vn",
+                    "name": "MLS",
+                    "country": "USA"
+                },
+                "week": "Regular Season",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "chjb0xe5vlaaguop3q2nbalni",
+                    "name": "Columbus",
+                    "logo": "https:\/\/live-football-api.com\/teams\/chjb0xe5vlaaguop3q2nbalni.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "7a7uyvix8axi28h7d3bwl4tbe",
+                    "name": "Inter Miami",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7a7uyvix8axi28h7d3bwl4tbe.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "egoiqqueyz2vvufqqo6yjklqs",
+                "league": {
+                    "id": "eu2g5j36zzxiazpd729osx0wm",
+                    "name": "Chilean Cup",
+                    "country": "Chile"
+                },
+                "week": "8th Finals",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6n1i99d69ktxseecp7cpfu971",
+                    "name": "Santa Cruz",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6n1i99d69ktxseecp7cpfu971.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "8rpjhpm2j1q7p40zfmlqpj8am",
+                    "name": "O'Higgins",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8rpjhpm2j1q7p40zfmlqpj8am.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1wb7g5cmimok92zqfvgunr5zo",
+                "league": {
+                    "id": "cu0rmpyff5692eo06ltddjo8a",
+                    "name": "Concacaf Nations League",
+                    "country": "N\/C America"
+                },
+                "week": "League A",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "151psmk1h1c846f2lqmflkx75",
+                    "name": "Haiti",
+                    "logo": "https:\/\/live-football-api.com\/teams\/151psmk1h1c846f2lqmflkx75.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "bfgqfm4qa3mal7fll74wd04mu",
+                    "name": "Costa Rica",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bfgqfm4qa3mal7fll74wd04mu.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "90nz1e70sv8okgeqfdu86kpw4",
+                "league": {
+                    "id": "2wolc27r8z03itcvwp43e38c5",
+                    "name": "Primera División",
+                    "country": "Uruguay"
+                },
+                "week": "8",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "ehyuxeire7ruxvc4nszvyiktx",
+                    "name": "Wanderers",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ehyuxeire7ruxvc4nszvyiktx.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "55gk3y9pyjnpck475gqm285bk",
+                    "name": "Albion",
+                    "logo": "https:\/\/live-football-api.com\/teams\/55gk3y9pyjnpck475gqm285bk.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "2nn9nxarhzxrj0c42qs2u1xjo",
+                "league": {
+                    "id": "by5nibd18nkt40t0j8a0j5yzx",
+                    "name": "Primera B",
+                    "country": "Colombia"
+                },
+                "week": "11",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "5j06w0vlxmxz08m9miwwaf9it",
+                    "name": "Quindío",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5j06w0vlxmxz08m9miwwaf9it.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "1nhaevziff7obqkpiy92ibwz1",
+                    "name": "Bogotá",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1nhaevziff7obqkpiy92ibwz1.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8dv6v7w54x5oakulzo5ul01sk",
+                "league": {
+                    "id": "ein4fkggto3pdh5msp8huafiq",
+                    "name": "Primera Division",
+                    "country": "El Salvador"
+                },
+                "week": "12",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "8nbp5q5mccisg85kpm38lqdqx",
+                    "name": "Limeño",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8nbp5q5mccisg85kpm38lqdqx.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "3dbs0v3itbuirgmtvhtdbfr0j",
+                    "name": "FAS",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3dbs0v3itbuirgmtvhtdbfr0j.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "py8lk4ojp3hpcgipb27dk00k",
+                "league": {
+                    "id": "jznihqxle06xych9ygwiwnsa",
+                    "name": "USL League One",
+                    "country": "USA"
+                },
+                "week": "Regular Season",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6ihu2mwc488rjv6ca1mg20wes",
+                    "name": "One Knoxville",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6ihu2mwc488rjv6ca1mg20wes.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "9vm56yx0dpsydv1gcgdhfc4r8",
+                    "name": "Westchester SC",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9vm56yx0dpsydv1gcgdhfc4r8.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "9dcwihpv7b8vnunopuef2x1xw",
+                "league": {
+                    "id": "6jgwiu2gq3dllmrwt45pfdn2z",
+                    "name": "Segunda División",
+                    "country": "Uruguay"
+                },
+                "week": "20",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "3tu3dq14e3ne57nfb9pn6ocvk",
+                    "name": "Huracán",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3tu3dq14e3ne57nfb9pn6ocvk.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "7162pj1mpc0xpgrg8gheeo95y",
+                    "name": "Miramar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7162pj1mpc0xpgrg8gheeo95y.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1ewyy4j12qi8h8ma5nmq3mmfo",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "47oiq3narnesms86fg0npobo4",
+                    "name": "Paraná FC",
+                    "logo": "https:\/\/live-football-api.com\/teams\/47oiq3narnesms86fg0npobo4.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "b49ym6y1dhl9lk55dau6zwsbu",
+                    "name": "Atl. Baradero",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b49ym6y1dhl9lk55dau6zwsbu.png",
+                    "score": "3"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "6jngn1jx78gmi5m9vvjcxzo5w",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "5o90v5td9pb2ywf2dr524w906",
+                    "name": "Desamparados",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5o90v5td9pb2ywf2dr524w906.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "didl42t8hhnwdocyb3v7m3vv8",
+                    "name": "Belgrano MA",
+                    "logo": "https:\/\/live-football-api.com\/teams\/didl42t8hhnwdocyb3v7m3vv8.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "d19nrvu5egt71zznn9v41adxw",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "62sx090hj2daol51qkro9bf8",
+                    "name": "Somisa",
+                    "logo": "https:\/\/live-football-api.com\/teams\/62sx090hj2daol51qkro9bf8.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "5kxuvzgcq86oot0wob9fxbdhw",
+                    "name": "RC Pergamino",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5kxuvzgcq86oot0wob9fxbdhw.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "f354llp9hk5nzrd6i9407b21g",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "5",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "6pd54flxcgti0aqbzf0s04c2c",
+                    "name": "Independencia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6pd54flxcgti0aqbzf0s04c2c.png",
+                    "score": "8"
+                },
+                "away": {
+                    "id": "7znr4pkrb02ugto2vkfjpnspg",
+                    "name": "Tricolor",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7znr4pkrb02ugto2vkfjpnspg.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "cr40sk0w0cigxgxecwet6sv10",
+                "league": {
+                    "id": "7ut48s80k421xixh6ev5i6h62",
+                    "name": "Liga MX Femenil",
+                    "country": "Mexico"
+                },
+                "week": "Apertura",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "7jk6uz0an69dx9iw8vy67vjai",
+                    "name": "León",
+                    "logo": "https:\/\/live-football-api.com\/teams\/7jk6uz0an69dx9iw8vy67vjai.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "b4iesl9xvgjqfvdxkyj2o6c16",
+                    "name": "América",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b4iesl9xvgjqfvdxkyj2o6c16.png",
+                    "score": "5"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "6ky80vuwl96c0rgco76a3slck",
+                "league": {
+                    "id": "2ty8ihceabty8yddmu31iuuej",
+                    "name": "Primera A",
+                    "country": "Colombia"
+                },
+                "week": "12",
+                "kickoff": "23:05",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "263edk7xyjafv0cfktqymjcmn",
+                    "name": "Fortaleza",
+                    "logo": "https:\/\/live-football-api.com\/teams\/263edk7xyjafv0cfktqymjcmn.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "epcjkyn8gazuywbotxwikc5kn",
+                    "name": "Dep. Tolima",
+                    "logo": "https:\/\/live-football-api.com\/teams\/epcjkyn8gazuywbotxwikc5kn.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5rdxigq26i6p1jn1zd07rqrro",
+                "league": {
+                    "id": "5em08hhvd7komnfdsb1yagpas",
+                    "name": "Professional Division Cup",
+                    "country": "Bolivia"
+                },
+                "week": "5",
+                "kickoff": "23:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "a2yy3p6tihu263x73yayp9r3e",
+                    "name": "Real Tomayapo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a2yy3p6tihu263x73yayp9r3e.png",
+                    "score": "2"
+                },
+                "away": {
+                    "id": "36mrl64r74lum5sv99kog874k",
+                    "name": "Real Oruro",
+                    "logo": "https:\/\/live-football-api.com\/teams\/36mrl64r74lum5sv99kog874k.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "d59ecz9k576tvax8ujp6e85xw",
+                "league": {
+                    "id": "54sev4wdko8ma0h9z9a3m074k",
+                    "name": "Gaúcho 3",
+                    "country": "Brazil"
+                },
+                "week": "4",
+                "kickoff": "23:30",
+                "status": {
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
+                },
+                "home": {
+                    "id": "csfume9pcbvcsfyk4r31573f8",
+                    "name": "Clube 1992",
+                    "logo": "https:\/\/live-football-api.com\/teams\/csfume9pcbvcsfyk4r31573f8.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "92fndkkdp22y02ew7ygvo3dg",
+                    "name": "Fut Vida",
+                    "logo": "https:\/\/live-football-api.com\/teams\/92fndkkdp22y02ew7ygvo3dg.png",
+                    "score": "2"
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        ]
+    },
+    "timestamp": "2026-09-29 23:41:59"
+}

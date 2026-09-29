@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 240,
+    "credits_remaining": 238,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -6641,7 +6641,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "72'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6678,7 +6678,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "78'",
+                    "display": "82'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6826,7 +6826,7 @@
                 "kickoff": "22:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6863,7 +6863,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6974,7 +6974,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "34'",
+                    "display": "39'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7159,7 +7159,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7187,5 +7187,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 23:37:15"
+    "timestamp": "2026-09-29 23:42:00"
 }
