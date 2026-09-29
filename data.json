@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 246,
+    "credits_remaining": 244,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -6307,10 +6307,10 @@
                 "week": "Quarter-finals",
                 "kickoff": "21:00",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "c79dztwjlrdn268fzce3ssuzz",
@@ -6322,7 +6322,7 @@
                     "id": "ehsvy9m92bp6ktgoy6pwv8rdm",
                     "name": "Colo Colo",
                     "logo": "https:\/\/live-football-api.com\/teams\/ehsvy9m92bp6ktgoy6pwv8rdm.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -6381,16 +6381,16 @@
                 "week": "League B",
                 "kickoff": "21:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "14gc6u4pxcafhhm8pf64hvy3p",
                     "name": "French Guiana",
                     "logo": "https:\/\/live-football-api.com\/teams\/14gc6u4pxcafhhm8pf64hvy3p.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "boop9zthpgh9jhs01ywkvcy8q",
@@ -6456,7 +6456,7 @@
                 "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "69'",
+                    "display": "90 +5'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6470,7 +6470,7 @@
                     "id": "84fngz7fcvlg9ua1rodkincru",
                     "name": "Cacahuatique",
                     "logo": "https:\/\/live-football-api.com\/teams\/84fngz7fcvlg9ua1rodkincru.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -6604,7 +6604,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "37'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6612,7 +6612,7 @@
                     "id": "cb4x5832dxmhckrl8ssztjl66",
                     "name": "Real Potosí",
                     "logo": "https:\/\/live-football-api.com\/teams\/cb4x5832dxmhckrl8ssztjl66.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "e9d9hqcad8iq0ujm2g86sscug",
@@ -6621,7 +6621,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 2,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -6752,7 +6752,7 @@
                 "kickoff": "22:30",
                 "status": {
                     "status": "live",
-                    "display": "6'",
+                    "display": "32'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6760,7 +6760,7 @@
                     "id": "53r1xghhsn5zog9gxjkt2am8o",
                     "name": "Botafogo SP",
                     "logo": "https:\/\/live-football-api.com\/teams\/53r1xghhsn5zog9gxjkt2am8o.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "u414hw3hw8leoqvbymkn9n4j",
@@ -6769,7 +6769,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -7113,5 +7113,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 22:37:13"
+    "timestamp": "2026-09-29 23:03:38"
 }
