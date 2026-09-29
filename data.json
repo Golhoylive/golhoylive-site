@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 326,
+    "credits_remaining": 324,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -350,10 +350,10 @@
                 "week": "9",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "bsuay4uc439ywyw9gltxipzp1",
@@ -365,7 +365,7 @@
                     "id": "5af26xb34z3a1o49zsrcekon9",
                     "name": "Uruguay",
                     "logo": "https:\/\/live-football-api.com\/teams\/5af26xb34z3a1o49zsrcekon9.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -425,7 +425,7 @@
                 "kickoff": "02:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7409,5 +7409,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 02:36:42"
+    "timestamp": "2026-09-29 03:04:21"
 }
