@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 276,
+    "credits_remaining": 274,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -1941,10 +1941,10 @@
                 "week": "4th Round",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "1jcrme9vqtza9t79382oi4dif",
@@ -1979,7 +1979,7 @@
                 "kickoff": "13:40",
                 "status": {
                     "status": "live",
-                    "display": "78'",
+                    "display": "90 +20'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2016,7 +2016,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2024,7 +2024,7 @@
                     "id": "8qs6eg6cnj5bc4kbr7ji7bbgg",
                     "name": "Slovenia U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/8qs6eg6cnj5bc4kbr7ji7bbgg.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "6jbpdqede8l8wtabp4l4nqlyk",
@@ -2053,7 +2053,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2061,7 +2061,7 @@
                     "id": "9kkn65uke5h6mx936kajcqw5k",
                     "name": "Madagascar",
                     "logo": "https:\/\/live-football-api.com\/teams\/9kkn65uke5h6mx936kajcqw5k.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "eptnbubek90aa6bsvekaplqt2",
@@ -2127,7 +2127,7 @@
                 "kickoff": "14:35",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2135,7 +2135,7 @@
                     "id": "68eq7z6g5geh3s0u37arf4j55",
                     "name": "Fujairah",
                     "logo": "https:\/\/live-football-api.com\/teams\/68eq7z6g5geh3s0u37arf4j55.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "3b7jchoxs6fztnmkqvbb2czbq",
@@ -2144,7 +2144,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 2,
+                    "home": 3,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2164,7 +2164,7 @@
                 "kickoff": "14:40",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2178,11 +2178,11 @@
                     "id": "ew6rya31x0lh96pgjq0mqgedh",
                     "name": "Hungary U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/ew6rya31x0lh96pgjq0mqgedh.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 2
+                    "away": 3
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2201,7 +2201,7 @@
                 "kickoff": "14:40",
                 "status": {
                     "status": "live",
-                    "display": "26'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2215,11 +2215,11 @@
                     "id": "8bgi06ts2hmp73f27jmjialt1",
                     "name": "Dibba Hisn",
                     "logo": "https:\/\/live-football-api.com\/teams\/8bgi06ts2hmp73f27jmjialt1.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2238,7 +2238,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2246,7 +2246,7 @@
                     "id": "73elt93eswor4hxu9yp9g05eg",
                     "name": "Iceland U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/73elt93eswor4hxu9yp9g05eg.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "9jidpbq6txpwrx5s0qz9ydabi",
@@ -2255,7 +2255,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2275,7 +2275,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "6'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2311,26 +2311,26 @@
                 "week": "Regular Season",
                 "kickoff": "15:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "15:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "6'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "3gc5ndutiq4h6zcy1e0olfmsd",
                     "name": "Germany U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/3gc5ndutiq4h6zcy1e0olfmsd.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "6x786yaxantdgjq0l4a1gc1v",
                     "name": "Italy U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/6x786yaxantdgjq0l4a1gc1v.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7668,5 +7668,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 15:07:37"
+    "timestamp": "2026-09-29 15:39:49"
 }
