@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 310,
+    "credits_remaining": 308,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -499,7 +499,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "41'",
+                    "display": "48'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -533,10 +533,10 @@
                     "country": "World"
                 },
                 "week": "Friendlies 2",
-                "kickoff": "07:00",
+                "kickoff": "07:10",
                 "status": {
                     "status": "scheduled",
-                    "display": "07:00",
+                    "display": "07:10",
                     "is_live": false,
                     "state": "preGame"
                 },
@@ -7335,5 +7335,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 06:43:36"
+    "timestamp": "2026-09-29 07:06:43"
 }
