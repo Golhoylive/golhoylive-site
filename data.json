@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 316,
+    "credits_remaining": 314,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -573,7 +573,7 @@
                 "kickoff": "04:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -581,7 +581,7 @@
                     "id": "1jq0sqj2d8d9bkmrzu0cmw3z7",
                     "name": "PNG",
                     "logo": "https:\/\/live-football-api.com\/teams\/1jq0sqj2d8d9bkmrzu0cmw3z7.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "away": {
                     "id": "81nvpafz5jaoigxh9acohgrcz",
@@ -7446,5 +7446,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 05:04:26"
+    "timestamp": "2026-09-29 05:38:22"
 }
