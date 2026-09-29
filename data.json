@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 280,
+    "credits_remaining": 278,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -1346,7 +1346,7 @@
                     "name": "U19 National Team Friendlies",
                     "country": "World"
                 },
-                "week": null,
+                "week": "Friendlies 1",
                 "kickoff": "10:00",
                 "status": {
                     "status": "finished",
@@ -1682,10 +1682,10 @@
                 "week": "Friendlies 2",
                 "kickoff": "12:30",
                 "status": {
-                    "status": "live",
-                    "display": "69'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "bluoy2xlvbm2k6u1d5osggmv2",
@@ -1697,7 +1697,7 @@
                     "id": "1cgh4bnhff1bzgrjc3mmwgfoo",
                     "name": "Romania U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/1cgh4bnhff1bzgrjc3mmwgfoo.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -1719,16 +1719,16 @@
                 "week": "Premier Division",
                 "kickoff": "12:30",
                 "status": {
-                    "status": "live",
-                    "display": "74'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "90mzv0sgxnhjbfczqudqoo0vs",
                     "name": "Thailand",
                     "logo": "https:\/\/live-football-api.com\/teams\/90mzv0sgxnhjbfczqudqoo0vs.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "a9rijkw11dvpb2ysf1pe3zcqo",
@@ -1757,7 +1757,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1794,7 +1794,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1808,7 +1808,7 @@
                     "id": "3669sbeijslw88073qlw1cbcp",
                     "name": "Egypt",
                     "logo": "https:\/\/live-football-api.com\/teams\/3669sbeijslw88073qlw1cbcp.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 0,
@@ -1831,7 +1831,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1845,7 +1845,7 @@
                     "id": "cbx8lz7loz866tsoawwrpxyl9",
                     "name": "Algeria",
                     "logo": "https:\/\/live-football-api.com\/teams\/cbx8lz7loz866tsoawwrpxyl9.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 2,
@@ -1868,7 +1868,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1905,7 +1905,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1913,7 +1913,7 @@
                     "id": "dmpb5utmcl8kzsrpxvom36sov",
                     "name": "Mozambique",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmpb5utmcl8kzsrpxvom36sov.png",
-                    "score": "1"
+                    "score": "4"
                 },
                 "away": {
                     "id": "86muus29rglv74lr0yn1zp4ni",
@@ -1942,7 +1942,7 @@
                 "kickoff": "13:30",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "50'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1956,11 +1956,11 @@
                     "id": "htdr7aa5cwjma1fy1nob7sb7",
                     "name": "Podbrezová",
                     "logo": "https:\/\/live-football-api.com\/teams\/htdr7aa5cwjma1fy1nob7sb7.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1979,7 +1979,7 @@
                 "kickoff": "13:40",
                 "status": {
                     "status": "live",
-                    "display": "28'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1987,7 +1987,7 @@
                     "id": "72q6wun8eup5w3idb9s78lk1g",
                     "name": "Rafsanjan",
                     "logo": "https:\/\/live-football-api.com\/teams\/72q6wun8eup5w3idb9s78lk1g.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "29780ehajsj67uddlsy8ywe09",
@@ -1996,7 +1996,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2016,7 +2016,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2024,17 +2024,17 @@
                     "id": "8qs6eg6cnj5bc4kbr7ji7bbgg",
                     "name": "Slovenia U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/8qs6eg6cnj5bc4kbr7ji7bbgg.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "6jbpdqede8l8wtabp4l4nqlyk",
                     "name": "Israel U21",
                     "logo": "https:\/\/live-football-api.com\/teams\/6jbpdqede8l8wtabp4l4nqlyk.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2053,7 +2053,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2089,63 +2089,26 @@
                 "week": "Friendlies 1",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "36'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "8byqilhj3z30zkm9h17nd4qfl",
                     "name": "England U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/8byqilhj3z30zkm9h17nd4qfl.png",
-                    "score": null
+                    "score": "1"
                 },
                 "away": {
                     "id": "41t6cunztssd0e5ymu1nhh0jj",
                     "name": "Norway U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/41t6cunztssd0e5ymu1nhh0jj.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "b3n9fn7ezc2pa9x1o7d6zirdg",
-                "league": {
-                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
-                    "name": "U19 National Team Friendlies",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "14:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "14:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "99329046z3ov2nib7jc9lalsy",
-                    "name": "Serbia U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/99329046z3ov2nib7jc9lalsy.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "ew6rya31x0lh96pgjq0mqgedh",
-                    "name": "Hungary U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/ew6rya31x0lh96pgjq0mqgedh.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2163,26 +2126,63 @@
                 "week": "2nd Preliminary Round",
                 "kickoff": "14:35",
                 "status": {
-                    "status": "scheduled",
-                    "display": "14:35",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "68eq7z6g5geh3s0u37arf4j55",
                     "name": "Fujairah",
                     "logo": "https:\/\/live-football-api.com\/teams\/68eq7z6g5geh3s0u37arf4j55.png",
-                    "score": null
+                    "score": "2"
                 },
                 "away": {
                     "id": "3b7jchoxs6fztnmkqvbb2czbq",
                     "name": "Jazira Hamra",
                     "logo": "https:\/\/live-football-api.com\/teams\/3b7jchoxs6fztnmkqvbb2czbq.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
                     "home": null,
                     "away": null
+                }
+            },
+            {
+                "id": "b3n9fn7ezc2pa9x1o7d6zirdg",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "14:40",
+                "status": {
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "99329046z3ov2nib7jc9lalsy",
+                    "name": "Serbia U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/99329046z3ov2nib7jc9lalsy.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "ew6rya31x0lh96pgjq0mqgedh",
+                    "name": "Hungary U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ew6rya31x0lh96pgjq0mqgedh.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -7668,5 +7668,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 14:06:21"
+    "timestamp": "2026-09-29 14:39:53"
 }
