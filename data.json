@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 242,
+    "credits_remaining": 240,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -6641,7 +6641,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "70'",
+                    "display": "72'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6649,7 +6649,7 @@
                     "id": "6firclycxvkpw7kv7lnkh6lsl",
                     "name": "Baradero",
                     "logo": "https:\/\/live-football-api.com\/teams\/6firclycxvkpw7kv7lnkh6lsl.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "13utzbbzk3eg8huae1s0rj3ai",
@@ -6678,7 +6678,7 @@
                 "kickoff": "22:00",
                 "status": {
                     "status": "live",
-                    "display": "75'",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6863,7 +6863,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6974,7 +6974,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "32'",
+                    "display": "34'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7159,7 +7159,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7187,5 +7187,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 23:34:52"
+    "timestamp": "2026-09-29 23:37:15"
 }
