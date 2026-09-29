@@ -1,203 +1,590 @@
-name: Update GolHoyLive Football Data
-
-on:
-
-  workflow_dispatch:
-
-  schedule:
-    - cron: "*/30 * * * *"
-
-
-permissions:
-  contents: write
-
-
-jobs:
-
-  update-football-data:
-
-    runs-on: ubuntu-latest
-
-
-    steps:
-
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-
-      - name: Prepare folders
-        run: |
-          set -e
-          mkdir -p fixtures
-
-
-      - name: Get football dates
-        env:
-          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-
-        run: |
-
-          set -e
-
-          TODAY=$(TZ=Africa/Casablanca date +%F)
-
-          YESTERDAY=$(TZ=Africa/Casablanca date -d "yesterday" +%F)
-
-          TOMORROW=$(TZ=Africa/Casablanca date -d "tomorrow" +%F)
-
-
-          echo "Today: $TODAY"
-
-          echo "Yesterday: $YESTERDAY"
-
-          echo "Tomorrow: $TOMORROW"
-
-
-          echo "Getting today's matches..."
-
-
-          curl --fail \
-            --silent \
-            --show-error \
-            --get \
-            "https://live-football-api.com/api/v1/matches" \
-            --data-urlencode "api_key=$LFA_API_KEY" \
-            --data-urlencode "date=$TODAY" \
-            --data-urlencode "lang=en" \
-            -o data.json
-
-
-          test -s data.json
-
-
-          echo "Today's matches downloaded."
-
-
-          HOUR=$(TZ=Africa/Casablanca date +%H)
-
-          HOUR_NUMBER=$((10#$HOUR))
-
-
-          if [ $((HOUR_NUMBER % 6)) -eq 0 ]; then
-
-
-            echo "Updating yesterday and tomorrow..."
-
-
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/matches" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "date=$YESTERDAY" \
-              --data-urlencode "lang=en" \
-              -o fixtures/yesterday.json
-
-
-            test -s fixtures/yesterday.json
-
-
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/matches" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "date=$TOMORROW" \
-              --data-urlencode "lang=en" \
-              -o fixtures/tomorrow.json
-
-
-            test -s fixtures/tomorrow.json
-
-
-            echo "Yesterday and tomorrow updated."
-
-          else
-
-            echo "Skipping yesterday/tomorrow update this run."
-
-          fi
-
-
-      - name: Get competitions
-
-        env:
-          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-
-        run: |
-
-          set -e
-
-          HOUR=$(TZ=Africa/Casablanca date +%H)
-
-          HOUR_NUMBER=$((10#$HOUR))
-
-
-          if [ $((HOUR_NUMBER % 6)) -eq 0 ]; then
-
-            echo "Updating competitions..."
-
-
-            curl --fail \
-              --silent \
-              --show-error \
-              --get \
-              "https://live-football-api.com/api/v1/leagues" \
-              --data-urlencode "api_key=$LFA_API_KEY" \
-              --data-urlencode "lang=en" \
-              -o leagues.json
-
-
-            test -s leagues.json
-
-
-            echo "Competitions updated."
-
-          else
-
-            echo "Keeping existing leagues.json."
-
-          fi
-
-
-      - name: Save football data
-
-        run: |
-
-          set -e
-
-
-          git config user.name \
-            "github-actions[bot]"
-
-
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
-
-
-          git add data.json
-
-          git add leagues.json
-
-          git add fixtures/
-
-
-          if git diff --cached --quiet; then
-
-            echo "No changes in football data."
-
-            exit 0
-
-          fi
-
-
-          git commit \
-            -m "Update GolHoyLive football data"
-
-
-          git push
-
-
-          echo "GolHoyLive data saved successfully."
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GolHoyLive - مباريات كرة القدم</title>
+
+<meta name="description" content="GolHoyLive - مباريات ونتائج كرة القدم اليوم والأمس وغداً، أندية ومنتخبات من مختلف البطولات.">
+<meta name="robots" content="index,follow">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:#07110d;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+button,input,select{
+  font:inherit;
+}
+
+button{
+  cursor:pointer;
+}
+
+.header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#07110d;
+  border-bottom:1px solid #18372a;
+}
+
+.header-inner{
+  max-width:1100px;
+  margin:auto;
+  min-height:65px;
+  padding:10px 14px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  color:#38d878;
+  font-size:21px;
+  font-weight:900;
+  white-space:nowrap;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  text-decoration:none;
+}
+
+.ball{
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  background:#38d878;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#06100b;
+}
+
+.search{
+  flex:1;
+  position:relative;
+}
+
+.search input{
+  width:100%;
+  height:42px;
+  border-radius:11px;
+  border:1px solid #254938;
+  background:#0d1d16;
+  color:#fff;
+  outline:none;
+  padding:0 40px 0 12px;
+}
+
+.search input:focus{
+  border-color:#38d878;
+}
+
+.search-icon{
+  position:absolute;
+  right:13px;
+  top:11px;
+  color:#8da69a;
+}
+
+.language{
+  height:42px;
+  border-radius:10px;
+  border:1px solid #254938;
+  background:#0d1d16;
+  color:#fff;
+}
+
+.nav{
+  background:#09150f;
+  border-bottom:1px solid #18372a;
+}
+
+.nav-inner{
+  max-width:1100px;
+  margin:auto;
+  display:flex;
+  overflow-x:auto;
+}
+
+.nav button{
+  flex:1;
+  min-width:105px;
+  border:0;
+  background:transparent;
+  color:#8da69a;
+  padding:13px 8px;
+  font-weight:bold;
+}
+
+.nav button.active{
+  color:#38d878;
+  border-bottom:3px solid #38d878;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:15px 12px 50px;
+}
+
+.hero{
+  background:linear-gradient(135deg,#0d291c,#09150f);
+  border:1px solid #1c4733;
+  border-radius:15px;
+  padding:18px;
+  margin-bottom:15px;
+}
+
+.hero h1{
+  margin:0 0 8px;
+  font-size:24px;
+}
+
+.hero p{
+  margin:0;
+  color:#9db4a8;
+  line-height:1.7;
+}
+
+.days{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  margin-bottom:15px;
+}
+
+.day{
+  border:1px solid #254938;
+  background:#0c1c15;
+  color:#a9bdb3;
+  border-radius:12px;
+  padding:12px 5px;
+}
+
+.day.active{
+  background:#38d878;
+  color:#06100b;
+  border-color:#38d878;
+}
+
+.day-label{
+  display:block;
+  font-size:12px;
+  margin-bottom:4px;
+}
+
+.day-date{
+  font-size:14px;
+  font-weight:bold;
+}
+
+.filters{
+  display:flex;
+  gap:7px;
+  overflow-x:auto;
+  margin-bottom:14px;
+  padding-bottom:3px;
+}
+
+.filter{
+  white-space:nowrap;
+  border:1px solid #254938;
+  background:#0c1c15;
+  color:#aabeb4;
+  border-radius:20px;
+  padding:8px 14px;
+}
+
+.filter.active{
+  color:#38d878;
+  border-color:#38d878;
+  background:#123020;
+}
+
+.competition{
+  background:#0b1913;
+  border:1px solid #1b392c;
+  border-radius:14px;
+  overflow:hidden;
+  margin-bottom:13px;
+}
+
+.competition-header{
+  min-height:52px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:9px 12px;
+  background:#0e2118;
+  border-bottom:1px solid #1b392c;
+}
+
+.competition-logo{
+  width:32px;
+  height:32px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:6px;
+  padding:3px;
+}
+
+.competition-name{
+  flex:1;
+  font-weight:800;
+}
+
+.country{
+  font-size:11px;
+  color:#789287;
+}
+
+.match{
+  display:grid;
+  grid-template-columns:65px 1fr 50px;
+  align-items:center;
+  min-height:82px;
+  padding:9px 10px;
+  border-bottom:1px solid #142b20;
+  cursor:pointer;
+}
+
+.match:last-child{
+  border-bottom:0;
+}
+
+.match:hover{
+  background:#10251a;
+}
+
+.time{
+  text-align:center;
+  font-size:13px;
+  color:#a8bbb2;
+  font-weight:bold;
+}
+
+.status{
+  display:block;
+  margin-top:4px;
+  font-size:10px;
+  color:#7e968b;
+}
+
+.status.live{
+  color:#ff5555;
+}
+
+.teams{
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+
+.team{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0;
+}
+
+.team-logo{
+  width:25px;
+  height:25px;
+  object-fit:contain;
+  flex-shrink:0;
+}
+
+.team-name{
+  font-size:14px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.scores{
+  text-align:center;
+  font-weight:900;
+}
+
+.scores div{
+  height:31px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.empty{
+  text-align:center;
+  padding:45px 20px;
+  background:#0b1913;
+  border:1px solid #19372a;
+  border-radius:14px;
+  color:#91a89d;
+}
+
+.empty-icon{
+  font-size:38px;
+  margin-bottom:10px;
+}
+
+.loading{
+  text-align:center;
+  padding:45px;
+  color:#91a89d;
+}
+
+.spinner{
+  width:34px;
+  height:34px;
+  margin:0 auto 12px;
+  border:3px solid #17352a;
+  border-top-color:#38d878;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+
+@keyframes spin{
+  to{transform:rotate(360deg)}
+}
+
+.live-box{
+  background:#291414;
+  border:1px solid #5b2929;
+  color:#ff6b6b;
+  border-radius:13px;
+  padding:14px;
+  margin-bottom:14px;
+  font-weight:bold;
+}
+
+.leagues{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+
+.league{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#0b1913;
+  border:1px solid #1b392c;
+  border-radius:13px;
+  padding:12px;
+  cursor:pointer;
+}
+
+.league img{
+  width:42px;
+  height:42px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:8px;
+  padding:4px;
+}
+
+.league-info{
+  min-width:0;
+}
+
+.league-name{
+  font-weight:bold;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.league-country{
+  margin-top:4px;
+  font-size:11px;
+  color:#789287;
+}
+
+.search-results{
+  display:none;
+  position:absolute;
+  top:48px;
+  left:0;
+  right:0;
+  background:#0b1913;
+  border:1px solid #274b3b;
+  border-radius:12px;
+  overflow:hidden;
+  z-index:2000;
+}
+
+.search-result{
+  padding:12px;
+  border-bottom:1px solid #18352a;
+  cursor:pointer;
+}
+
+.search-result:hover{
+  background:#12291d;
+}
+
+.result-title{
+  font-weight:bold;
+}
+
+.result-sub{
+  font-size:11px;
+  color:#789287;
+  margin-top:4px;
+}
+
+.footer{
+  text-align:center;
+  color:#70867b;
+  font-size:12px;
+  border-top:1px solid #183328;
+  padding:25px 15px;
+}
+
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.75);
+  z-index:3000;
+  display:none;
+  align-items:flex-end;
+  justify-content:center;
+}
+
+.modal.show{
+  display:flex;
+}
+
+.modal-box{
+  width:100%;
+  max-width:650px;
+  max-height:90vh;
+  overflow:auto;
+  background:#0a1811;
+  border:1px solid #244838;
+  border-radius:20px 20px 0 0;
+  padding:18px;
+}
+
+.modal-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.close{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  border:1px solid #315543;
+  background:#0e2118;
+  color:#fff;
+  font-size:20px;
+}
+
+.detail-teams{
+  display:grid;
+  grid-template-columns:1fr 80px 1fr;
+  align-items:center;
+  text-align:center;
+  gap:8px;
+  padding:25px 0;
+}
+
+.detail-team img{
+  width:55px;
+  height:55px;
+  object-fit:contain;
+  margin-bottom:7px;
+}
+
+.detail-team-name{
+  font-weight:bold;
+}
+
+.detail-score{
+  font-size:25px;
+  font-weight:900;
+}
+
+.detail-info{
+  background:#0d2017;
+  border-radius:12px;
+  padding:13px;
+  color:#91a89d;
+  line-height:2;
+}
+
+@media(min-width:700px){
+
+  .container{
+    padding-left:0;
+    padding-right:0;
+  }
+
+  .match{
+    grid-template-columns:90px 1fr 70px;
+    padding:10px 17px;
+  }
+
+  .leagues{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .modal{
+    align-items:center;
+  }
+
+  .modal-box{
+    border-radius:18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="header-inner">
+
+    <a href="#" class="logo" onclick="showPage('home');return false;">
+      <span class="ball">⚽</span>
+      <span>GolHoyLive</span>
+    </a>
+
+    <div class="search">
+
+      <span class="search-icon">🔎</span>
+
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="ابحث عن فريق أو بطولة..."
+        autocomplete="off"
+      >
+
+      <div id="searchResults" class="search-results"></div>
+
+    </div>
+
+    <select id="language" class="language">
+      <option value="ar">العربية</option>
+      <option value="es">Español</option>
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
