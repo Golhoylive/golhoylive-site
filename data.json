@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 306,
+    "credits_remaining": 304,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -535,10 +535,10 @@
                 "week": "Semi-finals",
                 "kickoff": "06:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "9re1ya6eccwux01glw16zek5j",
@@ -573,7 +573,7 @@
                 "kickoff": "07:00",
                 "status": {
                     "status": "live",
-                    "display": "30'",
+                    "display": "47'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -7594,5 +7594,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 07:38:28"
+    "timestamp": "2026-09-29 08:06:29"
 }
