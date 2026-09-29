@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 284,
+    "credits_remaining": 282,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -1572,7 +1572,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "79'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1580,7 +1580,7 @@
                     "id": "i9syypvx4y58uy9r2oxzuisd",
                     "name": "Comoros",
                     "logo": "https:\/\/live-football-api.com\/teams\/i9syypvx4y58uy9r2oxzuisd.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "1c4abhllx6kisec6sbrm6olth",
@@ -1609,7 +1609,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "82'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1617,13 +1617,13 @@
                     "id": "bx4fvzl0u2db6ypmk7z19jzod",
                     "name": "Gibraltar U17",
                     "logo": "https:\/\/live-football-api.com\/teams\/bx4fvzl0u2db6ypmk7z19jzod.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "cxgxssrn6eswx321yp5erd5so",
                     "name": "Bosnia U17",
                     "logo": "https:\/\/live-football-api.com\/teams\/cxgxssrn6eswx321yp5erd5so.png",
-                    "score": "3"
+                    "score": "8"
                 },
                 "halftime": {
                     "home": 0,
@@ -1646,7 +1646,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1660,7 +1660,7 @@
                     "id": "9cxzk91a1vtam3ggftk1vltj2",
                     "name": "Iceland U17",
                     "logo": "https:\/\/live-football-api.com\/teams\/9cxzk91a1vtam3ggftk1vltj2.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 2,
@@ -1683,7 +1683,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "33'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1720,7 +1720,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "49'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1757,7 +1757,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1794,7 +1794,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1808,11 +1808,11 @@
                     "id": "3669sbeijslw88073qlw1cbcp",
                     "name": "Egypt",
                     "logo": "https:\/\/live-football-api.com\/teams\/3669sbeijslw88073qlw1cbcp.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1831,7 +1831,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "39'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1839,17 +1839,17 @@
                     "id": "5xzr5deqydtmt56xdfnjo686f",
                     "name": "Burundi",
                     "logo": "https:\/\/live-football-api.com\/teams\/5xzr5deqydtmt56xdfnjo686f.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "away": {
                     "id": "cbx8lz7loz866tsoawwrpxyl9",
                     "name": "Algeria",
                     "logo": "https:\/\/live-football-api.com\/teams\/cbx8lz7loz866tsoawwrpxyl9.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 2,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1868,7 +1868,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1882,11 +1882,11 @@
                     "id": "2wk1549tkz80oet8226euj7jp",
                     "name": "Senegal",
                     "logo": "https:\/\/live-football-api.com\/teams\/2wk1549tkz80oet8226euj7jp.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1905,7 +1905,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "6'",
+                    "display": "40'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1913,7 +1913,7 @@
                     "id": "dmpb5utmcl8kzsrpxvom36sov",
                     "name": "Mozambique",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmpb5utmcl8kzsrpxvom36sov.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "86muus29rglv74lr0yn1zp4ni",
@@ -1922,7 +1922,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1941,26 +1941,26 @@
                 "week": "4th Round",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "7'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "1jcrme9vqtza9t79382oi4dif",
                     "name": "Inter Bratislava",
                     "logo": "https:\/\/live-football-api.com\/teams\/1jcrme9vqtza9t79382oi4dif.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "htdr7aa5cwjma1fy1nob7sb7",
                     "name": "Podbrezová",
                     "logo": "https:\/\/live-football-api.com\/teams\/htdr7aa5cwjma1fy1nob7sb7.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1976,10 +1976,10 @@
                     "country": "Iran"
                 },
                 "week": "3",
-                "kickoff": "13:30",
+                "kickoff": "13:40",
                 "status": {
                     "status": "scheduled",
-                    "display": "13:30",
+                    "display": "13:40",
                     "is_live": false,
                     "state": "preGame"
                 },
@@ -7668,5 +7668,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-29 13:07:38"
+    "timestamp": "2026-09-29 13:40:46"
 }
