@@ -1455,4 +1455,1089 @@ const FLAGS = {
 
   "Saudi Arabia": "🇸🇦",
 
-  Scotland:
+  Scotland: "🏴",
+
+Serbia: "🇷🇸",
+Spain: "🇪🇸",
+Sweden: "🇸🇪",
+Switzerland: "🇨🇭",
+Turkey: "🇹🇷",
+USA: "🇺🇸",
+"United States": "🇺🇸",
+Uruguay: "🇺🇾",
+World: "🌎",
+"South America": "🌎",
+"North America": "🌎",
+Asia: "🌏"
+
+};
+
+
+/* =========================
+   GET FLAG
+========================= */
+
+function getFlag(country){
+
+  return FLAGS[country] || "🌐";
+
+}
+
+
+/* =========================
+   DATE HELPERS
+========================= */
+
+function dateForOffset(offset){
+
+  const d = new Date();
+
+  d.setDate(d.getDate() + offset);
+
+  return d;
+
+}
+
+
+function dateText(d){
+
+  return String(d.getDate()).padStart(2,"0")
+    + "."
+    + String(d.getMonth()+1).padStart(2,"0");
+
+}
+
+
+function weekday(d){
+
+  const names = [
+    "DI","LU","MA","ME","JE","VE","SA"
+  ];
+
+  return names[d.getDay()];
+
+}
+
+
+/* =========================
+   DAYS
+========================= */
+
+function renderDays(){
+
+  const container =
+    document.getElementById("days");
+
+  const definitions = [
+    ["yesterday",-1],
+    ["today",0],
+    ["tomorrow",1]
+  ];
+
+  container.innerHTML =
+    definitions.map(([key,offset]) => {
+
+      const d = dateForOffset(offset);
+
+      return `
+        <button
+          class="day ${state.day === key ? "active" : ""}"
+          data-day="${key}"
+        >
+          <small>${weekday(d)}</small>
+          <strong>${dateText(d)}</strong>
+        </button>
+      `;
+
+    }).join("");
+
+
+  container
+    .querySelectorAll(".day")
+    .forEach(button => {
+
+      button.onclick = () => {
+
+        state.day = button.dataset.day;
+        state.selectedCompetition = null;
+
+        renderDays();
+        render();
+
+      };
+
+    });
+
+}
+
+
+/* =========================
+   GROUP COMPETITIONS
+========================= */
+
+function getCompetitionGroups(day){
+
+  const matches = getMatches(day);
+
+  const map = new Map();
+
+  matches.forEach(match => {
+
+    const league = match.league || {};
+
+    const id =
+      league.id ||
+      normalize(
+        (league.country || "World")
+        + "-"
+        + (league.name || "Unknown")
+      );
+
+    if(!map.has(id)){
+
+      map.set(id,{
+        id:id,
+        name:league.name || "Unknown",
+        country:league.country || "World",
+        matches:[]
+      });
+
+    }
+
+    map.get(id).matches.push(match);
+
+  });
+
+
+  return [...map.values()].sort(
+    (a,b) =>
+      a.name.localeCompare(b.name)
+  );
+
+}
+
+
+/* =========================
+   FAVORITES
+========================= */
+
+function saveFavorites(){
+
+  localStorage.setItem(
+    FAVORITES_KEY,
+    JSON.stringify(favorites)
+  );
+
+}
+
+
+function toggleFavorite(id,event){
+
+  event.stopPropagation();
+
+  if(favorites.includes(id)){
+
+    favorites =
+      favorites.filter(x => x !== id);
+
+  }else{
+
+    favorites.push(id);
+
+  }
+
+  saveFavorites();
+
+  render();
+
+}
+
+
+/* =========================
+   ESCAPE
+========================= */
+
+function escapeHTML(value){
+
+  return String(value || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+
+}
+
+
+/* =========================
+   COMPETITION HTML
+========================= */
+
+function competitionHTML(competition){
+
+  const isFavorite =
+    favorites.includes(competition.id);
+
+  return `
+
+    <div
+      class="competition"
+      data-id="${escapeHTML(competition.id)}"
+    >
+
+      <div class="flag">
+        ${getFlag(competition.country)}
+      </div>
+
+      <div class="competition-main">
+
+        <div class="country">
+          ${escapeHTML(competition.country)}
+        </div>
+
+        <div class="competition-name">
+          ${escapeHTML(competition.name)}
+        </div>
+
+      </div>
+
+      <button
+        class="favorite-btn ${isFavorite ? "active" : ""}"
+        data-favorite="${escapeHTML(competition.id)}"
+      >
+        ${isFavorite ? "★" : "☆"}
+      </button>
+
+      <div class="competition-count">
+        ${competition.matches.length}
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
+/* =========================
+   COUNTS
+========================= */
+
+function updateCounts(total,live){
+
+  document.getElementById("totalCount")
+    .textContent = total;
+
+  const liveElement =
+    document.getElementById("liveCount");
+
+  if(live > 0){
+
+    liveElement.style.display = "inline-block";
+    liveElement.textContent = live;
+
+  }else{
+
+    liveElement.style.display = "none";
+
+  }
+
+}
+
+
+/* =========================
+   EVENTS
+========================= */
+
+function bindCompetitionEvents(){
+
+  document
+    .querySelectorAll(".competition")
+    .forEach(element => {
+
+      element.onclick = () => {
+
+        state.selectedCompetition =
+          element.dataset.id;
+
+        render();
+
+      };
+
+    });
+
+
+  document
+    .querySelectorAll("[data-favorite]")
+    .forEach(button => {
+
+      button.onclick = event => {
+
+        toggleFavorite(
+          button.dataset.favorite,
+          event
+        );
+
+      };
+
+    });
+
+}
+
+
+/* =========================
+   MAIN COMPETITIONS
+========================= */
+
+function renderCompetitions(){
+
+  const groups =
+    getCompetitionGroups(state.day);
+
+  let filtered = groups;
+
+
+  if(state.search){
+
+    const q = normalize(state.search);
+
+    filtered =
+      groups.filter(competition =>
+
+        normalize(competition.name).includes(q)
+
+        ||
+
+        normalize(competition.country).includes(q)
+
+        ||
+
+        competition.matches.some(match =>
+
+          normalize(match?.home?.name).includes(q)
+
+          ||
+
+          normalize(match?.away?.name).includes(q)
+
+        )
+
+      );
+
+  }
+
+
+  const favoriteGroups =
+    filtered.filter(
+      competition =>
+        favorites.includes(competition.id)
+    );
+
+
+  const otherGroups =
+    filtered.filter(
+      competition =>
+        !favorites.includes(competition.id)
+    );
+
+
+  const total =
+    filtered.reduce(
+      (sum,competition) =>
+        sum + competition.matches.length,
+      0
+    );
+
+
+  const live =
+    filtered
+      .flatMap(
+        competition =>
+          competition.matches
+      )
+      .filter(
+        match =>
+          match?.status?.is_live === true
+      ).length;
+
+
+  updateCounts(total,live);
+
+
+  document.getElementById("favorites")
+    .innerHTML =
+      favoriteGroups.length
+
+      ?
+
+      favoriteGroups
+        .map(competitionHTML)
+        .join("")
+
+      :
+
+      `<div class="empty">
+        ${t("noFavorites")}
+      </div>`;
+
+
+  document.getElementById("leagues")
+    .innerHTML =
+      otherGroups.length
+
+      ?
+
+      otherGroups
+        .map(competitionHTML)
+        .join("")
+
+      :
+
+      `<div class="empty">
+        ${t("noMatches")}
+      </div>`;
+
+
+  document.getElementById("favoritesTitle")
+    .style.display = "block";
+
+
+  document.getElementById("azTitle")
+    .style.display =
+      otherGroups.length
+      ? "block"
+      : "none";
+
+
+  document.getElementById("matches")
+    .classList.add("hidden");
+
+
+  bindCompetitionEvents();
+
+}
+
+
+/* =========================
+   MATCH HTML
+========================= */
+
+function matchHTML(match){
+
+  const home = match.home || {};
+  const away = match.away || {};
+
+  const live =
+    match?.status?.is_live === true;
+
+  const homeScore =
+    home.score == null ? "-" : home.score;
+
+  const awayScore =
+    away.score == null ? "-" : away.score;
+
+  return `
+
+    <div class="match-row">
+
+      <div class="team home">
+
+        <span>
+          ${escapeHTML(home.name || "-")}
+        </span>
+
+        ${
+          home.logo
+          ?
+          `<img
+            class="team-logo"
+            src="${escapeHTML(home.logo)}"
+            alt=""
+          >`
+          :
+          ""
+        }
+
+      </div>
+
+
+      <div class="match-middle">
+
+        <div class="match-time ${live ? "live" : ""}">
+          ${live ? "🔴 LIVE" : escapeHTML(match.kickoff || "--:--")}
+        </div>
+
+        <div class="match-score">
+          ${homeScore} - ${awayScore}
+        </div>
+
+      </div>
+
+
+      <div class="team away">
+
+        ${
+          away.logo
+          ?
+          `<img
+            class="team-logo"
+            src="${escapeHTML(away.logo)}"
+            alt=""
+          >`
+          :
+          ""
+        }
+
+        <span>
+          ${escapeHTML(away.name || "-")}
+        </span>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
+/* =========================
+   COMPETITION MATCHES
+========================= */
+
+function renderCompetitionMatches(){
+
+  const groups =
+    getCompetitionGroups(state.day);
+
+  const competition =
+    groups.find(
+      group =>
+        group.id === state.selectedCompetition
+    );
+
+
+  if(!competition){
+
+    state.selectedCompetition = null;
+
+    render();
+
+    return;
+
+  }
+
+
+  updateCounts(
+    competition.matches.length,
+    competition.matches.filter(
+      match => match?.status?.is_live
+    ).length
+  );
+
+
+  document.getElementById("favorites")
+    .innerHTML = "";
+
+  document.getElementById("leagues")
+    .innerHTML = "";
+
+  document.getElementById("favoritesTitle")
+    .style.display = "none";
+
+  document.getElementById("azTitle")
+    .style.display = "none";
+
+
+  const box =
+    document.getElementById("matches");
+
+
+  box.classList.remove("hidden");
+
+
+  box.innerHTML = `
+
+    <div class="matches-header">
+
+      <button
+        class="back-btn"
+        id="backBtn"
+      >
+        ‹
+      </button>
+
+      <div>
+
+        <div class="country">
+          ${escapeHTML(competition.country)}
+        </div>
+
+        <div class="match-league-name">
+          ${escapeHTML(competition.name)}
+        </div>
+
+      </div>
+
+    </div>
+
+
+    ${
+      competition.matches
+        .map(matchHTML)
+        .join("")
+    }
+
+  `;
+
+
+  document.getElementById("backBtn")
+    .onclick = () => {
+
+      state.selectedCompetition = null;
+
+      render();
+
+    };
+
+}
+
+
+/* =========================
+   LIVE
+========================= */
+
+function renderLive(){
+
+  const live =
+    getAllMatches().filter(
+      match =>
+        match?.status?.is_live === true
+    );
+
+
+  const map = new Map();
+
+
+  live.forEach(match => {
+
+    const league =
+      match.league || {};
+
+    const id =
+      league.id ||
+      normalize(league.name);
+
+
+    if(!map.has(id)){
+
+      map.set(id,{
+        id:id,
+        name:league.name || "Unknown",
+        country:league.country || "World",
+        matches:[]
+      });
+
+    }
+
+    map.get(id).matches.push(match);
+
+  });
+
+
+  const groups =
+    [...map.values()];
+
+
+  updateCounts(
+    live.length,
+    live.length
+  );
+
+
+  document.getElementById("favoritesTitle")
+    .style.display = "block";
+
+  document.getElementById("azTitle")
+    .style.display = "none";
+
+
+  document.getElementById("favorites")
+    .innerHTML =
+
+      groups.length
+
+      ?
+
+      groups
+        .map(competitionHTML)
+        .join("")
+
+      :
+
+      `<div class="empty">
+        ${t("noMatches")}
+      </div>`;
+
+
+  document.getElementById("leagues")
+    .innerHTML = "";
+
+
+  document.getElementById("matches")
+    .classList.add("hidden");
+
+
+  bindCompetitionEvents();
+
+}
+
+
+/* =========================
+   FAVORITES PAGE
+========================= */
+
+function renderFavoritesPage(){
+
+  const groups =
+    getCompetitionGroups(state.day)
+      .filter(
+        group =>
+          favorites.includes(group.id)
+      );
+
+
+  const total =
+    groups.reduce(
+      (sum,group) =>
+        sum + group.matches.length,
+      0
+    );
+
+
+  updateCounts(total,0);
+
+
+  document.getElementById("favoritesTitle")
+    .style.display = "block";
+
+  document.getElementById("azTitle")
+    .style.display = "none";
+
+
+  document.getElementById("favorites")
+    .innerHTML =
+
+      groups.length
+
+      ?
+
+      groups
+        .map(competitionHTML)
+        .join("")
+
+      :
+
+      `<div class="empty">
+        ${t("noFavorites")}
+      </div>`;
+
+
+  document.getElementById("leagues")
+    .innerHTML = "";
+
+  document.getElementById("matches")
+    .classList.add("hidden");
+
+  bindCompetitionEvents();
+
+}
+
+
+/* =========================
+   RENDER
+========================= */
+
+function render(){
+
+  if(state.selectedCompetition){
+
+    renderCompetitionMatches();
+
+    return;
+
+  }
+
+
+  if(state.page === "live"){
+
+    renderLive();
+
+    return;
+
+  }
+
+
+  if(state.page === "favorites"){
+
+    renderFavoritesPage();
+
+    return;
+
+  }
+
+
+  renderCompetitions();
+
+}
+
+
+/* =========================
+   PAGE NAVIGATION
+========================= */
+
+function setPage(page){
+
+  state.page = page;
+
+  state.selectedCompetition = null;
+
+  document
+    .querySelectorAll(".bottom-btn")
+    .forEach(button => {
+
+      button.classList.toggle(
+        "active",
+        button.dataset.page === page
+      );
+
+    });
+
+  render();
+
+}
+
+
+document
+  .querySelectorAll(".bottom-btn")
+  .forEach(button => {
+
+    button.onclick = () => {
+
+      setPage(
+        button.dataset.page
+      );
+
+    };
+
+  });
+
+
+/* =========================
+   SEARCH
+========================= */
+
+document
+  .getElementById("searchBtn")
+  .onclick = () => {
+
+    const box =
+      document.getElementById("searchBox");
+
+    box.classList.toggle("show");
+
+    if(box.classList.contains("show")){
+
+      document
+        .getElementById("searchInput")
+        .focus();
+
+    }
+
+  };
+
+
+document
+  .getElementById("searchInput")
+  .oninput = event => {
+
+    state.search =
+      event.target.value;
+
+    state.page = "all";
+
+    state.selectedCompetition = null;
+
+    render();
+
+  };
+
+
+/* =========================
+   LANGUAGE
+========================= */
+
+document
+  .getElementById("lang")
+  .value = currentLang;
+
+
+document
+  .getElementById("lang")
+  .onchange = event => {
+
+    currentLang =
+      event.target.value;
+
+    localStorage.setItem(
+      "golhoylive_lang",
+      currentLang
+    );
+
+    applyLanguage();
+
+    render();
+
+  };
+
+
+function applyLanguage(){
+
+  document.getElementById("allMatchesText")
+    .textContent = t("all");
+
+  document.getElementById("favoritesTitle")
+    .textContent = t("favorites");
+
+  document.getElementById("azTitle")
+    .textContent = t("other");
+
+  document.getElementById("searchInput")
+    .placeholder = t("search");
+
+}
+
+
+/* =========================
+   LOAD DATA
+========================= */
+
+async function loadFile(path){
+
+  try{
+
+    const response =
+      await fetch(
+        path + "?v=" + Date.now()
+      );
+
+    if(!response.ok){
+
+      console.error(
+        "File not found:",
+        path
+      );
+
+      return [];
+
+    }
+
+    const json =
+      await response.json();
+
+
+    if(
+      json?.data?.matches &&
+      Array.isArray(json.data.matches)
+    ){
+
+      return json.data.matches;
+
+    }
+
+
+    if(
+      json?.matches &&
+      Array.isArray(json.matches)
+    ){
+
+      return json.matches;
+
+    }
+
+
+    return [];
+
+  }catch(error){
+
+    console.error(
+      "GolHoyLive error:",
+      path,
+      error
+    );
+
+    return [];
+
+  }
+
+}
+
+
+/* =========================
+   LOAD
+========================= */
+
+async function load(){
+
+  renderDays();
+
+  applyLanguage();
+
+
+  const results =
+    await Promise.all([
+
+      loadFile("data.json"),
+
+      loadFile("fixtures/yesterday.json"),
+
+      loadFile("fixtures/tomorrow.json")
+
+    ]);
+
+
+  data.today =
+    results[0] || [];
+
+  data.yesterday =
+    results[1] || [];
+
+  data.tomorrow =
+    results[2] || [];
+
+
+  console.log(
+    "GolHoyLive loaded:",
+    {
+      today:data.today.length,
+      yesterday:data.yesterday.length,
+      tomorrow:data.tomorrow.length
+    }
+  );
+
+
+  render();
+
+}
+
+
+/* =========================
+   START
+========================= */
+
+load();
+
+</script>
+
+</body>
+</html>
