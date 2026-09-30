@@ -5,55 +5,315 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GolHoyLive - مباريات كرة القدم</title>
 <meta name="description" content="GolHoyLive مباريات كرة القدم اليوم والأمس وغداً، أندية ومنتخبات وجميع البطولات">
+
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#06110c;color:#fff;font-family:Arial,sans-serif}
-.header{background:#07150f;border-bottom:1px solid #18392a;position:sticky;top:0;z-index:10}
-.head{max-width:1100px;margin:auto;padding:12px;display:flex;align-items:center;gap:9px}
-.logo{color:#32df76;font-size:23px;font-weight:900;white-space:nowrap}
-.ball{display:inline-flex;width:42px;height:42px;background:#32df76;border-radius:50%;align-items:center;justify-content:center;font-size:25px}
-.search{flex:1}
-.search input{width:100%;height:42px;background:#0b2116;color:white;border:1px solid #27523b;border-radius:11px;padding:0 13px;outline:0}
-select{height:42px;background:#0b2116;color:#fff;border:1px solid #27523b;border-radius:11px;padding:0 8px}
-.nav{background:#081810;border-bottom:1px solid #18392a}
-.navin{max-width:1100px;margin:auto;display:flex}
-.nav button{flex:1;background:0;border:0;color:#91a89b;padding:14px 5px;font-weight:bold}
-.nav button.active{color:#32df76;border-bottom:3px solid #32df76}
-.main{max-width:1100px;margin:auto;padding:14px 10px 50px}
-.hero{background:#0b2116;border:1px solid #1c4932;border-radius:15px;padding:18px;margin-bottom:13px}
-.hero h1{margin:0 0 7px;font-size:24px}
-.hero p{margin:0;color:#94aaa0;line-height:1.7}
-.days{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
-.day{border:1px solid #244d37;background:#0a1b13;color:#a0b5aa;border-radius:12px;padding:12px 5px;font-weight:bold}
-.day small{display:block;margin-top:5px}
-.day.active{background:#32df76;color:#06110c;border-color:#32df76}
-.filters{display:flex;gap:7px;overflow:auto;margin-bottom:12px}
-.filter{white-space:nowrap;border:1px solid #244d37;background:#0a1b13;color:#9db2a7;border-radius:20px;padding:8px 13px}
-.filter.active{background:#32df76;color:#06110c;border-color:#32df76}
-.comp{background:#091a12;border:1px solid #1a3c2b;border-radius:14px;overflow:hidden;margin-bottom:13px}
-.comphead{background:#0d2418;border-bottom:1px solid #1a3c2b;padding:11px 13px;display:flex;justify-content:space-between;font-weight:bold}
-.country{color:#718a7d;font-size:11px}
-.match{display:grid;grid-template-columns:60px 1fr 40px;align-items:center;min-height:78px;padding:8px 10px;border-bottom:1px solid #142d20}
-.match:last-child{border:0}
-.time{text-align:center;color:#a1b5aa;font-size:12px}
-.live{display:block;color:#ff6464;font-size:9px;margin-top:4px}
-.teams{display:flex;flex-direction:column;gap:8px}
-.team{display:flex;align-items:center;gap:8px;min-width:0}
-.team img{width:26px;height:26px;object-fit:contain}
-.team span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px}
-.scores{text-align:center;font-weight:900}
-.score{height:28px}
-.empty,.loading{text-align:center;padding:45px 15px;color:#91a79b}
-.leagues{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
-.league{background:#091a12;border:1px solid #1a3c2b;border-radius:13px;padding:14px}
-.league b{display:block;margin-bottom:6px}
-.league small{color:#718a7d}
-.footer{text-align:center;color:#60786c;border-top:1px solid #18392a;padding:25px}
+
+body{
+margin:0;
+background:#06110c;
+color:#fff;
+font-family:Arial,sans-serif
+}
+
+.header{
+background:#07150f;
+border-bottom:1px solid #18392a;
+position:sticky;
+top:0;
+z-index:10
+}
+
+.head{
+max-width:1100px;
+margin:auto;
+padding:12px;
+display:flex;
+align-items:center;
+gap:9px
+}
+
+.logo{
+color:#32df76;
+font-size:23px;
+font-weight:900;
+white-space:nowrap
+}
+
+.ball{
+display:inline-flex;
+width:42px;
+height:42px;
+background:#32df76;
+border-radius:50%;
+align-items:center;
+justify-content:center;
+font-size:25px
+}
+
+.search{
+flex:1
+}
+
+.search input{
+width:100%;
+height:42px;
+background:#0b2116;
+color:white;
+border:1px solid #27523b;
+border-radius:11px;
+padding:0 13px;
+outline:0
+}
+
+select{
+height:42px;
+background:#0b2116;
+color:#fff;
+border:1px solid #27523b;
+border-radius:11px;
+padding:0 8px
+}
+
+.nav{
+background:#081810;
+border-bottom:1px solid #18392a
+}
+
+.navin{
+max-width:1100px;
+margin:auto;
+display:flex
+}
+
+.nav button{
+flex:1;
+background:0;
+border:0;
+color:#91a89b;
+padding:14px 5px;
+font-weight:bold
+}
+
+.nav button.active{
+color:#32df76;
+border-bottom:3px solid #32df76
+}
+
+.main{
+max-width:1100px;
+margin:auto;
+padding:14px 10px 50px
+}
+
+.hero{
+background:#0b2116;
+border:1px solid #1c4932;
+border-radius:15px;
+padding:18px;
+margin-bottom:13px
+}
+
+.hero h1{
+margin:0 0 7px;
+font-size:24px
+}
+
+.hero p{
+margin:0;
+color:#94aaa0;
+line-height:1.7
+}
+
+.days{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:8px;
+margin-bottom:12px
+}
+
+.day{
+border:1px solid #244d37;
+background:#0a1b13;
+color:#a0b5aa;
+border-radius:12px;
+padding:12px 5px;
+font-weight:bold
+}
+
+.day small{
+display:block;
+margin-top:5px
+}
+
+.day.active{
+background:#32df76;
+color:#06110c;
+border-color:#32df76
+}
+
+.filters{
+display:flex;
+gap:7px;
+overflow:auto;
+margin-bottom:12px
+}
+
+.filter{
+white-space:nowrap;
+border:1px solid #244d37;
+background:#0a1b13;
+color:#9db2a7;
+border-radius:20px;
+padding:8px 13px
+}
+
+.filter.active{
+background:#32df76;
+color:#06110c;
+border-color:#32df76
+}
+
+.comp{
+background:#091a12;
+border:1px solid #1a3c2b;
+border-radius:14px;
+overflow:hidden;
+margin-bottom:13px
+}
+
+.comphead{
+background:#0d2418;
+border-bottom:1px solid #1a3c2b;
+padding:11px 13px;
+display:flex;
+justify-content:space-between;
+font-weight:bold
+}
+
+.country{
+color:#718a7d;
+font-size:11px
+}
+
+.match{
+display:grid;
+grid-template-columns:60px 1fr 40px;
+align-items:center;
+min-height:78px;
+padding:8px 10px;
+border-bottom:1px solid #142d20
+}
+
+.match:last-child{
+border:0
+}
+
+.time{
+text-align:center;
+color:#a1b5aa;
+font-size:12px
+}
+
+.live{
+display:block;
+color:#ff6464;
+font-size:9px;
+margin-top:4px
+}
+
+.teams{
+display:flex;
+flex-direction:column;
+gap:8px
+}
+
+.team{
+display:flex;
+align-items:center;
+gap:8px;
+min-width:0
+}
+
+.team img{
+width:26px;
+height:26px;
+object-fit:contain
+}
+
+.team span{
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+font-size:13px
+}
+
+.scores{
+text-align:center;
+font-weight:900
+}
+
+.score{
+height:28px
+}
+
+.empty,
+.loading{
+text-align:center;
+padding:45px 15px;
+color:#91a79b
+}
+
+.leagues{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:10px
+}
+
+.league{
+background:#091a12;
+border:1px solid #1a3c2b;
+border-radius:13px;
+padding:14px
+}
+
+.league b{
+display:block;
+margin-bottom:6px
+}
+
+.league small{
+color:#718a7d
+}
+
+.footer{
+text-align:center;
+color:#60786c;
+border-top:1px solid #18392a;
+padding:25px
+}
+
 @media(max-width:600px){
-.logo{font-size:19px}
-.ball{width:38px;height:38px;font-size:22px}
-select{max-width:90px;font-size:11px}
-.match{grid-template-columns:54px 1fr 35px}
+
+.logo{
+font-size:19px
+}
+
+.ball{
+width:38px;
+height:38px;
+font-size:22px
+}
+
+select{
+max-width:90px;
+font-size:11px
+}
+
+.match{
+grid-template-columns:54px 1fr 35px
+}
+
 }
 </style>
 </head>
@@ -61,6 +321,7 @@ select{max-width:90px;font-size:11px}
 <body>
 
 <header class="header">
+
 <div class="head">
 
 <div class="logo">
@@ -79,58 +340,101 @@ select{max-width:90px;font-size:11px}
 </select>
 
 </div>
+
 </header>
 
+
 <nav class="nav">
+
 <div class="navin">
-<button id="homeBtn" class="active" onclick="page('home')">🏠 الرئيسية</button>
-<button id="liveBtn" onclick="page('live')">🔴 مباشر</button>
-<button id="leagueBtn" onclick="page('leagues')">🏆 البطولات</button>
+
+<button id="homeBtn" class="active" onclick="page('home')">
+🏠 الرئيسية
+</button>
+
+<button id="liveBtn" onclick="page('live')">
+🔴 مباشر
+</button>
+
+<button id="leagueBtn" onclick="page('leagues')">
+🏆 البطولات
+</button>
+
 </div>
+
 </nav>
 
+
 <main class="main">
+
 
 <section id="home">
 
 <div class="hero">
+
 <h1>⚽ مباريات كرة القدم</h1>
-<p>مباريات الأمس واليوم وغداً — أندية ومنتخبات وجميع البطولات.</p>
+
+<p>
+مباريات الأمس واليوم وغداً — أندية ومنتخبات وجميع البطولات.
+</p>
+
 </div>
+
 
 <div class="days">
 
 <button id="yesterdayBtn" class="day" onclick="setDay('yesterday')">
+
 الأمس
+
 <small id="yesterdayDate">--</small>
+
 </button>
+
 
 <button id="todayBtn" class="day active" onclick="setDay('today')">
+
 اليوم
+
 <small id="todayDate">--</small>
+
 </button>
 
+
 <button id="tomorrowBtn" class="day" onclick="setDay('tomorrow')">
+
 غداً
+
 <small id="tomorrowDate">--</small>
+
 </button>
 
 </div>
 
+
 <div id="filters" class="filters"></div>
 
+
 <div id="matches" class="loading">
+
 جاري تحميل المباريات...
+
 </div>
 
 </section>
 
 
+
 <section id="live" style="display:none">
 
 <div class="hero">
+
 <h1>🔴 المباريات المباشرة</h1>
-<p>المباريات التي تلعب الآن.</p>
+
+<p>
+المباريات التي تلعب الآن.
+</p>
+
 </div>
 
 <div id="liveMatches"></div>
@@ -138,120 +442,231 @@ select{max-width:90px;font-size:11px}
 </section>
 
 
+
 <section id="leagues" style="display:none">
 
 <div class="hero">
+
 <h1>🏆 البطولات</h1>
-<p>البطولات المتوفرة في البيانات.</p>
+
+<p>
+البطولات الموجودة في مباريات الأمس واليوم وغداً.
+</p>
+
 </div>
 
 <div id="leagueList" class="leagues"></div>
 
 </section>
 
+
 </main>
 
+
 <footer class="footer">
+
 GolHoyLive © 2026
+
 <br>
+
 Football Matches
+
 </footer>
+
 
 
 <script>
 
 const state={
+
 day:"today",
+
 today:null,
+
 yesterday:null,
+
 tomorrow:null,
+
 leagues:null,
+
 filter:"all"
+
 };
 
+
+
 function $(id){
+
 return document.getElementById(id);
+
 }
 
+
+
 function esc(x){
+
 return String(x??"").replace(/[&<>"']/g,function(c){
+
 return {
+
 "&":"&amp;",
+
 "<":"&lt;",
+
 ">":"&gt;",
+
 '"':"&quot;",
+
 "'":"&#39;"
+
 }[c];
+
 });
+
 }
+
+
 
 function matches(data){
 
-if(Array.isArray(data))return data;
+if(Array.isArray(data))
 
-if(data&&Array.isArray(data.matches))return data.matches;
+return data;
+
+
+if(data&&Array.isArray(data.matches))
+
+return data.matches;
+
 
 if(data&&data.data&&Array.isArray(data.data.matches))
+
 return data.data.matches;
 
+
 if(data&&Array.isArray(data.data))
+
 return data.data;
 
+
 return [];
+
 }
+
+
 
 function league(m){
+
 return m.league||m.competition||{};
+
 }
+
+
 
 function home(m){
+
 return m.home||m.home_team||{};
+
 }
+
+
 
 function away(m){
+
 return m.away||m.away_team||{};
+
 }
+
+
 
 function teamName(t){
+
 return t.name||t.team_name||"—";
+
 }
+
+
 
 function teamLogo(t){
+
 return t.logo||t.logo_url||t.image||"";
+
 }
+
+
 
 function score(t){
-return t.score===null||t.score===undefined?"-":t.score;
+
+return t.score===null||t.score===undefined
+?"-"
+:t.score;
+
 }
+
+
 
 function leagueName(m){
+
 return league(m).name||"Football";
+
 }
+
+
 
 function leagueCountry(m){
+
 return league(m).country||"";
+
 }
+
+
 
 function leagueId(m){
-return String(league(m).id||leagueName(m));
+
+return String(
+league(m).id||leagueName(m)
+);
+
 }
 
+
+
 function time(m){
-return m.kickoff||m.time||m.start_time||"--:--";
+
+return m.kickoff||
+m.time||
+m.start_time||
+"--:--";
+
 }
+
+
 
 function live(m){
 
-if(m.is_live===true||m.live===true||m.in_play===true)
+if(
+m.is_live===true||
+m.live===true||
+m.in_play===true
+)
+
 return true;
+
 
 let s=m.status;
 
-if(typeof s==="object"&&s)s=s.status||s.state||"";
+if(typeof s==="object"&&s)
+
+s=s.status||
+s.state||
+"";
+
 
 s=String(s||"").toLowerCase();
 
+
 return [
+
 "live",
 "1h",
 "2h",
@@ -259,9 +674,12 @@ return [
 "et",
 "inplay",
 "in_play"
+
 ].includes(s);
 
 }
+
+
 
 function date(offset){
 
@@ -271,130 +689,238 @@ d.setHours(12,0,0,0);
 
 d.setDate(d.getDate()+offset);
 
+
 return d.getFullYear()+"-"+
 String(d.getMonth()+1).padStart(2,"0")+"-"+
 String(d.getDate()).padStart(2,"0");
 
 }
 
+
+
 function shortDate(x){
 
-if(!x)return"--";
+if(!x)
+
+return "--";
+
 
 let p=x.split("-");
 
-return p.length===3?p[2]+"/"+p[1]:x;
+
+return p.length===3
+?p[2]+"/"+p[1]
+:x;
 
 }
+
+
 
 function groups(list){
 
 let out={};
 
+
 list.forEach(m=>{
 
 let id=leagueId(m);
 
+
 if(!out[id]){
+
 out[id]={
+
 name:leagueName(m),
+
 country:leagueCountry(m),
+
 matches:[]
+
 };
+
 }
+
 
 out[id].matches.push(m);
 
 });
 
+
 return Object.values(out);
 
 }
 
+
+
 function matchHTML(m){
 
 let h=home(m);
+
 let a=away(m);
+
 
 let t=String(time(m));
 
-if(t.includes(" "))t=t.split(" ")[1]||t;
+
+if(t.includes(" "))
+
+t=t.split(" ")[1]||t;
+
 
 return `
+
 <div class="match">
 
 <div class="time">
+
 ${esc(t)}
-${live(m)?'<span class="live">🔴 مباشر</span>':""}
+
+${live(m)
+?'<span class="live">🔴 مباشر</span>'
+:""}
+
 </div>
+
 
 <div class="teams">
 
-<div class="team">
-${teamLogo(h)?`<img src="${esc(teamLogo(h))}" onerror="this.style.display='none'">`:""}
-<span>${esc(teamName(h))}</span>
-</div>
 
 <div class="team">
-${teamLogo(a)?`<img src="${esc(teamLogo(a))}" onerror="this.style.display='none'">`:""}
-<span>${esc(teamName(a))}</span>
-</div>
+
+${teamLogo(h)
+?`<img src="${esc(teamLogo(h))}" onerror="this.style.display='none'>`
+:""}
+
+<span>
+${esc(teamName(h))}
+</span>
 
 </div>
+
+
+<div class="team">
+
+${teamLogo(a)
+?`<img src="${esc(teamLogo(a))}" onerror="this.style.display='none'>`
+:""}
+
+<span>
+${esc(teamName(a))}
+</span>
+
+</div>
+
+
+</div>
+
 
 <div class="scores">
 
-<div class="score">${esc(score(h))}</div>
-<div class="score">${esc(score(a))}</div>
+<div class="score">
+${esc(score(h))}
+</div>
 
+<div class="score">
+${esc(score(a))}
 </div>
 
 </div>
+
+
+</div>
+
 `;
 
 }
 
+
+
 function render(){
 
-let list=matches(state[state.day]);
+let list=matches(
+state[state.day]
+);
+
 
 if(state.filter!=="all"){
-list=list.filter(m=>leagueId(m)===state.filter);
+
+list=list.filter(
+m=>leagueId(m)===state.filter
+);
+
 }
+
 
 let gs=groups(list);
 
+
 $("filters").innerHTML=
-`<button class="filter ${state.filter==="all"?"active":""}" onclick="filterLeague('all')">الكل</button>`+
+
+`<button class="filter ${
+state.filter==="all"?"active":""
+}" onclick="filterLeague('all')">
+الكل
+</button>`+
+
 gs.map(g=>
-`<button class="filter ${state.filter===g.name?"active":""}" onclick="filterLeague('${esc(g.name)}')">${esc(g.name)}</button>`
+
+`<button class="filter ${
+state.filter===g.name?"active":""
+}" onclick="filterLeague('${esc(g.name)}')">
+${esc(g.name)}
+</button>`
+
 ).join("");
+
 
 if(!list.length){
 
 $("matches").innerHTML=
-`<div class="empty">⚽<br><br>لا توجد مباريات لهذا اليوم.</div>`;
+
+`<div class="empty">
+
+⚽
+
+<br><br>
+
+لا توجد مباريات لهذا اليوم.
+
+</div>`;
 
 return;
 
 }
 
-$("matches").innerHTML=gs.map(g=>`
+
+$("matches").innerHTML=
+
+gs.map(g=>`
 
 <div class="comp">
 
 <div class="comphead">
-<span>${esc(g.name)}</span>
-<span class="country">${esc(g.country)}</span>
+
+<span>
+${esc(g.name)}
+</span>
+
+<span class="country">
+${esc(g.country)}
+</span>
+
 </div>
 
+
 ${g.matches.map(matchHTML).join("")}
+
 
 </div>
 
 `).join("");
 
 }
+
+
 
 function filterLeague(id){
 
@@ -404,65 +930,125 @@ render();
 
 }
 
+
+
 function setDay(day){
 
 state.day=day;
+
 state.filter="all";
 
+
 $("yesterdayBtn").classList.remove("active");
+
 $("todayBtn").classList.remove("active");
+
 $("tomorrowBtn").classList.remove("active");
 
+
 if(day==="yesterday")
+
 $("yesterdayBtn").classList.add("active");
 
+
 if(day==="today")
+
 $("todayBtn").classList.add("active");
 
+
 if(day==="tomorrow")
+
 $("tomorrowBtn").classList.add("active");
+
 
 render();
 
 }
 
+
+
 function page(p){
 
-$("home").style.display=p==="home"?"block":"none";
-$("live").style.display=p==="live"?"block":"none";
-$("leagues").style.display=p==="leagues"?"block":"none";
+$("home").style.display=
+p==="home"?"block":"none";
 
-$("homeBtn").classList.toggle("active",p==="home");
-$("liveBtn").classList.toggle("active",p==="live");
-$("leagueBtn").classList.toggle("active",p==="leagues");
+$("live").style.display=
+p==="live"?"block":"none";
 
-if(p==="live")renderLive();
+$("leagues").style.display=
+p==="leagues"?"block":"none";
 
-if(p==="leagues")renderLeagues();
+
+$("homeBtn").classList.toggle(
+"active",
+p==="home"
+);
+
+$("liveBtn").classList.toggle(
+"active",
+p==="live"
+);
+
+$("leagueBtn").classList.toggle(
+"active",
+p==="leagues"
+);
+
+
+if(p==="live")
+
+renderLive();
+
+
+if(p==="leagues")
+
+renderLeagues();
 
 }
 
+
+
 function renderLive(){
 
-let list=matches(state.today).filter(live);
+let list=matches(state.today)
+.filter(live);
+
 
 if(!list.length){
 
 $("liveMatches").innerHTML=
-`<div class="empty">🔴<br><br>لا توجد مباريات مباشرة الآن.</div>`;
+
+`<div class="empty">
+
+🔴
+
+<br><br>
+
+لا توجد مباريات مباشرة الآن.
+
+</div>`;
 
 return;
 
 }
 
+
 $("liveMatches").innerHTML=
+
 groups(list).map(g=>`
 
 <div class="comp">
 
 <div class="comphead">
-<span>${esc(g.name)}</span>
-<span class="country">مباشر</span>
+
+<span>
+${esc(g.name)}
+</span>
+
+<span class="country">
+مباشر
+</span>
+
 </div>
 
 ${g.matches.map(matchHTML).join("")}
@@ -473,23 +1059,155 @@ ${g.matches.map(matchHTML).join("")}
 
 }
 
+
+
+/*
+========================================
+إصلاح صفحة البطولات
+========================================
+
+البطولات الآن تؤخذ مباشرة من
+مباريات الأمس + اليوم + غداً.
+
+بهذا الشكل حتى إذا كان leagues.json
+بصيغة مختلفة، البطولات ستظهر.
+*/
+
+
 function renderLeagues(){
 
-let data=state.leagues;
+let source=[
+
+...matches(state.yesterday),
+
+...matches(state.today),
+
+...matches(state.tomorrow)
+
+];
+
+
+let seen={};
+
 let list=[];
 
-if(data&&Array.isArray(data)){
+
+source.forEach(m=>{
+
+let l=league(m);
+
+
+let name=
+
+l.name||
+
+l.league_name||
+
+m.competition_name||
+
+"Football";
+
+
+let country=
+
+l.country||
+
+l.country_name||
+
+"";
+
+
+let key=
+
+(name+"|"+country).toLowerCase();
+
+
+if(!seen[key]){
+
+seen[key]=true;
+
+
+list.push({
+
+name:name,
+
+country:country
+
+});
+
+}
+
+});
+
+
+/*
+إذا لم نجد البطولات من المباريات،
+نستعمل leagues.json.
+*/
+
+if(!list.length){
+
+let data=state.leagues;
+
+
+let add=function(name,country){
+
+if(!name)
+
+return;
+
+
+let key=
+
+(name+"|"+(country||"")).toLowerCase();
+
+
+if(!seen[key]){
+
+seen[key]=true;
+
+
+list.push({
+
+name:name,
+
+country:country||""
+
+});
+
+}
+
+};
+
+
+if(Array.isArray(data)){
 
 data.forEach(c=>{
 
 if(Array.isArray(c.leagues)){
 
 c.leagues.forEach(l=>{
-list.push({
-name:l.name||"League",
-country:l.country||c.country||""
+
+add(
+
+l.name||
+l.league_name,
+
+l.country||
+c.country
+
+);
+
 });
-});
+
+}
+
+else if(c.name){
+
+add(
+c.name,
+c.country
+);
 
 }
 
@@ -497,128 +1215,276 @@ country:l.country||c.country||""
 
 }
 
-if(data&&Array.isArray(data.leagues)){
+
+else if(
+data&&
+Array.isArray(data.leagues)
+){
 
 data.leagues.forEach(l=>{
-list.push({
-name:l.name||"League",
-country:l.country||""
-});
+
+add(
+
+l.name||
+l.league_name,
+
+l.country
+
+);
+
 });
 
 }
+
+}
+
+
+/* ترتيب البطولات */
+
+list.sort((a,b)=>
+
+a.name.localeCompare(b.name)
+
+);
+
+
+/* لا توجد بطولات */
 
 if(!list.length){
 
 $("leagueList").innerHTML=
-`<div class="empty">لا توجد بيانات البطولات.</div>`;
+
+'<div class="empty">لا توجد بيانات البطولات.</div>';
 
 return;
 
 }
 
+
+/* عرض البطولات */
+
 $("leagueList").innerHTML=
-list.map(l=>`
 
-<div class="league">
+list.map(l=>
 
-<b>🏆 ${esc(l.name)}</b>
+'<div class="league">'+
 
-<small>${esc(l.country)}</small>
+'<b>🏆 '+
 
-</div>
+esc(l.name)+
 
-`).join("");
+'</b>'+
+
+'<small>'+
+
+esc(l.country)+
+
+'</small>'+
+
+'</div>'
+
+).join("");
 
 }
 
+
+
+/*
+========================================
+تحميل البيانات
+========================================
+*/
+
+
 async function get(file){
 
-let r=await fetch(file+"?v="+Date.now(),{
-cache:"no-store"
-});
+let r=await fetch(
 
-if(!r.ok)throw new Error(file+" "+r.status);
+file+"?v="+Date.now(),
+
+{
+
+cache:"no-store"
+
+}
+
+);
+
+
+if(!r.ok)
+
+throw new Error(
+file+" "+r.status
+);
+
 
 return await r.json();
 
 }
+
+
 
 async function load(){
 
 let r=await Promise.allSettled([
 
 get("data.json"),
+
 get("fixtures/yesterday.json"),
+
 get("fixtures/tomorrow.json"),
+
 get("leagues.json")
 
 ]);
 
+
 if(r[0].status==="fulfilled")
+
 state.today=r[0].value;
 
+
 if(r[1].status==="fulfilled")
+
 state.yesterday=r[1].value;
 
+
 if(r[2].status==="fulfilled")
+
 state.tomorrow=r[2].value;
 
+
 if(r[3].status==="fulfilled")
+
 state.leagues=r[3].value;
 
-$("yesterdayDate").textContent=shortDate(date(-1));
-$("todayDate").textContent=shortDate(date(0));
-$("tomorrowDate").textContent=shortDate(date(1));
+
+$("yesterdayDate").textContent=
+shortDate(date(-1));
+
+
+$("todayDate").textContent=
+shortDate(date(0));
+
+
+$("tomorrowDate").textContent=
+shortDate(date(1));
+
 
 render();
 
 }
 
+
+
+/*
+========================================
+اللغة
+========================================
+*/
+
+
 $("lang").onchange=function(){
 
 if(this.value==="ar"){
+
 document.documentElement.lang="ar";
+
 document.documentElement.dir="rtl";
-}else{
+
+}
+
+else{
+
 document.documentElement.lang=this.value;
+
 document.documentElement.dir="ltr";
+
 }
 
 };
 
-$("search").addEventListener("input",function(){
 
-let q=this.value.toLowerCase().trim();
 
-if(!q)return;
+/*
+========================================
+البحث
+========================================
+*/
+
+
+$("search").addEventListener(
+"input",
+function(){
+
+let q=this.value
+.toLowerCase()
+.trim();
+
+
+if(!q)
+
+return;
+
 
 let all=[
+
 ...matches(state.yesterday),
+
 ...matches(state.today),
+
 ...matches(state.tomorrow)
+
 ];
+
 
 let found=all.filter(m=>{
 
-let h=teamName(home(m)).toLowerCase();
-let a=teamName(away(m)).toLowerCase();
-let l=leagueName(m).toLowerCase();
+let h=
+teamName(home(m))
+.toLowerCase();
 
-return h.includes(q)||a.includes(q)||l.includes(q);
+
+let a=
+teamName(away(m))
+.toLowerCase();
+
+
+let l=
+leagueName(m)
+.toLowerCase();
+
+
+return
+
+h.includes(q)||
+a.includes(q)||
+l.includes(q);
 
 }).slice(0,1);
+
 
 if(found.length){
 
 let m=found[0];
 
+
 state.day=
+
 matches(state.today).includes(m)
-?"today":
+
+?"today"
+
+:
+
 matches(state.yesterday).includes(m)
-?"yesterday":
+
+?"yesterday"
+
+:
+
 "tomorrow";
+
 
 render();
 
@@ -626,9 +1492,26 @@ render();
 
 });
 
+
+
+/*
+========================================
+تشغيل الموقع
+========================================
+*/
+
+
 load();
 
-setInterval(load,300000);
+
+/*
+تحديث البيانات كل 5 دقائق
+*/
+
+setInterval(
+load,
+300000
+);
 
 </script>
 
