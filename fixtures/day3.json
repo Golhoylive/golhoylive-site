@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 94,
+    "credits_remaining": 83,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -1642,7 +1642,7 @@
                     "name": "National League",
                     "country": "New Zealand"
                 },
-                "week": "National League",
+                "week": "2",
                 "kickoff": "01:00",
                 "status": {
                     "status": "scheduled",
@@ -4417,7 +4417,7 @@
                     "name": "Thai League 3",
                     "country": "Thailand"
                 },
-                "week": "3",
+                "week": "West",
                 "kickoff": "08:30",
                 "status": {
                     "status": "scheduled",
@@ -5342,7 +5342,7 @@
                     "name": "U21 Divisie 4",
                     "country": "Netherlands"
                 },
-                "week": "4",
+                "week": "Fall Season",
                 "kickoff": "09:30",
                 "status": {
                     "status": "scheduled",
@@ -5817,43 +5817,6 @@
                 }
             },
             {
-                "id": "8okark65p1llseycgmc9qd7o4",
-                "league": {
-                    "id": "4jieyfpyom8d011dgeqj77ojm",
-                    "name": "III Liga",
-                    "country": "Poland"
-                },
-                "week": "11",
-                "kickoff": "10:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "10:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "1q1ky5jal10ip6h34wysybp5g",
-                    "name": "Raków II",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1q1ky5jal10ip6h34wysybp5g.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "4sl1ppgnp30obl8cmcewuwg3s",
-                    "name": "Kluczbork",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4sl1ppgnp30obl8cmcewuwg3s.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "8o0n5ka7w1hpkaurtvbbc11jo",
                 "league": {
                     "id": "4jieyfpyom8d011dgeqj77ojm",
@@ -6119,7 +6082,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": "2",
+                "week": null,
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -6193,7 +6156,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "5",
+                "week": "Group 2",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -6230,7 +6193,7 @@
                     "name": "Tercera Federacion Women",
                     "country": "Spain"
                 },
-                "week": "3",
+                "week": "Group 15",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -7969,7 +7932,7 @@
                     "name": "Campeonato Nacional U19",
                     "country": "Portugal"
                 },
-                "week": "3",
+                "week": null,
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -8006,7 +7969,7 @@
                     "name": "U20 National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "11",
+                "week": "Championship Round",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -8043,7 +8006,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": "8",
+                "week": null,
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -8080,7 +8043,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 12",
+                "week": "5",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -8450,7 +8413,7 @@
                     "name": "U19 Elite",
                     "country": "Switzerland"
                 },
-                "week": "7",
+                "week": null,
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -11965,7 +11928,7 @@
                     "name": "U19 Elite",
                     "country": "Switzerland"
                 },
-                "week": "7",
+                "week": null,
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -14777,7 +14740,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "4",
+                "week": "Toscana A",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -14814,7 +14777,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": "2",
+                "week": null,
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15073,7 +15036,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "3",
+                "week": "Girone A",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15110,7 +15073,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "3",
+                "week": "Girone B",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15147,7 +15110,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "3",
+                "week": "Girone A",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15184,7 +15147,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "3",
+                "week": "Girone A",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15221,7 +15184,7 @@
                     "name": "A League Women",
                     "country": "Lithuania"
                 },
-                "week": "23",
+                "week": null,
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15554,7 +15517,7 @@
                     "name": "U20 National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "13",
+                "week": "Lower Table Round",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -16812,7 +16775,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "4",
+                "week": "Sicilia A",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -16849,7 +16812,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "4",
+                "week": "Sicilia A",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -16997,7 +16960,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 15",
+                "week": "5",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -17108,7 +17071,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": "8",
+                "week": null,
                 "kickoff": "13:45",
                 "status": {
                     "status": "scheduled",
@@ -24243,43 +24206,6 @@
                 }
             },
             {
-                "id": "2uja2z009ynnwbna2k9macefo",
-                "league": {
-                    "id": "78wml3z5wrfxe5iky50tiotgu",
-                    "name": "Non League Premier",
-                    "country": "England"
-                },
-                "week": "10",
-                "kickoff": "14:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "3b3f1un4cc57yx899gsgm6ist",
-                    "name": "Leatherhead",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3b3f1un4cc57yx899gsgm6ist.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "c97myrg0dq0u6ov9v1qlv87ta",
-                    "name": "Wingate",
-                    "logo": "https:\/\/live-football-api.com\/teams\/c97myrg0dq0u6ov9v1qlv87ta.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "37hy1jrrpev6iumqkm5opnor8",
                 "league": {
                     "id": "78wml3z5wrfxe5iky50tiotgu",
@@ -25507,7 +25433,7 @@
                     "name": "A League Women",
                     "country": "Lithuania"
                 },
-                "week": "23",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25766,7 +25692,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": "Group Stage",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25914,7 +25840,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "5",
+                "week": "Group 1",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25951,7 +25877,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 1",
+                "week": "5",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25988,7 +25914,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 15",
+                "week": "5",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -26469,7 +26395,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 5",
+                "week": "5",
                 "kickoff": "14:30",
                 "status": {
                     "status": "scheduled",
@@ -26506,7 +26432,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 11",
+                "week": "5",
                 "kickoff": "14:30",
                 "status": {
                     "status": "scheduled",
@@ -27431,7 +27357,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 6",
+                "week": "5",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -27468,7 +27394,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 8",
+                "week": "5",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -29577,7 +29503,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": "2",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29688,7 +29614,7 @@
                     "name": "Botola 2",
                     "country": "Morocco"
                 },
-                "week": "Regular Season",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29725,7 +29651,7 @@
                     "name": "Botola 2",
                     "country": "Morocco"
                 },
-                "week": "Regular Season",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29910,7 +29836,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": "8",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29947,7 +29873,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 9",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29984,7 +29910,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 10",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -30021,7 +29947,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 12",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -30058,7 +29984,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 12",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -30095,7 +30021,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 15",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -30872,7 +30798,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 2",
+                "week": "5",
                 "kickoff": "17:00",
                 "status": {
                     "status": "scheduled",
@@ -30909,7 +30835,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 18",
+                "week": "5",
                 "kickoff": "17:00",
                 "status": {
                     "status": "scheduled",
@@ -31168,7 +31094,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "5",
+                "week": "Group 3",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -31205,7 +31131,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 5",
+                "week": "5",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -33314,7 +33240,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group B",
+                "week": "6",
                 "kickoff": "18:45",
                 "status": {
                     "status": "scheduled",
@@ -36047,5 +35973,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 16:07:08"
+    "timestamp": "2026-09-30 17:05:36"
 }

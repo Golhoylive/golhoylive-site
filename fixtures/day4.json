@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 93,
+    "credits_remaining": 82,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -513,43 +513,6 @@
                     "id": "jmnobgumfrkduh06xftakob8",
                     "name": "Studebaker",
                     "logo": "https:\/\/live-football-api.com\/teams\/jmnobgumfrkduh06xftakob8.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "3wjpizt3gd711ekazjlthrb4k",
-                "league": {
-                    "id": "5zfudxcld0kr6bspk1jauq3t9",
-                    "name": "Torneo Regional Federal Amateur",
-                    "country": "Argentina"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "euuspe0xyao2e8k1v8qezcley",
-                    "name": "Sp. Alberdi",
-                    "logo": "https:\/\/live-football-api.com\/teams\/euuspe0xyao2e8k1v8qezcley.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "d2y86conaafpzpwx71tg7m9uy",
-                    "name": "San Pedro",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d2y86conaafpzpwx71tg7m9uy.png",
                     "score": null
                 },
                 "halftime": {
@@ -3492,7 +3455,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": "4",
+                "week": null,
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -3529,7 +3492,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": "4",
+                "week": null,
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -3566,7 +3529,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "5",
+                "week": "Group 3",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -4639,7 +4602,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": "Group Stage",
+                "week": null,
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4676,7 +4639,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": "4",
+                "week": null,
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4713,7 +4676,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": "4",
+                "week": null,
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -12890,7 +12853,7 @@
                     "name": "Serie B Women",
                     "country": "Italy"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -12964,7 +12927,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": "Group Stage",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -13186,7 +13149,7 @@
                     "name": "SWPL 2",
                     "country": "Scotland"
                 },
-                "week": "7",
+                "week": null,
                 "kickoff": "14:30",
                 "status": {
                     "status": "scheduled",
@@ -14851,7 +14814,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": "Group Stage",
+                "week": null,
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -19434,5 +19397,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 16:07:16"
+    "timestamp": "2026-09-30 17:05:43"
 }
