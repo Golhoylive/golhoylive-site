@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 130,
+    "credits_remaining": 126,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -831,10 +831,10 @@
                 "week": "Semi-finals",
                 "kickoff": "10:30",
                 "status": {
-                    "status": "live",
-                    "display": "120'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "5wbuue9v4wpx0ktjy86rtnt4h",
@@ -854,8 +854,8 @@
                 },
                 "tv_broadcast": false,
                 "penalty": {
-                    "home": 0,
-                    "away": 0
+                    "home": 8,
+                    "away": 9
                 }
             },
             {
@@ -869,7 +869,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -906,7 +906,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "49'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -920,7 +920,7 @@
                     "id": "e0refsvem8peq988qykpj5ve",
                     "name": "Hong Kong",
                     "logo": "https:\/\/live-football-api.com\/teams\/e0refsvem8peq988qykpj5ve.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -943,7 +943,7 @@
                 "kickoff": "12:05",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -951,13 +951,13 @@
                     "id": "1kvoobjie0g29un2n67xvs38q",
                     "name": "Sha'anan Eldad",
                     "logo": "https:\/\/live-football-api.com\/teams\/1kvoobjie0g29un2n67xvs38q.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "7kqhtgr2fwy12f4b7p6vvwdch",
                     "name": "Tira",
                     "logo": "https:\/\/live-football-api.com\/teams\/7kqhtgr2fwy12f4b7p6vvwdch.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "halftime": {
                     "home": 1,
@@ -980,7 +980,7 @@
                 "kickoff": "12:30",
                 "status": {
                     "status": "live",
-                    "display": "37'",
+                    "display": "52'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1013,29 +1013,29 @@
                     "name": "International Friendlies Countries",
                     "country": "World"
                 },
-                "week": null,
+                "week": "Friendlies 3",
                 "kickoff": "13:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "37'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "dy9pom3s0wd7bc7j77syama6p",
                     "name": "Seychelles",
                     "logo": "https:\/\/live-football-api.com\/teams\/dy9pom3s0wd7bc7j77syama6p.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "3u9qf9ju8eym4g8qsa0avfjm2",
                     "name": "Sri Lanka",
                     "logo": "https:\/\/live-football-api.com\/teams\/3u9qf9ju8eym4g8qsa0avfjm2.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1054,7 +1054,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "36'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1091,7 +1091,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1105,11 +1105,11 @@
                     "id": "3ctzpghk6qlep0ufujnimtmq3",
                     "name": "Grbalj",
                     "logo": "https:\/\/live-football-api.com\/teams\/3ctzpghk6qlep0ufujnimtmq3.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1128,7 +1128,7 @@
                 "kickoff": "13:00",
                 "status": {
                     "status": "live",
-                    "display": "7'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1164,26 +1164,26 @@
                 "week": "3rd Round",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "8'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "e12pmwy1af9jjcm7zprdp9ey1",
                     "name": "Vsetín",
                     "logo": "https:\/\/live-football-api.com\/teams\/e12pmwy1af9jjcm7zprdp9ey1.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "bqcrqg0367eqzrt4vjb5apu6g",
                     "name": "Bohemians 1905",
                     "logo": "https:\/\/live-football-api.com\/teams\/bqcrqg0367eqzrt4vjb5apu6g.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1201,26 +1201,26 @@
                 "week": "Friendlies 2",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "8'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "47bplzc5nv8o0wqo6rfrayqbo",
                     "name": "Albania U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/47bplzc5nv8o0wqo6rfrayqbo.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "f1yaxpm9qgnn0ph7pdid8lhvu",
                     "name": "Lithuania U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/f1yaxpm9qgnn0ph7pdid8lhvu.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1238,26 +1238,26 @@
                 "week": "3",
                 "kickoff": "13:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "13:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "8'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "a8lztquljwnour4ls6nniii0u",
                     "name": "Morocco U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/a8lztquljwnour4ls6nniii0u.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "2m60z1v1kqqtpuk12rl0xdemy",
                     "name": "Algeria U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/2m60z1v1kqqtpuk12rl0xdemy.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6299,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 13:08:26"
+    "timestamp": "2026-09-30 13:38:44"
 }
