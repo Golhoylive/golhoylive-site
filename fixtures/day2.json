@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 103,
+    "credits_remaining": 95,
     "data": {
         "date": "2026-10-02",
         "language": "en",
@@ -6933,7 +6933,7 @@
                     "name": "3. Liga",
                     "country": "Slovakia"
                 },
-                "week": "West",
+                "week": "9",
                 "kickoff": "16:30",
                 "status": {
                     "status": "scheduled",
@@ -11368,5 +11368,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 15:54:21"
+    "timestamp": "2026-09-30 16:07:00"
 }

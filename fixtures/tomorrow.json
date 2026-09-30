@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 104,
+    "credits_remaining": 96,
     "data": {
         "date": "2026-10-01",
         "language": "en",
@@ -1821,43 +1821,6 @@
                 }
             },
             {
-                "id": "2z0y4rgt52gdslc5sh2axzg9g",
-                "league": {
-                    "id": "4fht4nyqpp5dzzv6ucm057dp0",
-                    "name": "Africa U20 Cup of Nations Qualification",
-                    "country": "Africa"
-                },
-                "week": "3",
-                "kickoff": "13:30",
-                "status": {
-                    "status": "live",
-                    "display": "90 +3'",
-                    "is_live": true,
-                    "state": "inPlay"
-                },
-                "home": {
-                    "id": "a8lztquljwnour4ls6nniii0u",
-                    "name": "Morocco U20",
-                    "logo": "https:\/\/live-football-api.com\/teams\/a8lztquljwnour4ls6nniii0u.png",
-                    "score": "3"
-                },
-                "away": {
-                    "id": "2m60z1v1kqqtpuk12rl0xdemy",
-                    "name": "Algeria U20",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2m60z1v1kqqtpuk12rl0xdemy.png",
-                    "score": "1"
-                },
-                "halftime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "813851rd8vjx2z566dl3x0r2s",
                 "league": {
                     "id": "50ap4sua1xyut3mpu7ehesp63",
@@ -1868,7 +1831,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "68'",
+                    "display": "90 +13'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1882,7 +1845,7 @@
                     "id": "doohk95o6e8pkqah8vkop51dg",
                     "name": "Sarpsborg",
                     "logo": "https:\/\/live-football-api.com\/teams\/doohk95o6e8pkqah8vkop51dg.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -2090,7 +2053,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "45 +3'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2117,43 +2080,6 @@
                 }
             },
             {
-                "id": "erb0b19isgxbfvp07b29tchsk",
-                "league": {
-                    "id": "1nwgd1b2d903fvnwgnsdadkb8",
-                    "name": "UEFA Women's Europa Cup",
-                    "country": "Europe"
-                },
-                "week": "2nd Qualifying Round",
-                "kickoff": "14:00",
-                "status": {
-                    "status": "live",
-                    "display": "67'",
-                    "is_live": true,
-                    "state": "inPlay"
-                },
-                "home": {
-                    "id": "2tbuzz0alr964ht1wfbqmdtsk",
-                    "name": "Aktobe",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2tbuzz0alr964ht1wfbqmdtsk.png",
-                    "score": "0"
-                },
-                "away": {
-                    "id": "8uwvjzazv3wsaswlsfg3if4q1",
-                    "name": "Ajax",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8uwvjzazv3wsaswlsfg3if4q1.png",
-                    "score": "0"
-                },
-                "halftime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "5t2xmh0qpqnxibfk8au4euy38",
                 "league": {
                     "id": "7egq5z20dlpufiyul2484s78s",
@@ -2164,7 +2090,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "66'",
+                    "display": "90 +11'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2238,7 +2164,7 @@
                 "kickoff": "14:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "71'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2275,7 +2201,7 @@
                 "kickoff": "14:30",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "73'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2283,13 +2209,13 @@
                     "id": "8pj5d44g4qsvjw6wxs60bll0a",
                     "name": "Ironi Nesher",
                     "logo": "https:\/\/live-football-api.com\/teams\/8pj5d44g4qsvjw6wxs60bll0a.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "8cfq7ubbb8tyez7muztnilbfj",
                     "name": "B Nahariya",
                     "logo": "https:\/\/live-football-api.com\/teams\/8cfq7ubbb8tyez7muztnilbfj.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 3,
@@ -2386,7 +2312,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "20'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2394,7 +2320,7 @@
                     "id": "aibmjpdgl63cxvl9wo5fxaopg",
                     "name": "Enyimba",
                     "logo": "https:\/\/live-football-api.com\/teams\/aibmjpdgl63cxvl9wo5fxaopg.png",
-                    "score": "1"
+                    "score": "3"
                 },
                 "away": {
                     "id": "3wn7mrj447vscy0deawcjbjep",
@@ -2403,7 +2329,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 1,
+                    "home": 3,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2423,7 +2349,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "26'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2460,7 +2386,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "25'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2468,7 +2394,7 @@
                     "id": "15357co7k0c0q841hvsdbmshc",
                     "name": "Medeama",
                     "logo": "https:\/\/live-football-api.com\/teams\/15357co7k0c0q841hvsdbmshc.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "7r9t4lvt4rf4x1mip3xnsq5g4",
@@ -2477,7 +2403,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -2497,7 +2423,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "24'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -2511,6 +2437,43 @@
                     "id": "8nzcrocjoabog90f11gu5le2u",
                     "name": "Kom",
                     "logo": "https:\/\/live-football-api.com\/teams\/8nzcrocjoabog90f11gu5le2u.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8kf3wwso2q2idg0kagk0xcbh0",
+                "league": {
+                    "id": "ac42gi3penartj88fe9l6plpk",
+                    "name": "NPFL",
+                    "country": "Nigeria"
+                },
+                "week": "2",
+                "kickoff": "15:15",
+                "status": {
+                    "status": "live",
+                    "display": "45'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "49vn39m9ibz1iwbqxsfnxlfxl",
+                    "name": "Katsina Utd",
+                    "logo": "https:\/\/live-football-api.com\/teams\/49vn39m9ibz1iwbqxsfnxlfxl.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "aqg0pzg5bs6wizwkjl6wkjnc9",
+                    "name": "Rivers Utd",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aqg0pzg5bs6wizwkjl6wkjnc9.png",
                     "score": "0"
                 },
                 "halftime": {
@@ -2590,6 +2553,43 @@
                 "halftime": {
                     "home": null,
                     "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "22weqgz7emnc7n0zv1bd0by8k",
+                "league": {
+                    "id": "2kfd1pg7ymajwbxlfy1j2dhio",
+                    "name": "Queen's Cup",
+                    "country": "Spain"
+                },
+                "week": "2nd Round",
+                "kickoff": "15:30",
+                "status": {
+                    "status": "live",
+                    "display": "30'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "1jufnd5rodxn4vhaik6wzfaj8",
+                    "name": "Celta Vigo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1jufnd5rodxn4vhaik6wzfaj8.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "c0nm3iq5b09nj4thfxvopv1zd",
+                    "name": "Real Oviedo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/c0nm3iq5b09nj4thfxvopv1zd.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -2960,6 +2960,43 @@
                 "halftime": {
                     "home": null,
                     "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "eudkw0v1ylxnixti2ndvk2hp0",
+                "league": {
+                    "id": "1nwgd1b2d903fvnwgnsdadkb8",
+                    "name": "UEFA Women's Europa Cup",
+                    "country": "Europe"
+                },
+                "week": "2nd Qualifying Round",
+                "kickoff": "16:00",
+                "status": {
+                    "status": "live",
+                    "display": "1'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "c4p0nf66wugjercf9t62pr26t",
+                    "name": "Spartak Myjava",
+                    "logo": "https:\/\/live-football-api.com\/teams\/c4p0nf66wugjercf9t62pr26t.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "1nguyq3vyi7gfka9jdus8tuan",
+                    "name": "PAOK",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1nguyq3vyi7gfka9jdus8tuan.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -5374,5 +5411,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 15:54:21"
+    "timestamp": "2026-09-30 16:06:56"
 }

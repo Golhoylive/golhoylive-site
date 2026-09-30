@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 102,
+    "credits_remaining": 94,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -4750,7 +4750,7 @@
                     "name": "Meistriliiga Women",
                     "country": "Estonia"
                 },
-                "week": null,
+                "week": "11",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -4898,7 +4898,7 @@
                     "name": "NB III",
                     "country": "Hungary"
                 },
-                "week": "Southeast",
+                "week": "10",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -5305,7 +5305,7 @@
                     "name": "Meistriliiga Women",
                     "country": "Estonia"
                 },
-                "week": null,
+                "week": "21",
                 "kickoff": "09:30",
                 "status": {
                     "status": "scheduled",
@@ -5934,7 +5934,7 @@
                     "name": "Women Super League",
                     "country": "Romania"
                 },
-                "week": "7",
+                "week": null,
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -7673,7 +7673,7 @@
                     "name": "NB III",
                     "country": "Hungary"
                 },
-                "week": "Northwest",
+                "week": "10",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -7710,7 +7710,7 @@
                     "name": "NB III",
                     "country": "Hungary"
                 },
-                "week": "Southwest",
+                "week": "10",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -7747,7 +7747,7 @@
                     "name": "NB III",
                     "country": "Hungary"
                 },
-                "week": "Southwest",
+                "week": "10",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -11521,7 +11521,7 @@
                     "name": "Meistriliiga Women",
                     "country": "Estonia"
                 },
-                "week": null,
+                "week": "21",
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -11558,7 +11558,7 @@
                     "name": "U19 National Championship",
                     "country": "France"
                 },
-                "week": "Group D",
+                "week": "6",
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -14666,7 +14666,7 @@
                     "name": "U19 National Championship",
                     "country": "France"
                 },
-                "week": "Group A",
+                "week": "6",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -14703,7 +14703,7 @@
                     "name": "U19 National Championship",
                     "country": "France"
                 },
-                "week": "Group D",
+                "week": "6",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15665,7 +15665,7 @@
                     "name": "3. Liga",
                     "country": "Slovakia"
                 },
-                "week": "East",
+                "week": "9",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -25803,7 +25803,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25840,7 +25840,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25877,7 +25877,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -28023,7 +28023,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -29244,7 +29244,7 @@
                     "name": "Division 1 Women",
                     "country": "France"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29318,7 +29318,7 @@
                     "name": "1. League ",
                     "country": "Bosnia and Herzegovina"
                 },
-                "week": "FBiH",
+                "week": "8",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29836,7 +29836,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29873,7 +29873,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "20",
+                "week": null,
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -30317,7 +30317,7 @@
                     "name": "Division 1 Women",
                     "country": "France"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "16:30",
                 "status": {
                     "status": "scheduled",
@@ -30354,7 +30354,7 @@
                     "name": "Division 1 Women",
                     "country": "France"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "16:30",
                 "status": {
                     "status": "scheduled",
@@ -32426,7 +32426,7 @@
                     "name": "Carioca 2",
                     "country": "Brazil"
                 },
-                "week": null,
+                "week": "5",
                 "kickoff": "18:00",
                 "status": {
                     "status": "scheduled",
@@ -32574,7 +32574,7 @@
                     "name": "Gaúcho Women",
                     "country": "Brazil"
                 },
-                "week": "2nd Stage",
+                "week": "3",
                 "kickoff": "18:00",
                 "status": {
                     "status": "scheduled",
@@ -32833,7 +32833,7 @@
                     "name": "Brasiliense Women",
                     "country": "Brazil"
                 },
-                "week": "1st Phase",
+                "week": "3",
                 "kickoff": "18:30",
                 "status": {
                     "status": "scheduled",
@@ -35978,7 +35978,7 @@
                     "name": "Gaúcho Women",
                     "country": "Brazil"
                 },
-                "week": "2nd Stage",
+                "week": "3",
                 "kickoff": "23:30",
                 "status": {
                     "status": "scheduled",
@@ -36047,5 +36047,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 15:54:22"
+    "timestamp": "2026-09-30 16:07:08"
 }

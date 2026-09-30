@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 101,
+    "credits_remaining": 93,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -1124,7 +1124,7 @@
                     "name": "National League",
                     "country": "New Zealand"
                 },
-                "week": "National League",
+                "week": "2",
                 "kickoff": "01:00",
                 "status": {
                     "status": "scheduled",
@@ -3159,7 +3159,7 @@
                     "name": "3. Liga",
                     "country": "Slovakia"
                 },
-                "week": "West",
+                "week": "9",
                 "kickoff": "08:30",
                 "status": {
                     "status": "scheduled",
@@ -3825,7 +3825,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 18",
+                "week": "5",
                 "kickoff": "09:30",
                 "status": {
                     "status": "scheduled",
@@ -4750,7 +4750,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 2",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4787,7 +4787,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 4",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4824,7 +4824,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 5",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4861,7 +4861,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 5",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4898,7 +4898,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 7",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4935,7 +4935,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 10",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4972,7 +4972,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 11",
+                "week": "5",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -5231,7 +5231,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group C",
+                "week": "6",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -11151,7 +11151,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group G",
+                "week": "6",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -11225,7 +11225,7 @@
                     "name": "3. Liga",
                     "country": "Slovakia"
                 },
-                "week": "West",
+                "week": "9",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -11262,7 +11262,7 @@
                     "name": "SWPL 1",
                     "country": "Scotland"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "13:10",
                 "status": {
                     "status": "scheduled",
@@ -11484,7 +11484,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group C",
+                "week": "6",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -11521,7 +11521,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group H",
+                "week": "6",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -12927,7 +12927,7 @@
                     "name": "Serie D",
                     "country": "Italy"
                 },
-                "week": "Group I",
+                "week": "6",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -14333,7 +14333,7 @@
                     "name": "SWPL 1",
                     "country": "Scotland"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -14370,7 +14370,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 11",
+                "week": "5",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -14888,7 +14888,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 11",
+                "week": "5",
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -14925,7 +14925,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 16",
+                "week": "5",
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -15517,7 +15517,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 10",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -15554,7 +15554,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 13",
+                "week": "5",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -15591,7 +15591,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 9",
+                "week": "5",
                 "kickoff": "16:15",
                 "status": {
                     "status": "scheduled",
@@ -15628,7 +15628,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 5",
+                "week": "5",
                 "kickoff": "16:15",
                 "status": {
                     "status": "scheduled",
@@ -15776,7 +15776,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 4",
+                "week": "5",
                 "kickoff": "16:30",
                 "status": {
                     "status": "scheduled",
@@ -16035,7 +16035,7 @@
                     "name": "Tercera División RFEF",
                     "country": "Spain"
                 },
-                "week": "Group 15",
+                "week": "5",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -19434,5 +19434,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 15:54:23"
+    "timestamp": "2026-09-30 16:07:16"
 }
