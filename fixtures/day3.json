@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 59,
+    "credits_remaining": 51,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -5860,7 +5860,7 @@
                     "name": "Women Super League",
                     "country": "Romania"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -6119,7 +6119,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "Group 2",
+                "week": "5",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -6156,7 +6156,7 @@
                     "name": "Tercera Federacion Women",
                     "country": "Spain"
                 },
-                "week": "Group 15",
+                "week": "3",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -7932,7 +7932,7 @@
                     "name": "U20 National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "Championship Round",
+                "week": "11",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -7969,7 +7969,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": null,
+                "week": "8",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -8376,7 +8376,7 @@
                     "name": "U19 Elite",
                     "country": "Switzerland"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -11891,7 +11891,7 @@
                     "name": "U19 Elite",
                     "country": "Switzerland"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -15480,7 +15480,7 @@
                     "name": "U20 National League",
                     "country": "Republic of Ireland"
                 },
-                "week": "Lower Table Round",
+                "week": "13",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -17034,7 +17034,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": null,
+                "week": "8",
                 "kickoff": "13:45",
                 "status": {
                     "status": "scheduled",
@@ -25655,7 +25655,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": null,
+                "week": "Group Stage",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25692,7 +25692,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25729,7 +25729,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25766,7 +25766,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -25803,7 +25803,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "Group 1",
+                "week": "5",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -27912,7 +27912,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -29725,7 +29725,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29762,7 +29762,7 @@
                     "name": "Women's National League",
                     "country": "Republic of Ireland"
                 },
-                "week": null,
+                "week": "20",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29799,7 +29799,7 @@
                     "name": "I Liga Women",
                     "country": "Slovakia"
                 },
-                "week": null,
+                "week": "8",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -31057,7 +31057,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "Group 3",
+                "week": "5",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -35936,5 +35936,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 18:05:34"
+    "timestamp": "2026-09-30 18:42:26"
 }

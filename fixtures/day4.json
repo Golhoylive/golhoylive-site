@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 58,
+    "credits_remaining": 50,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -6100,6 +6100,43 @@
                     "id": "bo858sll0r8nayyt5smdu3pxs",
                     "name": "USA U20",
                     "logo": "https:\/\/live-football-api.com\/teams\/bo858sll0r8nayyt5smdu3pxs.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1l1jfc6gee4g3nsjx8b0802s4",
+                "league": {
+                    "id": "byaqhzbd3qtx4qho6hxs772sp",
+                    "name": "U20 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "12:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "12:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "dbady5pnrlksozt95973rgex6",
+                    "name": "Uzbekistan U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dbady5pnrlksozt95973rgex6.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "aierrdwlhgygpb74jqlk3mgv",
+                    "name": "Saudi Arabia U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/aierrdwlhgygpb74jqlk3mgv.png",
                     "score": null
                 },
                 "halftime": {
@@ -17028,6 +17065,43 @@
                 }
             },
             {
+                "id": "5wjd9clx38ixkrw53kqiqh89g",
+                "league": {
+                    "id": "5em08hhvd7komnfdsb1yagpas",
+                    "name": "Professional Division Cup",
+                    "country": "Bolivia"
+                },
+                "week": null,
+                "kickoff": "19:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "19:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "bmbblhqnpzp7jck3i91xw27ys",
+                    "name": "Guabirá",
+                    "logo": "https:\/\/live-football-api.com\/teams\/bmbblhqnpzp7jck3i91xw27ys.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "9z3b3uu4qfr7pthke78bvj3y1",
+                    "name": "O. Petrolero",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9z3b3uu4qfr7pthke78bvj3y1.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "5w6zse97nsf9pss4x12cc1mvo",
                 "league": {
                     "id": "5em08hhvd7komnfdsb1yagpas",
@@ -19360,5 +19434,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 18:05:34"
+    "timestamp": "2026-09-30 18:42:28"
 }

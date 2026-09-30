@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 60,
+    "credits_remaining": 52,
     "data": {
         "date": "2026-10-02",
         "language": "en",
@@ -3547,6 +3547,43 @@
                     "id": "6oxoag5c6zbnn09wx08vz4iak",
                     "name": "Brann",
                     "logo": "https:\/\/live-football-api.com\/teams\/6oxoag5c6zbnn09wx08vz4iak.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1ktk99t221eiqt56newth1es4",
+                "league": {
+                    "id": "byaqhzbd3qtx4qho6hxs772sp",
+                    "name": "U20 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "12:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "12:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "dbady5pnrlksozt95973rgex6",
+                    "name": "Uzbekistan U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dbady5pnrlksozt95973rgex6.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "f3ydtwq18qzzzh8izmnvdgkr8",
+                    "name": "Armenia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/f3ydtwq18qzzzh8izmnvdgkr8.png",
                     "score": null
                 },
                 "halftime": {
@@ -11442,5 +11479,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 18:05:33"
+    "timestamp": "2026-09-30 18:42:18"
 }
