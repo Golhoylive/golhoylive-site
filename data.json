@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 210,
+    "credits_remaining": 206,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -795,7 +795,7 @@
                 "kickoff": "02:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 03:04:25"
+    "timestamp": "2026-09-30 03:39:21"
 }
