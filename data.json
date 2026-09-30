@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 142,
+    "credits_remaining": 138,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -795,7 +795,7 @@
                 "kickoff": "10:30",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -822,80 +822,6 @@
                 }
             },
             {
-                "id": "761fg0gxqkxptgemq43xwvcpg",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": null,
-                "kickoff": "12:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "dy9pom3s0wd7bc7j77syama6p",
-                    "name": "Seychelles",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dy9pom3s0wd7bc7j77syama6p.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "3u9qf9ju8eym4g8qsa0avfjm2",
-                    "name": "Sri Lanka",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3u9qf9ju8eym4g8qsa0avfjm2.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9vqy5oq2e5zcojkyhceeauec4",
-                "league": {
-                    "id": "dvtl8sf1262pd2aqgu641qa7u",
-                    "name": "Friendly International Women",
-                    "country": "World"
-                },
-                "week": "Friendlies 2",
-                "kickoff": "12:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "6gs0eq06my7lzzjo73lpwo0mt",
-                    "name": "Ethiopia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/6gs0eq06my7lzzjo73lpwo0mt.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "78wp8afq2l921l65phkf0lvxl",
-                    "name": "Seychelles",
-                    "logo": "https:\/\/live-football-api.com\/teams\/78wp8afq2l921l65phkf0lvxl.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "9m0hsmlh9murutj71478d01sk",
                 "league": {
                     "id": "diyn3s6fyn7w6j58hq7kkzmjt",
@@ -905,26 +831,26 @@
                 "week": "Friendlies 2",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
-                    "id": "4eb3vbuvkqno7izc11vxgc6i8",
-                    "name": "Denmark U19",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4eb3vbuvkqno7izc11vxgc6i8.png",
-                    "score": null
-                },
-                "away": {
                     "id": "2ed196gtax477tyh751b8ou29",
                     "name": "Austria U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/2ed196gtax477tyh751b8ou29.png",
-                    "score": null
+                    "score": "0"
+                },
+                "away": {
+                    "id": "4eb3vbuvkqno7izc11vxgc6i8",
+                    "name": "Denmark U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4eb3vbuvkqno7izc11vxgc6i8.png",
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -942,63 +868,26 @@
                 "week": "Premier Division",
                 "kickoff": "12:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "5'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "57zarz3lcrzfru0gwqn7evi3u",
                     "name": "Brunei",
                     "logo": "https:\/\/live-football-api.com\/teams\/57zarz3lcrzfru0gwqn7evi3u.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "e0refsvem8peq988qykpj5ve",
                     "name": "Hong Kong",
                     "logo": "https:\/\/live-football-api.com\/teams\/e0refsvem8peq988qykpj5ve.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9y5vhbsntnvhm9tndcwwcrpjo",
-                "league": {
-                    "id": "ay2v0pz0v86hdyzx1nd3eeq6s",
-                    "name": "Baiano Women",
-                    "country": "Brazil"
-                },
-                "week": "3",
-                "kickoff": "12:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "dou9mjetry5kxiiqv6aou3nrd",
-                    "name": "Bahia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dou9mjetry5kxiiqv6aou3nrd.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "24c6lsg0seu4uemv33b7eny1g",
-                    "name": "Porto",
-                    "logo": "https:\/\/live-football-api.com\/teams\/24c6lsg0seu4uemv33b7eny1g.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1014,28 +903,28 @@
                     "country": "Israel"
                 },
                 "week": "5",
-                "kickoff": "12:00",
+                "kickoff": "12:05",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "1'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "1kvoobjie0g29un2n67xvs38q",
                     "name": "Sha'anan Eldad",
                     "logo": "https:\/\/live-football-api.com\/teams\/1kvoobjie0g29un2n67xvs38q.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "7kqhtgr2fwy12f4b7p6vvwdch",
                     "name": "Tira",
                     "logo": "https:\/\/live-football-api.com\/teams\/7kqhtgr2fwy12f4b7p6vvwdch.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6299,5 +6188,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 11:37:50"
+    "timestamp": "2026-09-30 12:06:20"
 }
