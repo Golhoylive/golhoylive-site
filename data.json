@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 182,
+    "credits_remaining": 178,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -572,16 +572,16 @@
                 "week": "5",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "ghyefi9pwijdfxfijfwtwsno",
                     "name": "Ulaangom City",
                     "logo": "https:\/\/live-football-api.com\/teams\/ghyefi9pwijdfxfijfwtwsno.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "3au2xol5x93iucbsgwik57ztg",
@@ -610,7 +610,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "42'",
+                    "display": "49'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -629,43 +629,6 @@
                 "halftime": {
                     "home": 1,
                     "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c4q30zq2v96eza88y96xz70no",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 3",
-                "kickoff": "07:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "07:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "17f7lkh9kkiuzrw5xyz3ai95h",
-                    "name": "Fiji",
-                    "logo": "https:\/\/live-football-api.com\/teams\/17f7lkh9kkiuzrw5xyz3ai95h.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "7rwrmb8910ypo3chwwr7lkdzp",
-                    "name": "New Caledonia",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7rwrmb8910ypo3chwwr7lkdzp.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6299,5 +6262,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 06:44:01"
+    "timestamp": "2026-09-30 07:06:55"
 }
