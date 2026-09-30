@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 186,
+    "credits_remaining": 182,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -45,43 +45,6 @@
                 }
             },
             {
-                "id": "73xmmdo8ph6wju9at87eagys4",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 3",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "3odczxzq91h56pjk7k78ywxxk",
-                    "name": "Maldives",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3odczxzq91h56pjk7k78ywxxk.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "7zv0ldgdxyvshrampda5k0899",
-                    "name": "Lebanon",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7zv0ldgdxyvshrampda5k0899.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "855g6ww4czhvs9o8jcdo1w8wk",
                 "league": {
                     "id": "cesdwwnxbc5fmajgroc0hqzy2",
@@ -106,302 +69,6 @@
                     "id": "eqi93j51n7mhyon0hzb4kxsdg",
                     "name": "Bolivia",
                     "logo": "https:\/\/live-football-api.com\/teams\/eqi93j51n7mhyon0hzb4kxsdg.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9mql4pp6m3za2f7xvti7tnf9w",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "8vldgq3nu5tcnv2xyq01pfru7",
-                    "name": "Belouizdad",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8vldgq3nu5tcnv2xyq01pfru7.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "83r92ut8bmai79ejpgl3uu5pm",
-                    "name": "Olympique Akbou",
-                    "logo": "https:\/\/live-football-api.com\/teams\/83r92ut8bmai79ejpgl3uu5pm.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9mfmelrctwcoyjtxipzzhmsd0",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "3zlmduyj7rvsew1s6x2myjwzv",
-                    "name": "Ben Aknoun",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3zlmduyj7rvsew1s6x2myjwzv.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "8yto6v12sv1yrpg8ad5eaq62c",
-                    "name": "USM Alger",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8yto6v12sv1yrpg8ad5eaq62c.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9n1jadija76g66r31onolf3tg",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "92d6pxpzvh3dr70itorl2jjft",
-                    "name": "CS Constantine",
-                    "logo": "https:\/\/live-football-api.com\/teams\/92d6pxpzvh3dr70itorl2jjft.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "bfdqg91ea0s4pbomvojubiw44",
-                    "name": "Biar",
-                    "logo": "https:\/\/live-football-api.com\/teams\/bfdqg91ea0s4pbomvojubiw44.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9nnrn8ornvhakzwxq7srw9mhg",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "1p0vptu3654utj37hbudw9d5j",
-                    "name": "Kabylie",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1p0vptu3654utj37hbudw9d5j.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "afw5ala5cyutcspnn4xsn161k",
-                    "name": "US Biskra",
-                    "logo": "https:\/\/live-football-api.com\/teams\/afw5ala5cyutcspnn4xsn161k.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9nyzqa8za3qoefcofc5di6rdg",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "3hjibr4pt10o0ifk7tbl7si6i",
-                    "name": "MC Alger",
-                    "logo": "https:\/\/live-football-api.com\/teams\/3hjibr4pt10o0ifk7tbl7si6i.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "76ymlcjho3a8thm3xmouqssif",
-                    "name": "ES Sétif",
-                    "logo": "https:\/\/live-football-api.com\/teams\/76ymlcjho3a8thm3xmouqssif.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9ncpqxrdybexvpk2fhcqey5g4",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "ecxfwfwc6fovtejsy80bug8zy",
-                    "name": "MC Oran",
-                    "logo": "https:\/\/live-football-api.com\/teams\/ecxfwfwc6fovtejsy80bug8zy.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "cgorrd5ek1jdo2mgo6e62fh60",
-                    "name": "Khenchela",
-                    "logo": "https:\/\/live-football-api.com\/teams\/cgorrd5ek1jdo2mgo6e62fh60.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9m4i3umkocljkpeq0n0s8fj10",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "91vp6wzg8xhtgluws59q1qctr",
-                    "name": "Rouisset",
-                    "logo": "https:\/\/live-football-api.com\/teams\/91vp6wzg8xhtgluws59q1qctr.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "61lfql80fa30qnv9mt0rkbjim",
-                    "name": "Saoura",
-                    "logo": "https:\/\/live-football-api.com\/teams\/61lfql80fa30qnv9mt0rkbjim.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "9oa4u6b0ovyda9mwqytdrmot0",
-                "league": {
-                    "id": "57nu0wygurzkp6fuy5hhrtaa2",
-                    "name": "League 1",
-                    "country": "Algeria"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "2oqxl0huqwx95a7qm306l9kw9",
-                    "name": "Témouchent",
-                    "logo": "https:\/\/live-football-api.com\/teams\/2oqxl0huqwx95a7qm306l9kw9.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "75ecvl9uaua4r0x6ynzgd0njc",
-                    "name": "Chlef",
-                    "logo": "https:\/\/live-football-api.com\/teams\/75ecvl9uaua4r0x6ynzgd0njc.png",
                     "score": null
                 },
                 "halftime": {
@@ -518,43 +185,6 @@
                 "halftime": {
                     "home": 1,
                     "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "ald2l9pcy3zkfs7h2dv0hgphw",
-                "league": {
-                    "id": "8tv00s1b0ija279uydetvvfca",
-                    "name": "North of Scotland Cup",
-                    "country": "Scotland"
-                },
-                "week": "Quarter-finals",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
-                    "is_live": false,
-                    "state": "postponed"
-                },
-                "home": {
-                    "id": "cidebsgnsbrod3iou5rmu7ihx",
-                    "name": "Lossiemouth",
-                    "logo": "https:\/\/live-football-api.com\/teams\/cidebsgnsbrod3iou5rmu7ihx.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "e9lnfwmwzj7zj2ygzg4pne2ft",
-                    "name": "Forres",
-                    "logo": "https:\/\/live-football-api.com\/teams\/e9lnfwmwzj7zj2ygzg4pne2ft.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -943,7 +573,7 @@
                 "kickoff": "05:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -951,13 +581,13 @@
                     "id": "ghyefi9pwijdfxfijfwtwsno",
                     "name": "Ulaangom City",
                     "logo": "https:\/\/live-football-api.com\/teams\/ghyefi9pwijdfxfijfwtwsno.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "3au2xol5x93iucbsgwik57ztg",
                     "name": "Hunters",
                     "logo": "https:\/\/live-football-api.com\/teams\/3au2xol5x93iucbsgwik57ztg.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "halftime": {
                     "home": 0,
@@ -980,7 +610,7 @@
                 "kickoff": "06:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "42'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -988,17 +618,17 @@
                     "id": "2d3dltoeu60rdgkofln59bw85",
                     "name": "Korea Rep U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/2d3dltoeu60rdgkofln59bw85.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "92wkgky8w71iua6vl8zh7hkdr",
                     "name": "China U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/92wkgky8w71iua6vl8zh7hkdr.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -1216,6 +846,43 @@
                     "id": "es7qn25eeuoamol1v41qo9bgf",
                     "name": "Japan U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/es7qn25eeuoamol1v41qo9bgf.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "761fg0gxqkxptgemq43xwvcpg",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "12:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "12:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "dy9pom3s0wd7bc7j77syama6p",
+                    "name": "Seychelles",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dy9pom3s0wd7bc7j77syama6p.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "3u9qf9ju8eym4g8qsa0avfjm2",
+                    "name": "Sri Lanka",
+                    "logo": "https:\/\/live-football-api.com\/teams\/3u9qf9ju8eym4g8qsa0avfjm2.png",
                     "score": null
                 },
                 "halftime": {
@@ -5706,43 +5373,6 @@
                 }
             },
             {
-                "id": "a4ig0oirugqbbyniuqezck9p0",
-                "league": {
-                    "id": "a9vrdkelbgif0gtu3wxsr75xo",
-                    "name": "Primera Division",
-                    "country": "Peru"
-                },
-                "week": "10",
-                "kickoff": "20:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "20:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "6z2y5seyiusqbh8xyfzq17nzk",
-                    "name": "Cienciano",
-                    "logo": "https:\/\/live-football-api.com\/teams\/6z2y5seyiusqbh8xyfzq17nzk.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "9zqcq0fvjzk6p7babc4gkhm9y",
-                    "name": "Los Chankas",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9zqcq0fvjzk6p7babc4gkhm9y.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "8lw0gf3uk3u5r67bqjqttzxn8",
                 "league": {
                     "id": "b3khsmo41ntvf4fwzbsuvc1hm",
@@ -6669,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 06:05:23"
+    "timestamp": "2026-09-30 06:44:01"
 }
