@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 27,
+    "credits_remaining": 19,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -587,43 +587,6 @@
                     "id": "efspiq4qgfnej4uq00vod5wix",
                     "name": "Cofutpa",
                     "logo": "https:\/\/live-football-api.com\/teams\/efspiq4qgfnej4uq00vod5wix.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8yqu1vbegeid56ksffhuvr190",
-                "league": {
-                    "id": "2yyjcbbryf1r10apyzl7c7jvp",
-                    "name": "Liga de Ascenso",
-                    "country": "Costa Rica"
-                },
-                "week": "10",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "8swpe7uxtadr0yb89wtom63fa",
-                    "name": "Rosario",
-                    "logo": "https:\/\/live-football-api.com\/teams\/8swpe7uxtadr0yb89wtom63fa.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "81w8o37d3ls6rc7ud9d781ogk",
-                    "name": "Quepos",
-                    "logo": "https:\/\/live-football-api.com\/teams\/81w8o37d3ls6rc7ud9d781ogk.png",
                     "score": null
                 },
                 "halftime": {
@@ -30829,6 +30792,80 @@
                 }
             },
             {
+                "id": "c1rmvj94xzozv2zr31it4eh3o",
+                "league": {
+                    "id": "6yeu4m8ey7hcaa5wuf6oe81iw",
+                    "name": "Gulf Cup of Nations",
+                    "country": "Asia"
+                },
+                "week": "Semi-finals",
+                "kickoff": "17:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "17:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "9l4imoomrnyceg5u3kdxf5l5r",
+                    "name": "Saudi Arabia",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9l4imoomrnyceg5u3kdxf5l5r.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ea68amhsn28ijs7bzjuzeqrz6",
+                    "name": "Qatar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ea68amhsn28ijs7bzjuzeqrz6.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "c2fa6i05nekibd53z8fccgaok",
+                "league": {
+                    "id": "6yeu4m8ey7hcaa5wuf6oe81iw",
+                    "name": "Gulf Cup of Nations",
+                    "country": "Asia"
+                },
+                "week": "Semi-finals",
+                "kickoff": "17:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "17:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "b9mwx4b6glg4kgbqgm3uysf3l",
+                    "name": "UAE",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b9mwx4b6glg4kgbqgm3uysf3l.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "58g81s16tc8hsmqhh0vyfbrrj",
+                    "name": "Oman",
+                    "logo": "https:\/\/live-football-api.com\/teams\/58g81s16tc8hsmqhh0vyfbrrj.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "5ks8i0h5ki7z9zjq3ixm61vys",
                 "league": {
                     "id": "4qjmo9aphtgpboin0pldiwzc9",
@@ -35417,6 +35454,43 @@
                 }
             },
             {
+                "id": "8yqu1vbegeid56ksffhuvr190",
+                "league": {
+                    "id": "2yyjcbbryf1r10apyzl7c7jvp",
+                    "name": "Liga de Ascenso",
+                    "country": "Costa Rica"
+                },
+                "week": "10",
+                "kickoff": "23:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "23:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "8swpe7uxtadr0yb89wtom63fa",
+                    "name": "Rosario",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8swpe7uxtadr0yb89wtom63fa.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "81w8o37d3ls6rc7ud9d781ogk",
+                    "name": "Quepos",
+                    "logo": "https:\/\/live-football-api.com\/teams\/81w8o37d3ls6rc7ud9d781ogk.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "rr9w8zr6qqwt8al97qdd2ntg",
                 "league": {
                     "id": "jznihqxle06xych9ygwiwnsa",
@@ -35936,5 +36010,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 20:04:57"
+    "timestamp": "2026-09-30 20:38:01"
 }

@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 31,
+    "credits_remaining": 23,
     "data": {
         "date": "2026-09-29",
         "language": "en",
@@ -7261,5 +7261,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 20:04:55"
+    "timestamp": "2026-09-30 20:37:54"
 }
