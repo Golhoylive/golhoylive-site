@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 166,
+    "credits_remaining": 162,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "08:00",
                 "status": {
                     "status": "live",
-                    "display": "37'",
+                    "display": "46'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -674,13 +674,13 @@
                 }
             },
             {
-                "id": "3pc2uds1bkii02jdu9mn2h2qc",
+                "id": "lfa17907584723773811527",
                 "league": {
-                    "id": "19y52cjt9hnne14tc70uqk6p5",
-                    "name": "U18 National Team",
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
                     "country": "World"
                 },
-                "week": "Friendlies 1",
+                "week": null,
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -689,15 +689,15 @@
                     "state": "preGame"
                 },
                 "home": {
-                    "id": "7nf63f5ahqf5stz9l8ue6jrop",
-                    "name": "Korea Rep U18",
-                    "logo": "https:\/\/live-football-api.com\/teams\/7nf63f5ahqf5stz9l8ue6jrop.png",
+                    "id": "65c6na50pswgv7otm1gmdsxyr",
+                    "name": "Scotland U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/65c6na50pswgv7otm1gmdsxyr.png",
                     "score": null
                 },
                 "away": {
-                    "id": "dq9upvm5v9y81cqhvfivju5nr",
-                    "name": "England U18",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dq9upvm5v9y81cqhvfivju5nr.png",
+                    "id": "33i4efrjop73gqbvqi3uswdsc",
+                    "name": "Ukraine U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/33i4efrjop73gqbvqi3uswdsc.png",
                     "score": null
                 },
                 "halftime": {
@@ -720,26 +720,26 @@
                 "week": "Premier Division",
                 "kickoff": "09:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "09:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "4'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "4ahc1zew00kfkitxzstyrejtb",
                     "name": "Timor-Leste",
                     "logo": "https:\/\/live-football-api.com\/teams\/4ahc1zew00kfkitxzstyrejtb.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "82tfgrbvqml5v6xrub66ql6q1",
                     "name": "Cambodia",
                     "logo": "https:\/\/live-football-api.com\/teams\/82tfgrbvqml5v6xrub66ql6q1.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -5622,8 +5622,8 @@
                     "score": "2"
                 },
                 "halftime": {
-                    "home": 1,
-                    "away": 1
+                    "home": null,
+                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6262,5 +6262,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 08:40:30"
+    "timestamp": "2026-09-30 09:04:48"
 }
