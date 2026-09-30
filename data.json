@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 162,
+    "credits_remaining": 158,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "08:00",
                 "status": {
                     "status": "live",
-                    "display": "46'",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -661,7 +661,7 @@
                     "id": "4rrlv012dlsvkukgn3cmlcrmp",
                     "name": "Ulaanbaatar",
                     "logo": "https:\/\/live-football-api.com\/teams\/4rrlv012dlsvkukgn3cmlcrmp.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -683,26 +683,26 @@
                 "week": null,
                 "kickoff": "09:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "09:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "36'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "65c6na50pswgv7otm1gmdsxyr",
                     "name": "Scotland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/65c6na50pswgv7otm1gmdsxyr.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "33i4efrjop73gqbvqi3uswdsc",
                     "name": "Ukraine U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/33i4efrjop73gqbvqi3uswdsc.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -721,7 +721,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -729,12 +729,49 @@
                     "id": "4ahc1zew00kfkitxzstyrejtb",
                     "name": "Timor-Leste",
                     "logo": "https:\/\/live-football-api.com\/teams\/4ahc1zew00kfkitxzstyrejtb.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "82tfgrbvqml5v6xrub66ql6q1",
                     "name": "Cambodia",
                     "logo": "https:\/\/live-football-api.com\/teams\/82tfgrbvqml5v6xrub66ql6q1.png",
+                    "score": "1"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "lfa17907591208223012079",
+                "league": {
+                    "id": "diyn3s6fyn7w6j58hq7kkzmjt",
+                    "name": "U19 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "09:15",
+                "status": {
+                    "status": "live",
+                    "display": "22'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "9rezfdx4h1gcbgn6j3o81f736",
+                    "name": "Finland U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9rezfdx4h1gcbgn6j3o81f736.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "ozpqfnbq0nyxrbyal5x4n3gz",
+                    "name": "Germany U19",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ozpqfnbq0nyxrbyal5x4n3gz.png",
                     "score": "0"
                 },
                 "halftime": {
@@ -6262,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 09:04:48"
+    "timestamp": "2026-09-30 09:40:08"
 }
