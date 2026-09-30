@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 170,
+    "credits_remaining": 166,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -647,7 +647,7 @@
                 "kickoff": "08:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "37'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1327,6 +1327,43 @@
                     "id": "dmpb5utmcl8kzsrpxvom36sov",
                     "name": "Mozambique",
                     "logo": "https:\/\/live-football-api.com\/teams\/dmpb5utmcl8kzsrpxvom36sov.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "88ryc9z8zyh3hm28ik8djz40k",
+                "league": {
+                    "id": "19y52cjt9hnne14tc70uqk6p5",
+                    "name": "U18 National Team",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "14:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "14:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "1reeyx7b56n5mza5b64xdcedx",
+                    "name": "Netherlands U18",
+                    "logo": "https:\/\/live-football-api.com\/teams\/1reeyx7b56n5mza5b64xdcedx.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "23rjkuxv9jdzexf1ccf80jble",
+                    "name": "Norway U18",
+                    "logo": "https:\/\/live-football-api.com\/teams\/23rjkuxv9jdzexf1ccf80jble.png",
                     "score": null
                 },
                 "halftime": {
@@ -6225,5 +6262,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 08:06:33"
+    "timestamp": "2026-09-30 08:40:30"
 }
