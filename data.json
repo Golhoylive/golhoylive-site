@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 222,
+    "credits_remaining": 218,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -17,16 +17,16 @@
                 "week": "Friendlies 1",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "70'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "9vh2u1p4ppm597tjfahst2m3n",
                     "name": "United States",
                     "logo": "https:\/\/live-football-api.com\/teams\/9vh2u1p4ppm597tjfahst2m3n.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "away": {
                     "id": "4etj58jfe5zmfspk9pl7jfzr3",
@@ -498,22 +498,22 @@
                 "week": "6",
                 "kickoff": "00:00",
                 "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "5nk1xw91dxp0t0znt9p8gpiw1",
                     "name": "Aurora",
                     "logo": "https:\/\/live-football-api.com\/teams\/5nk1xw91dxp0t0znt9p8gpiw1.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "dfvuhyfm6ecmhp8ow5ivhjg9g",
                     "name": "San Antonio BB",
                     "logo": "https:\/\/live-football-api.com\/teams\/dfvuhyfm6ecmhp8ow5ivhjg9g.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -610,7 +610,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -721,7 +721,7 @@
                 "kickoff": "01:05",
                 "status": {
                     "status": "live",
-                    "display": "31'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -729,17 +729,17 @@
                     "id": "bzpygd5fja0tbb2x8daphil1l",
                     "name": "Medellín",
                     "logo": "https:\/\/live-football-api.com\/teams\/bzpygd5fja0tbb2x8daphil1l.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "eqbww924pupg9vspauc0h7bt6",
                     "name": "Millonarios",
                     "logo": "https:\/\/live-football-api.com\/teams\/eqbww924pupg9vspauc0h7bt6.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 1
+                    "home": 1,
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -794,26 +794,26 @@
                 "week": "League B",
                 "kickoff": "02:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "02:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "2'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "ad06y2rz0lcrn6dsone4cl4g5",
                     "name": "Belize",
                     "logo": "https:\/\/live-football-api.com\/teams\/ad06y2rz0lcrn6dsone4cl4g5.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "gwppyn5uw8dho14c6gx3arj5",
                     "name": "St. Vincent",
                     "logo": "https:\/\/live-football-api.com\/teams\/gwppyn5uw8dho14c6gx3arj5.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6345,7 +6345,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "60'",
+                    "display": "87'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 01:38:14"
+    "timestamp": "2026-09-30 02:04:37"
 }
