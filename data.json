@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 150,
+    "credits_remaining": 146,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -683,10 +683,10 @@
                 "week": null,
                 "kickoff": "09:00",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "65c6na50pswgv7otm1gmdsxyr",
@@ -720,10 +720,10 @@
                 "week": "Premier Division",
                 "kickoff": "09:00",
                 "status": {
-                    "status": "live",
-                    "display": "78'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "4ahc1zew00kfkitxzstyrejtb",
@@ -758,7 +758,7 @@
                 "kickoff": "09:15",
                 "status": {
                     "status": "live",
-                    "display": "60'",
+                    "display": "86'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -795,7 +795,7 @@
                 "kickoff": "10:30",
                 "status": {
                     "status": "live",
-                    "display": "7'",
+                    "display": "33'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -803,7 +803,7 @@
                     "id": "5wbuue9v4wpx0ktjy86rtnt4h",
                     "name": "Uzbekistan U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/5wbuue9v4wpx0ktjy86rtnt4h.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "es7qn25eeuoamol1v41qo9bgf",
@@ -812,7 +812,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -6299,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 10:39:32"
+    "timestamp": "2026-09-30 11:05:12"
 }

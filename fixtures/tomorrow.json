@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 149,
+    "credits_remaining": 145,
     "data": {
         "date": "2026-10-01",
         "language": "en",
@@ -1184,6 +1184,43 @@
                 "halftime": {
                     "home": null,
                     "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "dzxi10kea1cr797ruk1dye1p0",
+                "league": {
+                    "id": "8c93rclta164ypkno054nkfyt",
+                    "name": "Asian Games",
+                    "country": "Asia"
+                },
+                "week": "Semi-finals",
+                "kickoff": "10:30",
+                "status": {
+                    "status": "live",
+                    "display": "27'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "5wbuue9v4wpx0ktjy86rtnt4h",
+                    "name": "Uzbekistan U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/5wbuue9v4wpx0ktjy86rtnt4h.png",
+                    "score": "1"
+                },
+                "away": {
+                    "id": "es7qn25eeuoamol1v41qo9bgf",
+                    "name": "Japan U23",
+                    "logo": "https:\/\/live-football-api.com\/teams\/es7qn25eeuoamol1v41qo9bgf.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 1,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4819,5 +4856,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 10:39:33"
+    "timestamp": "2026-09-30 11:05:13"
 }
