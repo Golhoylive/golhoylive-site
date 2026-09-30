@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 138,
+    "credits_remaining": 134,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -259,6 +259,43 @@
                 "halftime": {
                     "home": 0,
                     "away": 1
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "e23u5cd94ipznuil7d97j6cyc",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "01:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "01:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "dv7t1octbjjnwsp3vlns10n8c",
+                    "name": "Alianza Lima",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dv7t1octbjjnwsp3vlns10n8c.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "8puc16dm0ut6bvv6u6ivpe2ch",
+                    "name": "Palestino",
+                    "logo": "https:\/\/live-football-api.com\/teams\/8puc16dm0ut6bvv6u6ivpe2ch.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -795,7 +832,7 @@
                 "kickoff": "10:30",
                 "status": {
                     "status": "live",
-                    "display": "76'",
+                    "display": "106'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -809,7 +846,7 @@
                     "id": "es7qn25eeuoamol1v41qo9bgf",
                     "name": "Japan U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/es7qn25eeuoamol1v41qo9bgf.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
@@ -832,7 +869,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "44'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -840,7 +877,7 @@
                     "id": "2ed196gtax477tyh751b8ou29",
                     "name": "Austria U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/2ed196gtax477tyh751b8ou29.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "4eb3vbuvkqno7izc11vxgc6i8",
@@ -849,7 +886,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -869,7 +906,7 @@
                 "kickoff": "12:00",
                 "status": {
                     "status": "live",
-                    "display": "5'",
+                    "display": "45 +1'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -906,7 +943,7 @@
                 "kickoff": "12:05",
                 "status": {
                     "status": "live",
-                    "display": "1'",
+                    "display": "42'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -914,17 +951,17 @@
                     "id": "1kvoobjie0g29un2n67xvs38q",
                     "name": "Sha'anan Eldad",
                     "logo": "https:\/\/live-football-api.com\/teams\/1kvoobjie0g29un2n67xvs38q.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "7kqhtgr2fwy12f4b7p6vvwdch",
                     "name": "Tira",
                     "logo": "https:\/\/live-football-api.com\/teams\/7kqhtgr2fwy12f4b7p6vvwdch.png",
-                    "score": "0"
+                    "score": "2"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -942,26 +979,26 @@
                 "week": "5",
                 "kickoff": "12:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "12:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "16'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "azlakzsggxljt362d6i5spvhu",
                     "name": "Shimshon TA",
                     "logo": "https:\/\/live-football-api.com\/teams\/azlakzsggxljt362d6i5spvhu.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "dqy093b22c5vyjl13o5oymz7r",
                     "name": "Ramat HaSharon",
                     "logo": "https:\/\/live-football-api.com\/teams\/dqy093b22c5vyjl13o5oymz7r.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4115,6 +4152,43 @@
                 }
             },
             {
+                "id": "enu619y2miv19u7pcgmbaick4",
+                "league": {
+                    "id": "byaqhzbd3qtx4qho6hxs772sp",
+                    "name": "U20 National Team Friendlies",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "18:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "18:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "239ue2dajds38167m1q320iyi",
+                    "name": "Spain U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/239ue2dajds38167m1q320iyi.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "9x2gxl6xovekn482lxe6f8tap",
+                    "name": "Mexico U20",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9x2gxl6xovekn482lxe6f8tap.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "9z4a7qm6t4r367swt12jx0nx0",
                 "league": {
                     "id": "ww2yb4rhuu26usnvfksas4rj",
@@ -6188,5 +6262,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 12:06:20"
+    "timestamp": "2026-09-30 12:47:32"
 }
