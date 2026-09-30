@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 145,
+    "credits_remaining": 141,
     "data": {
         "date": "2026-10-01",
         "language": "en",
@@ -1155,6 +1155,43 @@
                 }
             },
             {
+                "id": "abik6qyjy3b7io7b69y1223v8",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "75ajd08kvi4wwfua0u1a1qa1q",
+                    "name": "O. Ljubljana",
+                    "logo": "https:\/\/live-football-api.com\/teams\/75ajd08kvi4wwfua0u1a1qa1q.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "ahpwadw516qqa39whahl0o939",
+                    "name": "Slaven",
+                    "logo": "https:\/\/live-football-api.com\/teams\/ahpwadw516qqa39whahl0o939.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "8p0o9j6ww2b186cy3f9gd2uxg",
                 "league": {
                     "id": "44uk0qy9nasrbiliiapc8be8l",
@@ -1202,7 +1239,7 @@
                 "kickoff": "10:30",
                 "status": {
                     "status": "live",
-                    "display": "27'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4856,5 +4893,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 11:05:13"
+    "timestamp": "2026-09-30 11:37:51"
 }
