@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 158,
+    "credits_remaining": 154,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -646,10 +646,10 @@
                 "week": "5",
                 "kickoff": "08:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "e3s8ev0nkzmfgrke43rr4kefo",
@@ -661,7 +661,7 @@
                     "id": "4rrlv012dlsvkukgn3cmlcrmp",
                     "name": "Ulaanbaatar",
                     "logo": "https:\/\/live-football-api.com\/teams\/4rrlv012dlsvkukgn3cmlcrmp.png",
-                    "score": "2"
+                    "score": "4"
                 },
                 "halftime": {
                     "home": 0,
@@ -684,7 +684,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -721,7 +721,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "38'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -735,11 +735,11 @@
                     "id": "82tfgrbvqml5v6xrub66ql6q1",
                     "name": "Cambodia",
                     "logo": "https:\/\/live-football-api.com\/teams\/82tfgrbvqml5v6xrub66ql6q1.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
-                    "away": 1
+                    "away": 2
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -758,7 +758,7 @@
                 "kickoff": "09:15",
                 "status": {
                     "status": "live",
-                    "display": "22'",
+                    "display": "45 +3'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -766,17 +766,17 @@
                     "id": "9rezfdx4h1gcbgn6j3o81f736",
                     "name": "Finland U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/9rezfdx4h1gcbgn6j3o81f736.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "ozpqfnbq0nyxrbyal5x4n3gz",
                     "name": "Germany U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/ozpqfnbq0nyxrbyal5x4n3gz.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -4642,10 +4642,10 @@
                 "week": "9",
                 "kickoff": "18:45",
                 "status": {
-                    "status": "postponed",
-                    "display": "Postponed",
+                    "status": "scheduled",
+                    "display": "18:45",
                     "is_live": false,
-                    "state": "postponed"
+                    "state": "preGame"
                 },
                 "home": {
                     "id": "6ep9opzgqwv1621om2mo8afag",
@@ -6299,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 09:40:08"
+    "timestamp": "2026-09-30 10:05:56"
 }
