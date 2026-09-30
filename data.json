@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 206,
+    "credits_remaining": 202,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -794,10 +794,10 @@
                 "week": "League B",
                 "kickoff": "02:00",
                 "status": {
-                    "status": "live",
-                    "display": "80'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "ad06y2rz0lcrn6dsone4cl4g5",
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 03:39:21"
+    "timestamp": "2026-09-30 04:04:59"
 }
