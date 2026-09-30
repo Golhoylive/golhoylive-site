@@ -1,12 +1,49 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 234,
+    "credits_remaining": 230,
     "data": {
         "date": "2026-09-30",
         "language": "en",
         "timezone": "UTC",
         "matches": [
+            {
+                "id": "3eskwfpnju5i1lsz1yg9ec844",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "live",
+                    "display": "36'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "9vh2u1p4ppm597tjfahst2m3n",
+                    "name": "United States",
+                    "logo": "https:\/\/live-football-api.com\/teams\/9vh2u1p4ppm597tjfahst2m3n.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "4etj58jfe5zmfspk9pl7jfzr3",
+                    "name": "Chile",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4etj58jfe5zmfspk9pl7jfzr3.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
             {
                 "id": "73xmmdo8ph6wju9at87eagys4",
                 "league": {
@@ -462,7 +499,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "4'",
+                    "display": "43'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -470,7 +507,7 @@
                     "id": "5nk1xw91dxp0t0znt9p8gpiw1",
                     "name": "Aurora",
                     "logo": "https:\/\/live-football-api.com\/teams\/5nk1xw91dxp0t0znt9p8gpiw1.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "dfvuhyfm6ecmhp8ow5ivhjg9g",
@@ -479,7 +516,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -526,80 +563,6 @@
                 }
             },
             {
-                "id": "3eskwfpnju5i1lsz1yg9ec844",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "00:10",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:10",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "9vh2u1p4ppm597tjfahst2m3n",
-                    "name": "United States",
-                    "logo": "https:\/\/live-football-api.com\/teams\/9vh2u1p4ppm597tjfahst2m3n.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "4etj58jfe5zmfspk9pl7jfzr3",
-                    "name": "Chile",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4etj58jfe5zmfspk9pl7jfzr3.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "2evheoftvateldn4kgw9jnyms",
-                "league": {
-                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
-                    "name": "Club Friendly",
-                    "country": "World"
-                },
-                "week": "Regular Season",
-                "kickoff": "00:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "87c66ubwpzykovmkaf1t46bis",
-                    "name": "San Antonio",
-                    "logo": "https:\/\/live-football-api.com\/teams\/87c66ubwpzykovmkaf1t46bis.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "1y7e48j8swyafegsucvewse5a",
-                    "name": "Darmstadt 98",
-                    "logo": "https:\/\/live-football-api.com\/teams\/1y7e48j8swyafegsucvewse5a.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "5tgkjhd31n5fk3dxosxvpfms4",
                 "league": {
                     "id": "5em08hhvd7komnfdsb1yagpas",
@@ -624,6 +587,43 @@
                     "id": "by2oauw9w521ognfw0mg5ixfc",
                     "name": "The Strongest",
                     "logo": "https:\/\/live-football-api.com\/teams\/by2oauw9w521ognfw0mg5ixfc.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "1wfio6wgxrd2vf420b2id32tw",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": "Friendlies 1",
+                "kickoff": "01:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "01:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "4vofb84dzb5fyc81n2ssws6ah",
+                    "name": "Mexico",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4vofb84dzb5fyc81n2ssws6ah.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "a9sendamrqqz1uv4jc89mfum8",
+                    "name": "Peru",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a9sendamrqqz1uv4jc89mfum8.png",
                     "score": null
                 },
                 "halftime": {
@@ -883,43 +883,6 @@
                     "id": "e29381coimf4lo8rx156vzhb0",
                     "name": "Isidro",
                     "logo": "https:\/\/live-football-api.com\/teams\/e29381coimf4lo8rx156vzhb0.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "1wfio6wgxrd2vf420b2id32tw",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 1",
-                "kickoff": "02:30",
-                "status": {
-                    "status": "scheduled",
-                    "display": "02:30",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "4vofb84dzb5fyc81n2ssws6ah",
-                    "name": "Mexico",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4vofb84dzb5fyc81n2ssws6ah.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "a9sendamrqqz1uv4jc89mfum8",
-                    "name": "Peru",
-                    "logo": "https:\/\/live-football-api.com\/teams\/a9sendamrqqz1uv4jc89mfum8.png",
                     "score": null
                 },
                 "halftime": {
@@ -6122,10 +6085,10 @@
                 "week": "30",
                 "kickoff": "22:30",
                 "status": {
-                    "status": "live",
-                    "display": "72'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "53r1xghhsn5zog9gxjkt2am8o",
@@ -6271,7 +6234,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "48'",
+                    "display": "87'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6285,7 +6248,7 @@
                     "id": "a7r9j0ovrdvpxpmmy71dq904r",
                     "name": "Aruba",
                     "logo": "https:\/\/live-football-api.com\/teams\/a7r9j0ovrdvpxpmmy71dq904r.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
@@ -6382,7 +6345,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "83'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6456,7 +6419,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "81'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6632,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 00:05:45"
+    "timestamp": "2026-09-30 00:45:40"
 }
