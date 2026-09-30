@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 82,
+    "credits_remaining": 74,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -476,80 +476,6 @@
                     "id": "13x6pponjb28rc5ydtk8k0yxh",
                     "name": "Atenas",
                     "logo": "https:\/\/live-football-api.com\/teams\/13x6pponjb28rc5ydtk8k0yxh.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c7mo4w968h65e66cy2zd5zz84",
-                "league": {
-                    "id": "5zfudxcld0kr6bspk1jauq3t9",
-                    "name": "Torneo Regional Federal Amateur",
-                    "country": "Argentina"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "d8wkxgz6q0q6hjxlre0moe61g",
-                    "name": "Los Andes",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d8wkxgz6q0q6hjxlre0moe61g.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "jmnobgumfrkduh06xftakob8",
-                    "name": "Studebaker",
-                    "logo": "https:\/\/live-football-api.com\/teams\/jmnobgumfrkduh06xftakob8.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "5mrewfbd2lqkjpujl18694xzo",
-                "league": {
-                    "id": "5zfudxcld0kr6bspk1jauq3t9",
-                    "name": "Torneo Regional Federal Amateur",
-                    "country": "Argentina"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "80cwjbwdix26fbtrfkphxuweh",
-                    "name": "Paz Juniors",
-                    "logo": "https:\/\/live-football-api.com\/teams\/80cwjbwdix26fbtrfkphxuweh.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "dhrpkdtasf9hqyk3u7ldc53sa",
-                    "name": "U. Oncativo",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dhrpkdtasf9hqyk3u7ldc53sa.png",
                     "score": null
                 },
                 "halftime": {
@@ -3455,7 +3381,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -3492,7 +3418,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -3529,7 +3455,7 @@
                     "name": "Second Women Federation",
                     "country": "Spain"
                 },
-                "week": "Group 3",
+                "week": "5",
                 "kickoff": "09:00",
                 "status": {
                     "status": "scheduled",
@@ -4411,6 +4337,43 @@
                 }
             },
             {
+                "id": "bcn2xuxr03zazvqz8uj1xgf84",
+                "league": {
+                    "id": "cegl2ivkc25blcatxp4jmk1ec",
+                    "name": "Secon Division RFEF",
+                    "country": "Spain"
+                },
+                "week": "Group 5",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "47w2ejlzttvwnl39tlcwnpjdb",
+                    "name": "Valladolid II",
+                    "logo": "https:\/\/live-football-api.com\/teams\/47w2ejlzttvwnl39tlcwnpjdb.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "119b1wld4ujbv677ub1tmiqui",
+                    "name": "Calvo Sotelo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/119b1wld4ujbv677ub1tmiqui.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "1yjipxeajt7pnav0dc6qbnms4",
                 "league": {
                     "id": "5k620c7y6dlbmcm88dt3eb7t",
@@ -4602,7 +4565,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": null,
+                "week": "Group Stage",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4639,7 +4602,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -4676,7 +4639,7 @@
                     "name": "Primera Federation Women",
                     "country": "Spain"
                 },
-                "week": null,
+                "week": "4",
                 "kickoff": "10:00",
                 "status": {
                     "status": "scheduled",
@@ -12927,7 +12890,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": null,
+                "week": "Group Stage",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -13149,7 +13112,7 @@
                     "name": "SWPL 2",
                     "country": "Scotland"
                 },
-                "week": null,
+                "week": "7",
                 "kickoff": "14:30",
                 "status": {
                     "status": "scheduled",
@@ -14814,7 +14777,7 @@
                     "name": "Women League Cup",
                     "country": "Portugal"
                 },
-                "week": null,
+                "week": "Group Stage",
                 "kickoff": "15:30",
                 "status": {
                     "status": "scheduled",
@@ -19397,5 +19360,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 17:05:43"
+    "timestamp": "2026-09-30 17:38:15"
 }

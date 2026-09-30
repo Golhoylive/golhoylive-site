@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 83,
+    "credits_remaining": 75,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -846,43 +846,6 @@
                     "id": "13x6pponjb28rc5ydtk8k0yxh",
                     "name": "Atenas",
                     "logo": "https:\/\/live-football-api.com\/teams\/13x6pponjb28rc5ydtk8k0yxh.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c7mo4w968h65e66cy2zd5zz84",
-                "league": {
-                    "id": "5zfudxcld0kr6bspk1jauq3t9",
-                    "name": "Torneo Regional Federal Amateur",
-                    "country": "Argentina"
-                },
-                "week": "6",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "d8wkxgz6q0q6hjxlre0moe61g",
-                    "name": "Los Andes",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d8wkxgz6q0q6hjxlre0moe61g.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "jmnobgumfrkduh06xftakob8",
-                    "name": "Studebaker",
-                    "logo": "https:\/\/live-football-api.com\/teams\/jmnobgumfrkduh06xftakob8.png",
                     "score": null
                 },
                 "halftime": {
@@ -5342,7 +5305,7 @@
                     "name": "U21 Divisie 4",
                     "country": "Netherlands"
                 },
-                "week": "Fall Season",
+                "week": "4",
                 "kickoff": "09:30",
                 "status": {
                     "status": "scheduled",
@@ -6082,7 +6045,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "10:30",
                 "status": {
                     "status": "scheduled",
@@ -7932,7 +7895,7 @@
                     "name": "Campeonato Nacional U19",
                     "country": "Portugal"
                 },
-                "week": null,
+                "week": "3",
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -14740,7 +14703,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "Toscana A",
+                "week": "4",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -14777,7 +14740,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15036,7 +14999,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "Girone A",
+                "week": "3",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15073,7 +15036,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "Girone B",
+                "week": "3",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15110,7 +15073,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "Girone A",
+                "week": "3",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15147,7 +15110,7 @@
                     "name": "Spring Championship 4",
                     "country": "Italy"
                 },
-                "week": "Girone A",
+                "week": "3",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -15184,7 +15147,7 @@
                     "name": "A League Women",
                     "country": "Lithuania"
                 },
-                "week": null,
+                "week": "23",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -16775,7 +16738,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "Sicilia A",
+                "week": "4",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -16812,7 +16775,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "Sicilia A",
+                "week": "4",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -25433,7 +25396,7 @@
                     "name": "A League Women",
                     "country": "Lithuania"
                 },
-                "week": null,
+                "week": "23",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -26358,7 +26321,7 @@
                     "name": "Eccellenza",
                     "country": "Italy"
                 },
-                "week": "Sardegna",
+                "week": "4",
                 "kickoff": "14:30",
                 "status": {
                     "status": "scheduled",
@@ -29503,7 +29466,7 @@
                     "name": "Serie A Women",
                     "country": "Italy"
                 },
-                "week": null,
+                "week": "2",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29614,7 +29577,7 @@
                     "name": "Botola 2",
                     "country": "Morocco"
                 },
-                "week": null,
+                "week": "Regular Season",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -29651,7 +29614,7 @@
                     "name": "Botola 2",
                     "country": "Morocco"
                 },
-                "week": null,
+                "week": "Regular Season",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -35973,5 +35936,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 17:05:36"
+    "timestamp": "2026-09-30 17:38:12"
 }

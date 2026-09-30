@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 84,
+    "credits_remaining": 76,
     "data": {
         "date": "2026-10-02",
         "language": "en",
@@ -809,6 +809,43 @@
                     "id": "d2y86conaafpzpwx71tg7m9uy",
                     "name": "San Pedro",
                     "logo": "https:\/\/live-football-api.com\/teams\/d2y86conaafpzpwx71tg7m9uy.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "5mrewfbd2lqkjpujl18694xzo",
+                "league": {
+                    "id": "5zfudxcld0kr6bspk1jauq3t9",
+                    "name": "Torneo Regional Federal Amateur",
+                    "country": "Argentina"
+                },
+                "week": "6",
+                "kickoff": "00:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "00:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "80cwjbwdix26fbtrfkphxuweh",
+                    "name": "Paz Juniors",
+                    "logo": "https:\/\/live-football-api.com\/teams\/80cwjbwdix26fbtrfkphxuweh.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "dhrpkdtasf9hqyk3u7ldc53sa",
+                    "name": "U. Oncativo",
+                    "logo": "https:\/\/live-football-api.com\/teams\/dhrpkdtasf9hqyk3u7ldc53sa.png",
                     "score": null
                 },
                 "halftime": {
@@ -8265,7 +8302,7 @@
                     "name": "Nationalliga A Women",
                     "country": "Switzerland"
                 },
-                "week": null,
+                "week": "8",
                 "kickoff": "17:00",
                 "status": {
                     "status": "scheduled",
@@ -11405,5 +11442,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 17:05:29"
+    "timestamp": "2026-09-30 17:38:09"
 }
