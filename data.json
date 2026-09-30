@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 202,
+    "credits_remaining": 198,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -883,43 +883,6 @@
                     "id": "e29381coimf4lo8rx156vzhb0",
                     "name": "Isidro",
                     "logo": "https:\/\/live-football-api.com\/teams\/e29381coimf4lo8rx156vzhb0.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "c4glyxpu6ga3uqihm67dg68t0",
-                "league": {
-                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
-                    "name": "International Friendlies Countries",
-                    "country": "World"
-                },
-                "week": "Friendlies 3",
-                "kickoff": "04:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "04:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "dxkrra8pxq7wy09y0hxfpeead",
-                    "name": "Papua New Guinea",
-                    "logo": "https:\/\/live-football-api.com\/teams\/dxkrra8pxq7wy09y0hxfpeead.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "d96nz378dui1d52pn5msjadat",
-                    "name": "Solomon",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d96nz378dui1d52pn5msjadat.png",
                     "score": null
                 },
                 "halftime": {
@@ -6595,5 +6558,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 04:04:59"
+    "timestamp": "2026-09-30 04:39:39"
 }
