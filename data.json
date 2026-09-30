@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 226,
+    "credits_remaining": 222,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -18,7 +18,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "70'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -26,13 +26,13 @@
                     "id": "9vh2u1p4ppm597tjfahst2m3n",
                     "name": "United States",
                     "logo": "https:\/\/live-football-api.com\/teams\/9vh2u1p4ppm597tjfahst2m3n.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "4etj58jfe5zmfspk9pl7jfzr3",
                     "name": "Chile",
                     "logo": "https:\/\/live-football-api.com\/teams\/4etj58jfe5zmfspk9pl7jfzr3.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -499,7 +499,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "77'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -610,7 +610,7 @@
                 "kickoff": "01:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "35'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -624,11 +624,11 @@
                     "id": "a9sendamrqqz1uv4jc89mfum8",
                     "name": "Peru",
                     "logo": "https:\/\/live-football-api.com\/teams\/a9sendamrqqz1uv4jc89mfum8.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 0,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -720,26 +720,26 @@
                 "week": "4",
                 "kickoff": "01:05",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:05",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "31'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "bzpygd5fja0tbb2x8daphil1l",
                     "name": "Medellín",
                     "logo": "https:\/\/live-football-api.com\/teams\/bzpygd5fja0tbb2x8daphil1l.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "eqbww924pupg9vspauc0h7bt6",
                     "name": "Millonarios",
                     "logo": "https:\/\/live-football-api.com\/teams\/eqbww924pupg9vspauc0h7bt6.png",
-                    "score": null
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6345,7 +6345,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "90 +14'",
+                    "display": "60'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 01:06:30"
+    "timestamp": "2026-09-30 01:38:14"
 }
