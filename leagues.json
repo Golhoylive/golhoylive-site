@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 120,
+    "credits_remaining": 115,
     "data": {
         "language": "en",
         "total_countries": 159,
@@ -7883,5 +7883,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 14:08:02"
+    "timestamp": "2026-09-30 14:51:52"
 }
