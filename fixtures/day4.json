@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 42,
+    "credits_remaining": 34,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -15030,6 +15030,43 @@
                 }
             },
             {
+                "id": "ap74cah8yb4x5ruiqjwqgmwic",
+                "league": {
+                    "id": "cesdwwnxbc5fmajgroc0hqzy2",
+                    "name": "International Friendlies Countries",
+                    "country": "World"
+                },
+                "week": null,
+                "kickoff": "16:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "16:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "avggs3u2b5cu8i1dnzknhth52",
+                    "name": "Morocco",
+                    "logo": "https:\/\/live-football-api.com\/teams\/avggs3u2b5cu8i1dnzknhth52.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "cxyx46bv9vb34u58vu4hkc26q",
+                    "name": "Mali",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cxyx46bv9vb34u58vu4hkc26q.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "4dc9pd35ethvnj7uribannh90",
                 "league": {
                     "id": "2nttcoriwf5co73vmz1vr8frm",
@@ -17182,7 +17219,7 @@
                     "name": "Segunda División",
                     "country": "Venezuela"
                 },
-                "week": null,
+                "week": "25",
                 "kickoff": "19:30",
                 "status": {
                     "status": "scheduled",
@@ -19106,7 +19143,7 @@
                     "name": "Primera División Amateur",
                     "country": "Uruguay"
                 },
-                "week": "Clausura",
+                "week": "11",
                 "kickoff": "23:00",
                 "status": {
                     "status": "scheduled",
@@ -19434,5 +19471,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 19:06:45"
+    "timestamp": "2026-09-30 19:37:12"
 }

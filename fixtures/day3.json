@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 43,
+    "credits_remaining": 35,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -4380,7 +4380,7 @@
                     "name": "Thai League 3",
                     "country": "Thailand"
                 },
-                "week": "West",
+                "week": "3",
                 "kickoff": "08:30",
                 "status": {
                     "status": "scheduled",
@@ -33243,10 +33243,10 @@
                 "week": "Friendlies 1",
                 "kickoff": "19:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "19:00",
+                    "status": "cancelled",
+                    "display": "Cancelled",
                     "is_live": false,
-                    "state": "preGame"
+                    "state": "cancelled"
                 },
                 "home": {
                     "id": "ctp7ovvf34m7fzshua9ogbr6i",
@@ -35571,7 +35571,7 @@
                     "name": "Primera División Amateur",
                     "country": "Uruguay"
                 },
-                "week": "Clausura",
+                "week": "11",
                 "kickoff": "23:00",
                 "status": {
                     "status": "scheduled",
@@ -35936,5 +35936,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 19:06:44"
+    "timestamp": "2026-09-30 19:37:10"
 }
