@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 230,
+    "credits_remaining": 226,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -18,7 +18,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -26,17 +26,17 @@
                     "id": "9vh2u1p4ppm597tjfahst2m3n",
                     "name": "United States",
                     "logo": "https:\/\/live-football-api.com\/teams\/9vh2u1p4ppm597tjfahst2m3n.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "4etj58jfe5zmfspk9pl7jfzr3",
                     "name": "Chile",
                     "logo": "https:\/\/live-football-api.com\/teams\/4etj58jfe5zmfspk9pl7jfzr3.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
-                    "home": 0,
-                    "away": 0
+                    "home": 1,
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -499,7 +499,7 @@
                 "kickoff": "00:00",
                 "status": {
                     "status": "live",
-                    "display": "43'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -513,11 +513,11 @@
                     "id": "dfvuhyfm6ecmhp8ow5ivhjg9g",
                     "name": "San Antonio BB",
                     "logo": "https:\/\/live-football-api.com\/teams\/dfvuhyfm6ecmhp8ow5ivhjg9g.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "halftime": {
                     "home": 1,
-                    "away": 0
+                    "away": 1
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -609,26 +609,26 @@
                 "week": "Friendlies 1",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "01:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "3'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "4vofb84dzb5fyc81n2ssws6ah",
                     "name": "Mexico",
                     "logo": "https:\/\/live-football-api.com\/teams\/4vofb84dzb5fyc81n2ssws6ah.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "a9sendamrqqz1uv4jc89mfum8",
                     "name": "Peru",
                     "logo": "https:\/\/live-football-api.com\/teams\/a9sendamrqqz1uv4jc89mfum8.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6233,10 +6233,10 @@
                 "week": "League C",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "87'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "a8qocq8ic1q8zme3s7d3icrmd",
@@ -6248,7 +6248,7 @@
                     "id": "a7r9j0ovrdvpxpmmy71dq904r",
                     "name": "Aruba",
                     "logo": "https:\/\/live-football-api.com\/teams\/a7r9j0ovrdvpxpmmy71dq904r.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -6345,7 +6345,7 @@
                 "kickoff": "23:00",
                 "status": {
                     "status": "live",
-                    "display": "83'",
+                    "display": "90 +14'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6418,10 +6418,10 @@
                 "week": "10",
                 "kickoff": "23:00",
                 "status": {
-                    "status": "live",
-                    "display": "81'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "d5pbdtmcj3577pwkzl6rpctn8",
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 00:45:40"
+    "timestamp": "2026-09-30 01:06:30"
 }
