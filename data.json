@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 109,
+    "credits_remaining": 105,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -1313,7 +1313,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "83'",
+                    "display": "90 +6'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1386,16 +1386,16 @@
                 "week": "2nd Qualifying Round",
                 "kickoff": "14:00",
                 "status": {
-                    "status": "live",
-                    "display": "83'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "2tbuzz0alr964ht1wfbqmdtsk",
                     "name": "Aktobe",
                     "logo": "https:\/\/live-football-api.com\/teams\/2tbuzz0alr964ht1wfbqmdtsk.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "8uwvjzazv3wsaswlsfg3if4q1",
@@ -1424,7 +1424,7 @@
                 "kickoff": "14:00",
                 "status": {
                     "status": "live",
-                    "display": "81'",
+                    "display": "90 +4'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1461,7 +1461,7 @@
                 "kickoff": "14:30",
                 "status": {
                     "status": "live",
-                    "display": "50'",
+                    "display": "63'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1498,7 +1498,7 @@
                 "kickoff": "14:30",
                 "status": {
                     "status": "live",
-                    "display": "53'",
+                    "display": "65'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1506,7 +1506,7 @@
                     "id": "8pj5d44g4qsvjw6wxs60bll0a",
                     "name": "Ironi Nesher",
                     "logo": "https:\/\/live-football-api.com\/teams\/8pj5d44g4qsvjw6wxs60bll0a.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "8cfq7ubbb8tyez7muztnilbfj",
@@ -1535,7 +1535,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "35'",
+                    "display": "45 +3'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1543,7 +1543,7 @@
                     "id": "aibmjpdgl63cxvl9wo5fxaopg",
                     "name": "Enyimba",
                     "logo": "https:\/\/live-football-api.com\/teams\/aibmjpdgl63cxvl9wo5fxaopg.png",
-                    "score": "2"
+                    "score": "3"
                 },
                 "away": {
                     "id": "3wn7mrj447vscy0deawcjbjep",
@@ -1552,7 +1552,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 2,
+                    "home": 3,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1572,7 +1572,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "41'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1609,7 +1609,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "40'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1617,7 +1617,7 @@
                     "id": "15357co7k0c0q841hvsdbmshc",
                     "name": "Medeama",
                     "logo": "https:\/\/live-football-api.com\/teams\/15357co7k0c0q841hvsdbmshc.png",
-                    "score": "0"
+                    "score": "1"
                 },
                 "away": {
                     "id": "7r9t4lvt4rf4x1mip3xnsq5g4",
@@ -1626,7 +1626,7 @@
                     "score": "0"
                 },
                 "halftime": {
-                    "home": 0,
+                    "home": 1,
                     "away": 0
                 },
                 "tv_broadcast": false,
@@ -1646,7 +1646,7 @@
                 "kickoff": "15:00",
                 "status": {
                     "status": "live",
-                    "display": "39'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1683,7 +1683,7 @@
                 "kickoff": "15:15",
                 "status": {
                     "status": "live",
-                    "display": "25'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -1720,7 +1720,7 @@
                 "kickoff": "15:30",
                 "status": {
                     "status": "live",
-                    "display": "10'",
+                    "display": "22'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6262,5 +6262,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 15:41:14"
+    "timestamp": "2026-09-30 15:54:20"
 }
