@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 154,
+    "credits_remaining": 150,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -684,7 +684,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "76'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -698,7 +698,7 @@
                     "id": "33i4efrjop73gqbvqi3uswdsc",
                     "name": "Ukraine U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/33i4efrjop73gqbvqi3uswdsc.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 0,
@@ -721,7 +721,7 @@
                 "kickoff": "09:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "78'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -729,7 +729,7 @@
                     "id": "4ahc1zew00kfkitxzstyrejtb",
                     "name": "Timor-Leste",
                     "logo": "https:\/\/live-football-api.com\/teams\/4ahc1zew00kfkitxzstyrejtb.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "82tfgrbvqml5v6xrub66ql6q1",
@@ -758,7 +758,7 @@
                 "kickoff": "09:15",
                 "status": {
                     "status": "live",
-                    "display": "45 +3'",
+                    "display": "60'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -772,7 +772,7 @@
                     "id": "ozpqfnbq0nyxrbyal5x4n3gz",
                     "name": "Germany U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/ozpqfnbq0nyxrbyal5x4n3gz.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "halftime": {
                     "home": 1,
@@ -794,26 +794,26 @@
                 "week": "Semi-finals",
                 "kickoff": "10:30",
                 "status": {
-                    "status": "scheduled",
-                    "display": "10:30",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "7'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "5wbuue9v4wpx0ktjy86rtnt4h",
                     "name": "Uzbekistan U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/5wbuue9v4wpx0ktjy86rtnt4h.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "es7qn25eeuoamol1v41qo9bgf",
                     "name": "Japan U23",
                     "logo": "https:\/\/live-football-api.com\/teams\/es7qn25eeuoamol1v41qo9bgf.png",
-                    "score": null
+                    "score": "0"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6299,5 +6299,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 10:05:56"
+    "timestamp": "2026-09-30 10:39:32"
 }
