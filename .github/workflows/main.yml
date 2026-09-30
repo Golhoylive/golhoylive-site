@@ -95,6 +95,102 @@ jobs:
 
           echo "Tomorrow matches downloaded."
 
+      - name: Get day 2 matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date -d "+2 days" +%F)
+
+          echo "Getting day 2 matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/day2.json
+
+          test -s fixtures/day2.json
+
+          echo "Day 2 matches downloaded."
+
+      - name: Get day 3 matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date -d "+3 days" +%F)
+
+          echo "Getting day 3 matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/day3.json
+
+          test -s fixtures/day3.json
+
+          echo "Day 3 matches downloaded."
+
+      - name: Get day 4 matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date -d "+4 days" +%F)
+
+          echo "Getting day 4 matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/day4.json
+
+          test -s fixtures/day4.json
+
+          echo "Day 4 matches downloaded."
+
+      - name: Get day 5 matches
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date -d "+5 days" +%F)
+
+          echo "Getting day 5 matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/day5.json
+
+          test -s fixtures/day5.json
+
+          echo "Day 5 matches downloaded."
+
       - name: Get competitions
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
@@ -127,14 +223,18 @@ jobs:
           git add leagues.json
           git add fixtures/yesterday.json
           git add fixtures/tomorrow.json
+          git add fixtures/day2.json
+          git add fixtures/day3.json
+          git add fixtures/day4.json
+          git add fixtures/day5.json
 
           if git diff --cached --quiet; then
             echo "No changes in football data."
             exit 0
           fi
 
-          git commit -m "Update yesterday today tomorrow football data"
+          git commit -m "Update 7 day football data"
 
           git push
 
-          echo "GolHoyLive football data saved successfully."
+          echo "GolHoyLive 7 day football data saved successfully."
