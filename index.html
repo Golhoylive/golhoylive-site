@@ -1098,7 +1098,15 @@ const data = {
 
   yesterday: [],
 
-  tomorrow: []
+  tomorrow: [],
+
+  day2: [],
+
+  day3: [],
+
+  day4: [],
+
+  day5: []
 
 };
 
@@ -1390,7 +1398,15 @@ function getAllMatches(){
 
     ...data.today,
 
-    ...data.tomorrow
+    ...data.tomorrow,
+
+    ...data.day2,
+
+    ...data.day3,
+
+    ...data.day4,
+
+    ...data.day5
 
   ].filter(
     isAllowedCompetition
@@ -1457,18 +1473,29 @@ const FLAGS = {
 
   Scotland: "🏴",
 
-Serbia: "🇷🇸",
-Spain: "🇪🇸",
-Sweden: "🇸🇪",
-Switzerland: "🇨🇭",
-Turkey: "🇹🇷",
-USA: "🇺🇸",
-"United States": "🇺🇸",
-Uruguay: "🇺🇾",
-World: "🌎",
-"South America": "🌎",
-"North America": "🌎",
-Asia: "🌏"
+  Serbia: "🇷🇸",
+
+  Spain: "🇪🇸",
+
+  Sweden: "🇸🇪",
+
+  Switzerland: "🇨🇭",
+
+  Turkey: "🇹🇷",
+
+  USA: "🇺🇸",
+
+  "United States": "🇺🇸",
+
+  Uruguay: "🇺🇾",
+
+  World: "🌎",
+
+  "South America": "🌎",
+
+  "North America": "🌎",
+
+  Asia: "🌏"
 
 };
 
@@ -1531,7 +1558,11 @@ function renderDays(){
   const definitions = [
     ["yesterday",-1],
     ["today",0],
-    ["tomorrow",1]
+    ["tomorrow",1],
+    ["day2",2],
+    ["day3",3],
+    ["day4",4],
+    ["day5",5]
   ];
 
   container.innerHTML =
@@ -2497,31 +2528,55 @@ async function load(){
   const results =
     await Promise.all([
 
-      loadFile("data.json"),
-
       loadFile("fixtures/yesterday.json"),
 
-      loadFile("fixtures/tomorrow.json")
+      loadFile("data.json"),
+
+      loadFile("fixtures/tomorrow.json"),
+
+      loadFile("fixtures/day2.json"),
+
+      loadFile("fixtures/day3.json"),
+
+      loadFile("fixtures/day4.json"),
+
+      loadFile("fixtures/day5.json")
 
     ]);
 
 
-  data.today =
+  data.yesterday =
     results[0] || [];
 
-  data.yesterday =
+  data.today =
     results[1] || [];
 
   data.tomorrow =
     results[2] || [];
 
+  data.day2 =
+    results[3] || [];
+
+  data.day3 =
+    results[4] || [];
+
+  data.day4 =
+    results[5] || [];
+
+  data.day5 =
+    results[6] || [];
+
 
   console.log(
     "GolHoyLive loaded:",
     {
-      today:data.today.length,
       yesterday:data.yesterday.length,
-      tomorrow:data.tomorrow.length
+      today:data.today.length,
+      tomorrow:data.tomorrow.length,
+      day2:data.day2.length,
+      day3:data.day3.length,
+      day4:data.day4.length,
+      day5:data.day5.length
     }
   );
 
