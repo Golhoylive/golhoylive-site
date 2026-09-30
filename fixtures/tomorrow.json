@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 193,
+    "credits_remaining": 189,
     "data": {
         "date": "2026-10-01",
         "language": "en",
@@ -106,80 +106,6 @@
                     "id": "aojwbjr39s1w2mcd9l2bf2dhk",
                     "name": "Karlsruher",
                     "logo": "https:\/\/live-football-api.com\/teams\/aojwbjr39s1w2mcd9l2bf2dhk.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8sq6l6n4ljcgxt2ski29zk6qc",
-                "league": {
-                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
-                    "name": "Club Friendly",
-                    "country": "World"
-                },
-                "week": "Regular Season",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "d7i1aj8vnexyqv76yt03d54wc",
-                    "name": "Piast",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d7i1aj8vnexyqv76yt03d54wc.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "a226arvd7ujft5jacs8ooc1p7",
-                    "name": "Wisła",
-                    "logo": "https:\/\/live-football-api.com\/teams\/a226arvd7ujft5jacs8ooc1p7.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "d5idzq2i01ivhx6jhj2v1so44",
-                "league": {
-                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
-                    "name": "Club Friendly",
-                    "country": "World"
-                },
-                "week": "Regular Season",
-                "kickoff": "00:00",
-                "status": {
-                    "status": "scheduled",
-                    "display": "00:00",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "czsohsjmwhettk5rmxh8re9gq",
-                    "name": "Petrolul 52",
-                    "logo": "https:\/\/live-football-api.com\/teams\/czsohsjmwhettk5rmxh8re9gq.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "b6bergeu2p6doq1nmnrsm9css",
-                    "name": "CS Afumaţi",
-                    "logo": "https:\/\/live-football-api.com\/teams\/b6bergeu2p6doq1nmnrsm9css.png",
                     "score": null
                 },
                 "halftime": {
@@ -1414,6 +1340,43 @@
                 }
             },
             {
+                "id": "d5idzq2i01ivhx6jhj2v1so44",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": "Regular Season",
+                "kickoff": "08:30",
+                "status": {
+                    "status": "scheduled",
+                    "display": "08:30",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "czsohsjmwhettk5rmxh8re9gq",
+                    "name": "Petrolul 52",
+                    "logo": "https:\/\/live-football-api.com\/teams\/czsohsjmwhettk5rmxh8re9gq.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "b6bergeu2p6doq1nmnrsm9css",
+                    "name": "CS Afumaţi",
+                    "logo": "https:\/\/live-football-api.com\/teams\/b6bergeu2p6doq1nmnrsm9css.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "7jvm7ebkodnlqd0qaoq3k2bdg",
                 "league": {
                     "id": "diyn3s6fyn7w6j58hq7kkzmjt",
@@ -1475,6 +1438,43 @@
                     "id": "d04215agawywn6ytau41suzki",
                     "name": "Kazakhstan U19",
                     "logo": "https:\/\/live-football-api.com\/teams\/d04215agawywn6ytau41suzki.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
+                "id": "8sq6l6n4ljcgxt2ski29zk6qc",
+                "league": {
+                    "id": "4nidzmunvpvxk1ir9b6m8mpay",
+                    "name": "Club Friendly",
+                    "country": "World"
+                },
+                "week": "Regular Season",
+                "kickoff": "10:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "10:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "d7i1aj8vnexyqv76yt03d54wc",
+                    "name": "Piast",
+                    "logo": "https:\/\/live-football-api.com\/teams\/d7i1aj8vnexyqv76yt03d54wc.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "a226arvd7ujft5jacs8ooc1p7",
+                    "name": "Wisła",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a226arvd7ujft5jacs8ooc1p7.png",
                     "score": null
                 },
                 "halftime": {
@@ -4596,6 +4596,43 @@
                 }
             },
             {
+                "id": "9lviow00ttn80zwu9n9cx5n9w",
+                "league": {
+                    "id": "8djlo7r2fckciymtxczc4v5nu",
+                    "name": "Paraibano 2",
+                    "country": "Brazil"
+                },
+                "week": "1st Phase",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "22:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "cmafhvdlfniuc657idq0x8vjm",
+                    "name": "Cruzeiro",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cmafhvdlfniuc657idq0x8vjm.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "6cc07dtb43fb3qogv1ri5xnje",
+                    "name": "Femar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6cc07dtb43fb3qogv1ri5xnje.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "atdnj7t712bx8ji65wkenidxw",
                 "league": {
                     "id": "86wrztni4x8tnvq9cr1cetvfu",
@@ -4929,6 +4966,43 @@
                 }
             },
             {
+                "id": "9ll7s99vcibnmqz7ve0jdb4t0",
+                "league": {
+                    "id": "8djlo7r2fckciymtxczc4v5nu",
+                    "name": "Paraibano 2",
+                    "country": "Brazil"
+                },
+                "week": "1st Phase",
+                "kickoff": "23:15",
+                "status": {
+                    "status": "scheduled",
+                    "display": "23:15",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "egknj6igjkggowduu15cngs8u",
+                    "name": "Auto Esporte",
+                    "logo": "https:\/\/live-football-api.com\/teams\/egknj6igjkggowduu15cngs8u.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "a9isizqxylqze1vj8ud5jh08a",
+                    "name": "Picuiense",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a9isizqxylqze1vj8ud5jh08a.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "b4hco6x8cvfy2u6jdejuvzmz8",
                 "league": {
                     "id": "287tckirbfj9nb8ar2k9r60vn",
@@ -5078,5 +5152,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 05:05:27"
+    "timestamp": "2026-09-30 05:38:29"
 }

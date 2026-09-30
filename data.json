@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 194,
+    "credits_remaining": 190,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -905,26 +905,26 @@
                 "week": "5",
                 "kickoff": "05:00",
                 "status": {
-                    "status": "scheduled",
-                    "display": "05:00",
-                    "is_live": false,
-                    "state": "preGame"
+                    "status": "live",
+                    "display": "32'",
+                    "is_live": true,
+                    "state": "inPlay"
                 },
                 "home": {
                     "id": "ghyefi9pwijdfxfijfwtwsno",
                     "name": "Ulaangom City",
                     "logo": "https:\/\/live-football-api.com\/teams\/ghyefi9pwijdfxfijfwtwsno.png",
-                    "score": null
+                    "score": "0"
                 },
                 "away": {
                     "id": "3au2xol5x93iucbsgwik57ztg",
                     "name": "Hunters",
                     "logo": "https:\/\/live-football-api.com\/teams\/3au2xol5x93iucbsgwik57ztg.png",
-                    "score": null
+                    "score": "3"
                 },
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 3
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6039,6 +6039,43 @@
                 }
             },
             {
+                "id": "9lviow00ttn80zwu9n9cx5n9w",
+                "league": {
+                    "id": "8djlo7r2fckciymtxczc4v5nu",
+                    "name": "Paraibano 2",
+                    "country": "Brazil"
+                },
+                "week": "1st Phase",
+                "kickoff": "22:00",
+                "status": {
+                    "status": "scheduled",
+                    "display": "22:00",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "cmafhvdlfniuc657idq0x8vjm",
+                    "name": "Cruzeiro",
+                    "logo": "https:\/\/live-football-api.com\/teams\/cmafhvdlfniuc657idq0x8vjm.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "6cc07dtb43fb3qogv1ri5xnje",
+                    "name": "Femar",
+                    "logo": "https:\/\/live-football-api.com\/teams\/6cc07dtb43fb3qogv1ri5xnje.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "aydz4lt55epcnqruble9vvg2c",
                 "league": {
                     "id": "5zr0b05eyx25km7z1k03ca9jx",
@@ -6446,6 +6483,43 @@
                 }
             },
             {
+                "id": "9ll7s99vcibnmqz7ve0jdb4t0",
+                "league": {
+                    "id": "8djlo7r2fckciymtxczc4v5nu",
+                    "name": "Paraibano 2",
+                    "country": "Brazil"
+                },
+                "week": "1st Phase",
+                "kickoff": "23:15",
+                "status": {
+                    "status": "scheduled",
+                    "display": "23:15",
+                    "is_live": false,
+                    "state": "preGame"
+                },
+                "home": {
+                    "id": "egknj6igjkggowduu15cngs8u",
+                    "name": "Auto Esporte",
+                    "logo": "https:\/\/live-football-api.com\/teams\/egknj6igjkggowduu15cngs8u.png",
+                    "score": null
+                },
+                "away": {
+                    "id": "a9isizqxylqze1vj8ud5jh08a",
+                    "name": "Picuiense",
+                    "logo": "https:\/\/live-football-api.com\/teams\/a9isizqxylqze1vj8ud5jh08a.png",
+                    "score": null
+                },
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "b4hco6x8cvfy2u6jdejuvzmz8",
                 "league": {
                     "id": "287tckirbfj9nb8ar2k9r60vn",
@@ -6558,5 +6632,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 05:05:27"
+    "timestamp": "2026-09-30 05:38:28"
 }
