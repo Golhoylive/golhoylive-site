@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 214,
+    "credits_remaining": 210,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -609,10 +609,10 @@
                 "week": "Friendlies 1",
                 "kickoff": "01:00",
                 "status": {
-                    "status": "live",
-                    "display": "75'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "4vofb84dzb5fyc81n2ssws6ah",
@@ -720,10 +720,10 @@
                 "week": "4",
                 "kickoff": "01:05",
                 "status": {
-                    "status": "live",
-                    "display": "71'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "bzpygd5fja0tbb2x8daphil1l",
@@ -795,7 +795,7 @@
                 "kickoff": "02:00",
                 "status": {
                     "status": "live",
-                    "display": "36'",
+                    "display": "HT",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -6595,5 +6595,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 02:38:05"
+    "timestamp": "2026-09-30 03:04:25"
 }
