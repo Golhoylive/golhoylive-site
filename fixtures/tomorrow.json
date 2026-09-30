@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 13,
+    "credits_remaining": 5,
     "data": {
         "date": "2026-10-01",
         "language": "en",
@@ -4004,43 +4004,6 @@
                 }
             },
             {
-                "id": "8lmg4fh5lfztk4mf6us7x8tuc",
-                "league": {
-                    "id": "b3khsmo41ntvf4fwzbsuvc1hm",
-                    "name": "Segunda División",
-                    "country": "Venezuela"
-                },
-                "week": "32",
-                "kickoff": "19:30",
-                "status": {
-                    "status": "live",
-                    "display": "77'",
-                    "is_live": true,
-                    "state": "inPlay"
-                },
-                "home": {
-                    "id": "72anuefmomhgb8pswayqkbsev",
-                    "name": "El Vigía",
-                    "logo": "https:\/\/live-football-api.com\/teams\/72anuefmomhgb8pswayqkbsev.png",
-                    "score": "3"
-                },
-                "away": {
-                    "id": "d9fy3jrvy0dcdx9afjuyoya5",
-                    "name": "Zamora II",
-                    "logo": "https:\/\/live-football-api.com\/teams\/d9fy3jrvy0dcdx9afjuyoya5.png",
-                    "score": "3"
-                },
-                "halftime": {
-                    "home": 1,
-                    "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
                 "id": "dollzzefzx4c6qg5dtr7yfeok",
                 "league": {
                     "id": "cu0rmpyff5692eo06ltddjo8a",
@@ -4125,7 +4088,7 @@
                 "kickoff": "20:00",
                 "status": {
                     "status": "live",
-                    "display": "47'",
+                    "display": "82'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4133,7 +4096,7 @@
                     "id": "6vborhmppvyoeg38nhkkfp6z9",
                     "name": "Yaracuyanos",
                     "logo": "https:\/\/live-football-api.com\/teams\/6vborhmppvyoeg38nhkkfp6z9.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "9efibjqfdq6210lov3kfxiu50",
@@ -4270,10 +4233,10 @@
                     "country": "Chile"
                 },
                 "week": "25",
-                "kickoff": "21:10",
+                "kickoff": "21:00",
                 "status": {
                     "status": "live",
-                    "display": "3'",
+                    "display": "38'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -4292,43 +4255,6 @@
                 "halftime": {
                     "home": 0,
                     "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "3fkjlxgjost4yquj9cysoncb8",
-                "league": {
-                    "id": "aj9gichxp8i0muh2e22600h7a",
-                    "name": "Primera Division",
-                    "country": "Guatemala"
-                },
-                "week": "13",
-                "kickoff": "21:10",
-                "status": {
-                    "status": "scheduled",
-                    "display": "21:10",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "48ln7yxa2e508lgbju37dpvro",
-                    "name": "AFF",
-                    "logo": "https:\/\/live-football-api.com\/teams\/48ln7yxa2e508lgbju37dpvro.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "89k5yktdfvri3xg5fgbtl8ums",
-                    "name": "Fraijanes",
-                    "logo": "https:\/\/live-football-api.com\/teams\/89k5yktdfvri3xg5fgbtl8ums.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -5041,5 +4967,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 21:04:23"
+    "timestamp": "2026-09-30 21:39:41"
 }

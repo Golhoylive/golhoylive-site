@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 11,
+    "credits_remaining": 3,
     "data": {
         "date": "2026-10-03",
         "language": "en",
@@ -1975,7 +1975,7 @@
                     "name": "Regional Leagues",
                     "country": "Japan"
                 },
-                "week": "17",
+                "week": "Tohoku",
                 "kickoff": "02:00",
                 "status": {
                     "status": "scheduled",
@@ -2789,7 +2789,7 @@
                     "name": "WE League Cup",
                     "country": "Japan"
                 },
-                "week": "5",
+                "week": null,
                 "kickoff": "04:00",
                 "status": {
                     "status": "scheduled",
@@ -2826,7 +2826,7 @@
                     "name": "WE League Cup",
                     "country": "Japan"
                 },
-                "week": "5",
+                "week": null,
                 "kickoff": "04:00",
                 "status": {
                     "status": "scheduled",
@@ -3159,7 +3159,7 @@
                     "name": "WE League Cup",
                     "country": "Japan"
                 },
-                "week": "5",
+                "week": null,
                 "kickoff": "05:00",
                 "status": {
                     "status": "scheduled",
@@ -3196,7 +3196,7 @@
                     "name": "WE League Cup",
                     "country": "Japan"
                 },
-                "week": "5",
+                "week": null,
                 "kickoff": "05:00",
                 "status": {
                     "status": "scheduled",
@@ -3233,7 +3233,7 @@
                     "name": "WE League Cup",
                     "country": "Japan"
                 },
-                "week": "5",
+                "week": null,
                 "kickoff": "05:00",
                 "status": {
                     "status": "scheduled",
@@ -7488,7 +7488,7 @@
                     "name": "Kvindeliga",
                     "country": "Denmark"
                 },
-                "week": "10",
+                "week": null,
                 "kickoff": "11:00",
                 "status": {
                     "status": "scheduled",
@@ -12779,7 +12779,7 @@
                     "name": "3. League",
                     "country": "Netherlands"
                 },
-                "week": "8",
+                "week": "Group A",
                 "kickoff": "12:30",
                 "status": {
                     "status": "scheduled",
@@ -14370,7 +14370,7 @@
                     "name": "Regional League",
                     "country": "Austria"
                 },
-                "week": "10",
+                "week": "Süd",
                 "kickoff": "13:00",
                 "status": {
                     "status": "scheduled",
@@ -16553,7 +16553,7 @@
                     "name": "Regional League",
                     "country": "Austria"
                 },
-                "week": "10",
+                "week": "Ost",
                 "kickoff": "13:30",
                 "status": {
                     "status": "scheduled",
@@ -22103,7 +22103,7 @@
                     "name": "U18 National Team",
                     "country": "World"
                 },
-                "week": null,
+                "week": "Friendlies 1",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -24360,7 +24360,7 @@
                     "name": "Regional League",
                     "country": "Austria"
                 },
-                "week": "11",
+                "week": "Nord",
                 "kickoff": "14:00",
                 "status": {
                     "status": "scheduled",
@@ -26691,7 +26691,7 @@
                     "name": "U18 National Team",
                     "country": "World"
                 },
-                "week": null,
+                "week": "Friendlies 1",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -26950,7 +26950,7 @@
                     "name": "Regional League",
                     "country": "Austria"
                 },
-                "week": "10",
+                "week": "Ost",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -26987,7 +26987,7 @@
                     "name": "Regional League",
                     "country": "Austria"
                 },
-                "week": "10",
+                "week": "Ost",
                 "kickoff": "15:00",
                 "status": {
                     "status": "scheduled",
@@ -29614,7 +29614,7 @@
                     "name": "3. League",
                     "country": "Netherlands"
                 },
-                "week": "8",
+                "week": "Group A",
                 "kickoff": "16:00",
                 "status": {
                     "status": "scheduled",
@@ -31020,7 +31020,7 @@
                     "name": "3. League",
                     "country": "Netherlands"
                 },
-                "week": "8",
+                "week": "Group B",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -31057,7 +31057,7 @@
                     "name": "3. League",
                     "country": "Netherlands"
                 },
-                "week": "8",
+                "week": "Group B",
                 "kickoff": "17:30",
                 "status": {
                     "status": "scheduled",
@@ -34572,7 +34572,7 @@
                     "name": "Mineiro 3",
                     "country": "Brazil"
                 },
-                "week": "3",
+                "week": "1st Phase",
                 "kickoff": "21:30",
                 "status": {
                     "status": "scheduled",
@@ -36010,5 +36010,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 21:04:23"
+    "timestamp": "2026-09-30 21:39:50"
 }

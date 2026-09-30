@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 10,
+    "credits_remaining": 2,
     "data": {
         "date": "2026-10-04",
         "language": "en",
@@ -7155,7 +7155,7 @@
                     "name": "2. Liga Interregional",
                     "country": "Switzerland"
                 },
-                "week": "Group 2",
+                "week": "7",
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -7192,7 +7192,7 @@
                     "name": "2. Liga Interregional",
                     "country": "Switzerland"
                 },
-                "week": "Group 3",
+                "week": "7",
                 "kickoff": "12:00",
                 "status": {
                     "status": "scheduled",
@@ -7525,7 +7525,7 @@
                     "name": "2. Liga Interregional",
                     "country": "Switzerland"
                 },
-                "week": "Group 2",
+                "week": "7",
                 "kickoff": "12:30",
                 "status": {
                     "status": "scheduled",
@@ -19471,5 +19471,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 21:04:24"
+    "timestamp": "2026-09-30 21:40:00"
 }

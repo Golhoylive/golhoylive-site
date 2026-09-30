@@ -1,7 +1,7 @@
 {
     "success": true,
     "message": "Success",
-    "credits_remaining": 14,
+    "credits_remaining": 6,
     "data": {
         "date": "2026-09-30",
         "language": "en",
@@ -5160,16 +5160,16 @@
                 "week": "32",
                 "kickoff": "19:30",
                 "status": {
-                    "status": "live",
-                    "display": "76'",
-                    "is_live": true,
-                    "state": "inPlay"
+                    "status": "finished",
+                    "display": "FT",
+                    "is_live": false,
+                    "state": "postGame"
                 },
                 "home": {
                     "id": "72anuefmomhgb8pswayqkbsev",
                     "name": "El Vigía",
                     "logo": "https:\/\/live-football-api.com\/teams\/72anuefmomhgb8pswayqkbsev.png",
-                    "score": "3"
+                    "score": "4"
                 },
                 "away": {
                     "id": "d9fy3jrvy0dcdx9afjuyoya5",
@@ -5198,7 +5198,7 @@
                 "kickoff": "20:00",
                 "status": {
                     "status": "live",
-                    "display": "HT",
+                    "display": "80'",
                     "is_live": true,
                     "state": "inPlay"
                 },
@@ -5206,7 +5206,7 @@
                     "id": "6vborhmppvyoeg38nhkkfp6z9",
                     "name": "Yaracuyanos",
                     "logo": "https:\/\/live-football-api.com\/teams\/6vborhmppvyoeg38nhkkfp6z9.png",
-                    "score": "1"
+                    "score": "2"
                 },
                 "away": {
                     "id": "9efibjqfdq6210lov3kfxiu50",
@@ -5299,6 +5299,43 @@
                 }
             },
             {
+                "id": "8h4ns7r0u0mz4oxmlmpuvcmxg",
+                "league": {
+                    "id": "bly7ema5au6j40i0grhl0pnub",
+                    "name": "Primera B",
+                    "country": "Chile"
+                },
+                "week": "25",
+                "kickoff": "21:00",
+                "status": {
+                    "status": "live",
+                    "display": "37'",
+                    "is_live": true,
+                    "state": "inPlay"
+                },
+                "home": {
+                    "id": "acnr45k0iyzvr8thv0qvspjzi",
+                    "name": "San Felipe",
+                    "logo": "https:\/\/live-football-api.com\/teams\/acnr45k0iyzvr8thv0qvspjzi.png",
+                    "score": "0"
+                },
+                "away": {
+                    "id": "4pem9axjomj07u51fk1pg0wzy",
+                    "name": "San Luis",
+                    "logo": "https:\/\/live-football-api.com\/teams\/4pem9axjomj07u51fk1pg0wzy.png",
+                    "score": "0"
+                },
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "tv_broadcast": false,
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            {
                 "id": "8ehfbh42sedynj19dwi1n261g",
                 "league": {
                     "id": "ein4fkggto3pdh5msp8huafiq",
@@ -5328,117 +5365,6 @@
                 "halftime": {
                     "home": 0,
                     "away": 1
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8h4ns7r0u0mz4oxmlmpuvcmxg",
-                "league": {
-                    "id": "bly7ema5au6j40i0grhl0pnub",
-                    "name": "Primera B",
-                    "country": "Chile"
-                },
-                "week": "25",
-                "kickoff": "21:10",
-                "status": {
-                    "status": "live",
-                    "display": "2'",
-                    "is_live": true,
-                    "state": "inPlay"
-                },
-                "home": {
-                    "id": "acnr45k0iyzvr8thv0qvspjzi",
-                    "name": "San Felipe",
-                    "logo": "https:\/\/live-football-api.com\/teams\/acnr45k0iyzvr8thv0qvspjzi.png",
-                    "score": "0"
-                },
-                "away": {
-                    "id": "4pem9axjomj07u51fk1pg0wzy",
-                    "name": "San Luis",
-                    "logo": "https:\/\/live-football-api.com\/teams\/4pem9axjomj07u51fk1pg0wzy.png",
-                    "score": "0"
-                },
-                "halftime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "8eskr0njow56qbg4df0mzrz84",
-                "league": {
-                    "id": "ein4fkggto3pdh5msp8huafiq",
-                    "name": "Primera Division",
-                    "country": "El Salvador"
-                },
-                "week": "13",
-                "kickoff": "21:10",
-                "status": {
-                    "status": "scheduled",
-                    "display": "21:10",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "5ii3qtn15eajlj64pc8d0tjqo",
-                    "name": "Águila",
-                    "logo": "https:\/\/live-football-api.com\/teams\/5ii3qtn15eajlj64pc8d0tjqo.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "a6td5y26yfyyc4nac8m20fm6s",
-                    "name": "Inter",
-                    "logo": "https:\/\/live-football-api.com\/teams\/a6td5y26yfyyc4nac8m20fm6s.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "tv_broadcast": false,
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            {
-                "id": "3fkjlxgjost4yquj9cysoncb8",
-                "league": {
-                    "id": "aj9gichxp8i0muh2e22600h7a",
-                    "name": "Primera Division",
-                    "country": "Guatemala"
-                },
-                "week": "13",
-                "kickoff": "21:10",
-                "status": {
-                    "status": "scheduled",
-                    "display": "21:10",
-                    "is_live": false,
-                    "state": "preGame"
-                },
-                "home": {
-                    "id": "48ln7yxa2e508lgbju37dpvro",
-                    "name": "AFF",
-                    "logo": "https:\/\/live-football-api.com\/teams\/48ln7yxa2e508lgbju37dpvro.png",
-                    "score": null
-                },
-                "away": {
-                    "id": "89k5yktdfvri3xg5fgbtl8ums",
-                    "name": "Fraijanes",
-                    "logo": "https:\/\/live-football-api.com\/teams\/89k5yktdfvri3xg5fgbtl8ums.png",
-                    "score": null
-                },
-                "halftime": {
-                    "home": null,
-                    "away": null
                 },
                 "tv_broadcast": false,
                 "penalty": {
@@ -6114,5 +6040,5 @@
             }
         ]
     },
-    "timestamp": "2026-09-30 21:04:22"
+    "timestamp": "2026-09-30 21:39:40"
 }
