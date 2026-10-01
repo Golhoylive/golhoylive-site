@@ -4,7 +4,11 @@ on:
   workflow_dispatch:
 
   schedule:
+    # تحديث اليوم كل 30 دقيقة
     - cron: "*/30 * * * *"
+
+    # تحديث الأيام الأخرى مرة واحدة كل يوم
+    - cron: "17 3 * * *"
 
 permissions:
   contents: write
@@ -23,29 +27,10 @@ jobs:
           set -e
           mkdir -p fixtures
 
-      - name: Get yesterday matches
-        env:
-          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-        run: |
-          set -e
-
-          DATE=$(TZ=Africa/Casablanca date -d "yesterday" +%F)
-
-          echo "Getting yesterday matches: $DATE"
-
-          curl --fail \
-            --silent \
-            --show-error \
-            --get \
-            "https://live-football-api.com/api/v1/matches" \
-            --data-urlencode "api_key=$LFA_API_KEY" \
-            --data-urlencode "date=$DATE" \
-            --data-urlencode "lang=en" \
-            -o fixtures/yesterday.json
-
-          test -s fixtures/yesterday.json
-
-          echo "Yesterday matches downloaded."
+      # =========================================================
+      # TODAY
+      # Runs every 30 minutes
+      # =========================================================
 
       - name: Get today matches
         env:
@@ -71,7 +56,43 @@ jobs:
 
           echo "Today matches downloaded."
 
+      # =========================================================
+      # YESTERDAY
+      # Runs only once per day
+      # =========================================================
+
+      - name: Get yesterday matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
+        env:
+          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
+        run: |
+          set -e
+
+          DATE=$(TZ=Africa/Casablanca date -d "yesterday" +%F)
+
+          echo "Getting yesterday matches: $DATE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --get \
+            "https://live-football-api.com/api/v1/matches" \
+            --data-urlencode "api_key=$LFA_API_KEY" \
+            --data-urlencode "date=$DATE" \
+            --data-urlencode "lang=en" \
+            -o fixtures/yesterday.json
+
+          test -s fixtures/yesterday.json
+
+          echo "Yesterday matches downloaded."
+
+      # =========================================================
+      # TOMORROW
+      # Runs only once per day
+      # =========================================================
+
       - name: Get tomorrow matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
@@ -95,7 +116,13 @@ jobs:
 
           echo "Tomorrow matches downloaded."
 
+      # =========================================================
+      # DAY 2
+      # Runs only once per day
+      # =========================================================
+
       - name: Get day 2 matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
@@ -119,7 +146,13 @@ jobs:
 
           echo "Day 2 matches downloaded."
 
+      # =========================================================
+      # DAY 3
+      # Runs only once per day
+      # =========================================================
+
       - name: Get day 3 matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
@@ -143,7 +176,13 @@ jobs:
 
           echo "Day 3 matches downloaded."
 
+      # =========================================================
+      # DAY 4
+      # Runs only once per day
+      # =========================================================
+
       - name: Get day 4 matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
@@ -167,7 +206,13 @@ jobs:
 
           echo "Day 4 matches downloaded."
 
+      # =========================================================
+      # DAY 5
+      # Runs only once per day
+      # =========================================================
+
       - name: Get day 5 matches
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
         env:
           LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
         run: |
@@ -191,26 +236,9 @@ jobs:
 
           echo "Day 5 matches downloaded."
 
-      - name: Get competitions
-        env:
-          LFA_API_KEY: ${{ secrets.LFA_API_KEY }}
-        run: |
-          set -e
-
-          echo "Getting competitions..."
-
-          curl --fail \
-            --silent \
-            --show-error \
-            --get \
-            "https://live-football-api.com/api/v1/leagues" \
-            --data-urlencode "api_key=$LFA_API_KEY" \
-            --data-urlencode "lang=en" \
-            -o leagues.json
-
-          test -s leagues.json
-
-          echo "Competitions downloaded."
+      # =========================================================
+      # SAVE DATA
+      # =========================================================
 
       - name: Save football data
         run: |
@@ -220,7 +248,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data.json
-          git add leagues.json
           git add fixtures/yesterday.json
           git add fixtures/tomorrow.json
           git add fixtures/day2.json
@@ -233,8 +260,8 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update 7 day football data"
+          git commit -m "Update GolHoyLive football data"
 
           git push
 
-          echo "GolHoyLive 7 day football data saved successfully."
+          echo "GolHoyLive football data saved successfully."
